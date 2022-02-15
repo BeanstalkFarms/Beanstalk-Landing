@@ -78,7 +78,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="flex flex-row">
         <div className={styles.TextContainer}>
-          <div className="max-w-[639px] space-y-24 lg:pb-12">
+          <div className="max-w-[720px] space-y-24 lg:pb-12">
             <img src="/logo.svg" className="h-15" />
             <div className="space-y-6">
               <h1 className="text-5xl font-normal leading-[3.5rem]">
@@ -103,8 +103,16 @@ const Home: NextPage = () => {
                 rel="noreferrer"
                 href="https://discord.gg/beanstalk"
                 icon="/icon/discord.png"
-                desc="Ask questions and join the community">
+                desc="Join the community and ask questions">
                 Discord
+              </Button>
+              <Button
+                target="_blank"
+                rel="noreferrer"
+                href="https://dune.xyz/tbiq/Beanstalk"
+                icon="/icon/dune.png"
+                desc="View Beanstalk protocol analytics">
+                Dune Analytics
               </Button>
               <div className="flex flex-row space-x-4">
                 <ContributorButton
@@ -158,10 +166,12 @@ const Home: NextPage = () => {
               <Button
                 target="_blank"
                 rel="noreferrer"
-                href="https://dune.xyz/tbiq/Beanstalk"
-                icon="/icon/dune.png">
-                Dune Analytics
+                href="https://medium.com/BeanstalkProtocol"
+                icon="/icon/reddit.png">
+                Reddit
               </Button>
+              {/* <div className="flex flex-row space-x-4">
+              </div> */}
             </div>
           </div>
         </div>
