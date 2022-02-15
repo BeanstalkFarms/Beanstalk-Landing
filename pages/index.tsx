@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { FC } from 'react';
 
+import CustomHead from '../components/CustomHead';
 import styles from './index.module.css';
 
 const Button : FC<{
@@ -20,7 +21,7 @@ const Button : FC<{
 }) => (
   <a {...props}
   className={
-    `w-full sm:px-6 px-4  py-4 rounded-lg
+    `w-full sm:px-6 px-4 py-4 rounded-lg
     hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer
     border border-gray-400
     ${icon
@@ -30,7 +31,7 @@ const Button : FC<{
       ? `bg-[#3EB94E] text-white`
       : `bg-white`}
   `}>
-    {icon && <img src={icon} className="h-10 w-10 rounded-full" />}
+    {icon && <img src={icon} className="h-10 w-10 p-1 rounded-full" />}
     <span className="text-xl">{children}</span>
     {desc && <div className="flex-1 text-right font-[Futura-PT-Book] text-[17px] text-gray-600">{desc}</div>}
   </a>
@@ -69,13 +70,16 @@ const ContributorButton : FC<{
 const Home: NextPage = () => {
   return (
     <div>
+      <CustomHead
+        title="Beanstalk"
+      />
       <Head>
         <title>Beanstalk</title>
       </Head>
       <div className="flex flex-row">
         <div className={styles.TextContainer}>
           <div className="max-w-[639px] space-y-24 lg:pb-12">
-            <img src="/logo.svg" className="h-16" />
+            <img src="/logo.svg" className="h-15" />
             <div className="space-y-6">
               <h1 className="text-5xl font-normal leading-[3.5rem]">
                 A decentralized, credit-based stablecoin protocol.
