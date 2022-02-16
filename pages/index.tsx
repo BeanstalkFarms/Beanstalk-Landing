@@ -121,8 +121,8 @@ const Home: NextPage = () => {
                 </ContributorButton>
                 <ContributorButton
                   href="https://mirror.xyz/astn.eth/LeuGtteOh8N0GVHwuPL4R1TIPXmjQuZQFzGObCLezUM"
-                  name="Austin"
-                  avatar="/icon/astn.png">
+                  name="austin"
+                  avatar="/icon/austin.png">
                   What&apos;s Beanstalk?
                 </ContributorButton>
               </div>
