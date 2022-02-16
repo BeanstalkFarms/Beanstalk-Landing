@@ -71,11 +71,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <CustomHead
-        title="Beanstalk"
+        title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
+        description="Beanstalk is a decentralized, credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
-      <Head>
-        <title>Beanstalk</title>
-      </Head>
       <div className="flex flex-row">
         <div className={styles.TextContainer}>
           <div className="max-w-[720px] space-y-24 lg:pb-12">
