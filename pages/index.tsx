@@ -166,7 +166,7 @@ const Home: NextPage = () => {
               <Button
                 target="_blank"
                 rel="noreferrer"
-                href="https://medium.com/BeanstalkProtocol"
+                href="https://www.reddit.com/r/BeanstalkProtocol/"
                 icon="/icon/reddit.png">
                 Reddit
               </Button>
