@@ -38,8 +38,6 @@ const Button : FC<{
 );
 
 const ContributorButton : FC<{
-  target?: string,
-  rel?: string,
   href: string,
   avatar: string,
   name: string,
@@ -82,7 +80,11 @@ const Home: NextPage = () => {
               <h1 className="text-5xl font-normal leading-[3.5rem]">
                 A decentralized, credit-based stablecoin protocol.
               </h1>
-              <Button primary href="https://app.bean.money">
+              <Button
+                primary
+                target="_blank"
+                rel="noreferrer"
+                href="https://app.bean.money">
                 Launch App
               </Button>
             </div>
@@ -128,16 +130,12 @@ const Home: NextPage = () => {
               </div>
               <div className="flex flex-row space-x-4">
                 <ContributorButton
-                  target="_blank"
-                  rel="noreferrer"
                   href="https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3"
                   name="nasjaq"
                   avatar="/icon/nasjaq.jpg">
                   Podcast w/ Publius
                 </ContributorButton>
                 <ContributorButton
-                  target="_blank"
-                  rel="noreferrer"
                   href="https://twitter.com/doctor_parth/status/1488941756448382976?s=21"
                   name="DrParth"
                   avatar="/icon/drparth.jpg">
