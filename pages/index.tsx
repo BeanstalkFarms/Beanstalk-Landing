@@ -1,69 +1,9 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import { FC } from 'react';
-
+import Button from '../components/Button';
+import ContributorButton from '../components/ContributorButton';
+import PokerBanner from '../components/Banners/PokerBanner';
 import CustomHead from '../components/CustomHead';
 import styles from './index.module.css';
-
-const Button : FC<{
-  target?: string,
-  rel?: string,
-  href?: string,
-  primary?: boolean,
-  icon?: string,
-  desc?: string,
-}> = ({
-  children,
-  primary = false,
-  icon = undefined,
-  desc = undefined,
-  ...props
-}) => (
-  <a {...props}
-  className={
-    `w-full sm:px-6 px-4 py-4 rounded-lg
-    hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer
-    border border-gray-400
-    ${icon
-      ? 'flex flex-row items-center text-left space-x-4'
-      : 'block text-center'}
-    ${primary
-      ? `bg-[#3EB94E] text-white`
-      : `bg-white`}
-  `}>
-    {icon && <img src={icon} className="h-10 w-10 p-1 rounded-full" />}
-    <span className="text-xl">{children}</span>
-    {desc && <div className="flex-1 text-right font-[Futura-PT-Book] text-[17px] text-gray-600">{desc}</div>}
-  </a>
-);
-
-const ContributorButton : FC<{
-  href: string,
-  avatar: string,
-  name: string,
-}> = ({
-  children,
-  avatar = undefined,
-  name = undefined,
-  ...props
-}) => (
-  <a {...props}
-  target="_blank"
-  rel="noreferrer"
-  className={
-    `w-full sm:px-6 px-4 py-4 rounded-lg
-    hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer
-    border border-gray-400
-    sm:space-y-2
-    bg-white
-  `}>
-    <div className="sm:flex sm:flex-row block items-center sm:space-x-3 sm:space-y-0 space-y-2">
-      <img src={avatar} className="h-6 w-6 rounded-full" />
-      <div className="text-xl">{children}</div>
-    </div>
-    <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[17px]">{name} <span className="text-gray-400 sm:inline-block">&middot; Community</span></div>
-</a>
-);
 
 const Home: NextPage = () => {
   return (
@@ -88,6 +28,7 @@ const Home: NextPage = () => {
                 Launch App
               </Button>
             </div>
+            <PokerBanner />
             <div className="space-y-4">
               <h2 className="text-3xl mb-6 font-normal">Learn</h2>
               <Button
@@ -166,8 +107,6 @@ const Home: NextPage = () => {
                 icon="/icon/reddit.png">
                 Reddit
               </Button>
-              {/* <div className="flex flex-row space-x-4">
-              </div> */}
             </div>
           </div>
         </div>
