@@ -18,7 +18,7 @@ const Poker : NextPage = () => (
         <div className="">
           <div className="inline-block space-y-2 mr-6">
             <p className="text-slate-500 uppercase text-md tracking-wider">Date</p>
-            <p className="text-xl">2/26 5:30pm PT</p>
+            <p className="text-xl">3/5 5:30pm PT</p>
           </div>
           <div className="inline-block space-y-2">
             <p className="text-slate-500 uppercase text-md tracking-wider">Prize Pool</p>
