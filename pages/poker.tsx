@@ -14,15 +14,24 @@ const Poker : NextPage = () => (
         <h1 className="text-5xl font-normal leading-[3.5rem]">
           Beans on the Table Poker Tournament
         </h1>
-        <p className="text-lg text-slate-500">Join now to get a seat at one the first Beanstalk poker tables (on a farm, in the meta, of course).</p>
-        <div className="">
-          <div className="inline-block space-y-2 mr-6">
-            <p className="text-slate-500 uppercase text-md tracking-wider">Date</p>
-            <p className="text-xl">3/5 5:30pm PT</p>
+        <p className="text-lg text-slate-500">
+          Join now to get a seat at one of Beanstalk's first ever poker tournaments.
+        </p>
+        {/* <p>
+        The Beans on the Table Poker Tournament is set to run on 3/5 at 5:30 PM PT/8:30 PM ET. Registration will be capped at 300 participants, and the buy in for the tournament is 100 Beans (or ETH-equivalent) per player. The tournament is expected to run for 3-4+ hours. In order to participate: (1) register on bean.money, (2) create a user profile on the poker platform, (3) join the club lobby on the poker platform, and (4) finalize your transaction details. Anyone is welcome to join the tournament, listen to live updates, and become a part of the Beanstalk community.
+        </p> */}
+        <div className="md:flex md:flex-row md:space-x-8 md:space-y-0 block space-y-4">
+          <div className="space-y-1">
+            <p className="text-slate-500 uppercase text-sm tracking-wider">Date</p>
+            <p className="text-lg">3/5 5:30 PM PT</p>
           </div>
-          <div className="inline-block space-y-2">
-            <p className="text-slate-500 uppercase text-md tracking-wider">Prize Pool</p>
-            <p className="text-xl">600,000 Pods</p>
+          <div className="space-y-1">
+            <p className="text-slate-500 uppercase text-sm tracking-wider">Prize Pool</p>
+            <p className="text-lg">600,000+ Pods & More</p>
+          </div>
+          <div className="space-y-1">
+            <p className="text-slate-500 uppercase text-sm tracking-wider">Buy in</p>
+            <p className="text-lg">100 Beans</p>
           </div>
         </div>
         <Button
@@ -30,7 +39,7 @@ const Poker : NextPage = () => (
           target="_blank"
           rel="noreferrer"
           href="https://app.bean.money/poker">
-          Buy in &middot; 100 Beans
+          Register Here
         </Button>
       </div>
     </ContentWrapper>
