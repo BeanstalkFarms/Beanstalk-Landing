@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           </Button>
           <div>
             <span className="text-5xl float-left mr-2">🃏</span>
-            <span className="text-gray-700 text-sm">600,000 Pods up for grabs in "Beans on the Table", a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link></span>
+            <span className="text-gray-700 text-sm">600,000 Pods up for grabs in Beans on the Table, a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link></span>
           </div>
         </div>
         <div className="space-y-4">

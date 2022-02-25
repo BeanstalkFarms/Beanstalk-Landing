@@ -18,7 +18,7 @@ const Poker : NextPage = () => (
           <iframe width="560" height="315" src="https://www.youtube.com/embed/PnP7FML-KoM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <p className="text-lg text-slate-500">
-          Join now to get a seat at one of Beanstalk's first ever poker tournaments.
+          Join now to get a seat at one of Beanstalk&apos;s first ever poker tournaments.
         </p>
         {/* <p>
         The Beans on the Table Poker Tournament is set to run on 3/5 at 5:30 PM PT/8:30 PM ET. Registration will be capped at 300 participants, and the buy in for the tournament is 100 Beans (or ETH-equivalent) per player. The tournament is expected to run for 3-4+ hours. In order to participate: (1) register on bean.money, (2) create a user profile on the poker platform, (3) join the club lobby on the poker platform, and (4) finalize your transaction details. Anyone is welcome to join the tournament, listen to live updates, and become a part of the Beanstalk community.
