@@ -7,7 +7,7 @@ const ContentWrapper : FC = ({ children }) => (
   <div className="flex flex-row">
     <div className={styles.TextContainer}>
       <div className="max-w-[720px] space-y-24 lg:pb-12">
-        <Link href="/"><a><img src="/logo.svg" className="h-15" /></a></Link>
+        <Link href="/"><a><img src="/logo.svg" className="md:h-14 h-10" /></a></Link>
         {children}
       </div>
     </div>

@@ -10,12 +10,12 @@ const Home: NextPage = () => {
     <>
       <CustomHead
         title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-        description="Beanstalk is a decentralized credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+        description="Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
       <ContentWrapper>
         <div className="space-y-6">
-          <h1 className="text-5xl font-normal leading-[3.5rem]">
-            A decentralized credit-based stablecoin protocol.
+          <h1 className="lg:text-5xl text-3xl lg:leading-[3.5rem]">
+            A decentralized credit based stablecoin protocol.
           </h1>
           <Button
             primary
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
             desc="View Beanstalk protocol analytics">
             Dune Analytics
           </Button>
-          <div className="flex flex-row space-x-4">
+          <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
               href="https://beanmerchant.substack.com/p/updated-beanstalk-faq-"
               name="Bean Merchant"
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
               What&apos;s Beanstalk?
             </ContributorButton>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
               href="https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3"
               name="nasjaq"

@@ -12,7 +12,7 @@ const Poker : NextPage = () => (
     />
     <ContentWrapper>
       <div className="space-y-6">
-        <h1 className="lg:text-5xl text-3xl font-normal lg:leading-[3.5rem]">
+        <h1 className="lg:text-5xl text-3xl lg:leading-[3.5rem]">
           Beans on the Table Poker Tournament
         </h1>
         <div>
