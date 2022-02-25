@@ -12,11 +12,11 @@ const Poker : NextPage = () => (
     />
     <ContentWrapper>
       <div className="space-y-6">
-        <h1 className="text-5xl font-normal leading-[3.5rem]">
+        <h1 className="lg:text-5xl text-3xl font-normal lg:leading-[3.5rem]">
           Beans on the Table Poker Tournament
         </h1>
         <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/PnP7FML-KoM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="hidden lg:block w-full max-w-[560px]" width="560" height="315"  src="https://www.youtube.com/embed/PnP7FML-KoM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <p className="text-lg text-slate-500">
           Join now to get a seat at one of Beanstalk&apos;s first ever poker tournaments.
