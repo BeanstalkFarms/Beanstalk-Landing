@@ -11,12 +11,12 @@ const Home: NextPage = () => {
     <>
       <CustomHead
         title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-        description="Beanstalk is a decentralized, credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+        description="Beanstalk is a decentralized credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
       <ContentWrapper>
         <div className="space-y-6">
           <h1 className="text-5xl font-normal leading-[3.5rem]">
-            A decentralized, credit-based stablecoin protocol.
+            A decentralized credit-based stablecoin protocol.
           </h1>
           <Button
             primary

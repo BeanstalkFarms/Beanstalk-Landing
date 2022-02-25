@@ -7,13 +7,16 @@ const Poker : NextPage = () => (
   <>
     <CustomHead
       title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-      description="Beanstalk is a decentralized, credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+      description="Beanstalk is a decentralized credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
     />
     <ContentWrapper>
       <div className="space-y-6">
         <h1 className="text-5xl font-normal leading-[3.5rem]">
           Beans on the Table Poker Tournament
         </h1>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/PnP7FML-KoM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
         <p className="text-lg text-slate-500">
           Join now to get a seat at one of Beanstalk's first ever poker tournaments.
         </p>
