@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       />
       <ContentWrapper>
         <div className="space-y-6">
-          <h1 className="lg:text-5xl text-3xl lg:leading-[3.5rem]">
+          <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
           </h1>
           <Button
@@ -25,8 +25,13 @@ const Home: NextPage = () => {
             Launch App
           </Button>
           <div>
-            <span className="text-5xl float-left mr-2">🃏</span>
-            <span className="text-gray-700 text-sm">600,000 Pods up for grabs in Beans on the Table, a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link></span>
+            <span className={
+              `sm:text-5xl text-7xl float-left mr-2
+              sm:ml-0 -ml-2.5` // on mobile, line things up with the button
+            }>🃏</span>
+            <span className="text-gray-700 text-sm">
+              600,000 Pods up for grabs in Beans on the Table, a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link>
+            </span>
           </div>
         </div>
         <div className="space-y-4">
