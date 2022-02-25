@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Button from '../components/Button';
 import ContributorButton from '../components/ContributorButton';
-import PokerBanner from '../components/Banners/PokerBanner';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
 import Link from 'next/link';

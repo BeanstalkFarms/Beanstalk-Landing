@@ -6,8 +6,9 @@ import CustomHead from "../components/CustomHead";
 const Poker : NextPage = () => (
   <>
     <CustomHead
-      title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-      description="Beanstalk is a decentralized credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+      title="Beans on the Table Poker Tournament | Beanstalk"
+      description="Join now to get a seat at one of Beanstalk's first ever poker tournaments on 3/5 at 5:30 PM PT. 100 Beans to buy in - 600,000+ Pods guaranteed."
+      image="https://bean.money/meta/poker-03052022.jpg"
     />
     <ContentWrapper>
       <div className="space-y-6">
