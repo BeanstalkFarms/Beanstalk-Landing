@@ -1,0 +1,23 @@
+.TextContainer {
+  /* background-image: url("/bean-watermark.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
+  /* background-size: cover; */
+
+  @apply min-h-screen flex flex-col items-center w-full;
+  @apply xl:px-[150px] lg:px-[50px] px-[25px] sm:py-[100px] py-[25px];
+}
+.FarmImage {
+  @apply h-screen lg:block hidden;
+  position: sticky;
+  top: 0;
+  right: 0;
+
+  /* Image positioning */
+  width: 900px;
+  background-image: url("/background.svg");
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+  background-position-y: center;
+  background-position-x: right;
+}
