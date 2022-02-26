@@ -16,7 +16,7 @@ const Poker : NextPage = () => (
           Beans on the Table Poker Tournament
         </h1>
         <div>
-          <iframe className="hidden md:block w-full max-w-[560px]" width="560" height="315"  src="https://www.youtube.com/embed/doEEr-qCAb0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="hidden md:block w-full max-w-[560px]" width="560" height="315"  src="https://www.youtube.com/embed/XSu3b7Ml9ts" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <p className="text-lg text-slate-500">
           Join now to get a seat at the &apos;Beans on the Table&apos; poker tournament. Registration will be capped at 300 participants.
