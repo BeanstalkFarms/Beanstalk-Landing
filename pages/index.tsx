@@ -47,6 +47,14 @@ const Home: NextPage = () => {
           <Button
             target="_blank"
             rel="noreferrer"
+            href="/docs/bean3crv-curve-gauge-proposal.pdf"
+            icon="/icon/curve.svg"
+            desc="3/1/2022">
+            Curve Gauge Proposal
+          </Button>
+          <Button
+            target="_blank"
+            rel="noreferrer"
             href="https://discord.gg/beanstalk"
             icon="/icon/discord.png"
             desc="Join the community and ask questions">
