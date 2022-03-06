@@ -35,13 +35,8 @@ const Poker : NextPage = () => (
             <p className="text-lg">100 Beans</p>
           </div>
         </div>
-        <Button
-          primary
-          target="_blank"
-          rel="noreferrer"
-          href="https://app.bean.money/poker">
-          Register Here
-        </Button>
+        <hr/>
+        <p>Registrations are now closed. We'll see you at the next tournament!</p>
       </div>
     </ContentWrapper>
   </>
