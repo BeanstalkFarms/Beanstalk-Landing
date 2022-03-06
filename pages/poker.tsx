@@ -36,7 +36,7 @@ const Poker : NextPage = () => (
           </div>
         </div>
         <hr/>
-        <p>Registrations are now closed. We'll see you at the next tournament!</p>
+        <p>{`Registrations are now closed. We'll see you at the next tournament!`}</p>
       </div>
     </ContentWrapper>
   </>
