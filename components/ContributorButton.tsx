@@ -22,9 +22,9 @@ const ContributorButton : FC<{
   `}>
     <div className="sm:flex sm:flex-row block items-center sm:space-x-3 sm:space-y-0 space-y-2">
       <img src={avatar} className="h-6 w-6 rounded-full" />
-      <div className="text-md">{children}</div>
+      <div className="text-xl">{children}</div>
     </div>
-    <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[14px]">
+    <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[17px]">
       {name} <span className="text-gray-400 sm:inline-block">&middot; Community</span>
     </div>
   </a>
