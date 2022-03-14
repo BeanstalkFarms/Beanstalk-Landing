@@ -60,6 +60,10 @@ const Home: NextPage = () => {
             desc="View Beanstalk protocol analytics">
             Dune Analytics
           </Button>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/XdwostEtoiQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-3xl mb-6 font-normal">Community</h2>
           <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
               href="https://beanmerchant.substack.com/p/updated-beanstalk-faq-"
@@ -68,10 +72,10 @@ const Home: NextPage = () => {
               Beanstalk FAQ
             </ContributorButton>
             <ContributorButton
-              href="https://mirror.xyz/astn.eth/LeuGtteOh8N0GVHwuPL4R1TIPXmjQuZQFzGObCLezUM"
+              href="https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8"
               name="austin"
               avatar="/icon/austin.png">
-              What&apos;s Beanstalk?
+              Zero to Beanstalk
             </ContributorButton>
           </div>
           <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
@@ -104,6 +108,14 @@ const Home: NextPage = () => {
             href="https://medium.com/beanstalkfarms"
             icon="/icon/medium.jpg">
             Medium
+          </Button>
+          <Button
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng"
+            icon="/icon/youtube.png"
+            iconStyle={{ borderRadius: 0 }}>
+            Youtube
           </Button>
           <Button
             target="_blank"
