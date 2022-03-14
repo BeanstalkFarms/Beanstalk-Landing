@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             desc="View Beanstalk protocol analytics">
             Dune Analytics
           </Button>
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/XdwostEtoiQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/XdwostEtoiQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Community</h2>
