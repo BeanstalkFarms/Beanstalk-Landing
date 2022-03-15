@@ -32,6 +32,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
         <div className="flex flex-row space-x-4">
         {allPostsData.map(({ id, date, title, thumbnail }) => (
           <PostItem
+            id={id}
             title={title}
             image={thumbnail}
             key={id}

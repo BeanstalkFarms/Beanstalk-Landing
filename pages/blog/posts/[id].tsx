@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
+import { getAllPostIds, getPostData, PostData } from '../../../lib/posts'
 
 export async function getStaticProps({ params } : PostData) {
   const postData = await getPostData(params.id)
