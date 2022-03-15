@@ -26,7 +26,6 @@ type PostProps = {
 }
 
 export default function Post({ title, date, content } : PostProps) {
-  console.log('hiya ', title);
   return (
       <>
           <h2 className="font-semibold text-slate-900">{title}</h2>
