@@ -16,7 +16,8 @@ const PostItem : FC<PostItemProps> = ({ id, title, image, description, date }) =
     target="_blank"
     rel="noreferrer"
     className={
-      `w-full sm:px-6 px-4 py-4 rounded-lg
+      `flex flex-row space-x-12
+      w-full sm:px-6 px-4 py-4 rounded-lg
       hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer
       border border-gray-400
       sm:space-y-2

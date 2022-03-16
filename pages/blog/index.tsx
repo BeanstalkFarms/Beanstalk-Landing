@@ -29,7 +29,6 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
         <h1 className="text-5xl font-normal leading-[3.5rem]">
           Beanstalk blog
         </h1>
-        <div className="flex flex-row space-x-4">
         {allPostsData.map(({ id, date, title, thumbnail }) => (
           <PostItem
             id={id}
@@ -39,7 +38,6 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
             date={date}>
             </PostItem>
           ))}
-        </div>
       </div>
     </ContentWrapper>
   </>
