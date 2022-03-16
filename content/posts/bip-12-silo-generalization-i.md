@@ -4,7 +4,7 @@ date: "2019-09-06"
 thumbnail: https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk
 ---
 
-Today, Beanstalk Farms is pleased to announce that [BIP-12](https://github.com/BeanstalkFarms/Beanstalk/pull/46), which generalizes the Silo to support arbitrary token Deposits, has been passed by a vote of the Beanstalk DAO.
+Today, Beanstalk Farms is pleased to announce that [BIP-12](https://github.com/BeanstalkFarms/Beanstalk/pull/46), which generalizes the Silo to support arbitrary token Deposits, has been passed by a vote of the Beanstalk DAO.
 
 The Silo
 ========
@@ -25,6 +25,6 @@ Incorporating other assets into the Silo via a whitelist allows Beanstalk to off
 More information
 ================
 
-BIP-12 is a community-led initiative developed by [Beanstalk Farms](https://twitter.com/BeanstalkFarms). If you have ideas for other Beanstalk-related projects, join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM)!
+BIP-12 is a community-led initiative developed by [Beanstalk Farms](https://twitter.com/BeanstalkFarms). If you have ideas for other Beanstalk-related projects, join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM)!
 
-To learn more about Beanstalk, please visit our [website](http://app.bean.money/).
+To learn more about Beanstalk, please visit our [website](http://app.bean.money/).
