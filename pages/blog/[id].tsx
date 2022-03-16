@@ -41,13 +41,13 @@ export default function Post({ title, content, date, image } : PostProps) {
         image={image}
       />
       <ContentWrapper variant="default">
-        <div className="space-y-12">
+        <div className="space-y-8">
           <div className="space-y-2 border-b border-gray-100 pb-8">
             <p className="text-sm text-slate-400">{date}</p>
             <h2 className="text-4xl font-bold text-slate-900">{title}</h2>
           </div>
           <div
-            className="font-normal text-lg prose"
+            className={`text-md prose`}
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
