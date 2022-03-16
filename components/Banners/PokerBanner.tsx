@@ -1,6 +1,6 @@
 import Button from "../Button"
 
-export default () => (
+const PokerBanner = () => (
   <div>
     <div className="flex flex-col space-y-4">
       <div className="max-w-sm">
@@ -31,3 +31,5 @@ export default () => (
     </div>
   </div>
 )
+
+export default PokerBanner;

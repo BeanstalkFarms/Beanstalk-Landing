@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Button from '../components/Button';
 import ContributorButton from '../components/ContributorButton';
-import PokerBanner from '../components/Banners/PokerBanner';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
 import Link from 'next/link';
@@ -11,12 +10,12 @@ const Home: NextPage = () => {
     <>
       <CustomHead
         title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-        description="Beanstalk is a decentralized credit-based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+        description="Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
       <ContentWrapper>
         <div className="space-y-6">
-          <h1 className="text-5xl font-normal leading-[3.5rem]">
-            A decentralized credit-based stablecoin protocol.
+          <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
+            A decentralized credit based stablecoin protocol.
           </h1>
           <Button
             primary
@@ -25,10 +24,15 @@ const Home: NextPage = () => {
             href="https://app.bean.money">
             Launch App
           </Button>
-          <div>
-            <span className="text-5xl float-left mr-2">🃏</span>
-            <span className="text-gray-700 text-sm">600,000 Pods up for grabs in "Beans on the Table", a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link></span>
-          </div>
+          {/* <div>
+            <span className={
+              `sm:text-5xl text-7xl float-left mr-2
+              sm:ml-0 -ml-2.5` // on mobile, line things up with the button
+            }>🃏</span>
+            <span className="text-gray-700 text-sm">
+              600,000 Pods up for grabs in Beans on the Table, a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link>
+            </span>
+          </div> */}
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Learn</h2>
@@ -37,7 +41,7 @@ const Home: NextPage = () => {
             rel="noreferrer"
             href="https://bean.money/docs/beanstalk.pdf"
             icon="/icon/beanstalk.svg"
-            desc="v1.7.0">
+            desc="v1.9.0">
             Whitepaper
           </Button>
           <Button
@@ -56,7 +60,11 @@ const Home: NextPage = () => {
             desc="View Beanstalk protocol analytics">
             Dune Analytics
           </Button>
-          <div className="flex flex-row space-x-4">
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/XdwostEtoiQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-3xl mb-6 font-normal">Community</h2>
+          <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
               href="https://beanmerchant.substack.com/p/updated-beanstalk-faq-"
               name="Bean Merchant"
@@ -64,13 +72,13 @@ const Home: NextPage = () => {
               Beanstalk FAQ
             </ContributorButton>
             <ContributorButton
-              href="https://mirror.xyz/astn.eth/LeuGtteOh8N0GVHwuPL4R1TIPXmjQuZQFzGObCLezUM"
+              href="https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8"
               name="austin"
               avatar="/icon/austin.png">
-              What&apos;s Beanstalk?
+              Zero to Beanstalk
             </ContributorButton>
           </div>
-          <div className="flex flex-row space-x-4">
+          <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
               href="https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3"
               name="nasjaq"
@@ -100,6 +108,14 @@ const Home: NextPage = () => {
             href="https://medium.com/beanstalkfarms"
             icon="/icon/medium.jpg">
             Medium
+          </Button>
+          <Button
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng"
+            icon="/icon/youtube.png"
+            iconStyle={{ borderRadius: 0 }}>
+            Youtube
           </Button>
           <Button
             target="_blank"
