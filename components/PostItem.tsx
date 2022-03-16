@@ -11,11 +11,8 @@ type PostItemProps = {
 }
 
 const PostItem : FC<PostItemProps> = ({ id, title, image, description, date }) => (
-  <Link href={`/blog/posts/${id}`}>
-    <a
-    target="_blank"
-    rel="noreferrer"
-    className={
+  <Link href={`/blog/${id}`}>
+    <a className={
       `flex flex-row space-x-12
       w-full sm:px-6 px-4 py-4 rounded-lg
       hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer

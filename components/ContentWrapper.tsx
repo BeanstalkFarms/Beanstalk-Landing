@@ -28,15 +28,20 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
   : (
     <div className="flex flex-row">
       <div className={styles.TextContainer}>
-        <div className="max-w-[720px] space-y-12 lg:pb-12">
+        <div className="max-w-[720px] w-full space-y-12 lg:pb-12">
           {/* Header */}
-          <div className="flex flex-row justify-between items-center">
-            <Link href="/"><a><img src="/logo.svg" className="md:h-8 h-6" /></a></Link>
-            <div>
-              <a href="https://app.bean.money" target="_blank" rel="noreferrer" className="border border-gray-200 rounded-md px-4 py-2 text-sm">
-                Launch App
-              </a>
+          <div className="flex flex-row items-center">
+            <div className="flex-1">
+              <Link href="/"><a><img src="/logo.svg" className="md:h-8 h-6" /></a></Link>
             </div>
+            <Link href="/blog">
+              <a className="inline-block px-4 py-2 text-sm mx-2">
+                Blog
+              </a>
+            </Link>
+            <a href="https://app.bean.money" target="_blank" rel="noreferrer" className="inline-block border border-gray-200 rounded-md px-4 py-2 text-sm">
+              Launch App
+            </a>
           </div>
           {/* Content */}
           {children}
