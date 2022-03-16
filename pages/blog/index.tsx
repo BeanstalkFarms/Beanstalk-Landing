@@ -24,7 +24,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
       title="Beanstalk Blog | Content From the Farm"
       description="Blog posts from members of the Beanstalk Farms community."
     />
-    <ContentWrapper>
+    <ContentWrapper variant="default">
       <div className="space-y-6">
         <h1 className="text-5xl font-normal leading-[3.5rem]">
           Beanstalk blog

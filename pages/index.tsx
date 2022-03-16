@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
         description="Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
-      <ContentWrapper>
+      <ContentWrapper variant="side-image">
         <div className="space-y-6">
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
@@ -24,15 +24,6 @@ const Home: NextPage = () => {
             href="https://app.bean.money">
             Launch App
           </Button>
-          {/* <div>
-            <span className={
-              `sm:text-5xl text-7xl float-left mr-2
-              sm:ml-0 -ml-2.5` // on mobile, line things up with the button
-            }>🃏</span>
-            <span className="text-gray-700 text-sm">
-              600,000 Pods up for grabs in Beans on the Table, a poker tournament hosted by Bean Sprout. <Link href="/poker"><a className="text-blue-500 font-bold">Learn more &rarr;</a></Link>
-            </span>
-          </div> */}
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Learn</h2>

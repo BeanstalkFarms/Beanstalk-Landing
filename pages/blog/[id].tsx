@@ -1,6 +1,6 @@
-import ContentWrapper from '../../../components/ContentWrapper'
-import CustomHead from '../../../components/CustomHead'
-import { getAllPostIds, getPostData, PostData } from '../../../lib/posts'
+import ContentWrapper from '../../components/ContentWrapper'
+import CustomHead from '../../components/CustomHead'
+import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 
 export async function getStaticProps({ params } : PostData) {
   const postData = await getPostData(params.id)
@@ -40,10 +40,17 @@ export default function Post({ title, content, date, image } : PostProps) {
         description={content.substring(0, DESCRIPTION_LENGTH)}
         image={image}
       />
-      <ContentWrapper>
-        <h2 className="font-semibold text-slate-900">{title}</h2>
-        <p className="text-lg">{date}</p>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+      <ContentWrapper variant="default">
+        <div className="space-y-12">
+          <div className="space-y-2 border-b border-gray-100 pb-6">
+            <p className="text-sm text-slate-400">{date}</p>
+            <h2 className="text-4xl font-bold text-slate-900">{title}</h2>
+          </div>
+          <div
+            className="font-normal text-lg prose"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+        </div>
       </ContentWrapper>
     </>
   )
