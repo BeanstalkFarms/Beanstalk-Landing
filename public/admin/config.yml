@@ -3,6 +3,8 @@ backend:
   branch: dev
 
 # to enable local testing/dev, uncomment local_backend and comment out publish_mode
+# then, in a separate terminal, run `npx netlify-cms-proxy-server`
+# finally, nav to /admin/index.html
 # local_backend: true
 publish_mode: editorial_workflow
 
@@ -19,4 +21,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Image Alt Tag", name: "thumbnailAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: true}
+      - {label: "Meta Description", name: "description", widget: "string"}

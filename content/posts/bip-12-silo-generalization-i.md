@@ -2,6 +2,8 @@
 title: "BIP-12: Silo Generalization I"
 date: "2019-09-06"
 thumbnail: https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk
+thumbnailAlt: "picture of beans"
+description: "Today, Beanstalk Farms is annoucing BIP-12, which will allow the Silo to support arbitrary token Deposits"
 ---
 
 Today, Beanstalk Farms is pleased to announce that [BIP-12](https://github.com/BeanstalkFarms/Beanstalk/pull/46), which generalizes the Silo to support arbitrary token Deposits, has been passed by a vote of the Beanstalk DAO.

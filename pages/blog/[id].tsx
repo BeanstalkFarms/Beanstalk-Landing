@@ -11,7 +11,9 @@ export async function getStaticProps({ params } : PostData) {
       title: postData.title,
       content: postData.contentHtml,
       date: postData.date,
-      image: postData.thumbnail
+      image: postData.thumbnail,
+      imageAlt: postData.thumbnailAlt,
+      description: postData.description
     },
     revalidate: 10
   }
@@ -29,17 +31,19 @@ type PostProps = {
   title: string,
   content: string,
   date: string,
-  image?: string
+  image?: string,
+  imageAlt?: string,
+  description: string
 }
 
 const DESCRIPTION_LENGTH = 50
 
-const Post: NextPage<PostProps> = ({title, content, date, image}) => {
+const Post: NextPage<PostProps> = ({title, content, date, image, imageAlt, description}) => {
   return (
     <>
       <CustomHead
-        title={title}
-        description={content.substring(0, DESCRIPTION_LENGTH)}
+        title={`${title} | Beanstalk`}
+        description={description}
         image={image}
       />
       <ContentWrapper variant="default">

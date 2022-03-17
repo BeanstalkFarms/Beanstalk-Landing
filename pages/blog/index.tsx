@@ -22,7 +22,7 @@ export async function getStaticProps() {
 const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
   <>
     <CustomHead
-      title="Beanstalk Blog | Content From the Farm"
+      title="Beanstalk Blog - Content From the Farm | Beanstalk"
       description="Blog posts from members of the Beanstalk Farms community."
     />
     <ContentWrapper variant="default">
