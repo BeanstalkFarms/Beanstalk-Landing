@@ -1,7 +1,9 @@
 ---
 title: "Earn Interest from Beanstalk: Just the Basics"
-date: 2021-03-17
+date: 2020-09-28T07:00:00.000Z
 thumbnail: /assets/uploads/barn-and-beans.png
+thumbnailAlt: Beanstalk Barn with Beans
+description: A simplified explanation of earning interest directly from Beanstalk.
 ---
 The Beanstalk website makes earning interest from Beanstalk as simple as possible. You can start earning interest directly from Beanstalk in a single transaction.
 
