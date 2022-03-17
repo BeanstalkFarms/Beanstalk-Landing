@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: dev
 
 # to enable local testing/dev, uncomment local_backend and comment out publish_mode
 # local_backend: true
 publish_mode: editorial_workflow
 
-media_folder: "public/img/uploads"
-public_folder: "/img/uploads"
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
