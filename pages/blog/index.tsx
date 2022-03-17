@@ -35,7 +35,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
                 key={id}
                 rel="noreferrer"
                 href={`/blog/${id}/`}
-                icon="/icon/beanstalk.svg"
+                icon="/assets/icon/beanstalk.svg"
                 // icon={image}
                 desc={date}>
                 {title}
