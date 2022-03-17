@@ -15,7 +15,7 @@ export type PostData = {
 }
 
 // credit: https://nextjs.org/learn/basics/data-fetching/implement-getstaticprops
-export function getSortedPostsData() : PostData[] {
+export function getSortedPostsData(limit?: number) : PostData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(BLOG_POSTS_PATH)
   const allPostsData = fileNames.map(fileName => {
@@ -37,7 +37,7 @@ export function getSortedPostsData() : PostData[] {
     }
   })
   // Sort posts by date
-  return allPostsData.sort(({ date: a }, { date: b }) => {
+  const sortedData = allPostsData.sort(({ date: a }, { date: b }) => {
     if (a < b) {
       return 1
     } else if (a > b) {
@@ -46,6 +46,8 @@ export function getSortedPostsData() : PostData[] {
       return 0
     }
   })
+
+  return (limit === null) ? sortedData : sortedData.slice(0, limit);
 }
 
 

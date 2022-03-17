@@ -11,7 +11,7 @@ type BlogProps = {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData(3)
   return {
     props: {
       allPostsData
