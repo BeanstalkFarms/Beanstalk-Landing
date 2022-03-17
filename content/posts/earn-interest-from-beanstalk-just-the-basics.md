@@ -100,8 +100,6 @@ Pods are Harvestable for 1 Bean each. Once a user has Harvestable Pods, they can
 
 ## More information
 
-To learn more about Beanstalk you can visit our website: [bean.money](https://bean.money/)
+To learn more about Beanstalk, visit our website: [bean.money](https://bean.money/)
 
-You can ask questions and join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM) and [Telegram](https://t.me/joinchat/OdWoJSyPVsRhYzgx)!
-
-Follow us on [Twitter](https://twitter.com/BeanstalkFarms)!
+You can ask questions and join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM), or follow us on [Twitter](https://twitter.com/BeanstalkFarms).
