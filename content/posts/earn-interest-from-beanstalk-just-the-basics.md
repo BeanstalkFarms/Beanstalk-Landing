@@ -98,6 +98,8 @@ Key facts about Pods:
 
 Pods are Harvestable for 1 Bean each. Once a user has Harvestable Pods, they can Harvest (Claim) them in exchange for Beans.
 
+---
+
 ## More information
 
 To learn more about Beanstalk, visit our website: [bean.money](https://bean.money/)
