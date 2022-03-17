@@ -3,6 +3,8 @@ backend:
   branch: dev
 
 # to enable local testing/dev, uncomment local_backend and comment out publish_mode
+# then, in a separate terminal, run `npx netlify-cms-proxy-server`
+# finally, nav to /admin/index.html
 # local_backend: true
 publish_mode: editorial_workflow
 
