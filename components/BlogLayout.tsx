@@ -1,8 +1,8 @@
+import { ReactNode } from "react";
 import Footer from "./Footer";
-import {ReactNode} from "react";
 
 type LayoutProps = {
-    children?: ReactNode;
+  children?: ReactNode;
 };
 
 export default function BlogLayout({ children } : LayoutProps) {

@@ -8,7 +8,7 @@ const Poker : NextPage = () => (
     <CustomHead
       title="Beans on the Table Poker Tournament | Beanstalk"
       description="Join now to get a seat at one of Beanstalk's first ever poker tournaments on 3/5 at 5:30 PM PT. 100 Beans to buy in - 600,000+ Pods guaranteed."
-      image="https://bean.money/meta/poker-03052022.jpg"
+      image="https://bean.money/assets/meta/poker-03052022.jpg"
     />
     <ContentWrapper variant="default">
       <div className="space-y-6">

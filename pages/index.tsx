@@ -45,7 +45,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://bean.money/docs/beanstalk.pdf"
-            icon="/icon/beanstalk.svg"
+            icon="/assets/icon/beanstalk.svg"
             desc="v1.9.0">
             Whitepaper
           </Button>
@@ -53,7 +53,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://discord.gg/beanstalk"
-            icon="/icon/discord.png"
+            icon="/assets/icon/discord.png"
             desc="Join the community and ask questions">
             Discord
           </Button>
@@ -61,7 +61,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://dune.xyz/tbiq/Beanstalk"
-            icon="/icon/dune.png"
+            icon="/assets/icon/dune.png"
             desc="View Beanstalk protocol analytics">
             Dune Analytics
           </Button>
@@ -73,13 +73,13 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             <ContributorButton
               href="https://beanmerchant.substack.com/p/updated-beanstalk-faq-"
               name="Bean Merchant"
-              avatar="/icon/bean-merchant.png">
+              avatar="/assets/community/bean-merchant.png">
               Beanstalk FAQ
             </ContributorButton>
             <ContributorButton
               href="https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8"
               name="austin"
-              avatar="/icon/austin.png">
+              avatar="/assets/community/austin.png">
               Zero to Beanstalk
             </ContributorButton>
           </div>
@@ -87,13 +87,13 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             <ContributorButton
               href="https://open.spotify.com/episode/4zSBdnYs56Mlw5RrStZsfk?si=cc15759b547d4ea3"
               name="nasjaq"
-              avatar="/icon/nasjaq.jpg">
+              avatar="/assets/community/nasjaq.jpg">
               Podcast w/ Publius
             </ContributorButton>
             <ContributorButton
               href="https://twitter.com/doctor_parth/status/1488941756448382976?s=21"
               name="DrParth"
-              avatar="/icon/drparth.jpg">
+              avatar="/assets/community/drparth.jpg">
               $BEAN vs. ESD
             </ContributorButton>
           </div>
@@ -108,7 +108,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
               key={id}
               rel="noreferrer"
               href={`/blog/${id}/`}
-              icon="/icon/beanstalk.svg"
+              icon="/assets/icon/beanstalk.svg"
               desc={date}>
               {title}
             </Button>
@@ -120,21 +120,21 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://twitter.com/BeanstalkFarms"
-            icon="/icon/twitter.png">
+            icon="/assets/icon/twitter.png">
             Twitter
           </Button>
           <Button
             target="_blank"
             rel="noreferrer"
             href="https://medium.com/beanstalkfarms"
-            icon="/icon/medium.jpg">
+            icon="/assets/icon/medium.jpg">
             Medium
           </Button>
           <Button
             target="_blank"
             rel="noreferrer"
             href="https://www.youtube.com/channel/UCsIk5WEk3F4kKmFFmbLd6Ng"
-            icon="/icon/youtube.png"
+            icon="/assets/icon/youtube.png"
             iconStyle={{ borderRadius: 0 }}>
             Youtube
           </Button>
@@ -142,7 +142,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://www.reddit.com/r/BeanstalkProtocol/"
-            icon="/icon/reddit.png">
+            icon="/assets/icon/reddit.png">
             Reddit
           </Button>
         </div>
