@@ -3,9 +3,23 @@ import Button from '../components/Button';
 import ContributorButton from '../components/ContributorButton';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
-import Link from 'next/link';
+import {getSortedPostsData, PostData} from "../lib/posts";
+import PostItem from "../components/PostItem";
 
-const Home: NextPage = () => {
+type BlogProps = {
+  allPostsData: PostData[]
+}
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
+}
+
+const Home: NextPage<BlogProps> = ({ allPostsData }) => {
   return (
     <>
       <CustomHead
@@ -83,6 +97,22 @@ const Home: NextPage = () => {
               $BEAN vs. ESD
             </ContributorButton>
           </div>
+        </div>
+        <div className="space-y-4">
+          <div className="flex justify-between items-end">
+            <h2 className="text-3xl mb-6 font-normal">Blog</h2>
+            <a href={`/blog`}><p className="text mb-6 font-normal mr-4 text-blue-600">see all</p></a>
+          </div>
+          {allPostsData.map(({ id, date, title, thumbnail }) => (
+            <Button
+              key={id}
+              rel="noreferrer"
+              href={`/blog/${id}/`}
+              icon="/icon/beanstalk.svg"
+              desc={date}>
+              {title}
+            </Button>
+          ))}
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Follow</h2>
