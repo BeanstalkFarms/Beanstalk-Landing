@@ -10,3 +10,9 @@
 /beanfts https://app.bean.money/beanfts
 /about https://app.bean.money/about
 /fundraiser https://app.bean.money/fundraiser
+/Bips/* https://app.bean.money/Bips/:splat
+/Funds/* https://app.bean.money/Funds/:splat
+/docs/APY.html https://app.bean.money/docs/APY
+/docs/How-To-Mobile.html https://app.bean.money/docs/How-To-Mobile
+/docs/How-To.html https://app.bean.money/docs/How-To
+/docs/Intro-to-Beanstalk.html https://app.bean.money/docs/Intro-to-Beanstalk

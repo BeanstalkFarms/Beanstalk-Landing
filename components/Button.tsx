@@ -8,6 +8,7 @@ const Button : FC<{
   icon?: string,
   desc?: string,
   iconStyle?: any,
+  className?: string
 }> = ({
   children,
   primary = false,
