@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import moment from 'moment'
 import { remark } from 'remark'
 import html from 'remark-html'
 
@@ -29,10 +30,14 @@ export function getSortedPostsData(limit?: number) : PostData[] {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents)
 
+    // replace datetime with "friendly" date
+    const friendlyString = moment(matterResult.data.date).format("MMMM Do, YYYY").toString()
+    delete matterResult.data.date
+
     // Combine the data with the id
     return {
       id,
-      date: matterResult.data.date,
+      date: friendlyString,
       ...matterResult.data
     }
   })
@@ -46,7 +51,6 @@ export function getSortedPostsData(limit?: number) : PostData[] {
       return 0
     }
   })
-
   return (limit === null) ? sortedData : sortedData.slice(0, limit);
 }
 
@@ -84,6 +88,10 @@ export async function getPostData(id: string) : Promise<PostData> {
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents)
 
+  // replace datetime with "friendly" date
+  const friendlyString = moment(matterResult.data.date).format("MMMM Do, YYYY")
+  delete matterResult.data.date
+
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
@@ -94,7 +102,7 @@ export async function getPostData(id: string) : Promise<PostData> {
   return {
     id,
     contentHtml,
-    date: matterResult.data.date,
+    date: friendlyString,
     ...matterResult.data
   }
 }

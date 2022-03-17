@@ -27,7 +27,6 @@ export const getServerSideProps = ({ res }) => {
     });
 
   const posts = getAllPostIds()
-  console.log(posts)
   const dynamicPaths = posts.map( postParams => {
     return `${baseUrl}/posts/${postParams.params.id}`
   })
