@@ -19,4 +19,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Image Alt Tag", name: "thumbnailAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: true}
+      - {label: "Meta Description", name: "description", widget: "string"}

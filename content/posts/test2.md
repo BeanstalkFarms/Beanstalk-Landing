@@ -2,6 +2,8 @@
 title: Why did the chicken cross the road
 date: "2019-09-06"
 thumbnail: https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w
+thumbnailAlt: "picture of a chicken"
+description: "test blog post ft picture of a chicken"
 ---
 To get to the other side.
 
