@@ -1,6 +1,8 @@
 import ContentWrapper from '../../components/ContentWrapper'
 import CustomHead from '../../components/CustomHead'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
+import type {NextPage} from 'next';
+import BlogLayout from "../../components/BlogLayout";
 
 export async function getStaticProps({ params } : PostData) {
   const postData = await getPostData(params.id)
@@ -32,7 +34,7 @@ type PostProps = {
 
 const DESCRIPTION_LENGTH = 50
 
-export default function Post({ title, content, date, image } : PostProps) {
+const Post: NextPage<PostProps> = ({title, content, date, image}) => {
   return (
     <>
       <CustomHead
@@ -55,3 +57,16 @@ export default function Post({ title, content, date, image } : PostProps) {
     </>
   )
 }
+
+Post.getLayout = function getLayout(page) {
+  return (
+    <BlogLayout>
+      {page}
+    </BlogLayout>
+  )
+}
+
+export default Post;
+
+
+
