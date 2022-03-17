@@ -9,11 +9,31 @@ module.exports = {
         // Default styling for Typography plugin.
         DEFAULT: {
           css: {
-            // maxWidth: 'none',
+            maxWidth: 'none',
             h1: {
-              // fontSize: '2rem',
-              // marginTop: '2.5rem',
-              // marginBottom: '0.5rem',
+              fontSize: '1.75rem',
+              marginTop: '3rem',
+              marginBottom: '0.5rem',
+            },
+            h2: {
+              marginTop: '1.75rem',
+              marginBottom: '0.5rem',
+            },
+            h3: {
+              marginTop: '1.75rem',
+              marginBottom: '0.5rem',
+            },
+            h4: {
+              marginTop: '1.75rem',
+              marginBottom: '0.25rem',
+            },
+            h5: {
+              marginTop: '1.75rem',
+              marginBottom: '0.25rem',
+            },
+            h6: {
+              marginTop: '1.75rem',
+              marginBottom: '0.25rem',
             },
             a: {
               color: theme('colors.blue.500'),
