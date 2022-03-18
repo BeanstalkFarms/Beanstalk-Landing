@@ -45,7 +45,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
             href="https://bean.money/docs/beanstalk.pdf"
-            icon="/icon/beanstalk.svg"
+            icon="/assets/icon/beanstalk.svg"
             desc="v1.9.1">
             Whitepaper
           </Button>
