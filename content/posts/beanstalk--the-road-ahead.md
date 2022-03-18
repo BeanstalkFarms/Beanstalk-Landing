@@ -4,7 +4,7 @@ subtitle: "A look ahead at Beanstalk's next phase of development"
 author: Beanstalk Farms
 description: "A look ahead at Beanstalk's next phase of development"
 date: 2021-10-06T15:42:58.995Z
-image: /assets/uploads/roadmap.png
+image: /assets/uploads/road-ahead.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*0QpDY3zzTEdS41vL5eqUeA.jpeg)

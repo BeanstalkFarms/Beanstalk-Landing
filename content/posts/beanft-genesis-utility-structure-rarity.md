@@ -2,7 +2,7 @@
 title: 'The BeaNFT Genesis Collection: Utility, Structure and Rarity'
 subtitle: ""
 author: Beanstalk Farms
-description: ""
+description: "BeaNFTs are the first project built on top of Beanstalk, a new algorithmic stablecoin protocol. The only way to earn a BeaNFT is to participate in peg maintenance for Beans, the Beanstalk stablecoin."
 date: 2021-10-04T12:58:13.587Z
 image: /assets/uploads/beanft-genesis.png
 ---
