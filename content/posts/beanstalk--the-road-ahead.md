@@ -3,10 +3,8 @@ title: 'Beanstalk: The Road Ahead'
 subtitle: ""
 author: Beanstalk Farms
 description: A snapshot of the current Beanstalk Roadmap
-date: '2021-10-06T15:42:58.995Z'
-categories: []
-keywords: []
-slug: /@BeanstalkFarms/beanstalk-the-road-ahead-19a93615b486
+date: 2021-10-06T15:42:58.995Z
+image: /assets/uploads/roadmap.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*0QpDY3zzTEdS41vL5eqUeA.jpeg)

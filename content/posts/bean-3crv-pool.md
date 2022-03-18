@@ -6,6 +6,7 @@ date: 2022-01-07T02:25:01.933Z
 description: >-
   Beanstalk  announces the creation of a new BEAN:3CRV stableswap liquidity pool
   seeded on Curve.
+image: /assets/uploads/bean-3crv.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*dpCnV4b6lY8uUe8lqRh6Kg.png)

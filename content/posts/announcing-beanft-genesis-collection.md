@@ -1,10 +1,10 @@
 ---
 title: "Announcing: The BeaNFT Genesis Collection"
+subtitle: ""
+author: "Beanstalk Farms"
 description: Announcing the first project ever built on top of Beanstalk
-date: '2021-09-25T22:01:36.278Z'
-categories: []
-keywords: []
-slug: /@BeanstalkFarms/the-beanft-genesis-edition-ee6fdadc9124
+date: 2021-09-25T22:01:36.278Z
+image: /assets/uploads/beanft-genesis.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/400/1*jrbSE6p2WWG-pksAM7vgSA.jpeg)

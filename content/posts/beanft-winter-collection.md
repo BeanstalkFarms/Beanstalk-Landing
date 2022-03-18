@@ -4,6 +4,7 @@ subtitle: ""
 author: Beanstalk Farms
 description: Announcing the second project built on top of Beanstalk
 date: 2021-12-22T04:45:03.477Z
+image: /assets/uploads/beanft-winter.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*1gvk_rLq-U8AhSNAxpAnJQ.png)

@@ -3,10 +3,8 @@ title: bean.money Website Settings Guide
 subtitle: ""
 author: Beanstalk Farms
 description: 'Using bean.money for easy, fee-efficient Beanstalk interactions'
-date: '2021-11-17T23:10:26.405Z'
-categories: []
-keywords: []
-slug: /@BeanstalkFarms/bean-money-website-settings-guide-1bdc1627fbe2
+date: 2021-11-17T23:10:26.405Z
+image: /assets/uploads/settings.png
 ---
 
 Beanstalk is designed with its users in mind: many complex interactions with Beanstalk can be performed in a single, fee-efficient transaction. bean.money, the Beanstalk website, makes performing complex interactions with Beanstalk simple.

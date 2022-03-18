@@ -4,6 +4,7 @@ subtitle: ""
 author: Beanstalk Farms
 description: ""
 date: 2021-10-04T12:58:13.587Z
+image: /assets/uploads/beanft-genesis.png
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*-EmLzBh_i1PGGoQFZtXSGQ.jpeg)
