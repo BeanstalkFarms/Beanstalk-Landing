@@ -1,16 +1,17 @@
 ---
 title: "Earn Interest from Beanstalk: Just the Basics"
+subtitle: "A simplified explanation of earning interest directly from Beanstalk."
+author: "Beanstalk Farms"
 date: 2020-09-28T07:00:00.000Z
-thumbnail: /assets/uploads/barn-and-beans.png
-thumbnailAlt: Beanstalk Barn with Beans
+image: /assets/uploads/barn-and-beans.png
 description: A simplified explanation of earning interest directly from Beanstalk.
 ---
 The Beanstalk website makes earning interest from Beanstalk as simple as possible. You can start earning interest directly from Beanstalk in a single transaction.
 
 There are two ways to earn interest directly from Beanstalk:
 
-* *Passively* by Depositing Beans or LP into theSiloin exchange for Stalk.
-* *Actively* by Sowing beans in theFieldin exchange for Pods (debt).
+* *Passively* by Depositing Beans or LP into the Silo in exchange for Stalk.
+* *Actively* by Sowing beans in the Field in exchange for Pods (debt).
 
 ## Rewards
 

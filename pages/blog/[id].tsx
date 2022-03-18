@@ -6,13 +6,14 @@ import BlogLayout from "../../components/BlogLayout";
 
 type PostProps = {
   // Metadata
-  title: string,
-  date: string,
-  image: string | null,
-  imageAlt: string | null,
-  description: string | null,
+  title: string;
+  subtitle: string | null;
+  author: string;
+  date: string;
+  image: string | null;
+  description: string;
   // Content
-  content: string, 
+  content: string;
 }
 
 export async function getStaticProps({ params } : PostData) : Promise<GetStaticPropsResult<PostProps>> {
@@ -23,29 +24,21 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     return { notFound: true };
   }
 
-  const props = {
-    // Metadata
-    title: postData.title,
-    date: postData.date.toString(),
-    image: postData.thumbnail || null,
-    imageAlt: postData.thumbnailAlt || null,
-    description: postData.description || null,
-    // Content
-    content: postData.contentHtml,
-  };
-
-  console.log(`${params.id}:`, props);
-
-  try {
-    JSON.parse(JSON.stringify(props));
-  } catch(e) {
-    console.error(e);
-    throw e;
-  }
-
+  // Note: all CMS fields that are optional must
+  // have `|| null` applied below because `undefined` is
+  // not JSON-serializable.
   return {
-    props,
-    revalidate: 60
+    props: {
+      // Metadata
+      title: postData.title,
+      subtitle: postData.subtitle || null,
+      author: postData.author,
+      date: postData.date,
+      image: postData.image || null,
+      description: postData.description,
+      // Content
+      content: postData.contentHtml,
+    },
   }
 }
 
@@ -60,7 +53,16 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
 const DESCRIPTION_LENGTH = 50
 
 const Post: NextPage<PostProps> = (props) => {
-  const { title, content, date, image, imageAlt, description } = props;
+  const {
+    title,
+    subtitle,
+    author,
+    date,
+    content,
+    image,
+    description
+  } = props;
+
   return (
     <BlogLayout>
       <CustomHead
@@ -70,9 +72,12 @@ const Post: NextPage<PostProps> = (props) => {
       />
       <ContentWrapper variant="default">
         <div className="space-y-8">
-          <div className="space-y-2 border-b border-gray-100 pb-8">
-            <p className="text-sm text-slate-400">{date}</p>
-            <h2 className="text-4xl font-bold text-slate-900">{title}</h2>
+          <div className="space-y-8 border-b border-gray-100 pb-8">
+            <p className="text-sm text-slate-400">{author} &middot; {date}</p>
+            <div className="space-y-2">
+              <h1 className="text-3xl font-bold text-slate-900">{title}</h1>
+              {subtitle ? <h2 className="text-xl text-slate-500 font-light">{subtitle}</h2> : null}
+            </div>
           </div>
           <div
             className={`text-md prose`}
