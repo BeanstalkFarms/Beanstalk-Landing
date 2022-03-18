@@ -10,8 +10,8 @@ type CustomHeadProps = {
 
 export default function CustomHead({
   title = "Beanstalk",
-  description = "Beanstalk is a decentralized, credit-based stablecoin protocol.",
-  image = "https://bean.money/meta/farm-winter-night.png",
+  description = "Beanstalk is a decentralized credit based stablecoin protocol.",
+  image = "https://bean.money/assets/meta/basic.png",
   children
 }: CustomHeadProps) {
   return (
