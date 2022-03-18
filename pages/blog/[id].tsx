@@ -76,17 +76,11 @@ const Post: NextPage<PostProps> = (props) => {
   } = props;
 
   const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
-  console.log("SiteURL: " + siteUrl);
-  console.log("ImageURL" + image);
-
+  // console.log("SiteURL: " + siteUrl);
+  // console.log("ImageURL" + image);
 
   return (
     <>
-      {/*<CustomHead*/}
-      {/*  title={`${title} | Beanstalk`}*/}
-      {/*  description={description || undefined}*/}
-      {/*  image={image || undefined}*/}
-      {/*/>*/}
       <NextSeo
         title={`${title} | Beanstalk`}
         description={description || undefined}
