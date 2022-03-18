@@ -19,7 +19,6 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
   const postData = await getPostData(params.id)
   if(!postData) return { notFound: true }
   
-  //
   if(!postData.title || !postData.date || !postData.contentHtml) {
     return { notFound: true };
   }
@@ -34,6 +33,8 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     // Content
     content: postData.contentHtml,
   };
+
+  console.log(`${params.id}:`, props);
 
   try {
     JSON.parse(JSON.stringify(props));
@@ -61,7 +62,7 @@ const DESCRIPTION_LENGTH = 50
 const Post: NextPage<PostProps> = (props) => {
   const { title, content, date, image, imageAlt, description } = props;
   return (
-    <>
+    <BlogLayout>
       <CustomHead
         title={`${title} | Beanstalk`}
         description={description || undefined}
@@ -79,14 +80,6 @@ const Post: NextPage<PostProps> = (props) => {
           />
         </div>
       </ContentWrapper>
-    </>
-  )
-}
-
-Post.getLayout = function getLayout(page) {
-  return (
-    <BlogLayout>
-      {page}
     </BlogLayout>
   )
 }
