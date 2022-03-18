@@ -11,7 +11,7 @@ Beanstalk is designed with its users in mind: many complex interactions with Bea
 
 The following guide explains 1) the various transaction settings available to users when transacting through bean.money, and 2) how to ensure you leverage tax efficiency improvements enabled by [BIP-2](https://github.com/BeanstalkFarms/Beanstalk/blob/bip-2/bips/bip-2.md) if you are reinvesting harvestable Pods or Withdrawals back into Beanstalk. If you are new to Beanstalk, you may want to first read the introductory article [here](https://medium.com/@BeanstalkFarms/introducing-beanstalk-557c45cb8d80). For more information on how to invest in Beanstalk in general, click [here](https://medium.com/@BeanstalkFarms/earn-interest-from-beanstalk-just-the-basics-165a8cc5fecd).
 
-### Settings:
+## Settings:
 
 In each module, there is a “_Settings_” button that lets users customize their transaction.
 
@@ -39,7 +39,7 @@ Below are explanations of each setting option ordered by number according to the
 
 ![](https://cdn-images-1.medium.com/max/800/1*EEKtea6hxG85eqIPl8OU6w.png)
 
-### Leveraging BIP-2 Through bean.money Settings
+## Leveraging BIP-2 Through bean.money Settings
 
 BIP-2 improved tax efficiency for transactions that reinvest harvestable Pods, claimable Beans and/or claimable LP Tokens into Beanstalk: all assets can be reinvested into Beanstalk without the assets ever touching the transacting wallet.
 

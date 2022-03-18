@@ -10,7 +10,7 @@ date: 2021-11-14T22:00:34.318Z
 
 ![](https://cdn-images-1.medium.com/max/800/1*Kozf3POi7bNfIOJYe7pXJA.png)
 
-### **Where Beanstalk Is Now**
+## **Where Beanstalk Is Now**
 
 It has been 100 days since Beanstalk was deployed on Ethereum Mainnet. Beanstalk has already been through the ringer: a pump-n-dump ~6 weeks after deployment took Beanstalk from a $2.5M market cap to $40M in a matter of hours.
 
@@ -18,7 +18,7 @@ Beanstalk is designed to respond to any and all market conditions, including pum
 
 The magnitude of the capital that rushed in, and immediately out of Beanstalk (~$25M of ETH vs. $2.5M market cap) created a major test for Beanstalk. The verdict: Beanstalk is just getting started.
 
-#### An Organic Community
+### An Organic Community
 
 The first Beanstalk [roadmap](https://medium.com/@BeanstalkFarms/beanstalk-the-road-ahead-19a93615b486) was released in early October and oriented around the following goals:
 
@@ -30,7 +30,7 @@ The community that has grown around Beanstalk over the past month, their genuine
 
 The Beanstalk roadmap has been updated to incorporate feedback received from the community over the past month. Before diving into the updated roadmap, here is a status update on the October items from last month’s roadmap.
 
-#### October Review
+### October Review
 
 **AMA**: Beanstalk Farms hosted 2 AMAs in October. If you want to catch up you can find both of the recordings below:
 
@@ -53,7 +53,7 @@ The Beanstalk roadmap has been updated to incorporate feedback received from the
 
 **Marketing Budget**: The marketing budget has also created immediate value for Beanstalk. As part of the marketing budget BIP, the Silo hired its first community organizer. They have led the way in creating a close-knit, curious community that has us incredibly enthusiastic about the future of Beanstalk. There have already been three proposals passed to allocate the marketing budget, including hiring a social media manager.
 
-#### More
+### More
 
 In addition to completing many of the items on the October Roadmap, there were a number of other notable events over the past month.
 
@@ -78,11 +78,11 @@ Now, autumn has come to Beanstalk Farms:
 
 **Peg**: Most importantly, the price of 1 Bean has started to more regularly oscillate around $1. The performance of Beanstalk through the pump-n-dump is now a strong tailwind for its development.
 
-### Where Beanstalk is Going
+## Where Beanstalk is Going
 
 While its first 100 days have been incredible, the future of Beanstalk is even more exciting. Now that Beanstalk has demonstrated its ability to stabilize the Bean price around $1, Beanstalk Farms has started charting out and working on the next steps to develop Beanstalk from its current infant state to a full-fledged DeFi behemoth.
 
-#### **Infancy**
+### **Infancy**
 
 Publius often describes Beanstalk as being in an infant state. While Beanstalk has the potential to become the largest stablecoin issuer and be completely decentralized, self-governing, and censorship resistant, it still requires some nursing and neck support in order to fulfill its potential.
 
@@ -102,7 +102,7 @@ Some key axes to evaluate the current stage of development of Beanstalk are:
 
 Despite its infant state, Beanstalk has put in a promising performance to date.
 
-#### Adulthood
+### Adulthood
 
 In its adult form, Beanstalk will look a lot different than it does today:
 
@@ -120,11 +120,11 @@ In its adult form, Beanstalk will look a lot different than it does today:
 
 Getting from infancy to adulthood is easier said than done, but with a focused, driven, and decentralized effort Beanstalk will get there.
 
-### How Beanstalk Will Get There: An Updated Roadmap
+## How Beanstalk Will Get There: An Updated Roadmap
 
 Looking ahead through the rest of the year and beyond, there is much to be done. As always, the Beanstalk Farms roadmap is constantly evolving in light of new information and may change based on community feedback.
 
-#### Rest of 2021
+### Rest of 2021
 
 **Community**: As Beanstalk continues to prove its economic model, it is most important that a driven, dynamic, decentralized community continues to form around Beanstalk.
 
@@ -153,7 +153,7 @@ Publius will appear on at least one podcast this month.
 
 Selecting an auditor that will retain a continuous relationship with Beanstalk to audit future BIPs in a timely manner is an important consideration. Beanstalk may benefit from having multiple auditors. **Expect a proposal to fund at least one audit by the end of the year.**
 
-#### 2022
+### 2022
 
 Looking ahead to 2022, there is one major change in Beanstalk Farms’ plans for Beanstalk worthy of note. The October Roadmap highlighted that there were no plans to work on an L2 integration for Beanstalk. After receiving a lot of feedback that an L2 integration is important to Bean Farmers, Beanstalk Farms has changed course and started designing a complementary L2 Beanstalk.
 

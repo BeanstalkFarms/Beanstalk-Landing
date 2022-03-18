@@ -1,6 +1,6 @@
 ---
 title: Beanstalk’s 6 Month Roadmap
-subtitle: " look ahead at Beanstalk's next phase of development."
+subtitle: "A look ahead at Beanstalk's next phase of development."
 author: Beanstalk Farms
 thumbnail: /assets/uploads/roadmap-banner.png
 date: 2022-02-11T22:56:47.704Z
@@ -12,7 +12,7 @@ thumbnailAlt: Beanstalk Roadmap Banner
 
 ![](https://cdn-images-1.medium.com/max/800/1*1CzkFtHdGSpZciuHESh9_g.png)
 
-### Beanstalk at 6 Months
+## Beanstalk at 6 Months
 
 Beanstalk is an experiment.
 
@@ -30,7 +30,7 @@ As of writing, Beanstalk has crossed the Bean price over its value peg over 2700
 
 It is now possible to take that proof of concept and the lessons learned through Beanstalk’s first 6 months to build out the Beanstalk architecture and the Beanstalk stack to leverage the composable nature of DeFi and make Beanstalk the ubiquitous stablecoin issuer of DeFi.
 
-### Beanstalk within the DeFi Ecosystem
+## Beanstalk within the DeFi Ecosystem
 
 The experimental nature of Beanstalk dictated that initial development and communication (formal and informal) should focus on the peg maintenance model. As Beanstalk continues to demonstrate the efficacy of its model, attention can start to shift towards answering questions about how Beanstalk can best fit into DeFi and leverage its status as the leading credit based stablecoin issuer.
 
@@ -44,15 +44,15 @@ The following are some high level developments to Beanstalk that Beanstalk Farms
 
 As always, these types of forward looking documents remain subject to change based on new information in the rapidly changing DeFi landscape.
 
-### On-Chain Development
+## On-Chain Development
 
 With regard to the Beanstalk Diamond, development can be divided into (1) larger architectural upgrades that make integrating a wide variety of protocols, tokens and use cases into the Beanstalk ecosystem as simple and scalable as possible, (2) factory contracts that supplement (1), and (3) minor tweaks to the model to maximize its efficiency.
 
 Each of the below items may be integrated into Beanstalk through multiple BIPs. Dates are provided as rough estimates for when the first BIP for each particular upgrade will be proposed on-chain.
 
-#### Larger Architectural Upgrades
+### Larger Architectural Upgrades
 
-**Generalized Silo (February, 2022)**
+#### **Generalized Silo (February, 2022)**
 
 [BIP-12](https://github.com/BeanstalkFarms/Beanstalk/pull/46) is the first step towards a complete generalization of the Silo. The next step to generalize the Silo is to enable Conversions from arbitrary whitelisted tokens to arbitrary whitelisted tokens with minimal loss of Stalk.
 
@@ -62,7 +62,7 @@ The Silo can support the reception and distribution of generalized rewards. For 
 
 Non-fungible tokens (\*e.g.\*, Uniswap V3 LP Tokens) can also be incorporated into the Silo.
 
-**Generalized Minting Pools (February-March, 2022)**
+#### **Generalized Minting Pools (February-March, 2022)**
 
 Currently, the minting of Beans and Soil is determined solely based on the BEAN:ETH Uniswap V2 Pool. As the number of liquidity pools that BEAN trades in increases, the BEAN:ETH Uniswap V2 Pool will become less and less accurate as an indicator of (1) the liquidity and time weighted average Bean price, and (2) the appropriate number of Beans and Soil to mint to regularly cross the Bean price above and below its value peg.
 
@@ -76,7 +76,7 @@ The Beans or Soil minted at the start of each Season will be based on the net su
 
 Initially, minting pools will only be able to be added or removed via BIPs. In the future, a more flexible system (for example, to handle instances where another currency in a minting pool has a depegging event) can be implemented.
 
-**Generalized Bean Farm (March, 2022)**
+#### **Generalized Bean Farm (March, 2022)**
 
 [BIP-2](https://github.com/BeanstalkFarms/Beanstalk/pull/4) introduced the ability for users to move assets within the Bean Farm (_i.e._, from the Silo to the Field, and vice versa) without those assets touching the user’s wallet. This improves the gas efficiency, and potentially improves the tax efficiency of Beanstalk-related transactions, for certain users.
 
@@ -84,13 +84,13 @@ The Bean Farm can be generalized to accept arbitrary assets with direct or indir
 
 Additionally, users will be able to use Beanstalk to sell Beans back into arbitrary assets, without necessarily removing them from the Bean Farm and into their wallets. This generalized Bean Farm will radically improve the efficiency of Beanstalk.
 
-**Interoperable Bean Farm (April, 2022)**
+#### **Interoperable Bean Farm (April, 2022)**
 
 The generalized Bean Farm can be expanded to allow users to not just buy and sell any asset on any decentralized exchange Beans trade on, but also interact with other protocols using function selectors. This will allow users to interact with any protocol in an arbitrary manner, within the Beanstalk ecosystem and without the assets hitting users’ wallets.
 
 For example, if a Farmer has ETH on the Bean Farm or in their wallet, they could deposit into a Liquity trove, mint LUSD against their ETH, trade that LUSD to Beans and Sow the Beans for Pods or Deposit them in the Silo, all in a single gas-efficient transaction.
 
-**Liquid Stalk and Seeds (April-May, 2022)**
+#### **Liquid Stalk and Seeds (April-May, 2022)**
 
 Stalk and Seeds are the two Beanstalk-native yield bearing assets. Stalk entitles holders to a portion of all future Bean mints. Seeds entitle holders to new Stalk every Season.
 
@@ -100,7 +100,7 @@ Beanstalk Farms intends to propose a BEAN:STALK:SEED Balancer pool, the LP token
 
 There remains one big open question around Seeds, which you can read more about below.
 
-**Fungible Deposits (May-June, 2022)**
+#### **Fungible Deposits (May-June, 2022)**
 
 Silo Deposits can be made fungible ERC-1155 tokens.
 
@@ -110,7 +110,7 @@ Furthermore, Beanstalk will only be able to issue a maximum of 8 different fungi
 
 Beanstalk Farms will propose BIPs to facilitate fungible ERC-1155 tokens for arbitrary Silo Deposits, up to 8 within the Beanstalk diamond and unlimited additional tokens outside it.
 
-**Gauge System (June-July, 2022)**
+#### **Gauge System (June-July, 2022)**
 
 Initially, Stalk holders will be able to vote to add or remove a token from the Silo whitelist exclusively through BIPs. However, a more flexible and scalable gauge system to approve Stalk and Seed awards to various asset Deposits will help make integrating assets and protocols with Beanstalk as secure, decentralized and frictionless as possible.
 
@@ -118,7 +118,7 @@ A gauge system somewhat similar to the Curve ecosystem will be developed for the
 
 Seeds may be abstracted away from the Silo to facilitate the most flexible gauge system for rewards possible (see “One Big Open Question” below for more).
 
-**Gas Optimization (Continuous)**
+#### **Gas Optimization (Continuous)**
 
 Beanstalk is a fairly gaseous protocol. The Farmers Market was an opportunity to focus intently on minimizing the gas cost to transact within Beanstalk, specifically in regards to creating Orders and Listings. Instead of storing the full Order and Listing data on-chain, the Farmers Market only stores the hash of the necessary data, and then the UI relies entirely on events to verify the existence of Listings/Orders.
 
@@ -126,23 +126,23 @@ It is possible to implement similar data structure efficiency across the entire 
 
 The ultimate vision is to have Beanstalk stored on-chain as a single hash. The subgraph could be built out to support balance checks and provide the Merkle proofs.
 
-**Audits (Continuous)**
+#### **Audits (Continuous)**
 
 Beanstalk is currently being audited by [Omniscia](https://omniscia.io/), and will be audited by [Trail of Bits](https://www.trailofbits.com/) in Q2, 2022. The initial audit from Omniscia is expected to be completed sometime in February.
 
 After the initial audit is completed, all future Beanstalk Farms BIPs will be audited before being proposed by at least one auditor. This is a standard Beanstalk Farms hopes will be practiced by the DAO upon completion of the initial audit, and intends to lead by example.
 
-#### Integration Factory
+### Integration Factory
 
 Offering factory contracts to make integrating Beans, Stalk and Seeds into various other DeFi protocols as simple as possible will help facilitate adoption.
 
-**Beanstalk Launchpad (March-April, 2022)**
+#### **Beanstalk Launchpad (March-April, 2022)**
 
 Various protocols have demonstrated interest in fundraising Beans to hold in their treasury and/or bootstrap a liquidity pool. Beanstalk Farms will develop a Launchpad which facilitates the easy deployment of Bean Fundraisers and Bean liquidity pools.
 
 Upon implementation of the gauge system, the Launchpad should also define a low friction process to apply for gauge in a decentralized fashion.
 
-**Stalk and Seed Factory (June-July 2022)**
+#### **Stalk and Seed Factory (June-July 2022)**
 
 Liquid Stalk and Seeds will be a major milestone on the path to making Beans into a core financial primitive of DeFi, and open up a variety of new use cases for Beanstalk. But, Stalk and Seeds also come with a fair amount of accounting complexity.
 
@@ -150,11 +150,11 @@ Stalk and Seed holders earn Beans, Stalk _and_ Seeds during periods of Bean mint
 
 Beanstalk Farms intends to develop one or more factory contracts to help facilitate frictionless integration of Stalk and Seeds into a wide variety of other DeFi protocols.
 
-#### Model Tweaks and Efficiency Improvements
+### Model Tweaks and Efficiency Improvements
 
 There remain a number of opportunities to improve the efficiency and incentive structures of Beanstalk.
 
-**Farmers Market Upgrades (March-May, 2022)**
+#### **Farmers Market Upgrades (March-May, 2022)**
 
 The recently implemented Farmers Market can be refined to increase liquidity and decrease friction for users. Beanstalk Farms will propose one or more BIPs to implement the following improvements:
 
@@ -163,7 +163,7 @@ The recently implemented Farmers Market can be refined to increase liquidity and
 *   Multiple Orders and Listings can be Listed, Filled and Cancelled in a single transaction; and
 *   Overlapping Pod Orders and Pod Listings can be cleared automatically.
 
-**Various Tweaks (Continuous)**
+#### **Various Tweaks (Continuous)**
 
 There are various areas where further improving the efficiency of the peg maintenance model is clearly possible, even if particular improvements are not clear at the moment. Some of those potential areas for improvements are:
 
@@ -171,11 +171,11 @@ There are various areas where further improving the efficiency of the peg mainte
 *   The accuracy of measurement of demand for Soil can be improved; and
 *   The Weather Changes can be improved further.
 
-#### A Look Further Ahead
+### A Look Further Ahead
 
 If the above developments to Beanstalk, which will mostly occur in the first half of 2022 are successful in their aim to facilitate the adoption of Beanstalk and Beans across the Ethereum DeFi ecosystem, there are a variety of unique opportunities Beanstalk could leverage. These are some rough ideas for larger scale Beanstalk development projects that Beanstalk Farms and/or others can pursue over the course of 2022 and beyond. Estimated dates for this section are not included to reflect the uncertain nature of these developments, both technical and practical.
 
-**Multi-Chain Architecture**
+#### **Multi-Chain Architecture**
 
 As Beanstalk begins to demonstrate a product market fit on Ethereum Mainnet, there is a major opportunity to leverage the credit history of Beanstalk to take advantage of the lack of sufficient decentralized stablecoins on a variety of other blockchains (_e.g._, AVAX, Solana), as well as a variety of Ethereum L2s.
 
@@ -185,7 +185,7 @@ In general, to limit overhead and risk, a multi-chain Beanstalk implementation w
 
 Beanstalk Farms has started researching the architecture for a multi-chain Beanstalk. While the progress in cross-chain messaging architecture, like [Celer Network](https://www.celer.network/), is encouraging, there are a variety of remaining unanswered technical questions that must be answered to ensure that Beanstalk can scale to multiple blockchains without sacrificing its security and decentralization.
 
-**Beanstalk DEX**
+#### **Beanstalk DEX**
 
 Decentralized exchanges suffer from a chicken and egg problem. Liquidity attracts volume, which attracts more liquidity and more volume. One way various DEXs compete is by lowering their transaction fees. However, DEXs typically rely on transaction fees to attract and retain liquidity, thus creating the bootstrapping dilemma. The Stalk System offers an attractive alternative model to attract liquidity.
 
@@ -193,7 +193,7 @@ In theory, the Stalk System could be used facilitate a Beanstalk-native zero-fee
 
 The Beanstalk DEX would not replace the need for various other DEXs to be integrated into the Silo and the minting schedule, as centralized providers of stablecoins could always blacklist the Beanstalk contract. However, a Beanstalk DEX remains an interesting concept, particularly in combination with a multi-chain architecture which could facilitate extremely fee-efficient cross-chain exchanges from any asset Beans trade against on the Beanstalk DEX on one chain to any asset Beans trade against on the Beanstalk DEX on another chain.
 
-#### One Big Open Question
+### One Big Open Question
 
 The rest of this roadmap has been written as if both Stalk and Seeds will become fungible assets in the near future. However, upon reflection about creating the most flexible, efficient, censorship resistant, multi-chain Beanstalk, it is evident that there are a lot of benefits to abstracting away Seeds from the Silo entirely.
 
@@ -217,7 +217,7 @@ There is a clear reason to **consider removing fungible Seeds from the Beanstalk
 
 Given that from the publishing of the original whitepaper to date the Beanstalk design has included fungible Seeds, this is a question worthy of high quality discussion and debate.
 
-### Off-Chain Development
+## Off-Chain Development
 
 Making Beanstalk widely accessible and easily understandable requires a significant off-chain development effort to complement the on-chain development.
 
@@ -225,7 +225,7 @@ Beanstalk Farms is working to coordinate a variety of community-centric projects
 
 Dates provided are rough estimates on when the first iteration of off-chain projects will be published.
 
-**Brand (February-March, 2022)**
+#### **Brand (February-March, 2022)**
 
 As Beanstalk becomes more widely adopted across DeFi, there is a tension around balancing a truly decentralized development effort with a strong and consistent appearance and presence to newcomers.
 
@@ -243,7 +243,7 @@ The Brand Kit will include but is not limited to:
 *   A brand user experience design guide
 *   A brand copy style guide
 
-**Diamond Foundation (March-April, 2022)**
+#### **Diamond Foundation (March-April, 2022)**
 
 Beanstalk is an early adopter of the EIP-2535 Diamond Standard. While developing Beanstalk as a diamond has been incredibly beneficial, there are a variety of drawbacks which derive primarily from the novelty of the Standard and the lack of tooling to support diamonds.
 
@@ -251,7 +251,7 @@ For example, etherscan and Dune Analytics both do not easily integrate diamonds.
 
 Beanstalk Farms will coordinate with the creator of [EIP-2525](https://eips.ethereum.org/EIPS/eip-2535), [Nick Mudge](https://twitter.com/mudgen), and various other projects leveraging the Diamond Standard to create a decentralized Diamond Foundation to advance the adoption of and development to support the Diamond Standard.
 
-**Open Source Middleware Suite (February-March, 2022)**
+#### **Open Source Middleware Suite (February-March, 2022)**
 
 Beanstalk Farms will continue to improve the existing Beanstalk and Bean subgraphs to support a variety of new Beanstalk developments (_e.g._, the recently launched Farmers Market).
 
@@ -259,7 +259,7 @@ Beanstalk Farms is developing both Python and TypeScript Beanstalk SDKs that wil
 
 Beanstalk Farms will host an API built on the Beanstalk SDK on the [Akash decentralized network](https://akash.network/).
 
-**Open Source** [**bean.money**](http://bean.money) **(April-May, 2022)**
+#### **Open Source** [**bean.money**](http://bean.money) **(April-May, 2022)**
 
 In the coming weeks, Beanstalk Farms will open source the code for bean.money. Open-source code is essential to decentralized development.
 
@@ -267,7 +267,7 @@ Beanstalk Farms will maintain the [bean.money](http://bean.money) code to suppor
 
 In addition, Beanstalk Farms will work to develop an open-source, best-in-class analytics suite for Beanstalk, to facilitate widespread access to high quality data about Beanstalk and the Beanstalk ecosystem.
 
-**Documentation (April-May, 2022)**
+#### **Documentation (April-May, 2022)**
 
 To date, Beanstalk Farms has maintained the whitepaper as a “living” document, which is regularly modified to reflect the current protocol implementation. A meticulous whitepaper version history has been maintained for transparency and clarity.
 
@@ -275,6 +275,6 @@ However, the rest of the documentation around Beanstalk is both scattered across
 
 Beanstalk Farms will transition all Beanstalk-related documentation to an open-source Beanstalk github. This will include the whitepaper (which will continue to be maintained as a live document), how-to guides to navigate [bean.money](http://bean.money) and the Beanstalk protocol, a complete set of references, an FAQ and a variety of other educational content related to Beanstalk.
 
-**Other Distributed Development Teams (Continuous)**
+#### **Other Distributed Development Teams (Continuous)**
 
 Decentralized development is essential for the long term success of Beanstalk. While there are already two independent, complementary Beanstalk development organizations (Beanstalk Farms and Bean Sprout), Beanstalk Farms will provide support to other development teams that want to develop Beanstalk or other protocols on top of Beanstalk.

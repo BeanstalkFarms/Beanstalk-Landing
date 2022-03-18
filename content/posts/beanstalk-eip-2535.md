@@ -32,9 +32,9 @@ This is what Beanstalk looks like as a diamond. In addition to the 3 standard di
 
 Below are some takeaways from our experience building on EIP-2535.
 
-### User Experience
+## User Experience
 
-#### User Interface
+### User Interface
 
 The diamond implementation allows Beanstalk to have a single address instead of 4. If Beanstalk had used the single-proxy implementation, function calls would have to be made to each specific contract.
 
@@ -44,7 +44,7 @@ It is easy to see how this can quickly become overwhelming to users: simply trac
 
 With the diamond, users know that all events and functions belong to a single contract. Monitoring Beanstalk on web applications like Etherscan is straight forward because all protocol data is stored in a single contract.
 
-#### Gas
+### Gas
 
 The diamond lowers gas costs for users. In a single-proxy implementation, the various contracts would have to call each other in order to access or modify their states and call their functions. Cross-smart-contract function calls cost gas.
 
@@ -56,7 +56,7 @@ For example, there are a number of instances where Beanstalk directly interacts 
 
 We were able to take advantage of the diamond’s ability to reuse internal functions by creating a Solidity library called `LibMarket`, that is responsible for processing all interactions with the Uniswap pool. The Claim, Field, Season and Silo facets are all able to use this library without having to duplicate the code, or make an extra external function or delegate call.
 
-#### Drawbacks
+### Drawbacks
 
 The only drawback for users is that websites like [Dune Analytics](https://dune.xyz/home) and [Etherscan](https://etherscan.io/) do not currently natively support diamond contracts.
 
@@ -64,9 +64,9 @@ However, [Louper](https://louper.dev/) provides an interface for accessing and v
 
 Given that the diamond implementation is still new, we imagine as it becomes adopted and standardized these sites will also add support for it.
 
-### Developer Experience
+## Developer Experience
 
-#### Straightforward:
+### Straightforward:
 
 We were surprised by how straightforward deploying the diamond implementation was given how daunting the `diamondCut` was at first. All you need to do is:
 
@@ -77,7 +77,7 @@ We were surprised by how straightforward deploying the diamond implementation wa
 
 The diamond also makes deploying an additional Beanstalk incredibly quick, easy and cheap. As the USD version of Beanstalk establishes its ability to regularly cross the price of 1 Bean over $1, we anticipate demand for Beans that are pegged to other assets. For example, deploying a Beanstalk that issues Beans that are pegged to the value of 1 BTC is as simple as deploying a new Oracle facet. All other existing facets can be reused.
 
-#### Easy:
+### Easy:
 
 Developing a diamond contract is no more difficult than developing a normal smart contract. Once you understand how to define the `AppStorage` in the base contract of every facet there is not much else to learn.
 
@@ -101,7 +101,7 @@ We were able to easily route around this by adding a function that performs a de
 function 
 ```
 
-#### Clean:
+### Clean:
 
 We were amazed by how clean the diamond implementation code is. Having the state stored in a single struct makes interacting with the state extremely modular and makes the protocol feel like a single contract. It also allows you to group functionality that would must normally be spread across multiple contracts into the same function in a single contract, which makes for a much more comprehensible implementation.
 
@@ -109,15 +109,15 @@ In Beanstalk, there are numerous different assets that a user will interact with
 
 The diamond implementation allows us to create a generic `claim` function that would `claim` all the different assets in a single call. In a single-proxy implementation, Pods would be stored in the Field and the other assets in the Silo. Thus, such a function would have to be implemented in either the Silo, Field or both, neither of these are optimal solutions. It would also have to be a cross-contract function call. With the diamond implementation, we were able to create a Claim facet that handles all this functionality in a single facet. Then, we added this function to an internal library and were able to reuse the `claim` function in any part of the contract without having to a) pay gas to deploy the same code twice and b) make users pay extra gas for a cross-contract function calls.
 
-#### Drawbacks:
+### Drawbacks:
 
 The only drawback we found on the developer side was that deployment was extremely expensive. This is because the diamond needs to store every function selector in the state and each state variable costs 20,000 gas to store as a part of the initial `diamondCut`. As Beanstalk is a massive project, it has a lot of functions so this added gas cost was fairly significant. However, we found it to be an acceptable drawback as it was a one time cost which has no negative impact on our users. Furthermore, the lower cost to upgrade Beanstalk definitely offsets this initial cost.
 
-### Upgradability
+## Upgradability
 
 We expect Beanstalk to be upgraded on a regular basis. The diamond contract is extremely user friendly and modular to upgrade. It allows for adding, replace, and removing functionality on a function by function level.
 
-#### Cost:
+### Cost:
 
 In a single-proxy implementation, upgrading Beanstalk would be rigid and expensive. Whereas a single-proxy implementation only allows for the whole contract to be upgraded, the diamond allows for the proxy to be upgraded on a function by function basis.
 
@@ -127,7 +127,7 @@ For example, modifying the `sunrise` function would require deploying a full new
 
 Therefore, a diamond is orders of magnitude less expensive to upgrade.
 
-#### Easy:
+### Easy:
 
 The diamond implementation comes with a standard `DiamondCutFacet`. This facet has a `diamondCut` function that standardizes upgrades in diamonds. It takes in a list of addresses, functions and an indicator of whether the function should be added, replaced or removed. This standardized method makes it extremely easy to create a `diamondCut` to upgrade a diamond, and makes it extremely clear what functionality is being changed.
 
@@ -135,7 +135,7 @@ A `diamondCut` also allows for an `InitDiamond`, which defines an `init` functio
 
 Overall, the `diamondCut` makes upgrading and modifying diamonds extremely straight forward and user friendly. In the case of the single-proxy implementation, we would need to create our own structure for processing upgrades, which would likely only allow for upgrades on a contract by contract basis. In addition, there would not be a general corollary to the `InitDiamond`, as state modifications can only be done on a contract by contract basis.
 
-#### DAO Compatible:
+### DAO Compatible:
 
 Beanstalk is governed by a DAO controlled by its native Stalk token. This means that upgrades are performed via an on-chain voting system. The `DiamondCut` structure makes proposing an update natural: each BIP (Beanstalk Improvement Proposal) is simply a `DiamondCut`.
 
@@ -143,7 +143,7 @@ Without the diamond, we would have to create our own format for submitting BIPs,
 
 As the diamond becomes more widely used BIPs will be easy for any Solidity developer to propose. Additionally, interpreting and verifying the information contained in a BIP is clear as selectors can be interpreted to verify exactly what functions are being added, replaced, and removed, and whether or not there is an `init` function alongside the BIP.
 
-### Conclusion
+## Conclusion
 
 Beanstalk is a diamond with 9 different facets. At this time, it is clear to us that the diamond implementation was the correct choice.
 
@@ -153,7 +153,7 @@ ERC-2535 is still new, but we expect that it will see continuous adoption in the
 
 There are a few things we wish we had known earlier on in the development process. First, we wish we would have added even more facets. More facets makes code clearer and there is no reason not to break down facets into smaller facets in Beanstalk. Secondly, we should have used more libraries to share functionality between smart contracts.
 
-### More information
+## More information
 
 A massive thanks to [Nick Mudge](https://medium.com/u/ca7b1065d06a) for all the work he has put into EIP-2535, and continuously supporting the diamond community. He is a great follow on [Twitter](https://twitter.com/mudgen). Here is a link to more information on [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535).
 

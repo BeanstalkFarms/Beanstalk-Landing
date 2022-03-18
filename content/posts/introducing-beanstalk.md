@@ -10,13 +10,13 @@ date: 2021-09-17T17:52:54.077Z
 
 Welcome to Beanstalk! Beanstalk is a new, decentralized credit based stablecoin protocol that is built on Ethereum. This medium article is a brief introduction to Beanstalk.
 
-#### **Highlights**
+### **Highlights**
 
 *   The first Beanstalk issues a USD stablecoin (Bean) on the Ethereum blockchain.
 *   Beanstalk offers a variety of _passive_ and _active_ opportunities for Bean holders to earn interest directly from the protocol.
 *   Beanstalk does not have any collateral requirements. Beanstalk uses credit instead of collateral to create price stability relative to a non-blockchain-native asset.
 
-### **A New Type of Stablecoin**
+## **A New Type of Stablecoin**
 
 Stablecoins are cryptocurrencies that attempt to peg their market value to some external reference (e.g., USD). Current stablecoin implementations have two key problems: centralization and collateral requirements.
 
@@ -26,7 +26,7 @@ The practicality of using Decentralized Finance is limited by the lack of a dece
 
 Beanstalk creates protocol-native financial incentives to encourage participation in peg maintenance and governance without requiring any action from everyday Bean users.
 
-### **How does Beanstalk Work?**
+## **How does Beanstalk Work?**
 
 Beanstalk issues 3 ERC-20 Standard tokens:
 
@@ -42,7 +42,7 @@ Beanstalk relies on 3 interconnected parts:
 2.  The Silo, a decentralized governance mechanism, and
 3.  The Field, a decentralized credit facility..
 
-#### **1\. Decentralized Price Oracle**
+### **1\. Decentralized Price Oracle**
 
 Beanstalk uses 2 Uniswap liquidity pools — USDC:ETH and BEAN:ETH — to create a decentralized price oracle. When the ratios of the two pools are identical, the price of 1 Bean is considered equal to $1.
 
@@ -50,7 +50,7 @@ Beanstalk uses 2 Uniswap liquidity pools — USDC:ETH and BEAN:ETH — t
 
 Beanstalk calculates a Time Weighted Average Price (TWAP) for 1 Bean over each Season.
 
-#### **2\.** The Silo: a **Decentralized Governance Mechanism**
+### **2\.** The Silo: a **Decentralized Governance Mechanism**
 
 Beanstalk uses the Silo, the Beanstalk Decentralized Autonomous Organization, to create a robust decentralized governance mechanism.
 
@@ -70,7 +70,7 @@ Deep and consistent liquidity in the Bean:ETH Uniswap liquidity pool improves st
 
 > _LP token Deposits receive twice as many Seeds per Bean Deposited as Bean Deposits._
 
-#### **3\.** The Field: a **Decentralized Credit Facility**
+### **3\.** The Field: a **Decentralized Credit Facility**
 
 Beanstalk relies on a decentralized community of lenders to maintain Bean price stability. The faster Beanstalk can attract creditors, the more stable the Bean price. Bean lending takes place in the Field.
 
@@ -83,7 +83,7 @@ Pods are the Beanstalk-native debt asset. Bean loans have a fixed interest rate 
 *   The number of Pods that grow from 1 Sown Bean is determined by the Weather — the Beanstalk-native interest rate — at the time of Sowing.
 *   Pods ripen and become Harvestable (redeemable) for 1 Bean on a First In, First Out (FIFO) basis during future Bean supply increases.
 
-### **How Does Beanstalk Create Stability?**
+## **How Does Beanstalk Create Stability?**
 
 Beanstalk requires a diverse set of participants, including Depositors (Silo Members), Lenders (Bean Farmers), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse decentralized community. Beanstalk-native financial incentives consistently increase censorship resistance, liquidity and stability over time.
 
@@ -113,7 +113,7 @@ In order to prevent inorganic growth, if the Bean price is too high and the debt
 
 When the Beanstalk debt level is excessively high or low, the Weather changes more aggressively to return Beanstalk to a more reasonable level of debt. Beanstalk is willing to issue debt every Season.
 
-### More information
+## More information
 
 To learn more about Beanstalk you can visit our website: [bean.money](https://bean.money/)
 

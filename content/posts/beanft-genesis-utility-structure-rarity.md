@@ -13,13 +13,13 @@ BeaNFTs are the first project built on top of Beanstalk, a new algorithmic stabl
 
 This article expands upon the utility, structure and rarity of the BeaNFT Genesis Collection. To read the initial BeaNFT announcement, click [here](https://medium.com/@BeanstalkFarms/the-beanft-genesis-edition-ee6fdadc9124).
 
-### Earning BeaNFTs
+## Earning BeaNFTs
 
 Each Season up to 10 BeaNFTs are generated and distributed based on the top Sows of the Season. The NFTs are generated after the end of each Season based on the unique Sow transaction that earned the NFT.
 
 The BeaNFT event started at Season 1200 and will run until the start of Season 1800. Up to 6000 total BeaNFTs can be minted, but the actual number minted depends on the total number of Sows each of the 600 seasons. If less than 10 Sows occur in a given Season, less than 10 BeaNFTs will be minted for that Season.
 
-### BeanNFT Club
+## BeanNFT Club
 
 Owning a BeaNFT provides a user access to the BeaNFT Club.
 
@@ -33,11 +33,11 @@ As Beanstalk and BeaNFTs continue to grow, BeaNFT Club members will have exclusi
 *   BeaNFT Parties and Events; and
 *   More TBA in the future!
 
-### Metadata
+## Metadata
 
 Each BeanNFT contains the metadata of the traits of the BeaNFT itself, as well as of the Sow transaction that generated the BeaNFT. On [Open Sea](https://opensea.io/collection/beanft-genesis), Metadata is sorted into 2 categories: Properties and Levels.
 
-#### Properties
+### Properties
 
 Properties are the non-numeric metadata attached to the BeaNFT. These include the traits of the BeaNFT, as well as some of the Sow transaction metadata.
 
@@ -58,7 +58,7 @@ The properties derived from the Sow transaction that generated the BeaNFT are:
 
 ![](https://cdn-images-1.medium.com/max/800/1*hlGQOVr1YFbw44aJK485AQ.png)
 
-#### Levels
+### Levels
 
 The levels are the numeric metadata stored inside the BeaNFT. All of them are determined by the Sow transaction that created the BeaNFT.
 
@@ -69,7 +69,7 @@ The levels are the numeric metadata stored inside the BeaNFT. All of them are de
 
 ![](https://cdn-images-1.medium.com/max/800/1*j7AroTop5ylF2n_tRlH7tQ.png)
 
-### Rarity
+## Rarity
 
 The worth of a BeaNFT should be determined by how it looks and whether the community thinks it is cool/rare. Part of the fun is trying to determine what the rare aspects are and what BeaNFTs will be valuable in the long run. Open Sea does provide an analysis on how common each trait is.
 
@@ -82,7 +82,7 @@ The rarity of any given BeaNFT is mostly random, but there are a few factors tha
 *   **Time after Sunrise**: The closer to a Sunrise the Sow happens, the higher chance of getting any item in various categories is. The categories included are Halos, Hats, Facial Hair, Eyeglasses, and Scarves.
 *   **Did the wallet Sow before Season 1200**: If the wallet had Sown before the BeaNFT event started, they have a higher chance to get a rare body.
 
-### One of a Kind
+## One of a Kind
 
 The metadata and the image are stored on the IPFS. The BeaNFT smart contract ensures that once an NFT is minted:
 

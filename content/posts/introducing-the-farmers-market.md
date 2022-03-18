@@ -14,19 +14,19 @@ The _Farmers Market_ is part of a broader effort by Beanstalk Farms to increase 
 
 Anyone can participate in the _Farmers Market_ [here](https://bean.money/market).
 
-### **The Field**
+## **The Field**
 
 The _Field_ is Beanstalk’s decentralized credit facility. It offers yield opportunities to creditors for participating in peg maintenance. Anyone can become a Bean Farmer by sowing Beans (lending Beans to Beanstalk). Sown Beans are burned and exchanged for Pods based on the _Weather_ (the Beanstalk-native interest rate), which become _Harvestable_ (redeemable for Beans 1:1) on a FIFO basis when the Bean supply expands in response to excess demand for Beans.
 
 Prior to the launch of the _Farmers Market_, _Pods_ were relatively illiquid assets and could only be traded OTC. These peer-to-peer transactions typically relied on a trusted third party to act as an intermediary, which is not decentralized. The lack of a liquid marketplace for _Pods_ also inhibited robust price discovery. Rather than buying and selling _Pods_ OTC, users can now buy and sell _Pods_ directly through Beanstalk on the _Farmers_ _Market_.
 
-### Farmers Market Overview
+## Farmers Market Overview
 
 The _Farmers Market_ is the Beanstalk-native marketplace for exchanging _Pods_.
 
 There are two basic primitives within the _Farmers Market_: _Pod Orders_ and _Pod Listings_.
 
-#### _Pod Orders_
+### _Pod Orders_
 
 A _Pod Order_ is a request to buy _Pods_ in exchange for Beans. Each _Pod Order_ has three inputs:
 
@@ -40,7 +40,7 @@ To create a _Pod Order_, you must lock the Beans necessary to complete the purch
 
 Instead of waiting for a _Pod Order_ to be _Filled_, users can also buy _Pods_ directly from an outstanding _Pod Listing_.
 
-#### _Pod Listings_
+### _Pod Listings_
 
 A _Pod Listing_ is an offer to sell _Pods_ in exchange for Beans. By default, _Pods_ are listed from the back of a _Plot_. Each _Pod Listing_ takes four inputs:
 
@@ -57,7 +57,7 @@ For a more in-depth guide on using the _Farmers Market_, please refer to the _Fa
 
 For more detailed information on the _Farmers Market_, please refer to the _Farmers Market_ section of the Appendix in the latest Beanstalk [whitepaper](https://bean.money/docs/beanstalk.pdf).
 
-### More information
+## More information
 
 The _Farmers Market_ is a community-led initiative developed by [Beanstalk Farms](https://twitter.com/BeanstalkFarms).
 
