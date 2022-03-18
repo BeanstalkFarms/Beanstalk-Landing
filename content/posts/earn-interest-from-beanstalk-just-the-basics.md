@@ -9,8 +9,8 @@ The Beanstalk website makes earning interest from Beanstalk as simple as possibl
 
 There are two ways to earn interest directly from Beanstalk:
 
-* *Passively* by Depositing Beans or LP into theSiloin exchange for Stalk.
-* *Actively* by Sowing beans in theFieldin exchange for Pods (debt).
+* *Passively* by Depositing Beans or LP into theSiloin exchange for Stalk.
+* *Actively* by Sowing beans in theFieldin exchange for Pods (debt).
 
 ## Rewards
 
@@ -31,7 +31,7 @@ There are several assets Silo Depositors should be familiar with:
 * *Stalk*: Stalk is the ownership asset of the Beanstalk. When rewards are minted to the Silo, they are distributed in proportion to your Stalk ownership. In the near future, Stalk will be an ERC-20 token.
 * *Seeds*: Seeds generate 0.0001 Stalk every season. Stalk from Seeds create opportunity cost to Withdraw from the Silo, and therefore incentivize users to keep their assets Deposited in the Silo continuously, even during long debt cycles. In the near future, Seeds will be an ERC-20 token.
 * *Grown Stalk*: Stalk that Grows from Seeds is Grown Stalk. Grown Stalk is not currently earning interest. In order to start earning interest on your Grown Stalk, you need to Farm your Stalk by hitting the Farm button in the balances section.
-* *Deposited Beans* / *Deposited LP*: Deposited assets (Beans or LP) are received when you Deposit an asset into the Silo. Deposits are tied to their Season of Deposit so Beanstalk can track how much Stalk must be burned to Withdraw a particular Deposit. In the future, Deposited assets will be ERC-1155 tokens.
+* *Deposited Beans* / *Deposited LP*: Deposited assets (Beans or LP) are received when you Deposit an asset into the Silo. Deposits are tied to their Season of Deposit so Beanstalk can track how much Stalk must be burned to Withdraw a particular Deposit. In the future, Deposited assets will be ERC-1155 tokens.
 * *Withdrawn Beans / Withdrawn LP*: Withdrawn assets (Beans or LP) are are received when you Withdraw a Deposited asset from the Silo. The are frozen for 24 full Seasons upon Withdrawal. After 24 full Seasons, Withdrawn assets become Claimable assets. In the future, Withdrawn assets will be ERC-1155 tokens.
 * *Claimable Beans / Claimable LP*: Claimable assets (Beans of LP) are Withdrawn assets that were Withdrawn 24 full Seasons or more ago. Claimable assets return to your wallet after you Claim them, at which point they become Circulating.
 
@@ -55,9 +55,9 @@ For each Bean denominated value of LP you Deposit into the Silo, you receive:
 
 Key facts about Deposits:
 
-* *Interest Rate:* Unknown, dependent on future Bean mints.
-* *Interest Payments:* Every Season the Bean supply increases. Interest Payments are immediately Deposited to the Silo and start earning interest as well.
-* *Liquidity:* Anytime, with a 24 Season freeze upon Withdrawal.
+* *Interest Rate:* Unknown, dependent on future Bean mints.
+* *Interest Payments:* Every Season the Bean supply increases. Interest Payments are immediately Deposited to the Silo and start earning interest as well.
+* *Liquidity:* Anytime, with a 24 Season freeze upon Withdrawal.
 
 ## Withdrawing
 
@@ -65,11 +65,11 @@ You can Withdraw your Deposited Beans or Deposited LP from the Silo at any time.
 
 > Because Seeds generate more Stalk overtime, the opportunity cost for Withdrawing assets from the Silo increases because the number of Stalk attached to each Deposit, which must be burned, increases each Season.
 
-Upon Withdrawal, you receive Withdrawn Beans or Withdrawn LP. You must then wait 24 full seasons before you are able to Claim them. Upon Claiming the assets, they will be back in your wallet in their ERC-20 form.
+Upon Withdrawal, you receive Withdrawn Beans or Withdrawn LP. You must then wait 24 full seasons before you are able to Claim them. Upon Claiming the assets, they will be back in your wallet in their ERC-20 form.
 
 # 2. Actively Sow Beans in the Field: Bean Farmer
 
-When Beanstalk contracts, Beanstalk decreases the Bean supply by offering the opportunity to lend (Sow) Beans to Beanstalk. When Beanstalk expands, 50% of new Beans are minted and used to pay off Bean Farmers.
+When Beanstalk contracts, Beanstalk decreases the Bean supply by offering the opportunity to lend (Sow) Beans to Beanstalk. When Beanstalk expands, 50% of new Beans are minted and used to pay off Bean Farmers.
 
 ## Sowing
 
@@ -80,7 +80,7 @@ Anyone can lend Beans to Beanstalk by Sowing Beans in Soil in exchange for Pods.
 
 The Weather is the interest rate of Beanstalk. Beanstalk changes the Weather every Season based on the TWAP, Pod Rate (number of Unharvestable Pods / total number of Beans) and demand for Pods (number of Beans Sown this Season / number of Beans sown last Season).
 
-For each Bean Sown with Weather *w*, you receive:
+For each Bean Sown with Weather *w*, you receive:
 
 * *w + 1 Pods*
 
@@ -88,9 +88,9 @@ For each Bean Sown with Weather *w*, you receive:
 
 Key facts about Pods:
 
-* *Interest Rate:* Determined by the Weather at the time of Sowing.
-* *Interest Payments:* On a FIFO basis.
-* *Liquidity:* Pods are liquid assets, but cannot be redeemed for Beans until they are Harvestable. Once Harvestable, can be redeemed for 1 Bean each.
+* *Interest Rate:* Determined by the Weather at the time of Sowing.
+* *Interest Payments:* On a FIFO basis.
+* *Liquidity:* Pods are liquid assets, but cannot be redeemed for Beans until they are Harvestable. Once Harvestable, can be redeemed for 1 Bean each.
 
 ## Harvesting
 
@@ -102,6 +102,6 @@ Pods are Harvestable for 1 Bean each. Once a user has Harvestable Pods, they can
 
 ## More information
 
-To learn more about Beanstalk, visit our website: [bean.money](https://bean.money/)
+To learn more about Beanstalk, visit our website: [bean.money](https://bean.money/)
 
-You can ask questions and join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM), or follow us on [Twitter](https://twitter.com/BeanstalkFarms).
+You can ask questions and join the community discussion on [Discord](https://discord.gg/y4cJNv5DTM), or follow us on [Twitter](https://twitter.com/BeanstalkFarms).
