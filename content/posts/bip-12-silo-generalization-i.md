@@ -1,9 +1,9 @@
 ---
 title: "BIP-12: Silo Generalization I"
-subtitle: ""
+subtitle: "Beanstalk DAO approves new functionality to support arbitrary token Deposits."
 author: "Beanstalk Farms"
 date: 2022-02-16T11:00:00.000Z
-description: "Today, Beanstalk Farms is annoucing BIP-12, which will allow the Silo to support arbitrary token Deposits"
+description: "Today, Beanstalk Farms is annoucing BIP-12, which will allow the Silo to support arbitrary token Deposits."
 ---
 
 Today, Beanstalk Farms is pleased to announce that [BIP-12](https://github.com/BeanstalkFarms/Beanstalk/pull/46), which generalizes the Silo to support arbitrary token Deposits, has been passed by a vote of the Beanstalk DAO.

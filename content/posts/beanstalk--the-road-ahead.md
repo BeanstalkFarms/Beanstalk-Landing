@@ -1,8 +1,8 @@
 ---
 title: 'Beanstalk: The Road Ahead'
-subtitle: ""
+subtitle: "A look ahead at Beanstalk's next phase of development"
 author: Beanstalk Farms
-description: A snapshot of the current Beanstalk Roadmap
+description: "A look ahead at Beanstalk's next phase of development"
 date: 2021-10-06T15:42:58.995Z
 image: /assets/uploads/roadmap.png
 ---
