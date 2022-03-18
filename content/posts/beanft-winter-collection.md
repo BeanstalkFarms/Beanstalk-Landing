@@ -1,6 +1,6 @@
 ---
 title: The BeaNFT Winter Collection
-subtitle: ""
+subtitle: "An overview of the Beanstalk community's latest NFT collection."
 author: Beanstalk Farms
 description: Announcing the second project built on top of Beanstalk
 date: 2021-12-22T04:45:03.477Z

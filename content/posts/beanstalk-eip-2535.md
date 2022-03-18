@@ -1,5 +1,6 @@
 ---
 title: "\U0001F331 Beanstalk \U0001F91D EIP-2535 \U0001F48E"
+subtitle: "An overview of Beanstalk Farms' decision to build Beanstalk using a diamond implementation."
 author: "Beanstalk Farms"
 description: >-
   When we started planting the seeds that would become Beanstalk, we initially

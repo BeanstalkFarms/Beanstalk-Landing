@@ -1,6 +1,6 @@
 ---
 title: "Announcing the BeaNFT Genesis Collection"
-subtitle: ""
+subtitle: "A community-led NFT project."
 author: "Beanstalk Farms"
 description: Announcing the first project ever built on top of Beanstalk
 date: 2021-09-25T22:01:36.278Z

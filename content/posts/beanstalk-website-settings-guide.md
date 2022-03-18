@@ -1,6 +1,6 @@
 ---
-title: bean.money Website Settings Guide
-subtitle: ""
+title: Beanstalk Website Settings Guide
+subtitle: "An overview of how to customize transactions on Beanstalk."
 author: Beanstalk Farms
 description: 'Using bean.money for easy, fee-efficient Beanstalk interactions'
 date: 2021-11-17T23:10:26.405Z

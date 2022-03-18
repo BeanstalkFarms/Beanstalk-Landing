@@ -1,5 +1,6 @@
 ---
 title: Introducing Beanstalk
+subtitle: "A decentralized credit based stablecoin built on Ethereum."
 author: "Beanstalk Farms"
 description: A Decentralized Credit Based Stablecoin Protocol
 date: 2021-09-17T17:52:54.077Z

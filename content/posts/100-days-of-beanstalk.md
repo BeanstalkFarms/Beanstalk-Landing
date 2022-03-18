@@ -1,6 +1,6 @@
 ---
 title: 100 Days of Beanstalk
-subtitle: ""
+subtitle: "A recap of Beanstalk's performance and development to date."
 author: Beanstalk Farms
 description: >-
   Where Beanstalk is now, where Beanstalk is going, and how Beanstalk will get

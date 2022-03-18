@@ -1,6 +1,6 @@
 ---
 title: 'Introducing the BEAN:3CRV Pool'
-subtitle: ""
+subtitle: "A new stableswap liquidity pool seeded on Curve."
 author: Beanstalk Farms
 date: 2022-01-07T02:25:01.933Z
 description: >-
