@@ -1,39 +1,50 @@
 import ContentWrapper from '../../components/ContentWrapper'
 import CustomHead from '../../components/CustomHead'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
-import type {NextPage} from 'next';
+import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import BlogLayout from "../../components/BlogLayout";
 
-export async function getStaticProps({ params } : PostData) {
+type PostProps = {
+  // Metadata
+  title: string,
+  date: string,
+  image: string | null,
+  imageAlt: string | null,
+  description: string | null,
+  // Content
+  content: string, 
+}
+
+export async function getStaticProps({ params } : PostData) : Promise<GetStaticPropsResult<PostProps>> {
   const postData = await getPostData(params.id)
+  if(!postData) return { notFound: true }
+  
+  //
+  if(!postData.title || !postData.date || !postData.contentHtml) {
+    return { notFound: true };
+  }
+
   return {
     props: {
+      // Metadata
       title: postData.title,
+      date: postData.date.toString(),
+      image: postData.thumbnail || null,
+      imageAlt: postData.thumbnailAlt || null,
+      description: postData.description || null,
+      // Content
       content: postData.contentHtml,
-      date: postData.date,
-      image: postData.thumbnail,
-      imageAlt: postData.thumbnailAlt,
-      description: postData.description
     },
-    revalidate: 10
+    revalidate: 60
   }
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   const paths = getAllPostIds()
   return {
     paths,
     fallback: 'blocking'
   }
-}
-
-type PostProps = {
-  title: string,
-  content: string,
-  date: string,
-  image?: string,
-  imageAlt?: string,
-  description: string
 }
 
 const DESCRIPTION_LENGTH = 50
@@ -43,8 +54,8 @@ const Post: NextPage<PostProps> = ({title, content, date, image, imageAlt, descr
     <>
       <CustomHead
         title={`${title} | Beanstalk`}
-        description={description}
-        image={image}
+        description={description || undefined}
+        image={image || undefined}
       />
       <ContentWrapper variant="default">
         <div className="space-y-8">

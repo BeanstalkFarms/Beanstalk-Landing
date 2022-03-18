@@ -29,17 +29,14 @@ export function getSortedPostsData(limit?: number) : PostData[] {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents)
 
-    // replace datetime with "friendly" date
-    const friendlyString = moment(matterResult.data.date).format("MMMM Do, YYYY").toString()
-    delete matterResult.data.date
-
     // Combine the data with the id
     return {
       id,
-      date: friendlyString,
+      date: matterResult.data.date,
       ...matterResult.data
     }
   })
+
   // Sort posts by date
   const sortedData = allPostsData.sort(({ date: a }, { date: b }) => {
     if (a < b) {
@@ -50,7 +47,13 @@ export function getSortedPostsData(limit?: number) : PostData[] {
       return 0
     }
   })
-  return (limit === null) ? sortedData : sortedData.slice(0, limit);
+  const friendlySortedData = sortedData.map((postData) : PostData => {
+    // replace datetime with "friendly" date
+    // we do this after the sort so that the dates are properly sorted
+    postData.date = moment(new Date(postData.date)).format("MMMM Do, YYYY")
+    return postData
+  })
+  return (limit === null) ? friendlySortedData : friendlySortedData.slice(0, limit);
 }
 
 
@@ -87,21 +90,22 @@ export async function getPostData(id: string) : Promise<PostData> {
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents)
 
-  // replace datetime with "friendly" date
-  const friendlyString = moment(matterResult.data.date).format("MMMM Do, YYYY")
-  delete matterResult.data.date
-
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
     .process(matterResult.content)
   const contentHtml = processedContent.toString()
 
+  // replace datetime with "friendly" date
+  const postData = { ...matterResult.data }
+
+  postData.date = moment(postData.date).format("MMMM Do, YYYY")
+
   // Combine the data with the id
   return {
     id,
     contentHtml,
-    date: friendlyString,
-    ...matterResult.data
+    date: postData.date,
+    ...postData
   }
 }
