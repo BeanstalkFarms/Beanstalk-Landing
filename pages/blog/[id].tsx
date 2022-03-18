@@ -1,7 +1,7 @@
 import ContentWrapper from '../../components/ContentWrapper'
 import CustomHead from '../../components/CustomHead'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
-import type {NextPage} from 'next';
+import type { NextPage } from 'next';
 import BlogLayout from "../../components/BlogLayout";
 
 export async function getStaticProps({ params } : PostData) {
