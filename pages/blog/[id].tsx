@@ -91,9 +91,10 @@ const Post: NextPage<PostProps> = (props) => {
           url: `https://bean.money/${id}`,
           title: `${title} | Beanstalk`,
           description: description || undefined,
+          type: "article",
           images: [
             {
-              url: (image != null) ? siteUrl + image : "https://bean.money/assets/uploads/barn-and-beans.png",
+              url: (image != null) ? siteUrl + image : siteUrl + "/assets/uploads/barn-and-beans.png",
               width: 1200,
               height: 628,
               // alt: imageAlt,

@@ -3,9 +3,7 @@ title: 'Introducing the BEAN:3CRV Pool'
 subtitle: "A new stableswap liquidity pool seeded on Curve."
 author: Beanstalk Farms
 date: 2022-01-07T02:25:01.933Z
-description: >-
-  Beanstalk  announces the creation of a new BEAN:3CRV stableswap liquidity pool
-  seeded on Curve.
+description: "Beanstalk  announces the creation of a new BEAN:3CRV stableswap liquidity pool seeded on Curve."
 image: /assets/uploads/bean-3crv.png
 ---
 
