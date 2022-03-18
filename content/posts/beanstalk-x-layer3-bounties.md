@@ -3,8 +3,7 @@ title: Beanstalk x Layer3 Bounties
 subtitle: "A new Bean Sprout-led bounty program."
 date: 2022-01-24T19:05:07.011Z
 author: Beanstalk Farms
-description: Today, Bean Sprout — a recently launched Beanstalk accelerator
-  program — announced a series of Layer3 Bounties as part of its ongoing
+description: Announcing a series of Layer3 Bounties as part of its ongoing
   marketing and community outreach efforts to continue growing Beanstalk’s user
   base.
 image: /assets/uploads/layer3.png

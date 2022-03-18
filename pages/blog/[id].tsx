@@ -27,6 +27,12 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     return { notFound: true };
   }
 
+  console.log(`getStaticProps: blog/${params.id}`)
+  console.table([
+    { name: 'title', length: postData.title.length, valid: postData.title.length <= 55 },
+    { name: 'description', length: postData.description.length, valid: postData.description.length <= 160 }
+  ]);
+
   // Note: all CMS fields that are optional must
   // have `|| null` applied below because `undefined` is
   // not JSON-serializable.
