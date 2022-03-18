@@ -8,14 +8,14 @@ export async function getStaticProps({ params } : PostData) {
   const postData = await getPostData(params.id)
   return {
     props: {
-      title: postData.title,
-      content: postData.contentHtml,
-      date: postData.date,
-      image: postData.thumbnail,
-      imageAlt: postData.thumbnailAlt,
-      description: postData.description
+      title: postData.title || null,
+      content: postData.contentHtml || null,
+      date: postData.date || null,
+      image: postData.thumbnail || null,
+      imageAlt: postData.thumbnailAlt || null,
+      description: postData.description || null,
     },
-    revalidate: 10
+    revalidate: 60
   }
 }
 
