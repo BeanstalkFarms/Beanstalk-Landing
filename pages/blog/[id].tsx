@@ -24,17 +24,26 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     return { notFound: true };
   }
 
+  const props = {
+    // Metadata
+    title: postData.title,
+    date: postData.date.toString(),
+    image: postData.thumbnail || null,
+    imageAlt: postData.thumbnailAlt || null,
+    description: postData.description || null,
+    // Content
+    content: postData.contentHtml,
+  };
+
+  try {
+    JSON.parse(JSON.stringify(props));
+  } catch(e) {
+    console.error(e);
+    throw e;
+  }
+
   return {
-    props: {
-      // Metadata
-      title: postData.title,
-      date: postData.date.toString(),
-      image: postData.thumbnail || null,
-      imageAlt: postData.thumbnailAlt || null,
-      description: postData.description || null,
-      // Content
-      content: postData.contentHtml,
-    },
+    props,
     revalidate: 60
   }
 }
@@ -49,7 +58,8 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
 
 const DESCRIPTION_LENGTH = 50
 
-const Post: NextPage<PostProps> = ({title, content, date, image, imageAlt, description}) => {
+const Post: NextPage<PostProps> = (props) => {
+  const { title, content, date, image, imageAlt, description } = props;
   return (
     <>
       <CustomHead
