@@ -48,7 +48,11 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
 }
 
 export async function getStaticPaths() : Promise<GetStaticPathsResult> {
-  const paths = getAllPostIds()
+  // const paths = getAllPostIds()
+  const paths = [
+    { params: { id: 'bip-12-silo-generalization-i' } },
+    { params: { id: 'earn-interest-from-beanstalk-just-the-basics' } }
+  ]
   return {
     paths,
     fallback: true
