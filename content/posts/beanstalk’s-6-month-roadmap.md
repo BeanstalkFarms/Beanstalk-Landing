@@ -1,10 +1,13 @@
 ---
-title: Beanstalk’s 6 Month Roadmap
-date: 2022-02-11T22:56:47.704Z
+author: Beanstalk Farms
 thumbnail: /assets/uploads/roadmap-banner.png
-thumbnailAlt: Beanstalk Roadmap Banner
+title: Beanstalk’s 6 Month Roadmap
+subtitle: ""
+date: 2022-02-11T22:56:47.704Z
 description: Beanstalk is a decentralized credit based stablecoin protocol that
   is built on Ethereum.
+image: /assets/uploads/roadmap.png
+thumbnailAlt: Beanstalk Roadmap Banner
 ---
 Beanstalk at 6 Months
 =====================
