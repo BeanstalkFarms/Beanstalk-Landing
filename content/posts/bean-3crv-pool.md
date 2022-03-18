@@ -15,7 +15,7 @@ Today, Beanstalk Farms is pleased to announce the creation of a new BEAN:3CRV st
 
 Now that the BEAN:3CRV liquidity pool is open, anyone can add or remove liquidity [here](https://curve.fi/factory/81/deposit), and trade against it [here](https://curve.fi/factory/81).
 
-### In this article we will cover:
+### In this article we will cover:
 
 *   What is the BEAN:3CRV pool?
 *   How does the BEAN:3CRV pool benefit Beanstalk?
@@ -32,7 +32,7 @@ Curve is an AMM and decentralized exchange optimized for stable digital assets. 
 
 Curve uses liquidity pools to enable the exchange of assets. These pools are a collection of aggregated tokens deposited into a smart contract by any number of liquidity providers (LPs). Curve LPs are compensated for locking their assets in the protocol by earning a percentage of all Curve swap fees, and some pools offer additional yield rewards in the form of Curve DAO Tokens (CRV).
 
-Curve has grown in popularity and activity over the last 12 months, largely because of its stableswap algorithm, which is an AMM for stablecoins pegged to the same assets and which minimizes [price slippage](https://en.wikipedia.org/wiki/Slippage_%28finance%29) and rewards liquidity providers for their capital contributions. The stableswap algorithm improves upon constant product AMMs like Uniswap, which make no assumptions about the type of digital assets being traded. Curve also offers significantly lower trading fees than Uniswap (.04% compared to .3%). For more information on Curve’s stableswap AMM, please refer to the stableswap [white paper](https://curve.fi/files/stableswap-paper.pdf).
+Curve has grown in popularity and activity over the last 12 months, largely because of its stableswap algorithm, which is an AMM for stablecoins pegged to the same assets and which minimizes [price slippage](https://en.wikipedia.org/wiki/Slippage_%28finance%29) and rewards liquidity providers for their capital contributions. The stableswap algorithm improves upon constant product AMMs like Uniswap, which make no assumptions about the type of digital assets being traded. Curve also offers significantly lower trading fees than Uniswap (.04% compared to .3%). For more information on Curve’s stableswap AMM, please refer to the stableswap [white paper](https://curve.fi/files/stableswap-paper.pdf).
 
 Curve is governed by a robust DAO with well-documented governance procedures and strong [censorship resistance](https://creamdotfinance.medium.com/moving-forward-post-exploit-next-steps-for-c-r-e-a-m-finance-1ad05e2066d5). For more information on Curve’s DAO, please refer to the [white paper](https://curve.fi/files/CurveDAO.pdf).
 

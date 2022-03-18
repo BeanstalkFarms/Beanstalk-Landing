@@ -88,7 +88,7 @@ Below is an example of the `sunrise` function call in a single-proxy implementat
 
 ![](https://cdn-images-1.medium.com/max/800/1*MsyTeLYVbOHC0rp0NWnbvQ.png)
 
-> With the diamond implementation, all the sunrise code can live in the Season facet with the exception of the Oracle functionality, which we intentionally moved to a different facet to make it easy to independently upgrade or replace.
+> With the diamond implementation, all the sunrise code can live in the Season facet with the exception of the Oracle functionality, which we intentionally moved to a different facet to make it easy to independently upgrade or replace.
 
 ![](https://cdn-images-1.medium.com/max/800/1*7JWx3JTLLLadlToEE00eZw.png)
 

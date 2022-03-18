@@ -12,7 +12,7 @@ thumbnailAlt: Beanstalk Roadmap Banner
 
 ![](https://cdn-images-1.medium.com/max/800/1*1CzkFtHdGSpZciuHESh9_g.png)
 
-### Beanstalk at 6 Months
+### Beanstalk at 6 Months
 
 Beanstalk is an experiment.
 
@@ -171,7 +171,7 @@ There are various areas where further improving the efficiency of the peg mainte
 *   The accuracy of measurement of demand for Soil can be improved; and
 *   The Weather Changes can be improved further.
 
-#### A Look Further Ahead
+#### A Look Further Ahead
 
 If the above developments to Beanstalk, which will mostly occur in the first half of 2022 are successful in their aim to facilitate the adoption of Beanstalk and Beans across the Ethereum DeFi ecosystem, there are a variety of unique opportunities Beanstalk could leverage. These are some rough ideas for larger scale Beanstalk development projects that Beanstalk Farms and/or others can pursue over the course of 2022 and beyond. Estimated dates for this section are not included to reflect the uncertain nature of these developments, both technical and practical.
 
@@ -193,7 +193,7 @@ In theory, the Stalk System could be used facilitate a Beanstalk-native zero-fee
 
 The Beanstalk DEX would not replace the need for various other DEXs to be integrated into the Silo and the minting schedule, as centralized providers of stablecoins could always blacklist the Beanstalk contract. However, a Beanstalk DEX remains an interesting concept, particularly in combination with a multi-chain architecture which could facilitate extremely fee-efficient cross-chain exchanges from any asset Beans trade against on the Beanstalk DEX on one chain to any asset Beans trade against on the Beanstalk DEX on another chain.
 
-#### One Big Open Question
+#### One Big Open Question
 
 The rest of this roadmap has been written as if both Stalk and Seeds will become fungible assets in the near future. However, upon reflection about creating the most flexible, efficient, censorship resistant, multi-chain Beanstalk, it is evident that there are a lot of benefits to abstracting away Seeds from the Silo entirely.
 

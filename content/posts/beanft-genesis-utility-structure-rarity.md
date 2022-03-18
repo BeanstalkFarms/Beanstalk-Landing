@@ -25,7 +25,7 @@ Owning a BeaNFT provides a user access to the BeaNFT Club.
 
 Immediately, BeaNFT Club members will have exclusive access to:
 
-*   A Discord channel that only BeaNFT holders will have access to once they verify they own a BeaNFT. You can get access to this channel now by typing `!join` in the Beanstalk [Discord](https://discord.gg/y4cJNv5DTM); and
+*   A Discord channel that only BeaNFT holders will have access to once they verify they own a BeaNFT. You can get access to this channel now by typing `!join` in the Beanstalk [Discord](https://discord.gg/y4cJNv5DTM); and
 *   Voting power over BeaNFT fee distribution.
 
 As Beanstalk and BeaNFTs continue to grow, BeaNFT Club members will have exclusive access to:
@@ -82,7 +82,7 @@ The rarity of any given BeaNFT is mostly random, but there are a few factors tha
 *   **Time after Sunrise**: The closer to a Sunrise the Sow happens, the higher chance of getting any item in various categories is. The categories included are Halos, Hats, Facial Hair, Eyeglasses, and Scarves.
 *   **Did the wallet Sow before Season 1200**: If the wallet had Sown before the BeaNFT event started, they have a higher chance to get a rare body.
 
-### One of a Kind
+### One of a Kind
 
 The metadata and the image are stored on the IPFS. The BeaNFT smart contract ensures that once an NFT is minted:
 

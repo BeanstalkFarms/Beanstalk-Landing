@@ -1,15 +1,11 @@
 ---
-title: "Announcing: The BeaNFT Genesis Collection"
+title: "Announcing the BeaNFT Genesis Collection"
 subtitle: ""
 author: "Beanstalk Farms"
 description: Announcing the first project ever built on top of Beanstalk
 date: 2021-09-25T22:01:36.278Z
 image: /assets/uploads/beanft-genesis.png
 ---
-
-![](https://cdn-images-1.medium.com/max/400/1*jrbSE6p2WWG-pksAM7vgSA.jpeg)
-![](https://cdn-images-1.medium.com/max/400/1*yFl-829GyLkhtwFJTY6SLw.jpeg)
-![](https://cdn-images-1.medium.com/max/400/1*BwAB686GS5qRRqPIX-qJoA.jpeg)
 
 We have been thrilled by the growth of Beanstalk in its initial 50 days, but especially over the past week. While the current debt cycle presents a true test for Beanstalk, we remain confident in the ability of the protocol to return the Bean price to $1.
 

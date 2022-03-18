@@ -10,7 +10,7 @@ date: 2021-11-14T22:00:34.318Z
 
 ![](https://cdn-images-1.medium.com/max/800/1*Kozf3POi7bNfIOJYe7pXJA.png)
 
-### **Where Beanstalk Is Now**
+### **Where Beanstalk Is Now**
 
 It has been 100 days since Beanstalk was deployed on Ethereum Mainnet. Beanstalk has already been through the ringer: a pump-n-dump ~6 weeks after deployment took Beanstalk from a $2.5M market cap to $40M in a matter of hours.
 
@@ -78,7 +78,7 @@ Now, autumn has come to Beanstalk Farms:
 
 **Peg**: Most importantly, the price of 1 Bean has started to more regularly oscillate around $1. The performance of Beanstalk through the pump-n-dump is now a strong tailwind for its development.
 
-### Where Beanstalk is Going
+### Where Beanstalk is Going
 
 While its first 100 days have been incredible, the future of Beanstalk is even more exciting. Now that Beanstalk has demonstrated its ability to stabilize the Bean price around $1, Beanstalk Farms has started charting out and working on the next steps to develop Beanstalk from its current infant state to a full-fledged DeFi behemoth.
 
@@ -120,11 +120,11 @@ In its adult form, Beanstalk will look a lot different than it does today:
 
 Getting from infancy to adulthood is easier said than done, but with a focused, driven, and decentralized effort Beanstalk will get there.
 
-### How Beanstalk Will Get There: An Updated Roadmap
+### How Beanstalk Will Get There: An Updated Roadmap
 
 Looking ahead through the rest of the year and beyond, there is much to be done. As always, the Beanstalk Farms roadmap is constantly evolving in light of new information and may change based on community feedback.
 
-#### Rest of 2021
+#### Rest of 2021
 
 **Community**: As Beanstalk continues to prove its economic model, it is most important that a driven, dynamic, decentralized community continues to form around Beanstalk.
 

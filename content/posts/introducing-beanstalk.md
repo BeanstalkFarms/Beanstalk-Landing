@@ -41,11 +41,11 @@ Beanstalk relies on 3 interconnected parts:
 2.  The Silo, a decentralized governance mechanism, and
 3.  The Field, a decentralized credit facility..
 
-#### **1\. Decentralized Price Oracle**
+#### **1\. Decentralized Price Oracle**
 
 Beanstalk uses 2 Uniswap liquidity pools — USDC:ETH and BEAN:ETH — to create a decentralized price oracle. When the ratios of the two pools are identical, the price of 1 Bean is considered equal to $1.
 
-> By trading against ETH instead of USDC directly, Beanstalk minimizes exposure to the centralized operators of USDC.
+> By trading against ETH instead of USDC directly, Beanstalk minimizes exposure to the centralized operators of USDC.
 
 Beanstalk calculates a Time Weighted Average Price (TWAP) for 1 Bean over each Season.
 
@@ -53,7 +53,7 @@ Beanstalk calculates a Time Weighted Average Price (TWAP) for 1 Bean over each S
 
 Beanstalk uses the Silo, the Beanstalk Decentralized Autonomous Organization, to create a robust decentralized governance mechanism.
 
-> _Any Bean owner can earn yield from passive participation in Beanstalk governance by Depositing their assets in the Silo to receive Seeds and Stalk._
+> _Any Bean owner can earn yield from passive participation in Beanstalk governance by Depositing their assets in the Silo to receive Seeds and Stalk._
 
 Stalk holders can submit and vote on Beanstalk Improvement Proposals and collect a portion of Bean supply increases.
 
@@ -69,7 +69,7 @@ Deep and consistent liquidity in the Bean:ETH Uniswap liquidity pool improves st
 
 > _LP token Deposits receive twice as many Seeds per Bean Deposited as Bean Deposits._
 
-#### **3\.** The Field: a **Decentralized Credit Facility**
+#### **3\.** The Field: a **Decentralized Credit Facility**
 
 Beanstalk relies on a decentralized community of lenders to maintain Bean price stability. The faster Beanstalk can attract creditors, the more stable the Bean price. Bean lending takes place in the Field.
 
@@ -86,7 +86,7 @@ Pods are the Beanstalk-native debt asset. Bean loans have a fixed interest rate 
 
 Beanstalk requires a diverse set of participants, including Depositors (Silo Members), Lenders (Bean Farmers), and arbitrageurs. Beanstalk aligns the incentives of every individual participant to maximize price stability and create a diverse decentralized community. Beanstalk-native financial incentives consistently increase censorship resistance, liquidity and stability over time.
 
-> Beanstalk creates stability during both long run decreases and increases in demand for Beans.
+> Beanstalk creates stability during both long run decreases and increases in demand for Beans.
 
 At the beginning of each Season, Beanstalk evaluates the Beanstalk oracle price and the Beanstalk debt level and dynamically adjusts the Bean supply, Soil supply and Weather.
 

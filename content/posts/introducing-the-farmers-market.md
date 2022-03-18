@@ -20,7 +20,7 @@ The _Field_ is Beanstalk’s decentralized credit facility. It offers yield oppo
 
 Prior to the launch of the _Farmers Market_, _Pods_ were relatively illiquid assets and could only be traded OTC. These peer-to-peer transactions typically relied on a trusted third party to act as an intermediary, which is not decentralized. The lack of a liquid marketplace for _Pods_ also inhibited robust price discovery. Rather than buying and selling _Pods_ OTC, users can now buy and sell _Pods_ directly through Beanstalk on the _Farmers_ _Market_.
 
-### Farmers Market Overview
+### Farmers Market Overview
 
 The _Farmers Market_ is the Beanstalk-native marketplace for exchanging _Pods_.
 

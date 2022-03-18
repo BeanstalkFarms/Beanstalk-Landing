@@ -22,7 +22,7 @@ An overarching long term goal is to ensure Beanstalk is not dependent on Publius
 Reliance on Publius presents both an existential risk to Beanstalk, and one of its biggest challenges. This is reflected throughout the list, but also in a few specific instances worth highlighting:
 
 **1\. Dev Budget** — We will propose one-time BIPs that will mint new Beans and allocate them to a development fund. In the short term, we expect Publius to be responsible for approving payments from the dev budget to developers. Over time, we expect to decentralize this process.  
-   
+   
 The dev budget will allow us to incentivize:
 
 *   Both front and back end developers who are interested in Beanstalk to get their hands on the protocol.
@@ -47,7 +47,7 @@ We have declined to give hard estimates on timing, and instead group the various
 
 With all of that being said, here is the Beanstalk Roadmap for the coming months as of 10/6/21.
 
-#### **Short Term (Rest of October)**
+#### **Short Term (Rest of October)**
 
 *   (DONE) First live AMA with the Beanstalk community via the Beanstalk Discord channel. _(Planned for Thursday 16:00 UTC, Season 1482)_
 *   Publish economic analysis of 1st debt cycle.
@@ -62,7 +62,7 @@ With all of that being said, here is the Beanstalk Roadmap for the coming months
 
 Our estimation is that in total the initial funding BIPs will total at most a few hundred thousand Beans. We intend to create a vesting schedule on all payments made from BIPs.
 
-#### **Medium Term (Rest of 2021)**
+#### **Medium Term (Rest of 2021)**
 
 *   Begin the initial security audit.
 *   Publish the current website code for bean.money.
@@ -71,7 +71,7 @@ Our estimation is that in total the initial funding BIPs will total at most a fe
 *   Select a community leader and approve/fund the position through a BIP.
 *   Begin to have Beanstalk incorporated into other protocols.
 
-#### **Long Term (Early 2022)**
+#### **Long Term (Early 2022)**
 
 *   Finish the initial security audit.
 *   Make Stalk and Seeds tradable ERC-20 tokens.
