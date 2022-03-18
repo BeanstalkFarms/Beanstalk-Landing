@@ -34,8 +34,6 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     content: postData.contentHtml,
   };
 
-  console.log(`${params.id}:`, props);
-
   try {
     JSON.parse(JSON.stringify(props));
   } catch(e) {
