@@ -1,6 +1,6 @@
 const Footer = () => (
   <footer className="my-12">
-    <div className="flex justify-center space-x-8 text-gray-500">
+    <div className="flex flex-row flex-wrap justify-center space-x-8 text-gray-500">
       <a href="https://twitter.com/beanstalkfarms" target="_blank" rel="noreferrer">
         Twitter
       </a>
@@ -16,7 +16,7 @@ const Footer = () => (
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer">
         Github
       </a>
-      <a href="https://www.reddit.com/r/BeanstalkProtocol/" target="_blank" rel="noreferrer">
+      <a href="https://www.reddit.com/r/BeanstalkProtocol/" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Reddit
       </a>
     </div>

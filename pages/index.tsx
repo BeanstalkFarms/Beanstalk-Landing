@@ -68,6 +68,22 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div className="space-y-4">
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-3xl font-normal">Blog</h2>
+            <a href={`/blog`}><p className="text font-normal mr-4 text-blue-600">See all &rarr;</p></a>
+          </div>
+          <div className="flex flex-col space-y-4">
+            {allPostsData.map(({ id, date, title, subtitle }) => (
+              <PostButton
+                key={id}
+                href={`/blog/${id}`}
+                title={title}
+                subtitle={subtitle}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Community</h2>
           <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
@@ -96,22 +112,6 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
               avatar="/assets/community/drparth.jpg">
               $BEAN vs. ESD
             </ContributorButton>
-          </div>
-        </div>
-        <div className="space-y-4">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-3xl font-normal">Blog</h2>
-            <a href={`/blog`}><p className="text font-normal mr-4 text-blue-600">See all &rarr;</p></a>
-          </div>
-          <div className="flex flex-col space-y-4">
-            {allPostsData.map(({ id, date, title, subtitle }) => (
-              <PostButton
-                key={id}
-                href={`/blog/${id}`}
-                title={title}
-                subtitle={subtitle}
-              />
-            ))}
           </div>
         </div>
         {/* <div className="space-y-4">

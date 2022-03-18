@@ -39,7 +39,7 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
           {/* Header */}
           <div className="flex flex-row items-center">
             <div className="flex-1">
-              <Link href="/"><a><img src="/logo.svg" className="md:h-8 h-6" /></a></Link>
+              <Link href="/"><a><img src="/logo.svg" className="h-8" /></a></Link>
             </div>
             <Link href="/blog">
               <a className="inline-block px-4 py-2 text-sm mx-2">
