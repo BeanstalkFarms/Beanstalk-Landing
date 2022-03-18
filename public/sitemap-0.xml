@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://bean.money</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/100-days-of-beanstalk</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/announcing-beanft-genesis-collection</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/bean-3crv-pool</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanft-genesis-utility-structure-rarity</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanft-winter-collection</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanstalk--the-road-ahead</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanstalk-6-month-roadmap</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanstalk-eip-2535</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanstalk-website-settings-guide</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/beanstalk-x-layer3-bounties</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/bip-12-silo-generalization-i</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/earn-interest-from-beanstalk-just-the-basics</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/introducing-beanstalk</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+<url><loc>https://bean.money/blog/introducing-the-farmers-market</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-03-18T21:55:43.789Z</lastmod></url>
+</urlset>

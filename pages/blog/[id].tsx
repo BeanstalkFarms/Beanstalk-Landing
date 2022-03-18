@@ -2,10 +2,13 @@ import ContentWrapper from '../../components/ContentWrapper'
 import CustomHead from '../../components/CustomHead'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
+import { NextSeo } from 'next-seo';
 import BlogLayout from "../../components/BlogLayout";
+
 
 type PostProps = {
   // Metadata
+  id: string;
   title: string;
   subtitle: string | null;
   author: string;
@@ -30,6 +33,7 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
   return {
     props: {
       // Metadata
+      id: params.id,
       title: postData.title,
       subtitle: postData.subtitle || null,
       author: postData.author,
@@ -54,6 +58,7 @@ const DESCRIPTION_LENGTH = 50
 
 const Post: NextPage<PostProps> = (props) => {
   const {
+    id,
     title,
     subtitle,
     author,
@@ -65,10 +70,33 @@ const Post: NextPage<PostProps> = (props) => {
 
   return (
     <>
-      <CustomHead
+      {/*<CustomHead*/}
+      {/*  title={`${title} | Beanstalk`}*/}
+      {/*  description={description || undefined}*/}
+      {/*  image={image || undefined}*/}
+      {/*/>*/}
+      <NextSeo
         title={`${title} | Beanstalk`}
         description={description || undefined}
-        image={image || undefined}
+        openGraph={{
+          url: `https://bean.money/${id}`,
+          title: `${title} | Beanstalk`,
+          description: description || undefined,
+          images: [
+            {
+              url: image!= null ? image : "/assets/uploads/barn-and-beans.png",
+              width: 800,
+              height: 600,
+              // alt: imageAlt,
+              type: 'image/jpeg',
+            }
+          ],
+          site_name: 'Beanstalk',
+        }}
+        twitter={{
+          handle: '@beanstalkfarms',
+          cardType: 'summary_large_image',
+        }}
       />
       <ContentWrapper variant="default">
         <div className="space-y-8">
