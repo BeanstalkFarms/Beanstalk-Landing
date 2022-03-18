@@ -46,7 +46,7 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   const paths = getAllPostIds()
   return {
     paths,
-    fallback: 'blocking'
+    fallback: true
   }
 }
 
