@@ -75,10 +75,9 @@ const Post: NextPage<PostProps> = (props) => {
     description
   } = props;
 
-  var siteUrl = process.env.SITE_URL || "https://bean.money";
-  if (typeof window !== 'undefined') {
-    siteUrl = window.location.origin;
-  }
+  const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
+  console.log("SiteURL: " + siteUrl);
+
 
   return (
     <>
