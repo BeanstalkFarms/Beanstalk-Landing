@@ -37,6 +37,15 @@ module.exports = {
             },
             a: {
               color: theme('colors.blue.500'),
+            },
+            blockquote: {
+              fontStyle: "normal",
+              "& > p:before": {
+                content: "none"
+              },
+              "& > p:after": {
+                content: "none"
+              },
             }
           },
         },
