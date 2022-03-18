@@ -10,7 +10,7 @@ const BLOG_POSTS_PATH = './content/posts'
 
 export type PostData = {
   id: string,
-  date: string,
+  date?: string,
   contentHtml?: string,
   [key: string]: any;
 }
