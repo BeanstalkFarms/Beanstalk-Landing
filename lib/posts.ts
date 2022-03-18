@@ -5,8 +5,7 @@ import moment from 'moment'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-
-const BLOG_POSTS_PATH = './content/posts'
+const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
 
 export type PostData = {
   id: string,
