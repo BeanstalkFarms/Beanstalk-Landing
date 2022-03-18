@@ -90,7 +90,7 @@ const Post: NextPage<PostProps> = (props) => {
         title={`${title} | Beanstalk`}
         description={description || undefined}
         openGraph={{
-          url: `https://bean.money/${id}`,
+          url: `${siteUrl}/${id}`,
           title: `${title} | Beanstalk`,
           description: description || undefined,
           type: "article",
