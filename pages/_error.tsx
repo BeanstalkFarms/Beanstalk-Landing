@@ -6,7 +6,7 @@ function Error(props: any) {
       {props.statusCode
         ? `An error ${props.statusCode} occurred on server`
         : 'An error occurred on client'}
-      {props.err?.toString()}
+      {JSON.stringify(props.err || {})}
     </p>
   )
 }
