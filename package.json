@@ -6,7 +6,8 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seo": "node scripts/seo"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
