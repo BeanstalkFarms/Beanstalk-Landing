@@ -17,6 +17,7 @@ collections:
     folder: "content/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template
+    preview_path: blog/{{slug}}
     fields: # The fields for each document, usually in gray-matter
       - label: "Title"
         name: "title"
