@@ -1,5 +1,6 @@
 import ContentWrapper from '../../components/ContentWrapper'
 import CustomHead from '../../components/CustomHead'
+import path from 'path'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import { NextSeo } from 'next-seo';
@@ -74,6 +75,8 @@ const Post: NextPage<PostProps> = (props) => {
     description
   } = props;
 
+  const siteUrl = process.env.SITE_URL || "https://bean.money"
+
   return (
     <>
       {/*<CustomHead*/}
@@ -90,9 +93,9 @@ const Post: NextPage<PostProps> = (props) => {
           description: description || undefined,
           images: [
             {
-              url: image!= null ? image : "/assets/uploads/barn-and-beans.png",
-              width: 800,
-              height: 600,
+              url: (image != null) ? siteUrl + image : "https://bean.money/assets/uploads/barn-and-beans.png",
+              width: 1200,
+              height: 628,
               // alt: imageAlt,
               type: 'image/jpeg',
             }
