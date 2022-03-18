@@ -64,7 +64,7 @@ const Post: NextPage<PostProps> = (props) => {
   } = props;
 
   return (
-    <BlogLayout>
+    <>
       <CustomHead
         title={`${title} | Beanstalk`}
         description={description || undefined}
@@ -85,7 +85,7 @@ const Post: NextPage<PostProps> = (props) => {
           />
         </div>
       </ContentWrapper>
-    </BlogLayout>
+    </>
   )
 }
 

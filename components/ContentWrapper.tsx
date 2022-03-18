@@ -3,6 +3,7 @@ import { FC, ReactNode } from "react";
 import Button from "./Button";
 
 import styles from './ContentWrapper.module.css';
+import Footer from "./Footer";
 
 type ContentWrapperProps = {
   variant: "default" | "side-image";
@@ -17,8 +18,14 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
     <div className="flex flex-row">
       <div className={styles.TextContainer}>
         <div className="max-w-[720px] space-y-24 lg:pb-12">
-          <Link href="/"><a><img src="/logo.svg" className="md:h-12 h-10" /></a></Link>
+          {/* Header */}
+          <div>
+            <Link href="/"><a><img src="/logo.svg" className="md:h-12 h-10" /></a></Link>
+          </div>
+          {/* Content */}
           {children}
+          {/* Footer */}
+          <Footer />
         </div>
       </div>
       <div className={styles.FarmImage}></div>
@@ -45,9 +52,9 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
           </div>
           {/* Content */}
           {children}
-          {/* Footer */}
-          <div />
         </div>
+        {/* Footer */}
+        <Footer />
       </div>
     </div>
   )

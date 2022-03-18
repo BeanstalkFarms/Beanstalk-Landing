@@ -114,7 +114,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             ))}
           </div>
         </div>
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Follow</h2>
           <Button
             target="_blank"
@@ -145,7 +145,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             icon="/assets/icon/reddit.png">
             Reddit
           </Button>
-        </div>
+        </div> */}
       </ContentWrapper>
     </>
   )
