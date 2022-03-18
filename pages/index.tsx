@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Button from '../components/Button';
+import PostButton from '../components/PostButton';
 import ContributorButton from '../components/ContributorButton';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
-import PostItem from "../components/PostItem";
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -99,20 +99,20 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           </div>
         </div>
         <div className="space-y-4">
-          <div className="flex justify-between items-end">
-            <h2 className="text-3xl mb-6 font-normal">Blog</h2>
-            <a href={`/blog`}><p className="text mb-6 font-normal mr-4 text-blue-600">see all</p></a>
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-3xl font-normal">Blog</h2>
+            <a href={`/blog`}><p className="text font-normal mr-4 text-blue-600">See all &rarr;</p></a>
           </div>
-          {allPostsData.map(({ id, date, title, thumbnail }) => (
-            <Button
-              key={id}
-              rel="noreferrer"
-              href={`/blog/${id}/`}
-              icon="/assets/icon/beanstalk.svg"
-              desc={date}>
-              {title}
-            </Button>
-          ))}
+          <div className="flex flex-col space-y-4">
+            {allPostsData.map(({ id, date, title, subtitle }) => (
+              <PostButton
+                key={id}
+                href={`/blog/${id}`}
+                title={title}
+                subtitle={subtitle}
+              />
+            ))}
+          </div>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Follow</h2>

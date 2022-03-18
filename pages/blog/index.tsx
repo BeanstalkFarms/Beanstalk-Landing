@@ -3,8 +3,7 @@ import CustomHead from "../../components/CustomHead";
 import { getSortedPostsData } from '../../lib/posts'
 import { NextPage } from "next";
 import { PostData } from '../../lib/posts'
-import PostItem from "../../components/PostItem";
-import Button from "../../components/Button";
+import PostButton from "../../components/PostButton";
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -27,19 +26,19 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
     />
     <ContentWrapper variant="default">
       <div className="space-y-6">
-        <h1 className="text-5xl font-normal leading-[3.5rem]">
+        <h1 className="text-4xl font-normal leading-[3.5rem]">
           Blog
         </h1>
-        {allPostsData.map(({ id, date, title, thumbnail }) => (
-          <Button
-            key={id}
-            rel="noreferrer"
-            href={`/blog/${id}/`}
-            icon="/assets/icon/beanstalk.svg"
-            desc={date}>
-            {title}
-          </Button>
-        ))}
+        <div className="flex flex-col space-y-4">
+          {allPostsData.map(({ id, title, subtitle }) => (
+            <PostButton
+              key={id}
+              href={`/blog/${id}/`}
+              title={title}
+              subtitle={subtitle}
+            />
+          ))}
+        </div>
       </div>
     </ContentWrapper>
   </>
