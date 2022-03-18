@@ -43,7 +43,7 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
 
   return {
     props,
-    revalidate: 60
+    // revalidate: 60
   }
 }
 
