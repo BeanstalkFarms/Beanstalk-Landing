@@ -1,6 +1,6 @@
 ---
 title: Beanstalk’s 6 Month Roadmap
-subtitle: ""
+subtitle: " look ahead at Beanstalk's next phase of development."
 author: Beanstalk Farms
 thumbnail: /assets/uploads/roadmap-banner.png
 date: 2022-02-11T22:56:47.704Z
