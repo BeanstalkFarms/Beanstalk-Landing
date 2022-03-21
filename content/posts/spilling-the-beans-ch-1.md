@@ -10,6 +10,8 @@ description: Spilling the Beans is a series where Beanstalk community members
   Bean yield strategies.
 image: /assets/uploads/spillingthebeans_1_mod.png
 ---
+![Mod323 from Beanstalk Farms](/assets/uploads/spillingthebeans_1_mod.png "Mod323 from Beanstalk Farms")
+
 Welcome to the first volume of Spilling the Beans, where members of the [Beanstalk](https://bean.money/) community spill the Beans on their backgrounds, how they first got Bean-pilled, and their preferred Bean yield strategies. 
 
 Disclaimer: none of this is financial advice. I am simply highlighting popular Beanstalk farming strategies that community members personally employ. 
@@ -19,8 +21,6 @@ Disclaimer: none of this is financial advice. I am simply highlighting popular B
 Beanstalk is the most successful decentralized credit-based stablecoin in history. With 3500+ peg crosses in the 7 months since its inception, Bean has started to prove itself as DeFi’s key to unlocking a scalable, decentralized stablecoin market.
 
 For more information on how [Beanstalk](http://bean.money) works and the mechanisms behind it, check out this straightforward [introduction](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
-
-
 
 ### **Spilling the Beans with mod323**
 
@@ -33,8 +33,6 @@ mod was immediately enraptured by all the innovation and opportunity that DeFi h
 After doing extensive research on the protocol, he became a dedicated Bean farmer and a core contributor to the community. mod had never seen anything like Beanstalk before, nor had he ever been so early to a promising project. 
 
 This doesn’t come as a particular surprise based on his past history, either. Mod has a background in process control—loosely defined as “the ability to monitor and adjust a process to give a desired output.”
-
-
 
 ### Process control is exactly what Beanstalk does. 
 
@@ -51,8 +49,6 @@ Upon a little digging, mod made it clear that he understands and identifies with
 He talked constantly about why the two-part Field/Silo model is genius. Though the technical/mathematics section of the whitepaper is most-often overlooked by newcomers, it is mod’s bread and butter. 
 
 More than anything, he was excited by the protocol’s groundbreaking economics and elegant levers used to maintain Bean’s peg.
-
-
 
 ### The math checks out. That’s all he needed. 
 
@@ -80,8 +76,6 @@ At first, he resisted the question. He understands why any option might be more 
 
 What does mod prefer?
 
-
-
 ### Well, Mod’s a Silo guy.
 
 There’s no other way to put it. mod loves the Silo. Big Silo guy for sure. 
@@ -96,8 +90,6 @@ Put simply, being invested in the Silo and continuously earning Stalk allows you
 
 **Note**: In the future, Beanstalk Farms aims to convert Stalk to a liquid, tradable ERC-20 token, making the SIlo even more attractive. 
 
-
-
 ### The Percentage Split 
 
 “\~65% Silo, \~30% Field, ~5% Marketplace” 
@@ -110,8 +102,6 @@ That said, mod also thinks that the interest rate offered by the protocol is mor
 
 To mod, very few of the Pods on the marketplace are currently undervalued. However, this might change as soil becomes scarce and pods are only available at the marketplace.
 
-
-
 ### A Logical Pioneer. A High-Conviction Player. 
 
 mod is a voice of calm and reason in the Beanstalk community. His passion for the protocol and the Bean stablecoin shines through in everything he touches. 
@@ -120,13 +110,9 @@ More than anything, mod is a builder working to bring the Beanstalk protocol to 
 
 I think we can all learn something from that. 
 
-
-
 ### About Beanstalk
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, credit based stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the most accessible digital money system. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless solution that unlocks the potential of decentralized finance for everyone. Learn more at [bean.money](http://bean.money).
-
-
 
 ### **Written by**
 
