@@ -4,7 +4,7 @@ subtitle: "Spilling the Beans is a series where Beanstalk community members
   discuss their backgrounds, how they first got Bean-pilled, and their preferred
   Bean yield strategies. "
 date: 2022-03-20T23:32:49.272Z
-author: Beanstalk Farms
+author: Dalteco
 description: Spilling the Beans is a series where Beanstalk community members
   discuss their backgrounds, how they first got Bean-pilled, and their preferred
   Bean yield strategies.
@@ -111,7 +111,3 @@ I think we can all learn something from that. 
 ### About Beanstalk
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, credit based stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the most accessible digital money system. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless solution that unlocks the potential of decentralized finance for everyone. Learn more at [bean.money](http://bean.money).
-
-### **Written by**
-
-Dalteco - Writer at Beanstalk Farms
