@@ -14,9 +14,7 @@ Welcome to the first volume of Spilling the Beans, where members of the [Beansta
 
 Disclaimer: none of this is financial advice. I am simply highlighting popular Beanstalk farming strategies that community members personally employ. 
 
-
-
-## **What is Beanstalk?** 
+### **What is Beanstalk?** 
 
 Beanstalk is the most successful decentralized credit-based stablecoin in history. With 3500+ peg crosses in the 7 months since its inception, Bean has started to prove itself as DeFi’s key to unlocking a scalable, decentralized stablecoin market.
 
@@ -24,7 +22,7 @@ For more information on how [Beanstalk](http://bean.money) works and the mechani
 
 
 
-## **Spilling the Beans with mod323**
+### **Spilling the Beans with mod323**
 
 Last week I had the pleasure of talking shop with Beanstalk Farm’s Partnerships Lead - mod323. 
 
@@ -38,7 +36,7 @@ This doesn’t come as a particular surprise based on his past history, either. 
 
 
 
-## Process control is exactly what Beanstalk does. 
+### Process control is exactly what Beanstalk does. 
 
 Build, monitor, and adjust the various processes controlling the Bean supply to maintain a stable peg to the U.S Dollar. Once mod understood the process behind Beanstalk and Bean, he was completely Bean-pilled. After all, if someone with his extensive background couldn’t find major flaws in the process, who could?
 
@@ -54,7 +52,9 @@ He talked constantly about why the two-part Field/Silo model is genius. Though t
 
 More than anything, he was excited by the protocol’s groundbreaking economics and elegant levers used to maintain Bean’s peg.
 
-## The math checks out. That’s all he needed. 
+
+
+### The math checks out. That’s all he needed. 
 
 It’s clear that mod is passionate about Beanstalk. It was evident throughout my conversation with him, but it’s also obvious in his continuous dedication to spreading the word about Bean. 
 
@@ -76,11 +76,13 @@ My question exactly. He might’ve tried everything, but I wanted him to spill t
 
 At first, he resisted the question. He understands why any option might be more attractive than the other. The Silo accumulates Stalk and Seeds, the Field offers incredibly high interest rates, and the Pod marketplace has arbitrage opportunities—mod’s reasoning was crisp, clear, and entirely impersonal.
 
-**Context:** The Beanstalk community has recently been working on a yield curve for the Pod marketplace to get a sense of the fair market value of Pods based on their place in line. The idea is that there might be arbitrage opportunities for undervalued Pods. 
+**Context:** The Beanstalk community has recently been working on a [yield curve](https://dune.xyz/tbiq/Beanstalk) for the Pod marketplace to get a sense of the fair market value of Pods based on their place in line. The idea is that there might be arbitrage opportunities for undervalued Pods. 
 
 What does mod prefer?
 
-## Well, Mod’s a Silo guy.
+
+
+### Well, Mod’s a Silo guy.
 
 There’s no other way to put it. mod loves the Silo. Big Silo guy for sure. 
 
@@ -94,7 +96,9 @@ Put simply, being invested in the Silo and continuously earning Stalk allows you
 
 **Note**: In the future, Beanstalk Farms aims to convert Stalk to a liquid, tradable ERC-20 token, making the SIlo even more attractive. 
 
-## The Percentage Split 
+
+
+### The Percentage Split 
 
 “\~65% Silo, \~30% Field, ~5% Marketplace” 
 
@@ -108,7 +112,7 @@ To mod, very few of the Pods on the marketplace are currently undervalued. Howev
 
 
 
-## A Logical Pioneer. A High-Conviction Player. 
+### A Logical Pioneer. A High-Conviction Player. 
 
 mod is a voice of calm and reason in the Beanstalk community. His passion for the protocol and the Bean stablecoin shines through in everything he touches. 
 
@@ -118,12 +122,12 @@ I think we can all learn something from that. 
 
 
 
-## About Beanstalk
+### About Beanstalk
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, credit based stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the most accessible digital money system. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless solution that unlocks the potential of decentralized finance for everyone. Learn more at [bean.money](http://bean.money).
 
 
 
-## **Written by**
+### **Written by**
 
 Dalteco - Writer at Beanstalk Farms
