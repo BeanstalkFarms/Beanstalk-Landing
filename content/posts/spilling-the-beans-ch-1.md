@@ -6,8 +6,8 @@ subtitle: "Spilling the Beans is a series where Beanstalk community members
 date: 2022-03-20T23:32:49.272Z
 author: Dalteco
 description: Spilling the Beans is a series where Beanstalk community members
-  discuss their backgrounds, how they first got Bean-pilled, and their preferred
-  Bean yield strategies.
+  discuss how they first got Bean-pilled, and their preferred Bean yield
+  strategies.
 image: /assets/uploads/spillingthebeans_1_mod.png
 ---
 Welcome to the first volume of Spilling the Beans, where members of the [Beanstalk](https://bean.money/) community spill the Beans on their backgrounds, how they first got Bean-pilled, and their preferred Bean yield strategies. 
