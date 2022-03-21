@@ -10,8 +10,6 @@ description: Spilling the Beans is a series where Beanstalk community members
   Bean yield strategies.
 image: /assets/uploads/spillingthebeans_1_mod.png
 ---
-![Mod323 from Beanstalk Farms](/assets/uploads/spillingthebeans_1_mod.png "Mod323 from Beanstalk Farms")
-
 Welcome to the first volume of Spilling the Beans, where members of the [Beanstalk](https://bean.money/) community spill the Beans on their backgrounds, how they first got Bean-pilled, and their preferred Bean yield strategies. 
 
 Disclaimer: none of this is financial advice. I am simply highlighting popular Beanstalk farming strategies that community members personally employ. 
