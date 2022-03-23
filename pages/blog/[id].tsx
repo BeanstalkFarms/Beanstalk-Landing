@@ -1,9 +1,8 @@
-import ContentWrapper from '../../components/ContentWrapper'
-import CustomHead from '../../components/CustomHead'
-import path from 'path'
-import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import { NextSeo } from 'next-seo';
+
+import ContentWrapper from '../../components/ContentWrapper'
+import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 import BlogLayout from "../../components/BlogLayout";
 
 
@@ -28,6 +27,7 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
     return { notFound: true };
   }
 
+  // Log information about posts for SEO debugging.
   console.log(`getStaticProps: blog/${params.id}`)
   console.table([
     { name: 'title', length: postData.title.length, valid: postData.title.length <= 55 },
@@ -60,8 +60,6 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
     fallback: true
   }
 }
-
-const DESCRIPTION_LENGTH = 50
 
 const Post: NextPage<PostProps> = (props) => {
   const {
