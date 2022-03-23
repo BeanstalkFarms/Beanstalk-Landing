@@ -1,6 +1,6 @@
 ---
 title: "The Bi-Weekly Bean #1"
-date: 2022-03-23T00:45:40.729Z
+date: 2022-03-23T16:54:30.861Z
 author: Beanstalk Farms
 description: The Bi-Weekly Bean, a newsletter where we recap Beanstalk’s
   highlights from the past two weeks.
