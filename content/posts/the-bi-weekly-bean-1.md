@@ -11,19 +11,19 @@ What is Beanstalk? Beanstalk is a decentralized credit-based stablecoin protocol
 
 ## **Protocol Summary**
 
-![](https://miro.medium.com/max/1400/1*JhbsUmqmb5h2Q38RUJxFhg.png)
+![Bean price](/assets/uploads/bean-price.png)
 
 The price of BEAN has remained tightly pegged over the last two weeks, with a maximum single-Season TWAP deviation of -$0.026. In the past week, price has remained mostly above peg, resulting in 1,268,099 newly-minted Beans since the beginning of March.
 
-![](https://miro.medium.com/max/1400/1*RRhaQk-QLrnp7uKkpzFraA.png)
+![Bean Pod Rate](/assets/uploads/beanstalk-pod-rate.png)
 
 The recent increased demand for Bean is reflected in Beanstalk’s Pod Rate - the ratio of Unharvestable Pods to total Beans - which has begun to soften, and the protocol’s overall liquidity, which began kicking up materially on March 14th.
 
-![Bean Siloed Liquidity](/assets/uploads/screen-shot-2022-03-17-at-6.00.03-pm.png "Bean Siloed Liquidity")
+![Bean Siloed Liquidity](/assets/uploads/bean-siloed-lp.png "Bean Siloed Liquidity")
 
 Weather reversed its upward trend around March 11th as a result of BIP-13’s commitment. The BIP adjusted Weather Changes so that when demand for Soil is decreasing and P > 1, Weather does not change.
 
-![Beanstalk Field Weather](/assets/uploads/screen-shot-2022-03-17-at-6.04.27-pm.png)
+![Beanstalk Field Weather](/assets/uploads/beanstalk-weather.png)
 
 ## **Protocol Updates**
 
