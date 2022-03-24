@@ -1,7 +1,7 @@
 ---
 title: Announcing the BEAN:LUSD Curve Pool
 subtitle: Today, Beanstalk Farms deployed a new BEAN:LUSD Curve stableswap liquidity pool
-date: 2022-03-24T16:39:01.382Z
+date: 2022-03-24T16:53:02.881Z
 author: Beanstalk Farms
 description: Today, Beanstalk Farms deployed a new BEAN:LUSD Curve stableswap liquidity pool
 image: ""
