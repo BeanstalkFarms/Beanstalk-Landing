@@ -4,7 +4,7 @@ subtitle: Today, Beanstalk Farms deployed a new BEAN:LUSD Curve stableswap liqui
 date: 2022-03-24T16:53:02.881Z
 author: Beanstalk Farms
 description: Today, Beanstalk Farms deployed a new BEAN:LUSD Curve stableswap liquidity pool
-image: /assets/uploads/bean-lusd-curve-pool-announcement.png
+image: ""
 ---
 ![](/assets/uploads/bean-lusd-curve-pool-announcement.png)
 
@@ -39,3 +39,5 @@ Both protocols are designed to be accessible, decentralized and composable.  
 ## About Beanstalk
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of $BEAN, a decentralized credit based stablecoin. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless solution that unlocks the potential of decentralized finance for everyone. Learn more at [bean.money](http://bean.money/).
+
+BEAN and LUSD holders can add liquidity and trade here: <https://curve.fi/factory/103/deposit>
