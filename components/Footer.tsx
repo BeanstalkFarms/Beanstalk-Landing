@@ -13,7 +13,10 @@ const Footer = () => (
       <a href="https://dune.xyz/tbiq/Beanstalk" target="_blank" rel="noreferrer">
         Dune
       </a>
-      <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer">
+      <a href="https://www.coingecko.com/en/coins/bean" target="_blank" rel="noreferrer">
+        CoinGecko
+      </a>
+      <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Github
       </a>
       <a href="https://www.reddit.com/r/BeanstalkProtocol/" target="_blank" rel="noreferrer" className="md:inline-block hidden">
