@@ -1,20 +1,19 @@
 ---
 title: Introducing Beanstalk
-subtitle: "A decentralized credit based stablecoin built on Ethereum."
-author: "Beanstalk Farms"
-description: A Decentralized Credit Based Stablecoin Protocol
+subtitle: A decentralized credit based stablecoin built on Ethereum.
 date: 2021-09-17T17:52:54.077Z
+author: Beanstalk Farms
+description: A Decentralized Credit Based Stablecoin Protocol
 ---
-
 ![](https://cdn-images-1.medium.com/max/800/1*W0LppdZfX7V1D1DrMTB9ZQ.png)
 
 Welcome to Beanstalk! Beanstalk is a new, decentralized credit based stablecoin protocol that is built on Ethereum. This medium article is a brief introduction to Beanstalk.
 
 ### **Highlights**
 
-*   The first Beanstalk issues a USD stablecoin (Bean) on the Ethereum blockchain.
-*   Beanstalk offers a variety of _passive_ and _active_ opportunities for Bean holders to earn interest directly from the protocol.
-*   Beanstalk does not have any collateral requirements. Beanstalk uses credit instead of collateral to create price stability relative to a non-blockchain-native asset.
+* The first Beanstalk issues a USD stablecoin (Bean) on the Ethereum blockchain.
+* Beanstalk offers a variety of *passive* and *active* opportunities for Bean holders to earn interest directly from the protocol.
+* Beanstalk does not have any collateral requirements. Beanstalk uses credit instead of collateral to create price stability relative to a non-blockchain-native asset.
 
 ## **A New Type of Stablecoin**
 
@@ -30,19 +29,19 @@ Beanstalk creates protocol-native financial incentives to encourage participatio
 
 Beanstalk issues 3 ERC-20 Standard tokens:
 
-1.  Beans, the Beanstalk stablecoin,
-2.  Stalk, a yield generating governance token, and
-3.  Seeds, which yield 1/10000 Stalk every Season.
+1. Beans, the Beanstalk stablecoin,
+2. Stalk, a yield generating governance token, and
+3. Seeds, which yield 1/10000 Stalk every Season.
 
 Seasons are the Beanstalk-native timekeeping mechanism. Each Season is ∼1 hour long.
 
 Beanstalk relies on 3 interconnected parts:
 
-1.  A decentralized price oracle,
-2.  The Silo, a decentralized governance mechanism, and
-3.  The Field, a decentralized credit facility..
+1. A decentralized price oracle,
+2. The Silo, a decentralized governance mechanism, and
+3. The Field, a decentralized credit facility..
 
-### **1\. Decentralized Price Oracle**
+### **1. Decentralized Price Oracle**
 
 Beanstalk uses 2 Uniswap liquidity pools — USDC:ETH and BEAN:ETH — to create a decentralized price oracle. When the ratios of the two pools are identical, the price of 1 Bean is considered equal to $1.
 
@@ -50,11 +49,11 @@ Beanstalk uses 2 Uniswap liquidity pools — USDC:ETH and BEAN:ETH — t
 
 Beanstalk calculates a Time Weighted Average Price (TWAP) for 1 Bean over each Season.
 
-### **2\.** The Silo: a **Decentralized Governance Mechanism**
+### **2.** The Silo: a **Decentralized Governance Mechanism**
 
 Beanstalk uses the Silo, the Beanstalk Decentralized Autonomous Organization, to create a robust decentralized governance mechanism.
 
-> _Any Bean owner can earn yield from passive participation in Beanstalk governance by Depositing their assets in the Silo to receive Seeds and Stalk._
+> *Any Bean owner can earn yield from passive participation in Beanstalk governance by Depositing their assets in the Silo to receive Seeds and Stalk.*
 
 Stalk holders can submit and vote on Beanstalk Improvement Proposals and collect a portion of Bean supply increases.
 
@@ -62,26 +61,26 @@ A high value of Deposits and diverse community of Stalk holders creates a robust
 
 To encourage consistent security:
 
-*   Seeds yield Stalk every Season.
-*   The associated amount of Seeds and Stalk from a given Deposit must be forfeited when the Deposit is Withdrawn from the Silo.
-*   Deposits can be Withdrawn from the Silo at any time but are Frozen for 24 full Seasons after Withdrawal.
+* Seeds yield Stalk every Season.
+* The associated amount of Seeds and Stalk from a given Deposit must be forfeited when the Deposit is Withdrawn from the Silo.
+* Deposits can be Withdrawn from the Silo at any time but are Frozen for 24 full Seasons after Withdrawal.
 
 Deep and consistent liquidity in the Bean:ETH Uniswap liquidity pool improves stability. LP providers to the USD BEAN:ETH Uniswap liquidity pool can also Deposit their LP tokens in the Silo to earn Seeds and Stalk.
 
-> _LP token Deposits receive twice as many Seeds per Bean Deposited as Bean Deposits._
+> *LP token Deposits receive twice as many Seeds per Bean Deposited as Bean Deposits.*
 
-### **3\.** The Field: a **Decentralized Credit Facility**
+### **3.** The Field: a **Decentralized Credit Facility**
 
 Beanstalk relies on a decentralized community of lenders to maintain Bean price stability. The faster Beanstalk can attract creditors, the more stable the Bean price. Bean lending takes place in the Field.
 
-*   Anytime Beanstalk is willing to issue debt, there is Soil in the Field.
-*   Soil is the pre-approved number of Beans that can be lent to Beanstalk.
-*   Any Beans not in the Silo can be lent to Beanstalk in exchange for Pods.
+* Anytime Beanstalk is willing to issue debt, there is Soil in the Field.
+* Soil is the pre-approved number of Beans that can be lent to Beanstalk.
+* Any Beans not in the Silo can be lent to Beanstalk in exchange for Pods.
 
 Pods are the Beanstalk-native debt asset. Bean loans have a fixed interest rate and unknown maturity date.
 
-*   The number of Pods that grow from 1 Sown Bean is determined by the Weather — the Beanstalk-native interest rate — at the time of Sowing.
-*   Pods ripen and become Harvestable (redeemable) for 1 Bean on a First In, First Out (FIFO) basis during future Bean supply increases.
+* The number of Pods that grow from 1 Sown Bean is determined by the Weather — the Beanstalk-native interest rate — at the time of Sowing.
+* Pods ripen and become Harvestable (redeemable) for 1 Bean on a First In, First Out (FIFO) basis during future Bean supply increases.
 
 ## **How Does Beanstalk Create Stability?**
 
@@ -93,15 +92,15 @@ At the beginning of each Season, Beanstalk evaluates the Beanstalk oracle price 
 
 When the Bean price is too low, Beanstalk:
 
-*   Increases the Soil supply.
-*   Raises the Weather.
+* Increases the Soil supply.
+* Raises the Weather.
 
 By increasing the Soil and raising the Weather, Beanstalk can decrease the supply of Beans and bring the Bean price back to its peg.
 
 When the Bean price is too high, Beanstalk:
 
-*   Increases the Bean supply.
-*   Lowers the Weather.
+* Increases the Bean supply.
+* Lowers the Weather.
 
 By increasing the Bean supply and lowering the Weather, Beanstalk can bring the Bean price back to its peg.
 
@@ -121,5 +120,7 @@ You can ask questions and join the community discussion on [Telegram](https://t.
 
 Follow us on [Twitter](https://twitter.com/BeanstalkFarms)!
 
-[**Beanstalk | A Decentralized Credit Based Stablecoin Protocol**  
-_bean.money_bean.money](https://bean.money/ "https://bean.money/")[](https://bean.money/)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Welcome to Beanstalk!<a href="https://t.co/t9We8gXlOu">https://t.co/t9We8gXlOu</a></p>&mdash; Beanstalk Farms (@BeanstalkFarms) <a href="https://twitter.com/BeanstalkFarms/status/1438927829752758277?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[**Beanstalk | A Decentralized Credit Based Stablecoin Protocol**\
+_bean.money_bean.money](https://bean.money/ "https\://bean.money/")[](https://bean.money/)
