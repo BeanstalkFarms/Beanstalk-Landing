@@ -120,7 +120,5 @@ You can ask questions and join the community discussion on [Telegram](https://t.
 
 Follow us on [Twitter](https://twitter.com/BeanstalkFarms)!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Welcome to Beanstalk!<a href="https://t.co/t9We8gXlOu">https://t.co/t9We8gXlOu</a></p>&mdash; Beanstalk Farms (@BeanstalkFarms) <a href="https://twitter.com/BeanstalkFarms/status/1438927829752758277?ref_src=twsrc%5Etfw">September 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 [**Beanstalk | A Decentralized Credit Based Stablecoin Protocol**\
 _bean.money_bean.money](https://bean.money/ "https\://bean.money/")[](https://bean.money/)
