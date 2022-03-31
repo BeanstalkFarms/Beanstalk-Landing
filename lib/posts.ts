@@ -4,6 +4,11 @@ import matter from 'gray-matter'
 import moment from 'moment'
 import { remark } from 'remark'
 import html from 'remark-html'
+import {unified} from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
 
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
 
@@ -91,10 +96,15 @@ export async function getPostData(id: string) : Promise<PostData> {
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents)
 
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
+  // https://github.com/remarkjs/remark/discussions/858#discussioncomment-1366990
+
+  const processedContent = await unified()
+    .use(remarkParse)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
+    .use(rehypeStringify)
     .process(matterResult.content)
+
   const contentHtml = processedContent.toString()
 
   // replace datetime with "friendly" date

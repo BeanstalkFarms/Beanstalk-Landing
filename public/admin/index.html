@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Content Manager</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-  <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  </body>
+</head>
+<body>
+<!-- Include the script that builds the page and powers Netlify CMS -->
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<script>
+    // YOUTUBE
+    CMS.registerEditorComponent({
+        id: "youtube",
+        label: "Youtube",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /<div><iframe width="100%" height="400" src="https:\/\/www\.youtube\.com\/embed\/(.*)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ><\/iframe><\/div>/i,
+        // Function to extract data elements from the regexp match
+        fromBlock: function (match) {
+            return {
+                id: match[1]
+            };
+        },
+        toBlock: function (obj) {
+            return (
+                `<div><iframe width="100%" height="400" src="https://www.youtube.com/embed/${obj.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>`
+            );
+        },
+        toPreview: function (obj) {
+            return (
+                `<div><iframe width="100%" height="400" src="https://www.youtube.com/embed/${obj.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>`
+            );
+        }
+    });
+    // TWITTER
+    CMS.registerEditorComponent({
+        id: "twitter",
+        label: "Twitter",
+        fields: [{name: 'id', label: 'Twitter Embed Code', widget: 'string'}],
+        pattern: /(<blockquote class="twitter-tweet">)(.*)(<\/blockquote> <script async src="https:\/\/platform\.twitter\.com\/widgets\.js" charset="utf-8"><\/script>)/i,
+        fromBlock: function (match) {
+            return {
+                id: match[0]
+            };
+        },
+        toBlock: function (obj) {
+            return (
+                `${obj.id}`
+            );
+        },
+        toPreview: function (obj) {
+            return (
+                `${obj.id}`
+            );
+        }
+    });
+</script>
+</body>
 </html>
