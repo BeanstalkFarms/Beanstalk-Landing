@@ -74,8 +74,6 @@ const Post: NextPage<PostProps> = (props) => {
   } = props;
 
   const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
-  // console.log("SiteURL: " + siteUrl);
-  // console.log("ImageURL" + image);
 
   return (
     <>
