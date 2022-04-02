@@ -14,7 +14,7 @@ Today, Beanstalk Farms is pleased to announce that Omniscia - a decentralized sm
 
 \*     \*     \*     \*
 
-Prior to the completion of Omniscia’s process, Beanstalk was unaudited. In Q4 2021, the Beanstalk community concluded that contracting a high-quality auditor would help facilitate further growth of the protocol, increase user adoption and reinforce its legitimacy within the broader DeFi community. Omniscia is a premier firm in the smart contract auditing industry and a relevant choice to audit Beanstalk given their [prior track record](https://omniscia.io/index.html#clients) auditing ERC-2535 Diamonds.
+Prior to the completion of Omniscia’s process, Beanstalk was unaudited. In Q4 2021, the Beanstalk community concluded that contracting a high-quality auditor would help facilitate further growth of the protocol, increase user adoption and reinforce its legitimacy within the broader DeFi community. Omniscia is a premier firm in the smart contract auditing industry and a relevant choice to audit Beanstalk given their [prior track record](https://omniscia.io/about-us#clients) auditing ERC-2535 Diamonds.
 
 On December 3, 2021 the Beanstalk DAO approved and committed BIP-5, leveraging the “Fundraiser” process originally created in [BIP-4](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-4.md). 
 
