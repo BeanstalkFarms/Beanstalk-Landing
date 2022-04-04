@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import ContentWrapper from '../../components/ContentWrapper'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 import BlogLayout from "../../components/BlogLayout";
+import Script from 'next/script';
 
 
 type PostProps = {
@@ -77,6 +78,14 @@ const Post: NextPage<PostProps> = (props) => {
 
   return (
     <>
+      {/**
+        * React doesn't <script> tags embedded via dangerouslySetInnerHtml if the 
+        * tags are mounted after page load. This prevents widgets like Twitter from showing
+        * correctly without a full page refresh. Instead, we embed necessary widget scripts
+        * on all blog/[id] pages to make sure things display correctly.
+        * More here: https://nextjs.org/docs/basic-features/script
+        */}
+      <Script src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
       <NextSeo
         title={`${title} | Beanstalk`}
         description={description || undefined}

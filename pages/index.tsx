@@ -52,6 +52,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <Button
             target="_blank"
             rel="noreferrer"
+            href="https://omniscia.io/beanstalk-core-protocol/"
+            icon="/assets/icon/omniscia.webp"
+            desc="3/31/2022">
+            Omniscia Audit
+          </Button>
+          <Button
+            target="_blank"
+            rel="noreferrer"
             href="https://discord.gg/beanstalk"
             icon="/assets/icon/discord.png"
             desc="Join the community and ask questions">
