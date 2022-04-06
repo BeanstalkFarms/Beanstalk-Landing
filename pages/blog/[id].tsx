@@ -54,7 +54,7 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   }
 }
 
-const Post: NextPage<PostProps> = (props) => {
+const BlogPost: NextPage<PostProps> = (props) => {
   const {
     id,
     title,
@@ -122,7 +122,4 @@ const Post: NextPage<PostProps> = (props) => {
   )
 }
 
-export default Post;
-
-
-
+export default BlogPost;

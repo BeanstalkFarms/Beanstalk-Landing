@@ -34,10 +34,11 @@ function getPostFileNames(postType: PostType) : string[] {
   return fileNames
 }
 
-function getPostFullPath(postType: PostType, id: string) : string {
+function getPostFullPath(postType: PostType, id: string, filename?: string) : string {
+  const fn = filename ? filename : `${id}.md`
   let fullPath: string | undefined
-  if (postType === PostType.Blog) fullPath = path.join(BLOG_POSTS_PATH, `${id}.md`)
-  if (postType === PostType.BIP) fullPath = path.join(BIP_POSTS_PATH, `${id}.md`)
+  if (postType === PostType.Blog) fullPath = path.join(BLOG_POSTS_PATH, fn)
+  if (postType === PostType.BIP) fullPath = path.join(BIP_POSTS_PATH, fn)
 
   if (fullPath === undefined) fullPath = ''
   return fullPath
@@ -53,7 +54,7 @@ export function getSortedPostsData(postType: PostType, limit?: number) : PostDat
     const id = fileName.replace(/\.md$/, '')
 
     // Read markdown file as string
-    const fullPath = path.join(BLOG_POSTS_PATH, fileName)
+    const fullPath = getPostFullPath(postType, '', fileName)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     // Use gray-matter to parse the post metadata section
