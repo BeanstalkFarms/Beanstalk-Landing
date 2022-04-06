@@ -1,6 +1,6 @@
 import ContentWrapper from "../../components/ContentWrapper";
 import CustomHead from "../../components/CustomHead";
-import { getSortedPostsData } from '../../lib/posts'
+import { getSortedPostsData, PostType } from '../../lib/posts'
 import { NextPage } from "next";
 import { PostData } from '../../lib/posts'
 import PostButton from "../../components/PostButton";
@@ -10,7 +10,7 @@ type BlogProps = {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData(PostType.Blog)
   return {
     props: {
       allPostsData

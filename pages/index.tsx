@@ -4,14 +4,14 @@ import PostButton from '../components/PostButton';
 import ContributorButton from '../components/ContributorButton';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
-import {getSortedPostsData, PostData} from "../lib/posts";
+import { getSortedPostsData, PostData, PostType } from "../lib/posts";
 
 type BlogProps = {
   allPostsData: PostData[]
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData(3)
+  const allPostsData = getSortedPostsData(PostType.Blog, 3)
   return {
     props: {
       allPostsData

@@ -2,15 +2,16 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import moment from 'moment'
-import { remark } from 'remark'
-import html from 'remark-html'
-import {unified} from "unified";
+import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
+const BIP_POSTS_PATH = path.join(process.cwd(), 'content/bips')
 
 export type PostData = {
   id: string,
@@ -19,10 +20,34 @@ export type PostData = {
   [key: string]: any;
 }
 
+export enum PostType {
+  Blog,
+  BIP
+}
+
+function getPostFileNames(postType: PostType) : string[] {
+  let fileNames: string[] | undefined;
+  if (postType === PostType.Blog) fileNames = fs.readdirSync(BLOG_POSTS_PATH) 
+  if (postType === PostType.BIP) fileNames = fs.readdirSync(BIP_POSTS_PATH)
+
+  if (fileNames === undefined) fileNames = []
+  return fileNames
+}
+
+function getPostFullPath(postType: PostType, id: string) : string {
+  let fullPath: string | undefined
+
+  if (postType === PostType.Blog) fullPath = path.join(BLOG_POSTS_PATH, `${id}.md`)
+  if (postType === PostType.BIP) fullPath = path.join(BIP_POSTS_PATH, `${id}.md`)
+
+  if (fullPath === undefined) fullPath = ''
+  return fullPath
+}
+
 // credit: https://nextjs.org/learn/basics/data-fetching/implement-getstaticprops
-export function getSortedPostsData(limit?: number) : PostData[] {
+export function getSortedPostsData(postType: PostType, limit?: number) : PostData[] {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(BLOG_POSTS_PATH)
+  const fileNames = getPostFileNames(postType)
 
   const allPostsData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
@@ -64,8 +89,8 @@ export function getSortedPostsData(limit?: number) : PostData[] {
 
 
 // credit: https://nextjs.org/learn/basics/dynamic-routes/implement-getstaticpaths
-export function getAllPostIds() {
-  const fileNames = fs.readdirSync(BLOG_POSTS_PATH)
+export function getAllPostIds(postType: PostType) {
+  const fileNames = getPostFileNames(postType)
 
   // Returns an array that looks like this:
   // [
@@ -89,8 +114,8 @@ export function getAllPostIds() {
   })
 }
 
-export async function getPostData(id: string) : Promise<PostData> {
-  const fullPath = path.join(BLOG_POSTS_PATH, `${id}.md`)
+export async function getPostData(postType: PostType, id: string) : Promise<PostData> {
+  const fullPath = getPostFullPath(postType, id)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
   // Use gray-matter to parse the post metadata section
@@ -98,12 +123,24 @@ export async function getPostData(id: string) : Promise<PostData> {
 
   // https://github.com/remarkjs/remark/discussions/858#discussioncomment-1366990
 
-  const processedContent = await unified()
+  let processedContent
+  if (postType = PostType.Blog) {
+    processedContent = await unified()
     .use(remarkParse)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
     .use(rehypeStringify)
     .process(matterResult.content)
+  }
+  else {
+    processedContent = await unified()
+    .use(remarkParse)
+    .use(remarkMath)
+    .use(remarkRehype)
+    .use(rehypeKatex)
+    .use(rehypeStringify)
+    .process(matterResult.content)
+  }
 
   const contentHtml = processedContent.toString()
 

@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import ContentWrapper from '../../components/ContentWrapper'
 import { getAllPostIds, getPostData, PostData, PostType } from '../../lib/posts'
 import Script from 'next/script';
+import Button from '../../components/Button';
 
 
 type PostProps = {
@@ -20,7 +21,7 @@ type PostProps = {
 }
 
 export async function getStaticProps({ params } : PostData) : Promise<GetStaticPropsResult<PostProps>> {
-  const postData = await getPostData(PostType.Blog, params.id)
+  const postData = await getPostData(PostType.BIP, params.id)
   if(!postData) return { notFound: true }
   
   if(!postData.title || !postData.date || !postData.contentHtml) {
@@ -47,7 +48,8 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
 }
 
 export async function getStaticPaths() : Promise<GetStaticPathsResult> {
-  const paths = getAllPostIds(PostType.Blog)
+  const paths = getAllPostIds(PostType.BIP)
+  console.log(paths)
   return {
     paths,
     fallback: true
@@ -74,9 +76,10 @@ const Post: NextPage<PostProps> = (props) => {
         * React doesn't <script> tags embedded via dangerouslySetInnerHtml if the 
         * tags are mounted after page load. This prevents widgets like Twitter from showing
         * correctly without a full page refresh. Instead, we embed necessary widget scripts
-        * on all blog/[id] pages to make sure things display correctly.
+        * on all BIP/[id] pages to make sure things display correctly.
         * More here: https://nextjs.org/docs/basic-features/script
         */}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.0/dist/katex.min.css"/> 
       <Script src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
       <NextSeo
         title={`${title} | Beanstalk`}
@@ -91,7 +94,6 @@ const Post: NextPage<PostProps> = (props) => {
               url: (image != null) ? siteUrl + image : siteUrl + "/assets/uploads/barn-and-beans.png",
               width: 1200,
               height: 628,
-              // alt: imageAlt,
               type: 'image/jpeg',
             }
           ],
@@ -117,12 +119,16 @@ const Post: NextPage<PostProps> = (props) => {
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
+        <Button
+            primary
+            target="_blank"
+            rel="noreferrer"
+            href="https://app.bean.money/governance">
+            Vote Now!
+      </Button>
       </ContentWrapper>
     </>
   )
 }
 
 export default Post;
-
-
-

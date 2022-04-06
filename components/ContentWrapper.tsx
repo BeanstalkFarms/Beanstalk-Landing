@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { FC, ReactNode } from "react";
-import Button from "./Button";
+import { FC } from "react";
 
 import styles from './ContentWrapper.module.css';
 import Footer from "./Footer";
