@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
+import Post from '../pages/blog/[id]';
 
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
 const BIP_POSTS_PATH = path.join(process.cwd(), 'content/bips')
@@ -124,22 +125,29 @@ export async function getPostData(postType: PostType, id: string) : Promise<Post
   // https://github.com/remarkjs/remark/discussions/858#discussioncomment-1366990
 
   let processedContent
-  if (postType = PostType.Blog) {
-    processedContent = await unified()
-    .use(remarkParse)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw)
-    .use(rehypeStringify)
-    .process(matterResult.content)
-  }
-  else {
-    processedContent = await unified()
-    .use(remarkParse)
-    .use(remarkMath)
-    .use(remarkRehype)
-    .use(rehypeKatex)
-    .use(rehypeStringify)
-    .process(matterResult.content)
+  switch(postType) {
+    case PostType.Blog:
+      processedContent = await unified()
+        .use(remarkParse)
+        .use(remarkRehype, { allowDangerousHtml: true })
+        .use(rehypeRaw)
+        .use(rehypeStringify)
+        .process(matterResult.content)
+      break
+
+    case PostType.BIP:
+      processedContent = await unified()
+        .use(remarkParse)
+        .use(remarkMath)
+        .use(remarkRehype)
+        .use(rehypeKatex)
+        .use(rehypeStringify)
+        .process(matterResult.content)
+      break
+
+      default:
+        const exhaustiveCheck: never = postType;
+        throw new Error(`Unhandled postType: ${exhaustiveCheck}`);
   }
 
   const contentHtml = processedContent.toString()
