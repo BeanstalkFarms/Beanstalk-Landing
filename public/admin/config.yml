@@ -52,3 +52,44 @@ collections:
         name: "body"
         widget: "markdown"
         required: true
+
+  - name: "bip" # Used in routes, e.g., /admin/collections/bip
+    label: "BIP" # Used in the UI
+    folder: "content/bips" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template
+    preview_path: blog/{{slug}}
+    fields: # The fields for each document, usually in gray-matter
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Subtitle"
+        name: "subtitle"
+        hint: "If provided, appears below the title."
+        widget: "string"
+        required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        picker_utc: true
+        required: true
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Beanstalk Farms"
+        required: true
+      - label: "Meta Description"
+        name: "description"
+        hint: "This description appears below the page title on search engines and when this post is linked to on social media."
+        widget: "string"
+        required: true
+      - label: "Meta Image"
+        name: "image"
+        hint: "This image appears when the link to the post is posted shared (including on social media, via text, etc). A good meta image provides a visual intro to the content it represents: see podcast images, video thumbnails for similar examples. If not set, a default Beanstalk meta image will automatically be added."
+        widget: "image"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: true
