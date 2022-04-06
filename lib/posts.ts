@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
+import { PostType } from '../src/types';
 
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
 const BIP_POSTS_PATH = path.join(process.cwd(), 'content/bips')
@@ -18,11 +19,6 @@ export type PostData = {
   date?: string,
   contentHtml?: string,
   [key: string]: any;
-}
-
-export enum PostType {
-  Blog,
-  BIP
 }
 
 function getPostFileNames(postType: PostType) : string[] {

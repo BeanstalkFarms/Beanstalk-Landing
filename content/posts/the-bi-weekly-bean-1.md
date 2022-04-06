@@ -32,7 +32,7 @@ Weather reversed its upward trend around March 11th as a result of BIP-13’s co
 * Version 1.8.0 of the whitepaper, which reflects the changes to the Silo made by BIP-12.
 * BIP-13: Adjustment to Weather Changes has been committed.
 
-## Beanstalk Farms **Updates**
+## Beanstalk Farms **Updates**
 
 * An embedded Swap widget built by Uniswap which allows users to swap Beans to and from arbitrary tokens on Uniswap directly on app.bean.money. The currently-whitelisted tokens include ETH, DAI, FEI, FRAX, FXS, UNI, USDC, USDT and WBTC
 * An upgrade to the Silo interface on bean.money that reintroduces an APY metric for both Beans and Stalk.

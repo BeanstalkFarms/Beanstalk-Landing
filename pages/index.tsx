@@ -4,7 +4,8 @@ import PostButton from '../components/PostButton';
 import ContributorButton from '../components/ContributorButton';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
-import { getSortedPostsData, PostData, PostType } from "../lib/posts";
+import { getSortedPostsData, PostData } from "../lib/posts";
+import { PostType } from '../src/types';
 
 type BlogProps = {
   allPostsData: PostData[]

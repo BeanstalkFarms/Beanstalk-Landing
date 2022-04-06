@@ -1,9 +1,10 @@
 import ContentWrapper from "../../components/ContentWrapper";
 import CustomHead from "../../components/CustomHead";
-import { getSortedPostsData, PostType } from '../../lib/posts'
+import { getSortedPostsData } from '../../lib/posts'
 import { NextPage } from "next";
 import { PostData } from '../../lib/posts'
 import PostButton from "../../components/PostButton";
+import { PostType } from "../../src/types";
 
 type BIPProps = {
   allPostsData: PostData[]
