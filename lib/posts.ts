@@ -9,7 +9,6 @@ import rehypeKatex from 'rehype-katex'
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
-import Post from '../pages/blog/[id]';
 
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'content/posts')
 const BIP_POSTS_PATH = path.join(process.cwd(), 'content/bips')
@@ -37,7 +36,6 @@ function getPostFileNames(postType: PostType) : string[] {
 
 function getPostFullPath(postType: PostType, id: string) : string {
   let fullPath: string | undefined
-
   if (postType === PostType.Blog) fullPath = path.join(BLOG_POSTS_PATH, `${id}.md`)
   if (postType === PostType.BIP) fullPath = path.join(BIP_POSTS_PATH, `${id}.md`)
 

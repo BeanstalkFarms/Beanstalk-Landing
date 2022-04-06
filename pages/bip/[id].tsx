@@ -72,6 +72,7 @@ const Post: NextPage<PostProps> = (props) => {
 
   return (
     <>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.0/dist/katex.min.css"/> 
       {/**
         * React doesn't <script> tags embedded via dangerouslySetInnerHtml if the 
         * tags are mounted after page load. This prevents widgets like Twitter from showing
@@ -79,7 +80,6 @@ const Post: NextPage<PostProps> = (props) => {
         * on all BIP/[id] pages to make sure things display correctly.
         * More here: https://nextjs.org/docs/basic-features/script
         */}
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.0/dist/katex.min.css"/> 
       <Script src="https://platform.twitter.com/widgets.js" strategy="beforeInteractive" />
       <NextSeo
         title={`${title} | Beanstalk`}
