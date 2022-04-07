@@ -9,8 +9,6 @@ description: Today, Beanstalk Farms is pleased to announce that BIP-14, the
 ---
 <!--StartFragment-->
 
-# BIP-14: Beanstalk Q2 2022 Budget
-
 Today, Beanstalk Farms is pleased to announce that [BIP-14](https://github.com/BeanstalkFarms/Beanstalk/pull/61), the Beanstalk Farms Q2 2022 Budget, has been passed by an on-chain vote of the Beanstalk DAO. 
 
 **Beanstalk Farms**
@@ -27,12 +25,8 @@ BIP-14 funds Beanstalk Farms through Q2 2022, allocating 2,000,000 newly-minted 
 
 Each new Beanstalk Farms contributor will have an individual Snapshot proposal to affirm their role within the organization. Current contributors will only require a Snapshot proposal if their role or pay has significantly changed since Q1, or the entire payment from their previous proposal has been made.
 
-
-
 ## About Beanstalk
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, credit based stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the world’s most accessible digital money system. By eliminating collateral requirements, Beanstalk aims to be the catalyst for a trustless solution to unlock the universal potential of decentralized finance. Learn more at [bean.money](http://bean.money).
-
-
 
 <!--EndFragment-->
