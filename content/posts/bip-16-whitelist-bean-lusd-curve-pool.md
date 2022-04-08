@@ -1,6 +1,7 @@
 ---
 title: "BIP-16: Whitelist BEAN:LUSD Curve Pool"
-subtitle: Beanstalk DAO adds LP Tokens for the BEAN:LUSD Curve pool to the Silo.
+subtitle: Beanstalk DAO whitelists LP Tokens for the BEAN:LUSD Curve pool for
+  Deposit into the Silo.
 date: 2022-04-08T22:20:58.007Z
 author: Beanstalk Farms
 description: Today, Beanstalk Farms is pleased to announce that BIP-16, which
