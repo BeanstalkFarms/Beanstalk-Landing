@@ -8,6 +8,7 @@ description: Today, Beanstalk Farms is pleased to announce that BIP-16, which
   whitelists LP Tokens for the BEAN:LUSD Curve stableswap liquidity pool for
   Deposit into the Silo, has been passed by an on-chain vote of the Beanstalk
   DAO.
+image: /assets/uploads/bip-16.png
 ---
 <!--StartFragment-->
 
