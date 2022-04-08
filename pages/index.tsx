@@ -46,8 +46,16 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             rel="noreferrer"
             href="https://bean.money/docs/beanstalk.pdf"
             icon="/assets/icon/beanstalk.svg"
-            desc="v1.9.2">
+            desc="v1.15.0">
             Whitepaper
+          </Button>
+          <Button
+            target="_blank"
+            rel="noreferrer"
+            href="https://omniscia.io/beanstalk-core-protocol/"
+            icon="/assets/icon/omniscia.webp"
+            desc="3/31/2022">
+            Omniscia Audit
           </Button>
           <Button
             target="_blank"
@@ -113,6 +121,11 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
               $BEAN vs. ESD
             </ContributorButton>
           </div>
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-3xl mb-6 font-normal">Subscribe</h2>
+          <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
+          <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
         </div>
         {/* <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Follow</h2>

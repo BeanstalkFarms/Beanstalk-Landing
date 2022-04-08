@@ -40,7 +40,7 @@
         id: "twitter",
         label: "Twitter",
         fields: [{name: 'id', label: 'Twitter Embed Code', widget: 'string'}],
-        pattern: /(<blockquote class="twitter-tweet">)(.*)(<\/blockquote> <script async src="https:\/\/platform\.twitter\.com\/widgets\.js" charset="utf-8"><\/script>)/i,
+        pattern: /(<blockquote class="twitter-tweet">)(.*)(<\/blockquote>)/i,
         fromBlock: function (match) {
             return {
                 id: match[0]
