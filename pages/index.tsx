@@ -41,7 +41,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <div className="rounded-md border border-gray-300 p-4 space-y-3">
             <h2>Beanstalk suffered an exploit today.</h2>
             <p>The Beanstalk Farms team is investigating the attack. There will be a town hall Sunday, 4/17 9 PM ET to discuss the attack and the path forward.</p>
-            <p>Please check Discord for more information and updates: <a href="https://discord.gg/beanstalk" target="_blank" className="text-blue-500">https://discord.gg/beanstalk</a></p>
+            <p>Please check Discord for more information and updates: <a href="https://discord.gg/beanstalk" target="_blank" className="text-blue-500" rel="noreferrer">https://discord.gg/beanstalk</a></p>
           </div>
         </div>
         <div className="space-y-4">
