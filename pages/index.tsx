@@ -31,13 +31,17 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
           </h1>
-          <Button
+          {/* <Button
             primary
             target="_blank"
             rel="noreferrer"
             href="https://app.bean.money">
             Launch App
-          </Button>
+          </Button> */}
+          <div className="rounded-md border border-gray-300 p-4 space-y-3">
+            <h2>Beanstalk suffered an exploit on 4/17.</h2>
+            <p>The Beanstalk Farms team is investigating the attack and charting a path forward. Please check Discord for more information and updates: <a href="https://discord.gg/beanstalk" target="_blank" className="text-blue-500" rel="noreferrer">https://discord.gg/beanstalk</a></p>
+          </div>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Learn</h2>
@@ -46,7 +50,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             rel="noreferrer"
             href="https://bean.money/docs/beanstalk.pdf"
             icon="/assets/icon/beanstalk.svg"
-            desc="v1.15.0">
+            desc="v1.16.0">
             Whitepaper
           </Button>
           <Button
@@ -91,7 +95,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             ))}
           </div>
         </div>
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Community</h2>
           <div className="flex sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4">
             <ContributorButton
@@ -121,7 +125,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
               $BEAN vs. ESD
             </ContributorButton>
           </div>
-        </div>
+        </div> */}
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Subscribe</h2>
           <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>

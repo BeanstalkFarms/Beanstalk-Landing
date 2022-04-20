@@ -137,6 +137,3 @@ const Post: NextPage<PostProps> = (props) => {
 }
 
 export default Post;
-
-
-
