@@ -15,6 +15,7 @@ type PostProps = {
   image: string | null;
   description: string;
   layout?: ContentWrapperProps['variant'];
+  subscribe?: boolean;
   // Content
   content: string;
 }
@@ -52,7 +53,8 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
       date: postData.date,
       image: postData.image || null,
       description: postData.description,
-      layout: postData.layout,
+      layout: postData.layout || "default",
+      subscribe: postData.subscribe || true,
       // Content
       content: postData.contentHtml,
     },
@@ -78,6 +80,7 @@ const Post: NextPage<PostProps> = (props) => {
     image,
     layout,
     description,
+    subscribe,
   } = props;
 
   const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
@@ -117,7 +120,7 @@ const Post: NextPage<PostProps> = (props) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant={props.layout || "default"}>
+      <ContentWrapper variant={layout || "default"}>
         <div className="space-y-12">
           <div className="space-y-6 border-b border-gray-[#E5E7ED] py-12">
             <p className="text-md text-slate-500">{author} &middot; {date}</p>
@@ -130,12 +133,16 @@ const Post: NextPage<PostProps> = (props) => {
             className={`text-[18px] prose`}
             dangerouslySetInnerHTML={{ __html: content }}
           />
-          <hr />
-          <div className="space-y-4">
-            <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
-            <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
-            <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
-          </div>
+          {subscribe === false ? null : (
+            <>
+              <hr />
+              <div className="space-y-4">
+                <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
+                <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
+                <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
+              </div>
+            </>
+          )}
         </div>
       </ContentWrapper>
     </>

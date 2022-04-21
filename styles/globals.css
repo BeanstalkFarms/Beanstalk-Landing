@@ -57,16 +57,7 @@ a {
   @apply mt-12;
 }
 .prose h4 {
-  @apply mt-10;
-}
-.prose h4 {
-  /* text-decoration: underline; */
-  /* font-weight: italic; */
   @apply mt-8 block border-b border-gray-200 pb-4 mb-4 text-[16px] tracking-wide;
-}
-
-.prose img {
-  /* margin: 0 auto; */
 }
 
 .prose img[src="/assets/uploads/bean-logo-128.png"] {
@@ -74,7 +65,7 @@ a {
 }
 
 .prose code {
-  @apply bg-slate-200 px-1.5 py-0.5 rounded-sm;
+  @apply bg-slate-200 text-slate-700 font-light px-1.5 py-0.5 rounded-sm;
 }
 .prose code::before {
   content: '';
