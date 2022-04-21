@@ -49,8 +49,8 @@ There will be ~76M Soil available during the Barn Raise, meaning that a maximum 
 
 Between **12:00pm EST on 5/2** and **11:59am EST on 5/9**, participants will have the option, but will not be required, to submit bids on Pods — Beanstalk's native debt asset — using two parameters:
 
-1.  the Weather for Sowing; 
-2.  and the size of the Bid, denominated in USD.
+1.  the Weather for Sowing; and
+2.  the size of the Bid, denominated in USD.
 
 When Bidding, the assets to be Sown are locked in at the time of submission. Bids will not be cancellable once submitted, but may be updated to lower the Weather and/or increase the size of the Bid.
 
