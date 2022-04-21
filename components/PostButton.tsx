@@ -23,7 +23,7 @@ const PostButton : FC<{
       <div className="sm:flex sm:flex-row block items-center sm:space-x-3 sm:space-y-0 space-y-2">
         <div className="text-xl">{title}</div>
       </div>
-      <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[17px]">
+      <div className="font-400 text-gray-600 text-[17px]">
         {subtitle}
       </div>
     </a>

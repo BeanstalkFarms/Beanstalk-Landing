@@ -2,9 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import moment from 'moment'
-import { remark } from 'remark'
-import html from 'remark-html'
-import {unified} from "unified";
+import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
@@ -61,7 +59,6 @@ export function getSortedPostsData(limit?: number) : PostData[] {
   })
   return (limit === null) ? friendlySortedData : friendlySortedData.slice(0, limit);
 }
-
 
 // credit: https://nextjs.org/learn/basics/dynamic-routes/implement-getstaticpaths
 export function getAllPostIds() {

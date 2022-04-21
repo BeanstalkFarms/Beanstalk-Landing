@@ -1,11 +1,9 @@
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import { NextSeo } from 'next-seo';
-
-import ContentWrapper from '../../components/ContentWrapper'
-import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
-import BlogLayout from "../../components/BlogLayout";
 import Script from 'next/script';
 
+import ContentWrapper, { ContentWrapperProps } from '../../components/ContentWrapper'
+import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 
 type PostProps = {
   // Metadata
@@ -16,15 +14,22 @@ type PostProps = {
   date: string;
   image: string | null;
   description: string;
+  layout?: ContentWrapperProps['variant'];
+  subscribe?: boolean;
   // Content
   content: string;
 }
 
 export async function getStaticProps({ params } : PostData) : Promise<GetStaticPropsResult<PostProps>> {
-  const postData = await getPostData(params.id)
-  if(!postData) return { notFound: true }
-  
-  if(!postData.title || !postData.date || !postData.contentHtml) {
+  let postData;
+  try {
+    postData = await getPostData(params.id)
+  } catch(e) {
+    return { notFound: true };
+  }
+
+  //
+  if(!postData || !postData.title || !postData.date || !postData.contentHtml) {
     return { notFound: true };
   }
 
@@ -48,6 +53,8 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
       date: postData.date,
       image: postData.image || null,
       description: postData.description,
+      layout: postData.layout || "default",
+      subscribe: postData.subscribe || true,
       // Content
       content: postData.contentHtml,
     },
@@ -58,9 +65,11 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   const paths = getAllPostIds()
   return {
     paths,
-    fallback: true
+    fallback: false
   }
 }
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
 
 const Post: NextPage<PostProps> = (props) => {
   const {
@@ -71,10 +80,10 @@ const Post: NextPage<PostProps> = (props) => {
     date,
     content,
     image,
-    description
+    layout,
+    description,
+    subscribe,
   } = props;
-
-  const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
 
   return (
     <>
@@ -90,16 +99,15 @@ const Post: NextPage<PostProps> = (props) => {
         title={`${title} | Beanstalk`}
         description={description || undefined}
         openGraph={{
-          url: `${siteUrl}/${id}`,
+          url: `${SITE_URL}/${id}`,
           title: `${title} | Beanstalk`,
           description: description || undefined,
           type: "article",
           images: [
             {
-              url: (image != null) ? siteUrl + image : siteUrl + "/assets/uploads/barn-and-beans.png",
+              url: (image != null) ? SITE_URL + image : SITE_URL + "/assets/uploads/barn-and-beans.png",
               width: 1200,
               height: 628,
-              // alt: imageAlt,
               type: 'image/jpeg',
             }
           ],
@@ -111,25 +119,29 @@ const Post: NextPage<PostProps> = (props) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant="default">
-        <div className="space-y-8">
-          <div className="space-y-8 border-b border-gray-100 pb-8">
-            <p className="text-sm text-slate-400">{author} &middot; {date}</p>
+      <ContentWrapper variant={layout || "default"}>
+        <div className="space-y-12">
+          <div className="space-y-6 border-b border-gray-[#E5E7ED] py-12">
+            <p className="text-md text-slate-500">{author} &middot; {date}</p>
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold text-slate-900">{title}</h1>
-              {subtitle ? <h2 className="text-xl text-slate-500 font-light">{subtitle}</h2> : null}
+              <h1 className="md:text-5xl text-3xl font-bold text-slate-900">{title}</h1>
+              {subtitle ? <h2 className="text-2xl text-slate-700 font-light">{subtitle}</h2> : null}
             </div>
           </div>
           <div
-            className={`text-md prose`}
+            className={`text-[18px] prose`}
             dangerouslySetInnerHTML={{ __html: content }}
           />
-          <hr/>
-          <div className="space-y-4">
-            <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
-            <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
-            <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
-          </div>
+          {subscribe === false ? null : (
+            <>
+              <hr />
+              <div className="space-y-4">
+                <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
+                <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
+                <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
+              </div>
+            </>
+          )}
         </div>
       </ContentWrapper>
     </>
