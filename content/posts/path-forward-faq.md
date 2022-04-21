@@ -5,6 +5,7 @@ author: Beanstalk Farms
 description: >-
   Additional information about the plan to Unpause Beanstalk.
 date: 2022-04-20T22:15:00.000Z
+image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 

@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, ReactElement } from "react";
 
 const Button : FC<{
   target?: string,
@@ -6,7 +6,7 @@ const Button : FC<{
   href?: string,
   primary?: boolean,
   icon?: string,
-  desc?: string,
+  desc?: string | ReactElement,
   iconStyle?: any,
   className?: string
 }> = ({
