@@ -57,7 +57,7 @@ Yes. However, reimbursed Silo assets will be placed on a vesting schedule based 
 
 If Silo Members choose to Withdraw before the BR Pod Line has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the BR Pod Line repaid.
 
-Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises $76M in exchange for `250M Pods`. Beanstalk Unpauses and performs normally. After some time, `100M Pods` from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `100/250 = 40% * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises $76M in exchange for `250M Pods`. Beanstalk Unpauses and performs normally. After some time, `100M Pods` from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `(100/250) * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Withdraw early?
 
