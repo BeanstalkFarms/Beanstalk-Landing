@@ -65,7 +65,7 @@ Forfeited assets will effectively be distributed back to rest of the Silo Member
 
 > Why use a market cap-based vesting schedule?
 
-The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, the3re is a limit to the amount of capital that can leave at any time.
+The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, there is a limit to the amount of capital that can leave at any time.
 
 > What will the Weather be when the Barn Raise begins?
 
