@@ -57,7 +57,7 @@ The assets to be Sown must be locked in Bids at the time of submission. Bids wil
 
 #### Sowing Period
 
-At 12:00pm ET on 5/9, the Weather (interest rate) will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when the Soil reaches 0 -- whichever occurs first. Bids that are not successfully filled during the Sowing Period will be claimable after Beanstalk is Unpaused. Bids will be partially fillable.
+At 12:00pm ET on 5/9, the Weather (interest rate) will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when Soil reaches 0 -- whichever occurs first. Bids that are not successfully filled during the Sowing Period will be claimable after Beanstalk is Unpaused. Bids will be partially fillable.
 
 #### Beanstalk Restart
 
