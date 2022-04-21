@@ -54,9 +54,9 @@ Between **12:00pm EST on 5/2** and **11:59am EST on 5/9**, participants will hav
 
 When Bidding, the assets to be Sown are locked in at the time of submission. Bids will not be cancellable once submitted, but may be updated to lower the Weather and/or increase the size of the Bid.
 
-Bids placed earlier in the Bidding Period will receive a bonus. The bonus for submitting a Bid will start at a set multiplier and decrease as the end of the Bidding Period approaches. Updating a Bid resets the bonus. Details on the starting multiplier and decrease schedule are pending.
+Bids placed earlier in the Bidding Period will receive a bonus. The bonus for submitting a Bid will start at a set multiplier and decrease as the end of the Bidding Period approaches. Updating a Bid to increase the size, it resets the bonus. Details on the starting multiplier and decrease schedule are pending.
 
-After the Bidding Period concludes, all submitted bids will be locked and auto-filled if and when the selected Weather is reached.
+After the Bidding Period concludes, all submitted bids will be locked and auto-filled if and when the Bid's Weather is reached.
 
 #### Sowing Period
 
