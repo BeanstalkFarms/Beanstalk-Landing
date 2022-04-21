@@ -42,12 +42,12 @@ For more about Beanstalk's utility, please refer to this community-authored [art
 
 The exact token that will be used in the Barn Raise is TBD, but given the time delay between the Barn Raise and Unpausing Beanstalk, it will likely be a major stablecoin such as USDC or UST, not ETH.
 
-Unpausing **Beanstalk**
+**Unpausing Beanstalk**
 -----------------------
 
 > What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
 
-All Beanstalk assets will be scaled down by a factor proportional to the percentage of the total number of Beans Sown during the Barn Raise.
+All Beanstalk assets will be scaled down by a factor proportional to the percentage of total capital Sown during the Barn Raise.
 
 Example: If Beanstalk raises `40%` of the target ~$76M, each Silo Member's existing Stalk balances will be scaled down by `60%`.
 
@@ -65,7 +65,7 @@ Forfeited assets will effectively be distributed back to rest of the Silo Member
 
 > Why use a market cap-based vesting schedule?
 
-The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, there is a limit to the amount of capital that can leave at any time.
+The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, the3re is a limit to the amount of capital that can leave at any time.
 
 > What will the Weather be when the Barn Raise begins?
 

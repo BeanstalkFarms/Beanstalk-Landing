@@ -47,7 +47,7 @@ There will be ~76M Soil available during the Barn Raise, meaning that a maximum 
 
 #### Bidding Period
 
-Between 12:00pm EST on 5/2 11:59am EST on 5/9, participants will have the option, but will not be required, to submit bids on Pods — Beanstalk's native debt asset — using three parameters:
+Between **12:00pm EST on 5/2** and **11:59am EST on 5/9**, participants will have the option, but will not be required, to submit bids on Pods — Beanstalk's native debt asset — using three parameters:
 
 1.  the Weather for Sowing; 
 2.  the maximum acceptable position in the BR Pod Line; and
