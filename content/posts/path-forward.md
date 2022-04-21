@@ -90,7 +90,7 @@ Beanstalk security measures:
 Barn Raise security measures:
 -   The Barn Raise contract will be a separate contract from Beanstalk itself;
 -   The Barn Raise contract will be governed by the Gnosis multisig wallet detailed in the Governance section; and
--   The Barn Raise contract will immediately send capital raised to the Gnosis multisig wallet detailed in the Governance section.
+-   The Barn Raise contract will direct funds to the Gnosis multisig wallet detailed in the Governance section. The contract will not custody any funds.
 
 ![Bean Logo](/assets/uploads/bean-logo-128.png)
 
