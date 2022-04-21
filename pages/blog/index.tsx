@@ -1,7 +1,8 @@
-import ContentWrapper from "../../components/ContentWrapper";
-import CustomHead from "../../components/CustomHead";
-import { getSortedPostsData } from '../../lib/posts'
 import { NextPage } from "next";
+import { NextSeo } from "next-seo";
+
+import ContentWrapper from "../../components/ContentWrapper";
+import { getSortedPostsData } from '../../lib/posts'
 import { PostData } from '../../lib/posts'
 import PostButton from "../../components/PostButton";
 
@@ -18,11 +19,35 @@ export async function getStaticProps() {
   }
 }
 
+const TITLE = `Blog | Beanstalk`;
+const DESC  = `Posts from Beanstalk Farms and members of the community.`;
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+
 const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
   <>
-    <CustomHead
-      title="Blog | Beanstalk"
-      description="Posts from members of the Beanstalk Farms community."
+    <NextSeo
+      title={TITLE}
+      description={DESC}
+      openGraph={{
+        url: `${SITE_URL}/blog`,
+        title: TITLE,
+        description: DESC,
+        type: "article",
+        images: [
+          {
+            url: SITE_URL + "/assets/meta/basic.png",
+            width: 1200,
+            height: 628,
+            type: 'image/jpeg',
+          }
+        ],
+        site_name: 'Beanstalk',
+      }}
+      twitter={{
+        handle: '@beanstalkfarms',
+        cardType: 'summary_large_image',
+        site: '@beanstalkfarms'
+      }}
     />
     <ContentWrapper variant="default">
       <div className="space-y-6">

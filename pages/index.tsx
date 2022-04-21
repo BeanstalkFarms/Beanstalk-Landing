@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
+import Link from 'next/link';
+import { NextSeo } from 'next-seo';
+
 import Button from '../components/Button';
 import PostButton from '../components/PostButton';
-import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
-import Link from 'next/link';
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -19,12 +20,36 @@ export async function getStaticProps() {
   }
 }
 
+const TITLE = `Beanstalk | A Decentralized Credit Based Stablecoin Protocol`;
+const DESC  = `Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset.`;
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+
 const Home: NextPage<BlogProps> = ({ allPostsData }) => {
   return (
     <>
-      <CustomHead
-        title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
-        description="Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
+      <NextSeo
+        title={TITLE}
+        description={DESC}
+        openGraph={{
+          url: `${SITE_URL}`,
+          title: TITLE,
+          description: DESC,
+          type: "article",
+          images: [
+            {
+              url: SITE_URL + "/assets/meta/basic.png",
+              width: 1200,
+              height: 628,
+              type: 'image/jpeg',
+            }
+          ],
+          site_name: 'Beanstalk',
+        }}
+        twitter={{
+          handle: '@beanstalkfarms',
+          cardType: 'summary_large_image',
+          site: '@beanstalkfarms'
+        }}
       />
       <ContentWrapper variant="farm">
         <div className="space-y-6">
@@ -35,7 +60,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             <Button
               primary
               desc={<span className="text-white text-2xl system">&rarr;</span>}
-              icon="/assets/icon/beanstalk.svg">
+              icon="/assets/icon/beanstalk-white.svg">
               Beanstalk: The Path Forward
             </Button>
           </Link>

@@ -9,6 +9,8 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
+**This document will be updated and added to as new information relevant to the Barn Raise and Unpausing Beanstalk becomes available.**
+
 **Fundraiser (The Barn Raise)**
 -------------------------------
 
@@ -32,7 +34,7 @@ Raising capital while Beanstalk is running presents certain technical challenges
 
 In the medium term, Beanstalk has tremendous utility as a liquidity provider, having created and scaled three discrete liquidity pools prior to the governance exploit.
 
-Beanstalk is the only positive carry stablecoin in DeFi---it has the potential to be the most economically attractive stablecoin product available.
+Beanstalk is the only positive carry stablecoin in DeFi — it has the potential to be the most economically attractive stablecoin product available.
 
 For more about Beanstalk's utility, please refer to this community-authored [article](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
 
@@ -55,7 +57,7 @@ Yes. However, reimbursed Silo assets will be placed on a vesting schedule based 
 
 If Silo Members choose to Withdraw before the BR Pod Line has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the BR Pod Line repaid.
 
-Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises the full `$76M` target in exchange for `250M` Pods. Beanstalk Unpauses and performs normally. After some time, `100M` Pods from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `100/250 = 40% * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises $76M in exchange for `250M Pods`. Beanstalk Unpauses and performs normally. After some time, `100M Pods` from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `100/250 = 40% * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Withdraw early?
 

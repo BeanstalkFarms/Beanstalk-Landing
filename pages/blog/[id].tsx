@@ -1,9 +1,9 @@
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import { NextSeo } from 'next-seo';
+import Script from 'next/script';
 
 import ContentWrapper, { ContentWrapperProps } from '../../components/ContentWrapper'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
-import Script from 'next/script';
 
 type PostProps = {
   // Metadata
@@ -69,6 +69,8 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   }
 }
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+
 const Post: NextPage<PostProps> = (props) => {
   const {
     id,
@@ -82,8 +84,6 @@ const Post: NextPage<PostProps> = (props) => {
     description,
     subscribe,
   } = props;
-
-  const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
 
   return (
     <>
@@ -99,16 +99,15 @@ const Post: NextPage<PostProps> = (props) => {
         title={`${title} | Beanstalk`}
         description={description || undefined}
         openGraph={{
-          url: `${siteUrl}/${id}`,
+          url: `${SITE_URL}/${id}`,
           title: `${title} | Beanstalk`,
           description: description || undefined,
           type: "article",
           images: [
             {
-              url: (image != null) ? siteUrl + image : siteUrl + "/assets/uploads/barn-and-beans.png",
+              url: (image != null) ? SITE_URL + image : SITE_URL + "/assets/uploads/barn-and-beans.png",
               width: 1200,
               height: 628,
-              // alt: imageAlt,
               type: 'image/jpeg',
             }
           ],
