@@ -1,11 +1,9 @@
 import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next';
 import { NextSeo } from 'next-seo';
 
-import ContentWrapper from '../../components/ContentWrapper'
+import ContentWrapper, { ContentWrapperProps } from '../../components/ContentWrapper'
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
-import BlogLayout from "../../components/BlogLayout";
 import Script from 'next/script';
-
 
 type PostProps = {
   // Metadata
@@ -16,15 +14,21 @@ type PostProps = {
   date: string;
   image: string | null;
   description: string;
+  layout?: ContentWrapperProps['variant'];
   // Content
   content: string;
 }
 
 export async function getStaticProps({ params } : PostData) : Promise<GetStaticPropsResult<PostProps>> {
-  const postData = await getPostData(params.id)
-  if(!postData) return { notFound: true }
-  
-  if(!postData.title || !postData.date || !postData.contentHtml) {
+  let postData;
+  try {
+    postData = await getPostData(params.id)
+  } catch(e) {
+    return { notFound: true };
+  }
+
+  //
+  if(!postData || !postData.title || !postData.date || !postData.contentHtml) {
     return { notFound: true };
   }
 
@@ -48,6 +52,7 @@ export async function getStaticProps({ params } : PostData) : Promise<GetStaticP
       date: postData.date,
       image: postData.image || null,
       description: postData.description,
+      layout: postData.layout,
       // Content
       content: postData.contentHtml,
     },
@@ -58,7 +63,7 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   const paths = getAllPostIds()
   return {
     paths,
-    fallback: true
+    fallback: false
   }
 }
 
@@ -71,7 +76,8 @@ const Post: NextPage<PostProps> = (props) => {
     date,
     content,
     image,
-    description
+    layout,
+    description,
   } = props;
 
   const siteUrl = (typeof window !== 'undefined') ? window.location.origin : "https://bean.money";
@@ -111,20 +117,20 @@ const Post: NextPage<PostProps> = (props) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant="default">
-        <div className="space-y-8">
-          <div className="space-y-8 border-b border-gray-100 pb-8">
-            <p className="text-sm text-slate-400">{author} &middot; {date}</p>
+      <ContentWrapper variant={props.layout || "default"}>
+        <div className="space-y-12">
+          <div className="space-y-6 border-b border-gray-[#E5E7ED] py-12">
+            <p className="text-md text-slate-500">{author} &middot; {date}</p>
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold text-slate-900">{title}</h1>
-              {subtitle ? <h2 className="text-xl text-slate-500 font-light">{subtitle}</h2> : null}
+              <h1 className="md:text-5xl text-3xl font-bold text-slate-900">{title}</h1>
+              {subtitle ? <h2 className="text-2xl text-slate-700 font-light">{subtitle}</h2> : null}
             </div>
           </div>
           <div
-            className={`text-md prose`}
+            className={`text-[18px] prose`}
             dangerouslySetInnerHTML={{ __html: content }}
           />
-          <hr/>
+          <hr />
           <div className="space-y-4">
             <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
             <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>

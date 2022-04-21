@@ -6,24 +6,38 @@
   font-family: 'Futura-PT-Book';
   src: url('/font/FuturaPTBook.otf');
 }
-@font-face {
+/* @font-face {
   font-family: 'Futura';
   src: url('/font/Futura-Medium.ttf');
   font-weight: normal;
-}
-
-/* @font-face {
-  font-family: 'Futura';
-  src: url('./font/Futura-Bold.ttf');
-  font-weight: bold;
 } */
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/font/FuturaPTMediumOblique.otf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/font/FuturaPTMedium.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/font/FuturaPTBold.otf');
+  font-weight: bold;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Futura", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Futura PT", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.system {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -33,4 +47,38 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* */
+.prose h2 {
+  @apply mt-16;
+}
+.prose h3 {
+  @apply mt-12;
+}
+.prose h4 {
+  @apply mt-10;
+}
+.prose h4 {
+  /* text-decoration: underline; */
+  /* font-weight: italic; */
+  @apply mt-8 block border-b border-gray-200 pb-4 mb-4 text-[16px] tracking-wide;
+}
+
+.prose img {
+  /* margin: 0 auto; */
+}
+
+.prose img[src="/assets/uploads/bean-logo-128.png"] {
+  @apply mx-auto mt-20 w-16 h-16;
+}
+
+.prose code {
+  @apply bg-slate-200 px-1.5 py-0.5 rounded-sm;
+}
+.prose code::before {
+  content: '';
+}
+.prose code::after {
+  content: '';
 }

@@ -1,11 +1,11 @@
 ---
-title: "The Bi-Weekly Bean: 3/16/22–4/3/22"
-subtitle: The Bi-Weekly Bean, a series where we recap Beanstalk related news
-  from the past two weeks
+title: "The Bi-Weekly Bean #2"
+subtitle: "The Bi-Weekly Bean, a series where we recap Beanstalk related news
+  from the past two weeks."
 date: 2022-04-04T21:13:27.216Z
 author: Beanstalk Farms
-description: The Bi-Weekly Bean, a newsletter where we recap Beanstalk’s
-  highlights from the past two weeks.
+description: "The Bi-Weekly Bean, a newsletter where we recap Beanstalk’s
+  highlights from the past two weeks."
 ---
 Welcome to the Bi-Weekly Bean, a newsletter that recaps Beanstalk highlights in 2 week increments. This issue covers 3/16/22–4/3/22.
 

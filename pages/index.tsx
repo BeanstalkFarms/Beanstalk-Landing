@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Button from '../components/Button';
 import PostButton from '../components/PostButton';
-import ContributorButton from '../components/ContributorButton';
 import CustomHead from '../components/CustomHead';
 import ContentWrapper from '../components/ContentWrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
+import Link from 'next/link';
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -26,22 +26,19 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
         title="Beanstalk | A Decentralized Credit Based Stablecoin Protocol"
         description="Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset."
       />
-      <ContentWrapper variant="side-image">
+      <ContentWrapper variant="farm">
         <div className="space-y-6">
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
           </h1>
-          {/* <Button
-            primary
-            target="_blank"
-            rel="noreferrer"
-            href="https://app.bean.money">
-            Launch App
-          </Button> */}
-          <div className="rounded-md border border-gray-300 p-4 space-y-3">
-            <h2>Beanstalk suffered an exploit on 4/17.</h2>
-            <p>The Beanstalk Farms team is investigating the attack and charting a path forward. Please check Discord for more information and updates: <a href="https://discord.gg/beanstalk" target="_blank" className="text-blue-500" rel="noreferrer">https://discord.gg/beanstalk</a></p>
-          </div>
+          <Link href="/blog/path-forward">
+            <Button
+              primary
+              desc={<span className="text-white text-2xl system">&rarr;</span>}
+              icon="/assets/icon/beanstalk.svg">
+              Beanstalk: The Path Forward
+            </Button>
+          </Link>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Learn</h2>
@@ -56,14 +53,6 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <Button
             target="_blank"
             rel="noreferrer"
-            href="https://omniscia.io/beanstalk-core-protocol/"
-            icon="/assets/icon/omniscia.webp"
-            desc="3/31/2022">
-            Omniscia Audit
-          </Button>
-          <Button
-            target="_blank"
-            rel="noreferrer"
             href="https://discord.gg/beanstalk"
             icon="/assets/icon/discord.png"
             desc="Join the community and ask questions">
@@ -72,11 +61,19 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <Button
             target="_blank"
             rel="noreferrer"
+            href="https://omniscia.io/beanstalk-core-protocol/"
+            icon="/assets/icon/omniscia.webp"
+            desc="3/31/2022">
+            Omniscia Audit
+          </Button>
+          {/* <Button
+            target="_blank"
+            rel="noreferrer"
             href="https://dune.xyz/tbiq/Beanstalk"
             icon="/assets/icon/dune.png"
             desc="View Beanstalk protocol analytics">
             Dune Analytics
-          </Button>
+          </Button> */}
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div className="space-y-4">

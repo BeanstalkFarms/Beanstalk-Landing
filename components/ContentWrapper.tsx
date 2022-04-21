@@ -5,8 +5,8 @@ import Button from "./Button";
 import styles from './ContentWrapper.module.css';
 import Footer from "./Footer";
 
-type ContentWrapperProps = {
-  variant: "default" | "side-image";
+export type ContentWrapperProps = {
+  variant: "default" | "farm";
 }
 
 const ContentWrapper : FC<ContentWrapperProps> = ({
@@ -14,7 +14,7 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
   variant = "default"
 }) => (
   // Side image variant
-  variant === "side-image" ? (
+  variant === "farm" ? (
     <div className="flex flex-row">
       <div className={styles.TextContainer}>
         <div className="max-w-[720px] space-y-24 lg:pb-12">
@@ -39,16 +39,16 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
           {/* Header */}
           <div className="flex flex-row items-center">
             <div className="flex-1">
-              <Link href="/"><a><img src="/logo.svg" className="h-8" /></a></Link>
+              <Link href="/"><a><img src="/logo.svg" className="h-10" /></a></Link>
             </div>
             <Link href="/blog">
-              <a className="inline-block px-4 py-2 text-sm mx-2">
+              <a className="inline-block px-4 py-2 text-md mx-2">
                 Blog
               </a>
             </Link>
-            <a href="https://app.bean.money" target="_blank" rel="noreferrer" className="inline-block border border-gray-200 rounded-md px-4 py-2 text-sm">
+            {/* <a href="https://app.bean.money" target="_blank" rel="noreferrer" className="inline-block border border-gray-200 rounded-md px-4 py-2 text-md">
               Launch App
-            </a>
+            </a> */}
           </div>
           {/* Content */}
           {children}

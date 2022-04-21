@@ -30,7 +30,7 @@ const Button : FC<{
   `}>
     {icon && <img src={icon} className="sm:h-10 sm:w-10 w-8 h-8 p-1 rounded-full" style={props.iconStyle} />}
     <span className="text-xl">{children}</span>
-    {desc && <div className="flex-1 sm:text-right font-[Futura-PT-Book] text-[17px] text-gray-600">{desc}</div>}
+    {desc && <div className="flex-1 sm:text-right text-[17px] text-gray-600">{desc}</div>}
   </a>
 );
 

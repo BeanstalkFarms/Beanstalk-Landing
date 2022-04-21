@@ -26,7 +26,6 @@ const ContributorButton : FC<{
     </div>
     <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[17px]">
       {name}
-      {/* <span className="text-gray-400 sm:inline-block">&middot; Community</span> */}
     </div>
   </a>
 );

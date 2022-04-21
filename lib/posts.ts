@@ -62,7 +62,6 @@ export function getSortedPostsData(limit?: number) : PostData[] {
   return (limit === null) ? friendlySortedData : friendlySortedData.slice(0, limit);
 }
 
-
 // credit: https://nextjs.org/learn/basics/dynamic-routes/implement-getstaticpaths
 export function getAllPostIds() {
   const fileNames = fs.readdirSync(BLOG_POSTS_PATH)
