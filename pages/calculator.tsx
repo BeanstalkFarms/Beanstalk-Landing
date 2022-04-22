@@ -38,7 +38,7 @@ const Calculator : React.FC = () => {
             value={day} 
             onChange={e => setDay(parseInt(e.target.value))}>
             {DAYS.map((d, index) => (
-              <option value={index}>
+              <option key={index} value={index}>
                 {d}
               </option>
             ))}
