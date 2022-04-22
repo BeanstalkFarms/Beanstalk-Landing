@@ -42,6 +42,37 @@ For more about Beanstalk's utility, please refer to this community-authored [art
 
 The exact token that will be used in the Barn Raise is TBD, but given the time delay between the Barn Raise and Unpausing Beanstalk, it will likely be a major stablecoin such as USDC or UST, not ETH.
 
+> Will Barn Raise Pods be tradable?
+
+TBD. We’re exploring safe architectures for making BR Pods tradable like regular Pods. We expect to audit this functionality before it ships.
+
+> Why start this in 10 days?
+
+We need time to build and test contracts appropriately.
+
+> Will Bids be available for all to see prior to Sowing?
+
+Yes, all Bid information will be visible on the Barn Raise website.
+
+> If the full $76M gets filled during Bidding period, will there be a Sowing period?
+
+There will still be a Sowing period. The Weather will begin at `20%` and increase `1% every 10 minutes`. As it increases, Bids at each Weather will automatically fill, new investors will have the opportunity to Sow, and bidders at higher weather will have the opportunity to reduce their bid. This process continue until Soil reaches 0.
+
+> When do Bids get executed?
+
+Bids execute automatically if and when the Weather reaches the Weather specified in the Bid.
+
+> Won’t everyone place a Bid at the maximum Weather?
+
+Bids are not guaranteed to be filled during the Barn Raise. As the Weather climbs during the Sowing Period, anyone can Sow. If Soil reaches 0 before a Bid is reached, that Bid receives no Pods, and the principal is refunded to the Bidder.
+
+Example: 
+
+- Someone places a bid at `400%` Weather to Sow `$10M`.
+- The Weather starts at `20%` and begins increasing. Participants begin Sowing.
+- At `250%` Weather, all $76M is raised; the Barn Raiser is completed.
+- The person who bidded at 400% Weather receives no Pods. Their `$10M` principal is refunded.
+
 **Unpausing Beanstalk**
 -----------------------
 
@@ -65,7 +96,7 @@ Forfeited assets will effectively be distributed back to rest of the Silo Member
 
 > Why use a market cap-based vesting schedule?
 
-The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, the3re is a limit to the amount of capital that can leave at any time.
+The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, there is a limit to the amount of capital that can leave at any time.
 
 > What will the Weather be when the Barn Raise begins?
 
@@ -78,6 +109,10 @@ The Weather will be the same as prior to the exploit.
 > What pools will be launched when Beanstalk Unpauses?
 
 Beanstalk will likely Unpause with one liquidity pool on Curve containing a stablecoin pair.
+
+> How will Silo conversions be handled with vesting? Will people that are locked still be able to convert above/below peg?
+
+Beanstalk Farms is still exploring the technical implications here, but we believe Conversion functionality is crucial to Beanstalk’s stability and expect to launch with this enabled.
 
 **Governance**
 --------------
