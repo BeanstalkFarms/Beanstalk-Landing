@@ -91,14 +91,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             desc="3/31/2022">
             Omniscia Audit
           </Button>
-          {/* <Button
+          <Button
             target="_blank"
             rel="noreferrer"
             href="https://dune.xyz/tbiq/Beanstalk"
             icon="/assets/icon/dune.png"
             desc="View Beanstalk protocol analytics">
             Dune Analytics
-          </Button> */}
+          </Button>
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div className="space-y-4">
