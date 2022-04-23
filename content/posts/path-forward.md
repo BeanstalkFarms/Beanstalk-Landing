@@ -56,7 +56,7 @@ When Bidding, the assets to be Sown are locked in at the time of submission. Bid
 
 Bids placed earlier in the Bidding Period will receive a bonus. The bonus for submitting a Bid will start at a set multiplier and decrease as the end of the Bidding Period approaches. Updating a Bid resets the bonus. Details on the starting multiplier and decrease schedule are pending.
 
-Dyring the Sowing period, Bids will be auto-filled if and when the Bid's Weather is reached, given there is Soil available. Bids are auto-filled in the order in which they were received, meaning earlier Bids at a given Weather have priority in the BR Pod Line.
+During the Sowing period, Bids will be auto-filled if and when the Bid's Weather is reached, given there is Soil available. Bids are auto-filled in the order in which they were received, meaning earlier Bids at a given Weather have priority in the BR Pod Line.
 
 Bids placed at or below 20% Weather will automatically be Sown when the Sowing Period begins.
 
