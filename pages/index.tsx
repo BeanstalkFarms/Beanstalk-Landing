@@ -56,23 +56,32 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
           </h1>
-          <div className="flex flex-row space-x-2 items-stretch">
-            <div className="flex-1">
-              <Link href="/blog/path-forward">
-                <Button
-                  primary
-                  desc={<span className="text-white text-2xl system">&rarr;</span>}
-                  icon="/assets/icon/beanstalk-white.svg">
-                  Beanstalk: The Path Forward
-                </Button>
-              </Link>
+          <div className="space-y-2">
+            <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
+              <div className="flex-1">
+                <Link href="/blog/path-forward">
+                  <Button
+                    primary
+                    desc={<span className="text-white text-2xl system md:block hidden">&rarr;</span>}
+                    icon="/assets/icon/beanstalk-white.svg">
+                    Beanstalk: The Path Forward
+                  </Button>
+                </Link>
+              </div>
+              <div>
+                <Link href="/blog/path-forward-faq">
+                  <Button className="h-full flex items-center">
+                    FAQ
+                  </Button>
+                </Link>
+              </div>
             </div>
             <div>
-              <Link href="/blog/path-forward-faq">
-                <Button className="h-full flex items-center">
-                  FAQ
-                </Button>
-              </Link>
+              <a href="https://snapshot.org/#/beanstalkfarms.eth/proposal/0x54fad9c756daa38bb4bafadbee2cea6cb98f380fe2d6a62fdf723d0b15430d42" target="_blank" rel="noreferrer" className="flex flex-row items-center bg-yellow-100 px-4 py-4 rounded-md space-x-4 border border-yellow-500">
+                <img src="/assets/icon/snapshot.svg" className="h-8" />
+                <span className="flex-1 font-bold">BFP-66: Hire Halborn to Perform Audit</span>
+                <span className="justify-self-end">&rarr;</span>
+              </a>
             </div>
           </div>
         </div>
