@@ -27,6 +27,7 @@ const Button : FC<{
     ${primary
       ? `bg-[#3EB94E] text-white`
       : `bg-white`}
+    ${props.className}
   `}>
     {icon && <img src={icon} className="sm:h-10 sm:w-10 w-8 h-8 p-1 rounded-full" style={props.iconStyle} />}
     <span className="text-xl">{children}</span>

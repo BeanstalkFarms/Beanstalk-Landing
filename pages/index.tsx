@@ -56,14 +56,25 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit based stablecoin protocol.
           </h1>
-          <Link href="/blog/path-forward">
-            <Button
-              primary
-              desc={<span className="text-white text-2xl system">&rarr;</span>}
-              icon="/assets/icon/beanstalk-white.svg">
-              Beanstalk: The Path Forward
-            </Button>
-          </Link>
+          <div className="flex flex-row space-x-2 items-stretch">
+            <div className="flex-1">
+              <Link href="/blog/path-forward">
+                <Button
+                  primary
+                  desc={<span className="text-white text-2xl system">&rarr;</span>}
+                  icon="/assets/icon/beanstalk-white.svg">
+                  Beanstalk: The Path Forward
+                </Button>
+              </Link>
+            </div>
+            <div>
+              <Link href="/blog/path-forward-faq">
+                <Button className="h-full flex items-center">
+                  FAQ
+                </Button>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Learn</h2>
