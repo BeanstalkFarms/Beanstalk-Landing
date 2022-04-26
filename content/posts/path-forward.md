@@ -35,7 +35,7 @@ The Beanstalk community has discussed a number of possible paths forward for Bea
 3.  Preserving as much of each Farmers' Stalk, Seed and Pod positions as possible; and
 4.  Aligning new capital with previous Stalk and Pod holders.
 
-This plan is subject to change as conversations with the community and various sources of capital continue. Ultimately, the Beanstalk DAO will vote on the final version via [Snapshot](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x47f944986658e77566123dc3154faa91be98ff70967574bef29fdf9dabf09b11).
+This plan is subject to change as conversations with the community and various sources of capital continue. Ultimately, the Beanstalk DAO will vote on the final version via [Snapshot](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xedd9f9c4d5246b0de0c27dca2b37563baacc667bd5fa1b58b8d85d62c49f3293).
 
 ### Fundraiser (The Barn Raise)
 
@@ -109,7 +109,7 @@ Beanstalk has always been an experiment. Contributors recognize a need within De
 
 Unlike every other decentralized credit based stablecoin in history, Beanstalk's economic model has not failed. The Beanstalk Farms team is committed to carrying the torch for Beanstalk's mission in lockstep with the Beanstalk community. We believe that Unpausing Beanstalk after a successful Barn Raise is the best path to achieve that goal.
 
-> The Snapshot proposal of this plan can be voted on by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x47f944986658e77566123dc3154faa91be98ff70967574bef29fdf9dabf09b11).
+> The Snapshot proposal of this plan can be voted on by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xedd9f9c4d5246b0de0c27dca2b37563baacc667bd5fa1b58b8d85d62c49f3293).
 > 
 > An enormous thanks is due to everyone who has supported Beanstalk since its inception, and in particular over the past few days since the attack. The outstanding community of thoughtful and cooperative Farmers are responsible for instilling light in the protocol during its darkest day and played a central role in the development of this proposal.
 > 
