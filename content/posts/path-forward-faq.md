@@ -114,6 +114,14 @@ Beanstalk will likely Unpause with one liquidity pool on Curve containing a stab
 
 Beanstalk Farms is still exploring the technical implications here, but we believe Conversion functionality is crucial to Beanstalk’s stability and expect to launch with this enabled.
 
+> What if I had Withdrawn assets at the time of the exploit?
+
+Withdrawn assets will be treated as Circulating assets (as if the Withdrawal timer had elapsed). Circulating assets are subject to the same vesting schedule as Deposited assets.
+
+> How will the Weather change after the Barn Raise?
+
+Beanstalk will Unpause with the pre-exploit Weather.
+
 **Governance**
 --------------
 

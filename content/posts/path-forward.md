@@ -43,7 +43,9 @@ This plan is subject to change as conversations with the community and various s
 
 On May 2nd, Beanstalk will host the Barn Raise, a public ten-day fundraiser to restore up to 100% of the ~$77M of non-Bean liquidity stolen from the Silo. The Barn Raise will consist of two phases: (1) a seven-day Bidding Period, followed by (2) a three-day Sowing Period. This fundraiser presents a unique opportunity for supporters to access a category-defining protocol at a seed-like stage while stepping into pre-existing product-market fit, a proven team, and a steadfast community. Any Ethereum wallet will be able to lend to Beanstalk during the Barn Raise via the new Barn Raise Pod Line (BR Pod Line).
 
-There will be ~77M Soil available during the Barn Raise, meaning that a maximum of $77M can be Sown before the fundraiser ends.
+There will be ~77M Soil available during the Barn Raise, meaning that a maximum of $77M can be Sown before the fundraiser ends. 
+
+Note: Soil is Beanstalk's willingness to issue debt, and Sowing is the act of lending to Beanstalk. Weather is the interest rate for Sowing.
 
 #### Bidding Period
 
@@ -62,9 +64,9 @@ Bids placed at or below 20% Weather will automatically be Sown when the Sowing P
 
 #### Sowing Period
 
-At **4:00pm UTC on 5/9**, the Weather (interest rate) will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when Soil reaches 0 -- whichever occurs first.
+At **4:00pm UTC on 5/9**, the Weather will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when Soil reaches 0 -- whichever occurs first.
 
-Participants can Sow at any time during the Sowing Period, so long as there is available Soil.
+Participants can Sow at any time during the Sowing Period, so long as there is available Soil. Bids do not have to be placed in order to Sow.
 
 Bids that are not successfully filled during the Sowing Period will be claimable after Beanstalk is Unpaused. Bids will be partially fillable.
 
