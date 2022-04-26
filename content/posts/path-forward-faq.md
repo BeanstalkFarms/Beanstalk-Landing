@@ -22,9 +22,9 @@ Beanstalk suffered a governance exploit that drained the protocol's liquidity. T
 
 Giving participants a pre-defined period during which they can participate in the Barn Raise will incentivize participants to compete for available Soil at attractive Pod Line positions in a timely fashion, and allow Beanstalk to be quickly Unpaused. Because Beanstalk cannot be Unpaused until the Barn Raise is complete, setting a fixed window for the Barn Raise allows for a clear timeline for the protocol to Unpause.
 
-> Does the protocol need ~$76M? Would a smaller amount such as $XM be sufficient to Unpause the protocol and allow it to grow again in a healthy manner? Is there a minimum amount to raise?
+> Does the protocol need ~$77M? Would a smaller amount such as $XM be sufficient to Unpause the protocol and allow it to grow again in a healthy manner? Is there a minimum amount to raise?
 
-Given the protocol's economic performance prior to the exploit, it has demonstrated sufficient resilience to Unpause even with a relatively small amount of liquidity. However, an ideal scenario is one in which all ~$76M in stolen funds are recouped.
+Given the protocol's economic performance prior to the exploit, it has demonstrated sufficient resilience to Unpause even with a relatively small amount of liquidity. However, an ideal scenario is one in which all ~$77M in stolen funds are recouped.
 
 > Why not keep Beanstalk running during the Barn Raise?
 
@@ -54,7 +54,7 @@ We need time to build and test contracts appropriately.
 
 Yes, all Bid information will be visible on the Barn Raise website.
 
-> If the full $76M gets filled during Bidding period, will there be a Sowing period?
+> If the full $77M gets filled during Bidding period, will there be a Sowing period?
 
 There will still be a Sowing period. The Weather will begin at `20%` and increase `1% every 10 minutes`. As it increases, Bids at each Weather will automatically fill, new investors will have the opportunity to Sow, and bidders at higher weather will have the opportunity to reduce their bid. This process continue until Soil reaches 0.
 
@@ -70,7 +70,7 @@ Example:
 
 - Someone places a bid at `400%` Weather to Sow `$10M`.
 - The Weather starts at `20%` and begins increasing. Participants begin Sowing.
-- At `250%` Weather, all $76M is raised; the Barn Raiser is completed.
+- At `250%` Weather, all $77M is raised; the Barn Raiser is completed.
 - The person who bidded at 400% Weather receives no Pods. Their `$10M` principal is refunded.
 
 **Unpausing Beanstalk**
@@ -80,7 +80,7 @@ Example:
 
 All Beanstalk assets will be scaled down by a factor proportional to the percentage of total capital Sown during the Barn Raise.
 
-Example: If Beanstalk raises `40%` of the target ~$76M, each Silo Member's existing Stalk balances will be scaled down by `60%`.
+Example: If Beanstalk raises `40%` of the target ~$77M, each Silo Member's existing Stalk balances will be scaled down by `60%`.
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
@@ -88,7 +88,7 @@ Yes. However, reimbursed Silo assets will be placed on a vesting schedule based 
 
 If Silo Members choose to Withdraw before the BR Pod Line has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the BR Pod Line repaid.
 
-Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises $76M in exchange for `250M Pods`. Beanstalk Unpauses and performs normally. After some time, `100M Pods` from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `(100/250) * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had `10,000 BDV` in the Silo prior to the exploit. Beanstalk raises $77M in exchange for `250M Pods`. Beanstalk Unpauses and performs normally. After some time, `100M Pods` from the BR Pod Line has become Harvestable. Withdrawing your Silo deposit at this point would yield `(100/250) * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Withdraw early?
 

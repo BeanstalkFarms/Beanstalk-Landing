@@ -20,7 +20,7 @@ Until the on-chain governance attack on April 17, Beanstalk's [model](https://be
 -   Attracted ~$110M in new liquidity across three liquidity pools; and
 -   Reduced the protocol debt ratio by more than 50%.
 
-From Day 1, the protocol has been owned solely by members of the Beanstalk DAO via a decentralized, on-chain governance structure. Unfortunately, a bad actor exploited that very structure to steal all Silo assets, including ~$76M in non-Bean liquidity. **This was an attack on Beanstalk's governance model, not its economic design.**
+From Day 1, the protocol has been owned solely by members of the Beanstalk DAO via a decentralized, on-chain governance structure. Unfortunately, a bad actor exploited that very structure to steal all Silo assets, including ~$77M in non-Bean liquidity. **This was an attack on Beanstalk's governance model, not its economic design.**
 
 Despite this hurdle, the Beanstalk community has emerged stronger than ever and contributors are working around the clock and without pay to get the protocol back online. The Beanstalk Farms team has always said that if Bean is at peg, it's a good day. The community is ready to have a great day.
 
@@ -35,19 +35,19 @@ The Beanstalk community has discussed a number of possible paths forward for Bea
 3.  Preserving as much of each Farmers' Stalk, Seed and Pod positions as possible; and
 4.  Aligning new capital with previous Stalk and Pod holders.
 
-This plan is subject to change as conversations with the community and various sources of capital continue. Ultimately, the Beanstalk DAO will vote on the final version via Snapshot.
+This plan is subject to change as conversations with the community and various sources of capital continue. Ultimately, the Beanstalk DAO will vote on the final version via [Snapshot](https://snapshot.org/#/beanstalkfarms.eth).
 
 ### Fundraiser (The Barn Raise)
 
 #### Overview
 
-On May 2nd, Beanstalk will host the Barn Raise, a public ten-day fundraiser to restore up to 100% of the ~$76M of non-Bean liquidity stolen from the Silo. The Barn Raise will consist of two phases: (1) a seven-day Bidding Period, followed by (2) a three-day Sowing Period. This fundraiser presents a unique opportunity for supporters to access a category-defining protocol at a seed-like stage while stepping into pre-existing product-market fit, a proven team, and a steadfast community. Any Ethereum wallet will be able to lend to Beanstalk during the Barn Raise via the new Barn Raise Pod Line ("BR Pod Line").
+On May 2nd, Beanstalk will host the Barn Raise, a public ten-day fundraiser to restore up to 100% of the ~$77M of non-Bean liquidity stolen from the Silo. The Barn Raise will consist of two phases: (1) a seven-day Bidding Period, followed by (2) a three-day Sowing Period. This fundraiser presents a unique opportunity for supporters to access a category-defining protocol at a seed-like stage while stepping into pre-existing product-market fit, a proven team, and a steadfast community. Any Ethereum wallet will be able to lend to Beanstalk during the Barn Raise via the new Barn Raise Pod Line (BR Pod Line).
 
-There will be ~76M Soil available during the Barn Raise, meaning that a maximum of $76M can be Sown before the fundraiser ends.
+There will be ~77M Soil available during the Barn Raise, meaning that a maximum of $77M can be Sown before the fundraiser ends.
 
 #### Bidding Period
 
-Between **12:00pm EST on 5/2** and **11:59am EST on 5/9**, participants will have the option to submit bids for Pods — Beanstalk's native debt asset — using two parameters:
+Between **4:00pm UTC on 5/2** and **3:59pm UTC on 5/9**, participants will have the option to submit bids for Pods — Beanstalk's native debt asset — using two parameters:
 
 1.  the Weather for Sowing; and
 2.  the size of the Bid, denominated in USD.
@@ -62,7 +62,7 @@ Bids placed at or below 20% Weather will automatically be Sown when the Sowing P
 
 #### Sowing Period
 
-At **12:00pm ET on 5/9**, the Weather (interest rate) will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when Soil reaches 0 -- whichever occurs first.
+At **4:00pm UTC on 5/9**, the Weather (interest rate) will start at 20% and increase by 1% every 10 minutes for the duration of the Sowing Period, which will end after three days or when Soil reaches 0 -- whichever occurs first.
 
 Participants can Sow at any time during the Sowing Period, so long as there is available Soil.
 
@@ -72,7 +72,7 @@ Bids that are not successfully filled during the Sowing Period will be claimable
 
 After the Sowing Period concludes, there will be a brief interlude prior to Unpausing Beanstalk, during which core contributors and the community will ensure that satisfactory governance and safety measures are in place. Once Beanstalk is Unpaused, new Bean mints will be distributed in a one-third allocation to each of the Silo, the existing Pod Line and the BR Pod Line. The BR Pod Line, like the existing Pod Line, will be repaid on a FIFO basis. After the BR Pod Line completely Harvests, the new Bean mint schedule will revert to Beanstalk's original one-half Silo and one-half existing Pod Line allocation.
 
-Capital Sown during the Barn Raise will be used to reimburse stolen funds pro rata to the Silo. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the ~$76M is raised, participants will receive X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
+Capital Sown during the Barn Raise will be used to reimburse stolen funds pro rata to the Silo. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the ~$77M is raised, participants will receive X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
 
 Silo Members' reimbursed Silo assets will be placed under a vesting schedule based on the percentage of the BR Pod Line that has become Harvestable. If Silo Members choose to Withdraw before the BR Pod Line has been fully repaid, they will face a haircut proportional to the amount of the BR Pod Line repaid. For example, if a Silo Member decides to Withdraw all of their assets from the Silo and 50% of the BR Pod Line has been repaid, they will forfeit their rights to 50% of those assets. Farmable Beans earned from new mints going forward are not subject to this vesting schedule.
 
