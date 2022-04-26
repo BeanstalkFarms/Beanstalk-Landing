@@ -77,9 +77,9 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
               </div>
             </div>
             <div>
-              <a href="https://snapshot.org/#/beanstalkfarms.eth/proposal/0x54fad9c756daa38bb4bafadbee2cea6cb98f380fe2d6a62fdf723d0b15430d42" target="_blank" rel="noreferrer" className="flex flex-row items-center bg-yellow-100 px-4 py-3 rounded-md space-x-4 border border-yellow-500">
+              <a href="https://snapshot.org/#/beanstalkfarms.eth/proposal/0x47f944986658e77566123dc3154faa91be98ff70967574bef29fdf9dabf09b11" target="_blank" rel="noreferrer" className="flex flex-row items-center bg-yellow-100 px-4 py-3 rounded-md space-x-4 border border-yellow-500">
                 <img src="/assets/icon/snapshot.svg" className="h-5" />
-                <span className="flex-1 font-bold">BFP-66: Hire Halborn to Perform Audit</span>
+                <span className="flex-1 font-bold">BFP-67: Barn Raise</span>
                 <span className="justify-self-end">&rarr;</span>
               </a>
             </div>
