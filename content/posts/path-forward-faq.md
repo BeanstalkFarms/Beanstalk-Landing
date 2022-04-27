@@ -84,7 +84,7 @@ Example: If Beanstalk raises `40%` of the target ~$77M, each Silo Member's exist
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
-Yes. However, reimbursed Silo assets will be placed on a vesting schedule based on the percentage of the Barn Raise Pod Line ("BR Pod Line") that has become Harvestable.
+Yes. However, recapitalized Silo assets will be placed on a vesting schedule based on the percentage of the Barn Raise Pod Line ("BR Pod Line") that has become Harvestable.
 
 If Silo Members choose to Withdraw before the BR Pod Line has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the BR Pod Line repaid.
 
