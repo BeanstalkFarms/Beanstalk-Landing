@@ -56,7 +56,7 @@ Between **4:00pm UTC on 5/2** and **3:59pm UTC on 5/9**, participants will have 
 
 When Bidding, the assets to be Sown are locked in at the time of submission. Bids will not be cancellable once submitted, but may be updated to lower the Weather.
 
-Bids placed earlier in the Bidding Period will receive a bonus. The bonus for submitting a Bid will start at 21% on Day 1 of the Bidding Period and decrease by 3% per day until the end of the Bidding Period. The bonus will decrease at 4:00pm UTC. Updating a Bid resets the bonus. The bonus will be added to the Weather. For example, a $100 Bid for 120% with a 21% bonus would yield 100 * (100 + 120 + 21) = 241 Pods.
+Bids placed earlier in the Bidding Period will receive a bonus. The bonus for submitting a Bid will start at 21% on Day 1 of the Bidding Period and decrease by 3% per day until the end of the Bidding Period. The bonus will decrease at 4:00pm UTC. Updating a Bid resets the bonus. The bonus will be added to the Weather. For example, a $100 Bid with 120% Weather and a 21% bonus would yield 100 + 100 * (1.2 + .21) = 241 Pods.
 
 During the Sowing period, Bids will be auto-filled if and when the Bid's Weather is reached, given there is Soil available. Bids are auto-filled in the order in which they were received, meaning earlier Bids at a given Weather have priority in the BR Pod Line.
 
