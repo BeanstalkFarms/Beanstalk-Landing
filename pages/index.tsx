@@ -76,13 +76,13 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
                 </Link>
               </div>
             </div>
-            <div>
+            {/* <div>
               <a href="https://snapshot.org/#/beanstalkfarms.eth/proposal/0x87d874a4a8b079c5dc092d7240e4c34fbb7d93252c9158fcb697bd9adff9bac9" target="_blank" rel="noreferrer" className="flex flex-row items-center bg-yellow-100 px-4 py-3 rounded-md space-x-4 border border-yellow-500">
                 <img src="/assets/icon/snapshot.svg" className="h-5" />
                 <span className="flex-1 font-bold">BFP-69: Start Date Change for the Barn Raise</span>
                 <span className="justify-self-end">&rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="space-y-4">
@@ -106,11 +106,19 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <Button
             target="_blank"
             rel="noreferrer"
+            href="https://snapshot.org/#/beanstalkfarms.eth"
+            icon="/assets/icon/snapshot.svg"
+            desc="Vote on governance proposals">
+            Snapshot
+          </Button>
+          {/* <Button
+            target="_blank"
+            rel="noreferrer"
             href="https://omniscia.io/beanstalk-core-protocol/"
             icon="/assets/icon/omniscia.webp"
             desc="3/31/2022">
             Omniscia Audit
-          </Button>
+          </Button> */}
           <Button
             target="_blank"
             rel="noreferrer"
@@ -127,12 +135,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             <a href={`/blog`}><p className="text font-normal mr-4 text-blue-600">See all &rarr;</p></a>
           </div>
           <div className="flex flex-col space-y-4">
-            {allPostsData.map(({ id, date, title, subtitle }) => (
+            {allPostsData.map(({ id, date, title, subtitle, image }) => (
               <PostButton
                 key={id}
                 href={`/blog/${id}`}
                 title={title}
                 subtitle={subtitle}
+                date={date}
+                image={image}
               />
             ))}
           </div>

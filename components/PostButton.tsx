@@ -2,13 +2,17 @@ import Link from "next/link";
 import { FC } from "react";
 
 const PostButton : FC<{
-  title: string,
+  title: string;
   subtitle: string;
-  href: string,
+  href: string;
+  date?: string;
+  image?: string;
 }> = ({
   title,
   subtitle,
   href,
+  date,
+  image,
   ...props
 }) => (
   <Link href={href}>
@@ -26,6 +30,11 @@ const PostButton : FC<{
       <div className="font-400 text-gray-600 text-[17px]">
         {subtitle}
       </div>
+      {date && <div className="pt-2">
+        <div className="text-gray-400 text-sm">
+          {date}
+        </div>
+      </div>}
     </a>
   </Link>
 );
