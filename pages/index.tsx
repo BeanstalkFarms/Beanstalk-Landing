@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
 const TITLE = `Beanstalk | A Decentralized Credit Based Stablecoin Protocol`;
 const DESC  = `Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset.`;
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money';
 
 const Home: NextPage<BlogProps> = ({ allPostsData }) => {
   return (

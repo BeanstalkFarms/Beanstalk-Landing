@@ -69,7 +69,7 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   }
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money';
 
 const Post: NextPage<PostProps> = (props) => {
   const {

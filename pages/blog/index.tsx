@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 const TITLE = `Blog | Beanstalk`;
 const DESC  = `Posts from Beanstalk Farms and members of the community.`;
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money';
 
 const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
   <>
