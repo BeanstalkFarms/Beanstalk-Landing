@@ -1,6 +1,6 @@
 ---
 title: "Beanstalk: The Path Forward"
-subtitle: "The plan to recapitalize Beanstalk."
+subtitle: "The plan to recapitalize and Unpause Beanstalk."
 author: Beanstalk Farms
 description: >-
   Announcing The Path Forward, the plan to recapitalize and Unpause Beanstalk.
