@@ -1,6 +1,6 @@
 ---
 title: "Beanstalk: The Path Forward FAQ"
-subtitle: "Additional information about the plan to Unpause Beanstalk."
+subtitle: "Additional information about the plan to recapitalize and Unpause Beanstalk."
 author: Beanstalk Farms
 description: >-
   Additional information about the plan to recapitalize and Unpause Beanstalk.
