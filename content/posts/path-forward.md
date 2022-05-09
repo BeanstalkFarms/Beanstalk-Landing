@@ -51,7 +51,7 @@ It has also become clear that most investors are interested in recapitalizing Be
 
 The terms for an OTC investment as part of Beanstalk’s recapitalization effort are as follows:
 - Beanstalk will borrow up to $77M from lenders in exchange for debt at 500% Weather (the interest rate).
-- Lenders will receive a fungible token that earns a pro rata share of one-third of new Bean mints until the debt is repaid.
+- Lenders will receive a token that earns a pro rata share of one-third of new Bean mints until the debt is repaid.
 - Beanstalk will Unpause after the audits with Halborn and Trail of Bits are complete.
 
 Under these terms, there are confirmed commitments for ~15% of the $77M, and additional capital sources have demonstrated demand in excess of the remaining 85%. The terms outlined above are available to any DAO or outside source of capital that is interested in recapitalizing Beanstalk.
@@ -62,7 +62,7 @@ Given the level of demand that the OTC structure has garnered thus far, the Barn
 
 Funds raised will be used to recapitalize stolen funds pro rata to the Silo. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the $77M is raised, participants will receive X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
 
-Silo Members' recapitalized Silo assets will be placed under a vesting schedule based on the percentage of debt paid back to the fungible token holders. If Silo Members choose to Withdraw before that debt has been fully repaid, they will face a haircut proportional to the amount of the debt repaid. For example, if a Silo Member decides to Withdraw all of their assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. Farmable Beans earned from new mints going forward are not subject to this vesting schedule.
+Silo Members' recapitalized Silo assets will be placed under a vesting schedule based on the percentage of debt paid back to the token holders. If Silo Members choose to Withdraw before that debt has been fully repaid, they will face a haircut proportional to the amount of the debt repaid. For example, if a Silo Member decides to Withdraw all of their assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. Farmable Beans earned from new mints going forward are not subject to this vesting schedule.
 
 ### Unpausing Beanstalk
 
@@ -120,7 +120,7 @@ Unlike every other decentralized credit based stablecoin in history, Beanstalk's
 -------------------------------
 ### Appendix
 
-_Note: The following was written in the initial Path Forward post before the OTC structure outlined above was ratified by the DAO. If the OTC deal does not raise the full $77M, the Barn Raise may proceed in order to recapitalize any remaining liquidity. The yield of remaining unsold fungible tokens from the OTC sale can be repurposed for the Barn Raise to fill the remaining liquidity. In that case, the vesting schedule and Bean mint distribution defined below would account for both the new fungible token and the BR Pod Line._
+_Note: The following was written in the initial Path Forward post before the OTC structure outlined above was ratified by the DAO. If the OTC deal does not raise the full $77M, the Barn Raise may proceed in order to recapitalize any remaining liquidity. The yield of remaining unsold tokens from the OTC sale can be repurposed for the Barn Raise to fill the remaining liquidity. In that case, the vesting schedule and Bean mint distribution defined below would account for both the new token and the BR Pod Line._
 
 #### Barn Raise Overview
 
