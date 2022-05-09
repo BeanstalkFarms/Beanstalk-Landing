@@ -30,9 +30,9 @@ Beanstalk is the only positive carry stablecoin in DeFi — it has the potential
 
 For more about Beanstalk's utility, please refer to this community-authored [article](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
 
-> Why use a fungible token to represent debt instead of a Pod Line?
+> Why use a token to represent debt instead of a Pod Line?
 
-Using a fungible token allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
+Using a token allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
 
 **Unpausing Beanstalk**
 -----------------------
@@ -45,11 +45,11 @@ Example: If Beanstalk raises 40% of the target ~$77M, each Silo Member's existin
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
-Yes. However, recapitalized Silo assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to the fungible token outlined in the main Path Forward article. 
+Yes. However, recapitalized Silo assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to the token outlined in the main Path Forward article. 
 
 If Silo Members choose to Withdraw before the debt has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the debt repaid.
 
-Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to the fungible token holders. Withdrawing your Silo deposit at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to the token holders. Withdrawing your Silo deposit at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Withdraw early?
 
