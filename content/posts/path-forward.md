@@ -49,9 +49,18 @@ Since the exploit, Beanstalk Farms, Bean Sprout and Publius have had many conver
 
 As such, Beanstalk will host the Barn Raise – a fundraiser to restore up to $77M in non-Bean liquidity stolen from the Silo – **beginning on Monday, June 6 at 4:00pm UTC and ending on Monday June 27 at 4:00pm UTC**. 
 
-During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange for debt at 500% Weather. To facilitate this, Beanstalk will launch The Barn Raise Collection, an NFT collection with 15,400 items that sell for 5000 USDC each during the Barn Raise, raising up to $77M. Each NFT holder will receive a pro rata share of one-third of new Bean mints until the debt to NFT holders has been fully repaid. OTC investors who commit capital in advance of the Barn Raise will get the same terms as community participants.
+During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange for debt at 500% Weather. To facilitate this, Beanstalk will launch the Barn Raise Collection, an NFT collection with 15,400 items that sell for 5000 USDC each during the Barn Raise, raising up to $77M. Each NFT holder will receive a pro rata share of one-third of new Bean mints until the debt to NFT holders has been fully repaid. OTC investors who commit capital in advance of the Barn Raise will get the same terms as community participants.
 
-NFT rarity will increase with earlier participation in the Barn Raise period. There will also be a rarity boost for BeaNFT holders and participants who have previously interacted with Beanstalk. Details on the art and rarity to come over the next couple weeks. 
+To commemorate the Barn Raise, each NFT in the Barn Raise Collection will have a unique piece of artwork with attributes of varying rarities. To meet the launch timeline of June 6, each NFT will mint with a placeholder image, to be updated near the time of Unpause with custom artwork. 
+
+NFT rarity will increase with earlier participation in the Barn Raise period. There will also be a rarity boost for BeaNFT holders and participants who have previously interacted with Beanstalk. 
+
+Note that the artwork is commemorative; rarity does not affect a NFT's pro-rata share of new Bean mints. More details on the art and rarity will come over the next couple weeks. 
+
+Here's some concept art for the Barn Raise Collection. This art direction is subject to change.
+
+![NFT Concept Art](/assets/uploads/nft-concept-art.png)
+
 
 Conversations with larger capital sources for OTC participation in Beanstalk's recapitalization are still happening between now and the Barn Raise. Large participants who make OTC commitments prior to the official Barn Raise launch will not receive preferential access to rare NFT traits. In the instance that an OTC commitment has been formally made, but on-chain participation is difficult in a timely manner, Beanstalk Farms will allocate the appropriate amount of NFTs to prevent the sale from being oversubscribed. 
 
