@@ -9,14 +9,16 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-**This document will be updated and added to as new information relevant to Beanstalk’s recapitalization and Unpause becomes available.**
+**This document will be updated as new information relevant to Beanstalk’s recapitalization and Unpause becomes available.**
 
-**Fundraise**
+**The Barn Raise**
 -------------------------------
 
 > Why does Beanstalk need a fundraiser?
 
 Beanstalk suffered a governance exploit that drained the protocol's liquidity. The goal of the fundraise is to recapitalize that stolen liquidity and then Unpause Beanstalk.
+
+While raising the full $77M is a sufficient – and ideal – condition of a successful Barn Raise, it is not a necessary one. Because this process is designed to scale the protocol based on the size of the Barn Raise, Beanstalk will be able to Unpause with an arbitrary amount of new liquidity. In practice, raising $0 is the equivalent of restarting Beanstalk from scratch. Therefore, any amount raised is better than nothing. However, at the time of writing, there are confirmed commitments for ~20% of the $77M.
 
 > Does the protocol need ~$77M? Would a smaller amount such as $XM be sufficient to Unpause the protocol and allow it to grow again in a healthy manner? Is there a minimum amount to raise?
 
@@ -102,7 +104,7 @@ Beanstalk will undergo both Halborn and Trail of Bits audits, and Beanstalk Farm
 
 Beanstalk Farms will double down on its efforts to attract and retain experienced security engineers who specialize in smart contract development.
 
-> Does centralized multisig governance violate the decentralized ethos of Beanstalk?
+> Is multisig governance contrary to the decentralized ethos of Beanstalk?
 
 Everything is relative, and the multisig will still be custodied by a diverse set of distributed community members. However, multisig governance is still a sub-optimal and temporary solution. Once Beanstalk has been Unpaused, Beanstalk Farms will explore a more resilient decentralized governance solution. Any new governance solution will be thoroughly audited before being proposed on-chain.
 
@@ -113,49 +115,3 @@ Yes. Beanstalk will undergo end-to-end audits with Halborn beginning in mid-May 
 > Will there be a bug bounty?
 
 Yes. Beanstalk Farms has engaged Immunefi among others to launch a comprehensive ongoing bug bounty program.
-
-**Appendix: The Barn Raise**
-------------
-
-> Why is the Barn Raise time-bound?
-
-Giving participants a pre-defined period during which they can participate in the Barn Raise will incentivize participants to compete for available Soil at attractive Pod Line positions in a timely fashion, and allow Beanstalk to be quickly Unpaused. Because Beanstalk cannot be Unpaused until the Barn Raise is complete, setting a fixed window for the Barn Raise allows for a clear timeline for the protocol to Unpause.
-
-> Why not keep Beanstalk running during the Barn Raise?
-
-Raising capital while Beanstalk is running presents certain technical challenges; executing the Barn Raise and Unpausing Beanstalk in two discrete steps allows everyone to ensure each step is done safely.
-
-> What asset will be used to Sow during the Barn Raise?
-
-The exact token that will be used in the Barn Raise is TBD, but it will likely be a major stablecoin such as USDC or UST.
-
-> What will the Weather be when the Barn Raise begins?
-
-The Weather will start at 20% and increase by 1% every 10 minutes during the Sowing Period.
-
-> Will Barn Raise Pods be tradable?
-
-TBD. We’re exploring safe architectures for making BR Pods tradeable like regular Pods. We expect to audit this functionality before it ships.
-
-> Will Bids be available for all to see prior to Sowing?
-
-Yes, all Bid information will be visible on the Barn Raise website.
-
-> If the full $77M gets filled during Bidding period, will there be a Sowing period?
-
-There will still be a Sowing period. The Weather will begin at 20% and increase 1% every 10 minutes. As it increases, Bids at each Weather will automatically fill, new investors will have the opportunity to Sow, and bidders at higher weather will have the opportunity to reduce their bid. This process continue until Soil reaches 0.
-
-> When do Bids get executed?
-
-Bids execute automatically if and when the Weather reaches the Weather specified in the Bid.
-
-> Won’t everyone place a Bid at the maximum Weather?
-
-Bids are not guaranteed to be filled during the Barn Raise. As the Weather climbs during the Sowing Period, anyone can Sow. If Soil reaches 0 before a Bid is reached, that Bid receives no Pods, and the principal is refunded to the Bidder.
-
-Example:
-
-- Someone places a bid at 400% Weather to Sow $10M.
-- The Weather starts at 20% and begins increasing. Participants begin Sowing.
-- At 250% Weather, all $77M is raised; the Barn Raiser is completed.
-- The person who bidded at 400% Weather receives no Pods. Their $10M principal is refunded.
