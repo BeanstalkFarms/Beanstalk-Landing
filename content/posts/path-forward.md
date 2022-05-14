@@ -38,7 +38,7 @@ The Beanstalk community has discussed a number of possible paths forward for Bea
 3.  Preserving as much of each Farmers' Stalk, Seed and Pod positions as possible; and
 4.  Aligning new capital with previous Stalk and Pod holders.
 
-This plan is subject to change as conversations with the community and various sources of capital continue. The latest version has been voted on and approved by the Beanstalk DAO in the Snapshot proposal [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0).
+This plan is subject to change as conversations with the community and various sources of capital continue. The latest version has been approved by the Beanstalk DAO in the Snapshot proposal [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0).
 
 
 ### The Barn Raise
