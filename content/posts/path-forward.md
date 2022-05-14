@@ -4,7 +4,7 @@ subtitle: "Announcing The Barn Raise, a public fundraiser to recapitalize Beanst
 author: Beanstalk Farms
 description: >-
   Announcing The Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6.
-date: 2022-04-20T22:00:00.000Z
+date: 2022-05-14T22:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
 ---
