@@ -2,10 +2,11 @@ import type { NextPage } from 'next'
 import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
-import Button from '../components/Button';
-import PostButton from '../components/PostButton';
-import ContentWrapper from '../components/ContentWrapper';
+import Button from '../components/Buttons/Button';
+import PostButton from '../components/Buttons/PostButton';
+import Wrapper from '../components/Wrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
+import { COPY, IMAGES, SITE_URL } from '../lib/constants';
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -20,9 +21,9 @@ export async function getStaticProps() {
   }
 }
 
-const TITLE = `Beanstalk | A decentralized credit-based stablecoin protocol`;
-const DESC  = `Beanstalk is a decentralized stablecoin protocol built on Ethereum that uses credit instead of collateral to create $BEAN, a stable and scalable asset pegged to the US Dollar.`;
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money';
+// Metadata
+const TITLE = `Beanstalk | ${COPY.BASIC_TAGLINE}`;
+const DESC  = COPY.BASIC_DESCRIPTION;
 
 const Home: NextPage<BlogProps> = ({ allPostsData }) => {
   return (
@@ -37,7 +38,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           type: "article",
           images: [
             {
-              url: SITE_URL + "/assets/meta/basic.png",
+              url: IMAGES.BASIC_META,
               width: 1200,
               height: 628,
               type: 'image/jpeg',
@@ -51,7 +52,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant="farm">
+      <Wrapper variant="farm">
         {/**
           * Section: Introduction
           */}
@@ -154,7 +155,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
           <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
         </div>
-      </ContentWrapper>
+      </Wrapper>
     </>
   )
 }

@@ -1,24 +1,49 @@
+import { NextSeo } from "next-seo";
 import Link from "next/link";
-import Button from "../components/Button";
-import ContentWrapper from "../components/ContentWrapper";
-import CustomHead from "../components/CustomHead";
+import Button from "../components/Buttons/Button";
+import Wrapper from "../components/Wrapper";
+import { COPY, IMAGES } from "../lib/constants";
 
 type ErrorProps = { res : any, err: any };
 
+// Metadata
+const TITLE = `404 | Beanstalk`;
+const DESC  = COPY.BASIC_DESCRIPTION;
 function Error(props: any) {
   return (
     <>
-      <CustomHead title="404 | Beanstalk" />
-      <ContentWrapper variant="farm">
+      <NextSeo
+        title={TITLE}
+        description={DESC}
+        openGraph={{
+          title: TITLE,
+          description: DESC,
+          images: [
+            {
+              url: IMAGES.BASIC_META,
+              width: 1200,
+              height: 628,
+              type: 'image/jpeg',
+            }
+          ],
+          site_name: 'Beanstalk',
+        }}
+        twitter={{
+          handle: '@beanstalkfarms',
+          cardType: 'summary_large_image',
+          site: '@beanstalkfarms'
+        }}
+      />
+      <Wrapper variant="farm">
         <div className="space-y-4">
           <h1 className="text-4xl">Page not found.</h1>
           <Link href="/">
             <Button>
-              &larr; Back home
+              &larr; Return home
             </Button>
           </Link>
         </div>
-      </ContentWrapper>
+      </Wrapper>
     </>
   )
 }

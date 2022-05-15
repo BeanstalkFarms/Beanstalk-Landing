@@ -2,11 +2,12 @@ import type { NextPage } from 'next'
 import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
-import Button from '../components/Button';
-import PostButton from '../components/PostButton';
-import ContentWrapper from '../components/ContentWrapper';
+import Button from '../components/Buttons/Button';
+import PostButton from '../components/Buttons/PostButton';
+import Wrapper from '../components/Wrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
-import ContributorButton from '../components/ContributorButton';
+import ContributorButton from '../components/Buttons/ContributorButton';
+import { COPY, IMAGES, SITE_URL } from '../lib/constants';
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -21,9 +22,9 @@ export async function getStaticProps() {
   }
 }
 
+// Metadata
 const TITLE = `Learn | Beanstalk`;
-const DESC  = `Beanstalk is a decentralized credit based stablecoin protocol that is built on Ethereum. Beanstalk uses credit instead of collateral to create a decentralized, liquid, blockchain-native asset, which is stable relative to the value of a non-blockchain-native asset.`;
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money';
+const DESC  = COPY.BASIC_DESCRIPTION;
 
 const Home: NextPage<BlogProps> = ({ allPostsData }) => {
   return (
@@ -37,7 +38,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           description: DESC,
           images: [
             {
-              url: SITE_URL + "/assets/meta/basic.png",
+              url: IMAGES.BASIC_META,
               width: 1200,
               height: 628,
               type: 'image/jpeg',
@@ -51,7 +52,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant="farm">
+      <Wrapper variant="farm">
         <div className="space-y-6">
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             Learn more about Beanstalk.
@@ -107,7 +108,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
           <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
         </div>
-      </ContentWrapper>
+      </Wrapper>
     </>
   )
 }
