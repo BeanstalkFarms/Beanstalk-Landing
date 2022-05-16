@@ -39,7 +39,7 @@ Using a token allows Beanstalk to offer the same terms to multiple investors. Po
 **Unpausing Beanstalk**
 -----------------------
 
-> What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
+> What's going to happen to Beans, Stalk, Seeds, BDV in the Silo (like LP tokens), and Pods?
 
 All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised. Otherwise known as a haircut.
 
@@ -47,17 +47,17 @@ Example: If Beanstalk raises 40% of the target ~$77M, each Silo Members' existin
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
-Yes. However, recapitalized assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to NFT holders. Unvested assets cannot be sold.
+Yes, but recapitalized assets (including Beans and BDV in the Silo) will be subject to a vesting schedule based on the amount of the debt that is repaid to NFT holders. 
 
-Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The amount forfeited will be proportional to the amount of debt repaid.
+If Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The amount forfeited will be proportional to the amount of debt repaid. Reminder: to Withdraw is to remove assets from the Silo, to Claim assets is to transfer the assets from Beanstalk to your wallet. 
 
 Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to NFT holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Claim early?
 
-Forfeited assets will effectively distributed pro rata back to the rest of the holders of that unvested asset. 
+Forfeited assets will be effectively distributed pro rata back to the rest of the holders of that unvested asset. 
 
-Forfeited unvested Beans get distributed to unvested Bean holders, and forfeited unvested LP gets distributed to unvested LP holders.
+Forfeited unvested Beans will be distributed to unvested Bean holders, and forfeited unvested LP will be distributed to unvested LP holders.
 
 > Are Farmable Beans and Harvestable Pods subject to the vesting schedule?
 
