@@ -49,18 +49,13 @@ Since the exploit, Beanstalk Farms, Bean Sprout and Publius have had many conver
 
 As such, Beanstalk will host the Barn Raise – a fundraiser to restore up to $77M in non-Bean liquidity stolen from the Silo – **beginning on Monday, June 6 at 4:00pm UTC and ending on Monday June 27 at 4:00pm UTC**. 
 
-During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange for debt at 500% Weather. To facilitate this, Beanstalk will launch the Barn Raise Collection, an NFT collection with 15,400 items that sell for 5000 USDC each during the Barn Raise, raising up to $77M. Each NFT holder will receive a pro rata share of one-third of new Bean mints until the debt to NFT holders has been fully repaid. OTC investors who commit capital in advance of the Barn Raise will get the same terms as community participants.
+During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange for debt at 500% Weather (the interest rate on debt). To facilitate this, Beanstalk will launch the Barn Raise Collection, an NFT collection with 15,400 items that sell for 5000 USDC each during the Barn Raise, raising up to $77M. Each NFT holder will receive a pro rata share of one-third of new Bean mints until the debt to NFT holders has been fully repaid.
 
 To commemorate the Barn Raise, each NFT in the Barn Raise Collection will have a unique piece of artwork with attributes of varying rarities. To meet the launch timeline of June 6, each NFT will mint with a placeholder image, to be updated near the time of Unpause with custom artwork. 
 
 NFT rarity will increase with earlier participation in the Barn Raise period. There will also be a rarity boost for BeaNFT holders and participants who have previously interacted with Beanstalk. 
 
 Note that the artwork is commemorative; rarity does not affect a NFT's pro-rata share of new Bean mints. More details on the art and rarity will come over the next couple weeks. 
-
-Here's some concept art for the Barn Raise Collection. This art direction is subject to change.
-
-![NFT Concept Art](/assets/uploads/nft-concept-art.png)
-
 
 Conversations with larger capital sources for OTC participation in Beanstalk's recapitalization are still happening between now and the Barn Raise. Large participants who make OTC commitments prior to the official Barn Raise launch will not receive preferential access to rare NFT traits. In the instance that an OTC commitment has been formally made, but on-chain participation is difficult in a timely manner, Beanstalk Farms will allocate the appropriate amount of NFTs to prevent the sale from being oversubscribed. 
 
@@ -71,7 +66,7 @@ Currently, in advance of the Barn Raise, there are confirmed OTC commitments for
 
 Funds raised will be used to recapitalize stolen funds pro rata to the Silo. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the $77M is raised, participants will receive X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
 
-Silo Members' recapitalized Silo assets will be placed under a vesting schedule based on the percentage of debt paid back to the token holders. If Silo Members choose to Withdraw before that debt has been fully repaid, they will face a haircut proportional to the amount of the debt repaid. For example, if a Silo Member decides to Withdraw all of their assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. Farmable Beans earned from new mints going forward are not subject to this vesting schedule.
+Silo Members' recapitalized Silo assets will be placed under a vesting schedule based on the percentage of debt paid back to the token holders. If Silo Members choose to Withdraw before that debt has been fully repaid, they will face a haircut proportional to the amount of the debt repaid. For example, if a Silo Member decides to Withdraw all of their recapitalized assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. 
 
 ### Unpausing Beanstalk
 
@@ -90,7 +85,7 @@ Beanstalk security measures:
 -   Beanstalk governance will move off-chain to a Gnosis multisig wallet custodied by Beanstalk Farms and Beanstalk community members;
 -   Over the short term, the development team will focus its energy on safely Unpausing Beanstalk and ensuring the integrity of Beanstalk's core functionality. Once complete, Beanstalk Farms will explore a more resilient decentralized governance structure;
 -   Starting May 9, Beanstalk will undergo an end-to-end audit with [Halborn](https://halborn.com/);
--   Starting in early June, Beanstalk will undergo an end-to-end audit with [Trail of Bits](https://www.trailofbits.com/);
+-   Starting June 6, Beanstalk will undergo an end-to-end audit with [Trail of Bits](https://www.trailofbits.com/);
 -   Beanstalk Farms will launch an ongoing bug bounty program with [Immunefi](https://immunefi.com/) and other leading bug bounty platforms; and
 -   Beanstalk Farms is doubling down on its efforts to attract and retain experienced security engineers who specialize in smart contract development.
 
@@ -99,12 +94,12 @@ Beanstalk security measures:
 The following timeline is intended to provide a rough timeline of steps in the critical path to Unpause Beanstalk. This timeline is subject to change.
 
 May 2022
-- Halborn audit begins
+- Halborn audit begins May 9
 - Hold OTC negotiations to recapitalize Beanstalk
 
 June 2022
-- Trail of Bits audit begins
 - Finalize OTC negotiations to recapitalize Beanstalk
+- Trail of Bits audit begins June 6
 - Hold the Barn Raise from June 6 to June 27
 - Both Halborn and Trail of Bits audits complete by end of month
 

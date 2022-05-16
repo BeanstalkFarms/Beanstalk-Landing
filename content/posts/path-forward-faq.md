@@ -41,21 +41,27 @@ Using a token allows Beanstalk to offer the same terms to multiple investors. Po
 
 > What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
 
-All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised.
+All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised. Scaling down Beanstalk's obligations in this way gives it the best shot at succeeding when Unpaused.
 
 Example: If Beanstalk raises 40% of the target ~$77M, each Silo Member's existing Stalk balances will be scaled down by 60%.
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
-Yes. However, recapitalized Silo assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to the token outlined in the main Path Forward article. 
+Yes. However, recapitalized assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to NFT holders. Unvested assets cannot be sold.
 
-If Silo Members choose to Withdraw before the debt has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the debt repaid.
+Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the debt repaid.
 
-Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to the token holders. Withdrawing your Silo deposit at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to the token holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
-> What happens to the rest of my assets when I Withdraw early?
+> What happens to the rest of my assets when I Claim early?
 
-Forfeited assets will effectively be distributed back to the rest of the Silo Members that are still subject to the vesting schedule.
+Forfeited assets will distributed pro rata back to the rest of the holders of that unvested asset.
+
+Forfeited unvested Beans get distributed to unvested Bean holders, and forfeited unvested LP gets distributed to unvested LP holders.
+
+> Are Farmable Beans and Harvestable Pods subject to the vesting schedule?
+
+No.
 
 > Why use a market cap-based vesting schedule?
 
