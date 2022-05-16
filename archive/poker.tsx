@@ -1,15 +1,13 @@
 import { NextPage } from "next";
-import Button from "../components/Buttons/Button";
 import Wrapper from "../components/Wrapper";
-import CustomHead from "../components/CustomHead";
 
 const Poker : NextPage = () => (
   <>
-    <CustomHead
+    {/* <CustomHead
       title="Beans on the Table Poker Tournament | Beanstalk"
       description="Join now to get a seat at one of Beanstalk's first ever poker tournaments on 3/5 at 5:30 PM PT. 100 Beans to buy in - 600,000+ Pods guaranteed."
       image="https://bean.money/assets/meta/poker-03052022.jpg"
-    />
+    /> */}
     <Wrapper variant="default">
       <div className="space-y-6">
         <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
