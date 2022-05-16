@@ -49,13 +49,13 @@ Example: If Beanstalk raises 40% of the target ~$77M, each Silo Members' existin
 
 Yes. However, recapitalized assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to NFT holders. Unvested assets cannot be sold.
 
-Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The size of the haircut will be proportional to the amount of the debt repaid.
+Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The amount forfeited will be proportional to the amount of debt repaid.
 
 Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to NFT holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Claim early?
 
-Forfeited assets will distributed pro rata back to the rest of the holders of that unvested asset.
+Forfeited assets will effectively distributed pro rata back to the rest of the holders of that unvested asset. 
 
 Forfeited unvested Beans get distributed to unvested Bean holders, and forfeited unvested LP gets distributed to unvested LP holders.
 
