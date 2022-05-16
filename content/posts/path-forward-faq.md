@@ -32,7 +32,7 @@ Beanstalk is the only positive carry stablecoin in DeFi — it has the potential
 
 For more about Beanstalk's utility, please refer to this community-authored [article](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
 
-> Why use a token to represent debt instead of a Pod Line?
+> Why use a token (like NFTs) to represent debt instead of a Pod Line?
 
 Using a token allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
 
@@ -41,17 +41,17 @@ Using a token allows Beanstalk to offer the same terms to multiple investors. Po
 
 > What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
 
-All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised. Scaling down Beanstalk's obligations in this way gives it the best shot at succeeding when Unpaused.
+All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised. Otherwise known as a haircut.
 
-Example: If Beanstalk raises 40% of the target ~$77M, each Silo Member's existing Stalk balances will be scaled down by 60%.
+Example: If Beanstalk raises 40% of the target ~$77M, each Silo Members' existing Stalk balances will be scaled down by 60%.
 
 > Can I Withdraw my assets from the Silo after the relaunch?
 
 Yes. However, recapitalized assets will be placed on a vesting schedule based on the percentage of the debt that is repaid to NFT holders. Unvested assets cannot be sold.
 
-Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will face a haircut. The size of the haircut will be proportional to the amount of the debt repaid.
+Silo Members can Withdraw without penalty (other than the usual loss of Stalk and Seeds). However, if Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The size of the haircut will be proportional to the amount of the debt repaid.
 
-Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to the token holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
+Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to NFT holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
 
 > What happens to the rest of my assets when I Claim early?
 

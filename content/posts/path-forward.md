@@ -64,9 +64,9 @@ Currently, in advance of the Barn Raise, there are confirmed OTC commitments for
 
 #### Aligning Incentives
 
-Funds raised will be used to recapitalize stolen funds pro rata to the Silo. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the $77M is raised, participants will receive X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
+Funds raised will be used to recapitalize stolen funds pro rata to Bean and LP holders. The protocol will scale its obligations based on the amount of capital raised. This means that if X% of the $77M is raised, participants will receive a haircut down to X% of their pre-exploit Beans, Stalk, Seeds, BDV and Pods.
 
-Silo Members' recapitalized Silo assets will be placed under a vesting schedule based on the percentage of debt paid back to the token holders. If Silo Members choose to Withdraw before that debt has been fully repaid, they will face a haircut proportional to the amount of the debt repaid. For example, if a Silo Member decides to Withdraw all of their recapitalized assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. 
+Recapitalized assets will be placed under a vesting schedule based on the percentage of debt paid back to NFT holders. If Farmers choose to Claim before that debt has been fully repaid, they will face a forfeit an amount of their assets proportional to the amount of the debt repaid. For example, if a Farmer decides to Claim all of their recapitalized assets from the Silo and 50% of the debt has been repaid, they will forfeit their rights to 50% of those assets. 
 
 ### Unpausing Beanstalk
 
