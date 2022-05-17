@@ -57,7 +57,7 @@ Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $
 
 Forfeited assets will be effectively distributed pro rata back to the rest of the holders of that unvested asset. 
 
-Forfeited unvested Beans will be distributed to unvested Bean holders, and forfeited unvested LP will be distributed to unvested LP holders.
+Forfeited vesting Beans will be distributed to vesting Bean holders, and forfeited vesting LP will be distributed to vesting LP holders.
 
 > Are Farmable Beans and Harvestable Pods subject to the vesting schedule?
 
