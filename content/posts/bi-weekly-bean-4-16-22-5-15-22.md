@@ -15,9 +15,7 @@ Welcome to the Bi-Weekly Bean, a newsletter that recaps the happenings in the Be
 
 As the summer months approach, both old and new farmers are rightfully asking: what's next for Beanstalk?
 
-Since the protocol's governance [exploit](https://bean.money/blog/beanstalk-governance-exploit) on Easter weekend, the community has rallied and devised a plan for the [Barn Raise](https://bean.money/blog/path-forward) to recapitalize the Beanstalk and get it back on its feet. Various proposals have been considered around this idea, and the most recent proposal approved by the Beanstalk DAO offers the latest details:
-
-[](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0)<https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0>
+Since the protocol's governance [exploit](https://bean.money/blog/beanstalk-governance-exploit) on Easter weekend, the community has rallied and devised a plan for the [Barn Raise](https://bean.money/blog/path-forward) to recapitalize the Beanstalk and get it back on its feet. Various proposals have been considered around this idea, and the most recent [proposal](<https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0>) approved by the Beanstalk DAO offers the latest details.
 
 If you're new to Beanstalk, you can bookmark this analytics page to review the protocol’s performance, as it reflects how Beanstalk's economic model was performing up to that point:
 
