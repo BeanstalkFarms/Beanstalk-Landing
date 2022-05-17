@@ -1,5 +1,5 @@
 ---
-title: Bi-Weekly Bean 4/16/22 - 5/15/22
+title: "Bi-Weekly Bean #3"
 subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem.
   This issue will cover the 4/16/22– 5/15/22 period. "
 date: 2022-05-16T09:56:05.243Z
