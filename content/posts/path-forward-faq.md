@@ -4,12 +4,12 @@ subtitle: "Additional information about the plan to recapitalize and Unpause Bea
 author: Beanstalk Farms
 description: >-
   Additional information about the plan to recapitalize and Unpause Beanstalk.
-date: 2022-05-26T06:00:00.000Z
+date: 2022-05-25T06:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-_For a comprehensive writeup of the Barn Raise in detail, check out [A Farmer's Comprehensive Guide to the Barn Raise](https://snapshot.org/#/beanstalkfarms.eth)._
+_A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
 
 **The Barn Raise**
 -------------------------------

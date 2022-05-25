@@ -4,7 +4,7 @@ subtitle: "Announcing The Barn Raise, a public fundraiser to recapitalize Beanst
 author: Beanstalk Farms
 description: >-
   Announcing The Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6.
-date: 2022-05-26T05:00:00.000Z
+date: 2022-05-25T05:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
 ---
@@ -50,7 +50,7 @@ During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange
 
 Funds raised will be used to recapitalize stolen funds pro rata to the Silo. Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and the debt to Fertilizer holders is repaid. If Silo Members choose to Withdraw and Claim their assets before they are fully vested, they will forfeit the unvested portion of their assets. New Beans earned by Silo Members as interest are not subject to this vesting schedule.
 
-_For a comprehensive writeup of the Barn Raise in detail (like the vesting schedule), check out [A Farmer's Comprehensive Guide to the Barn Raise](https://snapshot.org/#/beanstalkfarms.eth)._
+_A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
 
 ### Unpausing Beanstalk
 
@@ -105,4 +105,5 @@ Unlike every other decentralized credit based stablecoin in history, Beanstalk's
 > 
 > For additional information on The Path Forward, please [refer to the FAQ here](/blog/path-forward-faq).
 >
-> For a comprehensive writeup of the Barn Raise in detail, check out [A Farmer's Comprehensive Guide to the Barn Raise](https://snapshot.org/#/beanstalkfarms.eth).
+> _A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
+
