@@ -9,7 +9,7 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-_A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
+_A comprehensive writeup of the new Barn Raise structure will be released in the next day or so._
 
 **The Barn Raise**
 -------------------------------
