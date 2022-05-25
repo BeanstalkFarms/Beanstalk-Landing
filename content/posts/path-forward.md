@@ -35,7 +35,7 @@ The Beanstalk community has discussed a number of possible paths forward for Bea
 3.  Preserving as much of each Farmers' Stalk, Seed and Pod positions as possible; and
 4.  Aligning new capital with previous Stalk and Pod holders.
 
-The latest version of this plan was approved by the Beanstalk DAO [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
+The latest version of this plan is being voted on by the Beanstalk DAO [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
 
 ### The Barn Raise
 
@@ -99,11 +99,9 @@ Beanstalk has always been an experiment. Contributors recognize a need within De
 
 Unlike every other decentralized credit based stablecoin in history, Beanstalk's economic model has not failed. The Beanstalk Farms team is committed to carrying the torch for Beanstalk's mission in lockstep with the Beanstalk community. We believe that Unpausing Beanstalk after a successful fundraise is the best path to achieve that goal.
 
-> The Snapshot proposal of this plan was voted on by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
+> The Snapshot proposal of this plan is being voted on by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
 > 
 > An enormous thanks is due to everyone who has supported Beanstalk since its inception, and in particular over during the time since the attack. The outstanding community of thoughtful and cooperative Farmers are responsible for instilling light in the protocol during its darkest day and played a central role in the development of this proposal.
 > 
 > For additional information on The Path Forward, please [refer to the FAQ here](/blog/path-forward-faq).
->
-> _A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
 
