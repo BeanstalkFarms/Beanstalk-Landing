@@ -4,25 +4,23 @@ subtitle: "Additional information about the plan to recapitalize and Unpause Bea
 author: Beanstalk Farms
 description: >-
   Additional information about the plan to recapitalize and Unpause Beanstalk.
-date: 2022-05-14T22:15:00.000Z
+date: 2022-05-25T06:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-**This document will be updated as new information relevant to Beanstalk’s recapitalization and Unpause becomes available.**
+_A comprehensive writeup of the new Barn Raise structure in detail will be released in the next day or so._
 
 **The Barn Raise**
 -------------------------------
 
 > Why does Beanstalk need a fundraiser?
 
-Beanstalk suffered a governance exploit that drained the protocol's liquidity. The goal of the fundraise is to recapitalize that stolen liquidity and then Unpause Beanstalk.
-
-While raising the full $77M is a sufficient – and ideal – condition of a successful Barn Raise, it is not a necessary one. Because this process is designed to scale the protocol based on the size of the Barn Raise, Beanstalk will be able to Unpause with an arbitrary amount of new liquidity. In practice, raising $0 is the equivalent of restarting Beanstalk from scratch. Therefore, any amount raised is better than nothing. However, at the time of writing, there are confirmed commitments for ~20% of the $77M.
+Beanstalk suffered a governance exploit that drained the protocol's liquidity. The goal of the fundraiser is to recapitalize that stolen liquidity and then relaunch Beanstalk.
 
 > Does the protocol need ~$77M? Would a smaller amount such as $XM be sufficient to Unpause the protocol and allow it to grow again in a healthy manner? Is there a minimum amount to raise?
 
-Given the protocol's economic performance prior to the exploit, it has demonstrated sufficient resilience to Unpause even with a relatively small amount of liquidity. However, an ideal scenario is one in which all ~$77M in stolen funds are recouped.
+Given the protocol's economic performance prior to the exploit, it has demonstrated sufficient resilience to Unpause even with a relatively small amount of liquidity. With that and the vesting schedule, it is not necessary to raise all $77M before relaunching.
 
 > What is Beanstalk's utility?
 
@@ -32,48 +30,30 @@ Beanstalk is the only positive carry stablecoin in DeFi — it has the potential
 
 For more about Beanstalk's utility, please refer to this community-authored [article](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
 
-> Why use a token (like NFTs) to represent debt instead of a Pod Line?
+> Why use a token to represent debt instead of Pods?
 
-Using a token allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
+Using a semi-fungible token (or any token for that matter) allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
 
 **Unpausing Beanstalk**
 -----------------------
 
-> What's going to happen to Beans, Stalk, Seeds, BDV in the Silo (like LP tokens), and Pods?
+> What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
 
-All Beanstalk assets will be scaled down by a factor proportional to the percentage of capital raised. Otherwise known as a haircut.
+Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and debt to Fertilizer holders is repaid.
 
-Example: If Beanstalk raises 40% of the target ~$77M, each Silo Members' existing Stalk balances will be scaled down by 60%.
+Example: If Beanstalk sells 100% of the Fertilizer and 50% of the debt to Fertilizer holders is repaid, Silo Members can Withdraw and claim up to 50% of their original asset and forfeit the difference.
 
-> Can I Withdraw my assets from the Silo after the relaunch?
+> What happens to the rest of my assets when I Withdraw and Claim early?
 
-Yes, but recapitalized assets (including Beans and BDV in the Silo) will be subject to a vesting schedule based on the amount of the debt that is repaid to NFT holders. 
-
-If Farmers choose to Claim assets before the debt has been fully repaid, they will forfeit a portion of their assets. The amount forfeited will be proportional to the amount of debt repaid. Reminder: to Withdraw is to remove assets from the Silo, to Claim assets is to transfer the assets from Beanstalk to your wallet. 
-
-Example: You had 10,000 BDV in the Silo prior to the exploit. Beanstalk raises $77M, Unpauses and performs normally. After some time, 40% of the debt is repaid to NFT holders, and you Withdraw your assets from the Silo. Claiming your assets at this point would yield `0.4 * 10,000 BDV = 4,000 BDV` of assets. The remaining assets are forfeited.
-
-> What happens to the rest of my assets when I Claim early?
-
-Forfeited assets will be effectively distributed pro rata back to the rest of the holders of that unvested asset. 
-
-Forfeited vesting Beans will be distributed to vesting Bean holders, and forfeited vesting LP will be distributed to vesting LP holders.
+Forfeited LP reduces the amount that needs to be raised by the Barn Raise, and forfeited Beans will be effectively distributed to the rest of the pre-exploit Bean holders that are still subject to the vesting schedule.
 
 > Are Farmable Beans and Harvestable Pods subject to the vesting schedule?
 
 No.
 
-> Why use a market cap-based vesting schedule?
-
-The market cap-based vesting schedules creates a strong alignment between existing Silo Members and Barn Raise participants, allowing new capital to enter with confidence that the Silo Members they are bailing out are not incentivized to quickly leave, and even if they do, there is a limit to the amount of capital that can leave at any time.
-
 > What pools will be launched when Beanstalk Unpauses?
 
 Beanstalk will likely Unpause with one liquidity pool on Curve containing a stablecoin pair.
-
-> How will Silo conversions be handled with vesting? Will people that are locked still be able to convert above/below peg?
-
-Beanstalk Farms is still exploring the technical implications here, but we believe Convert functionality is crucial to Beanstalk’s stability and expect to launch with this enabled.
 
 > What if I had Circulating assets at the time of the exploit?
 
