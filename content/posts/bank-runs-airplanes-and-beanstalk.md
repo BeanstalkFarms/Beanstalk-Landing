@@ -11,11 +11,11 @@ Beanstalk Farms is deeply saddened for everyone affected by the events following
 
 We firmly believe that a decentralized and scalable stablecoin protocol has the potential to bring open access to digital money to every person with an internet connection. As such, we hope that the DeFi community keeps these possibilities in mind and holds onto its spirit of experimentation.
 
-* * *
+- - -
 
 This is the first piece in a series that discusses why Beanstalk is more resistant to a fatal bank run than other uncollateralized/undercollateralized stablecoins. Part I covers Beanstalk’s *protocol-native utility* - the incentives that align Bean holders regardless of market conditions.
 
-* * *
+- - -
 
 [Others](https://twitter.com/jonwu_/status/1523793482850050048?s=20&t=efsPdgRtAc_mfnIO0tppUA) have already done an excellent job of breaking down Terra’s recent bank run, so we'll avoid rehashing the entire sequence of events. Instead, we'll summarize the main points and then focus on what *protocol-native utility* is, why a lack of it ultimately doomed UST, and why it helps make Beanstalk antifragile.
 
@@ -29,7 +29,7 @@ Instead, Beanstalk is designed from first principles to incentivize any capital 
 
 That’s protocol-native utility.
 
-* * *
+- - -
 
 **Protocol-Native Utility**
 
@@ -55,7 +55,7 @@ Beanstalk’s native liquidity center, the Silo, is designed to incentivize part
 
 When assets are withdrawn from the Silo, all Stalk for the Deposit must be forfeited. In the event of a bank run on Beanstalk, Stalk must be burned in order for people to leave and sell. As a result, the more Beans that are removed, the more Stalk gets burned, and the higher the opportunity cost associated with burning each additional Stalk. So as a bank run deepens, the opportunity cost for leaving the Silo actually grows.
 
-What this all means is that Silo Members’ (i.e. Depositors of Bean or LP Tokens) participation in the growth of the Bean supply _increases _the longer they are in the Silo, and increases further anytime someone else exits the Silo. And nothing is reliant on subsidized yield or third-party use cases – it all exists at the protocol level.
+What this all means is that Silo Members’ (i.e. Depositors of Bean or LP Tokens) participation in the growth of the Bean supply increases the longer they are in the Silo, and increases further anytime someone else exits the Silo. And nothing is reliant on subsidized yield or third-party use cases – it all exists at the protocol level.
 
 *Convert*
 
@@ -89,7 +89,7 @@ This is what makes Beanstalk unique. It creates protocol-native incentives via S
 
 That’s what a sustainable non-collateralized stablecoin looks like.
 
-* * *
+- - -
 
 Thank you for reading. If you’d like to stay up to date on Beanstalk, subscribe to our newsletter [here](https://bean.money/). 
 
