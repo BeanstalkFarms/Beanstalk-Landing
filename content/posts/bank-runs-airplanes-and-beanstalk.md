@@ -12,11 +12,15 @@ Beanstalk Farms is deeply saddened for everyone affected by the events following
 
 We firmly believe that a decentralized and scalable stablecoin protocol has the potential to bring open access to digital money to every person with an internet connection. As such, we hope that the DeFi community keeps these possibilities in mind and holds onto its spirit of experimentation.
 
-<p align=center> \*\** </p>
+<div align="center">
+
+\*\** </div>
 
 This is the first piece in a series that discusses why Beanstalk is more resistant to a fatal bank run than other uncollateralized/undercollateralized stablecoins. Part I covers Beanstalk’s protocol-native utility - the incentives that align Bean holders regardless of market conditions.
 
-\* \* *
+<div align="center">
+
+\*\** </div>
 
 [Others](https://twitter.com/jonwu_/status/1523793482850050048?s=20&t=efsPdgRtAc_mfnIO0tppUA) have already done an excellent job of breaking down Terra’s recent bank run, so we'll avoid rehashing the entire sequence of events. Instead, we'll summarize the main points and then focus on what protocol-native utility is, why a lack of it ultimately doomed UST, and why it helps make Beanstalk antifragile.
 
@@ -30,9 +34,11 @@ Instead, Beanstalk is designed from first principles to incentivize any capital 
 
 That’s protocol-native utility.
 
-\* \* *
+<div align="center">
 
-## Protocol-Native Utility
+\*\** </div>
+
+### Protocol-Native Utility
 
 Around 1899, Orville and Wilbur Wright set out to solve “the flying problem”. At the time, the latest in aviation technology were motorless gliders capable of floating for up to 30 seconds – but only when wind conditions were absolutely perfect. Without a motor or a steady tailwind, they couldn’t really do anything. In other words, early gliders had no native utility.
 
@@ -42,7 +48,7 @@ Now, recall that we previously discussed Terra's reliance on Anchor to generate 
 
 Beanstalk is the first uncollateralized stablecoin protocol to create protocol-native stablecoin utility – it’s the only airplane on the market. 
 
-## How Beanstalk’s Autopilot Works
+### How Beanstalk’s Autopilot Works
 
 Beanstalk is designed to fly no matter the conditions it faces. Still, like any plane, sometimes it hits patches of turbulence. As an autonomous monetary system, Beanstalk can’t be reliant on any one pilot – it has to be able to fly on autopilot. 
 
@@ -50,7 +56,7 @@ Any autopilot system worth its salt, though, has a variety of tools it can use t
 
 Let’s walk through two of Beanstalk’s primary tools:
 
-## The Silo and Stalk
+### The Silo and Stalk
 
 Beanstalk’s native liquidity center, the Silo, is designed to incentivize participants to make long-term Deposits and contribute to peg maintenance. Every Bean or LP Token Deposit receives Stalk and Seeds. Stalk is the governance token which entitles holders to receive a share of new Bean mints. Seeds generate new Stalk every Season. Unlike UST, Stalk allows Bean and LP Token holders to participate in the growth of the Bean supply at the protocol level. 
 
@@ -58,7 +64,7 @@ When assets are withdrawn from the Silo, all Stalk for the Deposit must be forfe
 
 What this all means is that Silo Members’ (i.e. Depositors of Bean or LP Tokens) participation in the growth of the Bean supply increases the longer they are in the Silo, and increases further anytime someone else exits the Silo. And nothing is reliant on subsidized yield or third-party use cases – it all exists at the protocol level.
 
-## Convert
+### Convert
 
 To date, most stablecoins have had negative carry, such that holding it or using it has an associated opportunity cost. Beanstalk is willing to compensate individuals for their exposure to Bean, meaning it’s actually positive carry. Convert functionality lets individual Silo Members maximize the carry associated with their Bean exposure via active participation in peg maintenance. 
 
@@ -80,9 +86,11 @@ With Anchor – when price of UST depegged – UST holders could either a) sell 
 
 Protocol-native utility is created by  the alignment of interests between a protocol and its tokenholders. 
 
-\* \* *
+<div align="center">
 
-## Conclusion
+\*\** </div>
+
+### Conclusion
 
 During periods of exuberance, just about any project with an ambitious enough roadmap in hypergrowth looks generational. It’s when markets sober up, however, that true product-market fit separates itself from hype. 
 
@@ -92,7 +100,9 @@ This is what makes Beanstalk unique. It creates protocol-native incentives via S
 
 That’s what a sustainable non-collateralized stablecoin looks like.
 
-\* \* *
+<div align="center">
+
+\*\** </div>
 
 Thank you for reading. If you’d like to stay up to date on Beanstalk, subscribe to our newsletter [here](https://bean.money/). 
 
