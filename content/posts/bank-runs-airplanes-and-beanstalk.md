@@ -3,8 +3,8 @@ title: Bank Runs, Airplanes, and Beanstalk
 subtitle: Part I - Protocol-native utility
 date: 2022-05-26T20:15:29.456Z
 author: ereal
-description: Protocol-native utility - the incentives that align Bean holders
-  regardless of market conditions.
+description: Part I - Protocol-native utility - the incentives that align Bean
+  holders regardless of market conditions.
 image: /assets/uploads/frances-gunn-qcbaz7vrehq-unsplash.png
 ---
 Beanstalk Farms is deeply saddened for everyone affected by the events following UST’s depegging and the ensuing collapse of Terra. 
