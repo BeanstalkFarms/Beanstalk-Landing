@@ -105,4 +105,4 @@ Unlike every other decentralized credit based stablecoin in history, Beanstalk's
 > 
 > For additional information on The Path Forward, please [refer to the FAQ here](/blog/path-forward-faq).
 >
->_Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive over of the Barn Raise mechanics.
+>Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive over of the Barn Raise mechanics.
