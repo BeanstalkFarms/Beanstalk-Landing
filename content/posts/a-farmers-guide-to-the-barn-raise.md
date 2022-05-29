@@ -12,14 +12,6 @@ In August 2021, Beanstalk was first planted by Publius. Beanstalk, while still e
 
 On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4) chopped down Beanstalk. The foundations are still there, but Beanstalk must be Fertilized in order to continue.
 
-
-
-# Overview
-
-In order to support the Fertilization, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
-
-Fertilizer, a semi-fungible token, will be sold during the Barn Raise. The roots of Beanstalk will be Replanted in early July. After the Replanting, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
-
 <figure>
 <p align="center">
   <img 
@@ -32,11 +24,17 @@ Fertilizer, a semi-fungible token, will be sold during the Barn Raise. The roots
 <figcaption align="center"><b>Beanstalk Exploit (Colorized, 2022)</b></figcaption>
 </figure>
 
+# Overview
+
+In order to support the Fertilization, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
+
+Fertilizer, a semi-fungible token, will be sold during the Barn Raise. The roots of Beanstalk will be Replanted in early July. After the Replanting, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
+
 ### Vesting
 
 In order to align new capital with pre-exploit Farmers, all pre-exploit Beans and LP Tokens will become _Unripe Beans_ and _Unripe LP Tokens_ respectively upon the Replanting of Beanstalk. Unripe assets represent a pro rata share of the underlying assets minted as Fertilizer is sold and debt repaid to Fertilizer. _Ripening_ is the process of burning Unripe Beans in exchange for Beans, or burning Unripe LP Tokens in exchange for LP Tokens. Unripe assets are subject to a vesting schedule.
 
-Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe Beans can be Ripened. Unripe assets will be distributed upon the Replanting in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be canceled. Pod Listings will stay open and can be Cancelled at any time after the Replanting.
+Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe assets can be Ripened. Unripe assets will be distributed upon the Replanting in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be canceled. Pod Listings will stay open and can be Cancelled at any time after the Replanting.
 
 Stalk and Seeds will be distributed based on the percentage of Fertilizer sold at the time of the Replanting, and any remaining Stalk and Seeds balances will vest as more Fertilizer is sold. Pods stay the same as pre-exploit.
 
@@ -77,7 +75,7 @@ There are edge cases where it is possible for Unripe assets to Ripen for >100% o
 
 ### Fertilizer
 
-**Humidity**
+#### Humidity
 
 The interest rate on Fertilizer is called Humidity.
 
@@ -89,7 +87,7 @@ Fertilizer purchased before the Replanting in early July will have a 500% Humidi
 
 By rewarding early participation in the Barn Raise and having the reward drop off quickly, demand for Soil and the Silo increases as Fertilizer becomes less attractive. This will facilitate the incentive structures created by Beanstalk to quickly return to a relatively similar state to prior to the attack. 
 
-**New Bean Mints**
+#### New Bean Mints
 
 There are 3 states Fertilizer can be in:
 * If Fertilizer is not sold yet, it’s Available.
@@ -103,7 +101,7 @@ It is expected that if Beanstalk is successful long-term, even 20% Humidity woul
 
 The vesting schedule tied to the product of Fertilizer sold and Fertilizer paid back minimizes the new supply from vesting assets even in the instance there are extended periods of minimal demand for Fertilizer. 
 
-**Commemorative NFTs**
+#### Commemorative NFTs
 
 Fertilizer will be ERC-1155 tokens with the Season of purchase as the unique identifier.
 
@@ -133,6 +131,8 @@ Because there are only approximately 30M Beans, this imposes an upper bound on F
 The forfeiture of Unripe LP Tokens during the vesting schedule also reduces the amount of liquidity that needs to be raised, and thus the amount of Fertilizer for sale. 
 
 This Barn Raise structure doubles down on the core economic mechanism that got Beanstalk to this point. It is up to the market to decide if Beanstalk deserves to exist—and these difficult endogenous circumstances give Beanstalk the opportunity to prove itself even more in the midst of exogenous market turmoil.
+
+<hr/>
 
 # Notes
 
