@@ -149,7 +149,7 @@ Part 1—When recapitalizing pre-exploit LP Tokens, Beanstalk:
 
 Part 2—When recapitalizing pre-exploit Beans, Beanstalk:
 1. mints Beans according to the ratio of Deposited Beans lost in the exploit and the total capital required to recapitalize all assets (for the sake of simplicity, with 100 USDC, let’s say Beanstalk mints 40 Beans); and
-2. adds 40 Beans to the underlying pool of Unripe Beans.
+2. adds 40 Beans to the underlying pool for Unripe Beans.
 
 At this point, none of the LP Tokens or Beans in their underlying pools are vested, or Ripenable, because the amount of debt repaid to Fertilizer is still 0%.
 
