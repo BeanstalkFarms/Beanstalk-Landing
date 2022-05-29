@@ -144,7 +144,7 @@ Let’s say someone buys 100 Fertilizer for 100 USDC, and this is the only Ferti
 
 Part 1—When recapitalizing pre-exploit LP Tokens, Beanstalk:
 1. mints the number of Beans required to add liquidity to the liquidity pool at the pre-exploit Bean price (for the sake of simplicity, with 100 USDC, let’s say Beanstalk mints 85 Beans because the pre-exploit price was >1);
-2. adds 100 USDC and 85 Beans as LP Tokens in the Curve pool for X LP Tokens; and
+2. adds 100 USDC and 85 Beans as liquidity in the Curve pool for X LP Tokens; and
 3. adds X LP Tokens to the underlying pool for Unripe LP Tokens.
 
 Part 2—When recapitalizing pre-exploit Beans, Beanstalk:
