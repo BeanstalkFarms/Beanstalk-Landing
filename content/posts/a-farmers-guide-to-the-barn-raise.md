@@ -1,9 +1,9 @@
 ---
 title: "A Farmer's Guide to the Barn Raise"
-subtitle: "A comprehensive overview of the Barn Raise Mechanics."
+subtitle: "A comprehensive overview of the Barn Raise mechanics."
 author: Beanstalk Farms
 description: >-
-  A comprehensive overview of the Barn Raise Mechanics.
+  A comprehensive overview of the Barn Raise mechanics.
 date: 2022-05-29T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
 ---
