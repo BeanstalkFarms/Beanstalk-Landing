@@ -28,7 +28,7 @@ On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9
 
 In order to support the Fertilization, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
 
-Fertilizer, a semi-fungible token, will be sold during the Barn Raise. The roots of Beanstalk will be Replanted in early July. After the Replanting, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
+Fertilizer, a semi-fungible token, will be sold during the Barn Raise. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. The roots of Beanstalk will be Replanted in early July. After the Replanting, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
 
 ### Vesting
 
