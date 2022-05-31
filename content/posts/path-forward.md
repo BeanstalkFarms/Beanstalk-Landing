@@ -88,7 +88,7 @@ June 2022
 - Both Halborn and Trail of Bits audits complete by end of month
 
 July 2022
-- Unpause Beanstalk at the beginning of the month
+- Unpause Beanstalk towards the beginning of the month (exact date to be voted on by the Beanstalk DAO)
 
 
 ![Bean Logo](/assets/uploads/bean-logo-128.png)
