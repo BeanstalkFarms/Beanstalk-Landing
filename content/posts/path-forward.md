@@ -42,9 +42,9 @@ The latest version of this plan has been approved by the Beanstalk DAO [here](ht
 #### Overview
 
 
-Beanstalk will host the Barn Raise — a fundraiser to restore up to $77M in non-Bean liquidity stolen from the Silo – **starting Monday, June 6 at 4:00pm UTC**. Beanstalk will relaunch in early July and the Barn Raise will continue until the fundraiser is complete. 
+Beanstalk will host the Barn Raise — a fundraiser to restore approximately $77M in non-Bean liquidity stolen from the Silo – **starting Monday, June 6 at 4:00pm UTC**. Beanstalk will relaunch in early July and the Barn Raise will continue until the fundraiser is complete. 
 
-During the Barn Raise, Beanstalk will borrow up to $77M from lenders in exchange for an interest rate. The interest rate will start at 500% and decrease down to 20% a few weeks after Beanstalk relaunches. Participants will receive a token known as Fertilizer that receives one-third of new Bean mints until the interest rate is realized. 77M Fertilizer will sell for 1 USDC each. 
+During the Barn Raise, Beanstalk will borrow approximately $77M from lenders in exchange for an interest rate. The interest rate will start at 500% and decrease down to 20% a few weeks after Beanstalk relaunches. Participants will receive a token known as Fertilizer that receives one-third of new Bean mints until the interest rate is realized. 77M Fertilizer will sell for 1 USDC each. 
 
 #### Aligning Incentives
 
