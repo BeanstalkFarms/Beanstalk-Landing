@@ -71,6 +71,14 @@ The BCM shall not execute transactions until an associated Snapshot successfully
    </td>
   </tr>
   <tr>
+   <td>Emergency removal of rogue multisig signer
+   </td>
+   <td>No
+   </td>
+   <td>N/A
+   </td>
+  </tr>
+  <tr>
    <td>Emergency hotfix (needs public notification)
    </td>
    <td>No
