@@ -11,7 +11,7 @@ image: /assets/uploads/grayscale-barn.png
 
 **The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to 1) enact on-chain the decisions Stalk holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
-The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its n-of-m configuration will start as 5-of-7 on Ethereum mainnet. Parameters n and m are each ultimately defined by Stalk holders and may evolve in the future via Snapshot vote. The BCM will add two signers to configure the multisig to be 5-of-9 signers prior to Beanstalk being Replanted.
+The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration will start as 5-of-7 on Ethereum mainnet. Parameters n and m are each ultimately defined by Stalk holders and may evolve in the future via Snapshot vote. The BCM will add two signers to configure the multisig to be 5-of-9 signers prior to Beanstalk being Replanted.
 
 BCM’s Signers are an anonymous and diverse set of:
 - Reputable community members; and
@@ -212,7 +212,7 @@ A maximum of 4 signers will be members of Beanstalk Farms. Publius collectively 
 #### Malicious Key Holder Risk
 Under this structure, it’s important to acknowledge the risk of anonymous key holders conspiring to attack Beanstalk. Since Publius knows the identities of the anonymous signers, Publius would be the main attack vector—if this malicious actor were to compromise Publius before conspiring to attack Beanstalk, they could be reasonably sure that their identity would never be revealed. 
 
-In order to mitigate this attack vector, the BCM will institute the following process whenever the n-of-m multisig is changed:
+In order to mitigate this attack vector, the BCM will institute the following process whenever the m-of-n multisig is changed:
 - Publius will publish a hash of the list of signers and their corresponding wallets on-chain.
 - Publius will share the list of signers and their wallets with their personal legal counsel, to be released in the event that Publius is compromised such that they cannot publish the list themselves. This makes Publius and their personal legal counsel the only parties with access to the list.
 
