@@ -11,7 +11,7 @@ image: /assets/uploads/grayscale-barn.png
 
 **The Beanstalk Community Multisig, or BCM, is not intended to have decision making power.** Its role is to 1) enact on-chain the decisions Stalk holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
 
-The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration will start as 5-of-7 on Ethereum mainnet. Parameters n and m are each ultimately defined by Stalk holders and may evolve in the future via Snapshot vote. The BCM will add two signers to configure the multisig to be 5-of-9 signers prior to Beanstalk being Replanted.
+The BCM is deployed using [Gnosis Safe](https://gnosis-safe.io/), the most battle-tested multisig contract on Ethereum. Its m-of-n configuration will start as 5-of-7 on Ethereum mainnet. Parameters m and n are each ultimately defined by Stalk holders and may evolve in the future via Snapshot vote. The BCM will add two signers to configure the multisig to be 5-of-9 signers prior to Beanstalk being Replanted.
 
 BCM’s Signers are an anonymous and diverse set of:
 - Reputable community members; and
@@ -117,7 +117,7 @@ The following are the processes in place for community members to submit a BIP a
 3. BCM key holders shall verify that they have access to their wallets.
 4. The BCM will submit a Snapshot of the written proposal and a corresponding on-chain transaction to formally begin the Voting Period.
 5. During the Snapshot Voting Period (1-7 days), every BCM Signer shall verify the transaction and write an etherscan message confirming their review according to the process outlined in the Reviewing and Signing off on Transactions section. Each Signer is expected to verify every transaction. However, if not all Signers verify the transaction, the BCM may still continue per the process outlined in the Rotating Holders In/Out section.
-6. If the Snapshot passes, the Signers will sign n/m signatures and execute the transaction on-chain as soon as possible. If the Snapshot fails, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.
+6. If the Snapshot passes, the Signers will sign m/n signatures and execute the transaction on-chain as soon as possible. If the Snapshot fails, the Signers will submit and execute a cancel transaction with the same nonce as soon as possible.
 
 ## Voting for BIPs
 Voting for BIPs will take place on Snapshot, using Stalk ownership at the time of proposal on Snapshot. Any Stalk holder can vote for or against any Snapshot proposal. In all instances, 1 Stalk equals 1 vote, and voting against a proposal is equivalent to abstaining.
@@ -159,7 +159,7 @@ Once sufficient signatures have been provided to execute the transaction, is it 
 A Signer shall lose their role (by action of the remaining signers removing them) in case they:
 - Act against Stalk holders’ off-chain voting;
 - Do not follow best practices outlined in the BCM Best Practices section; or
-- Got through 2 months or 2 votes (whichever takes longer) without performing any of their signer duties.
+- Got through 2 months or 2 consecutive votes (whichever takes longer) without performing any of their signer duties.
 
 ## Emergency Response Procedures
 The BCM’s role is to 1) enact on-chain the decisions Stalk holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented. However, if a situation arises in the future like the April 17th, 2022 exploit of Beanstalk, it is of critical importance that the BCM take swift action to protect Beanstalk.
