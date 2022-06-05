@@ -1,14 +1,13 @@
 ---
 title: "Thoughts Before the Barn Raise"
+subtitle: "From Publius"
 author: Publius
 description: >-
   Thoughts from Publius before the Barn Raise.
 date: 2022-06-05T10:00:00.000Z
-image: /assets/uploads/publius.png
 ---
 
-_“...but I said nothing about the awful monster Scylla, for I knew the men would not go on rowing if I did, but would huddle together in the hold.” Odysseus, the Odyssey, Book XII_
-
+_“We choose to go to the moon. We choose to go to the moon in this decade and do the other things (accomplishments and aspirations), not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.” - John F Kennedy, September 12, 1962_
 
 Dear community, 
 
@@ -22,9 +21,9 @@ That evening, we decided to work on an ESD fork as a side project that we though
 
 Having appreciated the grand ambitions of Beanstalk, we decided to deploy the protocol in the fashion we believed would set the protocol up for the highest probability of long term success. There was no pre-sale, pre-mine, team allocation, or any sort of public or private funding round. We were totally anonymous. The first 100 Beans were minted when the protocol was deployed. Since then, Beanstalk has been allowed to run its course. 
 
-Over the next 8+ months, the Bean supply grew organically (without subsidies) to over 108 million. The value of assets trading against Beans in liquidity pools grew to ~$77 million. The Bean price crossed its peg of $1 over 4,000 times. And perhaps most importantly, Beanstalk decreased its debt level dramatically, from ~1600% to ~600%, demonstrating its ability to deleverage in an autonomous fashion. Until Beanstalk was attacked on April 17th, 2022 and rendered temporarily useless. The attackers stole the $77 million of liquidity that traded against Beans, thereby destroying their value.
+Over the next 8+ months, the Bean supply grew organically (without subsidies) to over 108 million. The value of assets trading against Beans in liquidity pools grew to ~$77 million. The Bean price crossed its peg of $1 over 4,000 times. And perhaps most importantly, Beanstalk decreased its debt level dramatically, from ~1600% to ~600%, demonstrating its ability to deleverage in an autonomous fashion. Until Beanstalk was attacked on April 17, 2022 and rendered temporarily useless. The attackers stole the $77 million of liquidity that traded against Beans, thereby destroying their value.
 
-The version of Beanstalk that was attacked on April 17th was a significant improvement on the original model. The original Beanstalk model deployed in August, 2021, while good enough to not die during the first pump and dump that killed the vast majority of previous attempts at non-collateralized stablecoins (e.g., ESD, DSD, TSD, Basis Cash), wasn’t good enough to sustain itself in perpetuity. 
+The version of Beanstalk that was attacked on April 17 was a significant improvement on the original model. The original Beanstalk model deployed in August, 2021, while good enough to not die during the first pump and dump that killed the vast majority of previous attempts at non-collateralized stablecoins (e.g., ESD, DSD, TSD, Basis Cash), wasn’t good enough to sustain itself in perpetuity. 
 
 Since launch, Beanstalk has been improved by more than a dozen substantive Beanstalk Improvement Proposals (BIPs). Most notably, [BIP-7](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-7.md) introduced the Convert functionality within the Silo that is now a core piece of Beanstalk’s peg maintenance model. Unfortunately, the same permissionless on-chain governance protocol that facilitated the Beanstalk DAO’s implementation of these changes was attacked. Nonetheless, it is the success of each BIP in continuously improving the model, as evident in the data, that ultimately gives us hope about Beanstalk’s long term chances of success. 
 
