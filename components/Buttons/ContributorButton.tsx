@@ -14,9 +14,9 @@ const ContributorButton : FC<{
   target="_blank"
   rel="noreferrer"
   className={
-    `w-full sm:px-6 px-4 py-4 rounded-lg
-    hover:border-gray-900 hover:scale-[1.01] transition-all cursor-pointer
-    border border-gray-400
+    `w-full sm:px-6 px-4 py-4 rounded-[10px]
+    hover:border-[#C1DEF2] border border-[#C1DEF2]
+    hover:scale-[1.01] transition-all cursor-pointer
     sm:space-y-1
     bg-white
   `}>

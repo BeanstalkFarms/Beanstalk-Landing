@@ -61,13 +61,20 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             A decentralized credit-based stablecoin protocol.
           </h1>
           <div className="space-y-2">
+            <div>
+              <a href="https://app.bean.money" target="_blank" rel="noreferrer">
+                <Button
+                  primary
+                  desc={<span className="text-white text-2xl system md:block hidden">&rarr;</span>}
+                  icon="/assets/icon/beanstalk-white.svg">
+                  Launch App
+                </Button>
+              </a>
+            </div>
             <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
               <div className="flex-1">
                 <Link href="/blog/path-forward">
-                  <Button
-                    primary
-                    desc={<span className="text-white text-2xl system md:block hidden">&rarr;</span>}
-                    icon="/assets/icon/beanstalk-white.svg">
+                  <Button className="align-flex-start" icon={<></>}>
                     Beanstalk: The Path Forward
                   </Button>
                 </Link>
