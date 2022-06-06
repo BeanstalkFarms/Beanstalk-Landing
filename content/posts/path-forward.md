@@ -1,9 +1,9 @@
 ---
 title: "Beanstalk: The Path Forward"
-subtitle: "Announcing The Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6."
+subtitle: "Announcing the Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6."
 author: Beanstalk Farms
 description: >-
-  Announcing The Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6.
+  Announcing the Barn Raise, a public fundraiser to recapitalize Beanstalk starting on June 6.
 date: 2022-05-25T05:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
