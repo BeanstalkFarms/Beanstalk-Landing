@@ -1,10 +1,11 @@
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
 
-import ContentWrapper from "../../components/ContentWrapper";
+import Wrapper from "../../components/Wrapper";
 import { getSortedPostsData } from '../../lib/posts'
 import { PostData } from '../../lib/posts'
-import PostButton from "../../components/PostButton";
+import PostButton from "../../components/Buttons/PostButton";
+import { IMAGES, SITE_URL } from "../../lib/constants";
 
 type BlogProps = {
   allPostsData: PostData[]
@@ -21,7 +22,6 @@ export async function getStaticProps() {
 
 const TITLE = `Blog | Beanstalk`;
 const DESC  = `Posts from Beanstalk Farms and members of the community.`;
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
 
 const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
   <>
@@ -35,7 +35,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
         type: "article",
         images: [
           {
-            url: SITE_URL + "/assets/meta/basic.png",
+            url: IMAGES.BASIC_META,
             width: 1200,
             height: 628,
             type: 'image/jpeg',
@@ -49,7 +49,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
         site: '@beanstalkfarms'
       }}
     />
-    <ContentWrapper variant="default">
+    <Wrapper variant="default">
       <div className="space-y-6">
         <h1 className="text-4xl font-normal leading-[3.5rem]">
           Blog
@@ -65,7 +65,7 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
           ))}
         </div>
       </div>
-    </ContentWrapper>
+    </Wrapper>
   </>
 )
 

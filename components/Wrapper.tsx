@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { FC, ReactNode } from "react";
-import Button from "./Button";
+import { FC } from "react";
 
-import styles from './ContentWrapper.module.css';
+import styles from './Wrapper.module.css';
 import Footer from "./Footer";
 
-export type ContentWrapperProps = {
+export type WrapperProps = {
   variant: "default" | "farm";
 }
 
-const ContentWrapper : FC<ContentWrapperProps> = ({
+const Wrapper : FC<WrapperProps> = ({
   children,
   variant = "default"
 }) => (
@@ -60,4 +59,4 @@ const ContentWrapper : FC<ContentWrapperProps> = ({
   )
 )
 
-export default ContentWrapper;
+export default Wrapper;

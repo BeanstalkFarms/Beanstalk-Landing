@@ -2,7 +2,8 @@ import type { GetStaticPathsResult, GetStaticPropsResult, NextPage } from 'next'
 import { NextSeo } from 'next-seo';
 import Script from 'next/script';
 
-import ContentWrapper, { ContentWrapperProps } from '../../components/ContentWrapper'
+import Wrapper, { WrapperProps } from '../../components/Wrapper'
+import { SITE_URL } from '../../lib/constants';
 import { getAllPostIds, getPostData, PostData } from '../../lib/posts'
 
 type PostProps = {
@@ -14,7 +15,7 @@ type PostProps = {
   date: string;
   image: string | null;
   description: string;
-  layout?: ContentWrapperProps['variant'];
+  layout?: WrapperProps['variant'];
   subscribe?: boolean;
   // Content
   content: string;
@@ -69,8 +70,6 @@ export async function getStaticPaths() : Promise<GetStaticPathsResult> {
   }
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '//localhost:3000';
-
 const Post: NextPage<PostProps> = (props) => {
   const {
     id,
@@ -99,7 +98,7 @@ const Post: NextPage<PostProps> = (props) => {
         title={`${title} | Beanstalk`}
         description={description || undefined}
         openGraph={{
-          url: `${SITE_URL}/${id}`,
+          url: `${SITE_URL}/blog/${id}`,
           title: `${title} | Beanstalk`,
           description: description || undefined,
           type: "article",
@@ -119,7 +118,7 @@ const Post: NextPage<PostProps> = (props) => {
           site: '@beanstalkfarms'
         }}
       />
-      <ContentWrapper variant={layout || "default"}>
+      <Wrapper variant={layout || "default"}>
         <div className="space-y-12">
           <div className="space-y-6 border-b border-gray-[#E5E7ED] py-12">
             <p className="text-md text-slate-500">{author} &middot; {date}</p>
@@ -143,7 +142,7 @@ const Post: NextPage<PostProps> = (props) => {
             </>
           )}
         </div>
-      </ContentWrapper>
+      </Wrapper>
     </>
   )
 }

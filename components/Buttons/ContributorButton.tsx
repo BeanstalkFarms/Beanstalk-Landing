@@ -24,7 +24,7 @@ const ContributorButton : FC<{
       <img src={avatar} className="h-6 w-6 rounded-full" />
       <div className="text-xl">{children}</div>
     </div>
-    <div className="font-light text-gray-600 font-[Futura-PT-Book] text-[17px]">
+    <div className="font-light text-gray-600 text-[17px]">
       {name}
     </div>
   </a>
