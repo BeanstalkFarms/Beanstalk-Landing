@@ -40,7 +40,7 @@ After Beanstalk is Replanted, Fertilizer will receive a pro rata share of one-th
 
 5. Confirm the transaction.
 
-6. You’ll see your Fertilizer appear at the bottom of the page.
+6. You’ll see your Fertilizer appear in the My Fertilizer component.
 
 ![My Fertilizer](/assets/uploads/my-fertilizer.png)
 
