@@ -5,7 +5,7 @@ const Button : FC<{
   rel?: string,
   href?: string,
   primary?: boolean,
-  icon?: string,
+  icon?: string | ReactElement,
   desc?: string | ReactElement,
   iconStyle?: any,
   className?: string
