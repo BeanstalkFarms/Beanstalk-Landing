@@ -26,7 +26,7 @@ Beanstalk implements the [EIP-2535 Diamond Standard](https://github.com/ethereum
 The mechanism for upgrading a Diamond is by calling [`diamondCut()`](https://eips.ethereum.org/EIPS/eip-2535#the-diamondcut-function) which takes arguments of functions to replace and which functions to replace them with.
 Upon restart, the `diamondCut()` function will only be callable by the owner of Beanstalk, which will be the BCM.
 
-Upgrades should only be executed after a Snapshot has passed and signers have manually reviewed the code changes. However, in the case of an emergency, the BCM may execute transactions to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the Emergency Response Procedures section.
+Upgrades should only be executed after a Snapshot has passed and Signers have manually reviewed the code changes. However, in the case of an emergency, the BCM may execute transactions to protect the Beanstalk contract. The best practices for emergency response handling are outlined in the Emergency Response Procedures section.
 
 If a community member wants to propose a BIP, they can submit a merge request to the [Beanstalk Github repo](https://github.com/BeanstalkFarms/Beanstalk) and begin a formal process with the BCM outlined in the Proposing a BIP section.
 
@@ -45,7 +45,7 @@ The BCM is an extension of the Beanstalk DAO. As such, BCM’s role is to 1) ena
 
 BIPs will be voted on at the [beanstalkdao.eth](https://snapshot.org/#/beanstalkdao.eth) Snapshot page.
 
-The BCM shall not execute transactions until an associated Snapshot successfully passes in favor of the proposal, except in the case of emergency, cancelling a failed transaction or adding/removing/rotating signers. Below are the scenarios the BCM will adhere to when transacting:
+The BCM shall not execute transactions until an associated Snapshot successfully passes in favor of the proposal, except in the case of emergency, cancelling a failed transaction or adding/removing/rotating BCM Signers. Below are the scenarios the BCM will adhere to when transacting:
 
 <table>
   <tr>
@@ -65,15 +65,7 @@ The BCM shall not execute transactions until an associated Snapshot successfully
    </td>
   </tr>
   <tr>
-   <td>Adding/removing/rotating multisig signers
-   </td>
-   <td>No
-   </td>
-   <td>N/A
-   </td>
-  </tr>
-  <tr>
-   <td>Emergency removal of rogue multisig signer
+   <td>Adding/removing/rotating BCM Signers
    </td>
    <td>No
    </td>
@@ -156,12 +148,12 @@ Once a Snapshot is proposed, all Signers are expected to promptly review and ver
 
 Signers will sign the transaction to either execute the proposed transaction or cancel it as soon as possible following the conclusion of the voting period.
 
-Once sufficient signatures have been provided to execute the transaction, is it expected that one of the signers execute the transaction. Upon Replant, Publius shall initially execute the transaction and pay for gas fees. After Beanstalk Replants and signers are more comfortable, Publius or Beanstalk Farms shall distribute enough ETH to every signer to execute a transaction in case of emergency. Signers are not expected to contribute capital to participate in the BCM.
+Once sufficient signatures have been provided to execute the transaction, is it expected that one of the Signers execute the transaction. Upon Replant, Publius shall initially execute the transaction and pay for gas fees. After Beanstalk Replants and Signers are more comfortable, Publius or Beanstalk Farms shall distribute enough ETH to every Signer to execute a transaction in case of emergency. Signers are not expected to contribute capital to participate in the BCM.
 
-A Signer shall lose their role (by action of the remaining signers removing them) in case they:
+A Signer shall lose their role (by action of the remaining Signers removing them) in case they:
 - Act against Stalk holders’ off-chain voting;
 - Do not follow best practices outlined in the BCM Best Practices section; or
-- Get through 2 months or 2 votes (whichever happens first) without performing any of their signer duties.
+- Get through 2 months or 2 votes (whichever happens first) without performing any of their Signer duties.
 
 ## Emergency Response Procedures
 The BCM’s role is to 1) enact on-chain the decisions Stalk holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented. However, if a situation arises in the future like the April 17th, 2022 exploit of Beanstalk, it is of critical importance that the BCM take swift action to protect Beanstalk.
@@ -190,12 +182,12 @@ The following should be used as a guide for the minimum review criteria:
 - Review Github MR change log (naming or other small nits)
 - Review constants (contract addresses, numbers) in new contracts
 
-Once signers have verified the transaction, they shall submit and sign a [verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the BCM.
+Once Signers have verified the transaction, they shall submit and sign a [verified etherscan message](https://info.etherscan.com/verify-signature-tool/) and distribute the public verification link to the BCM.
 
 #### Problems During Verification
 The BCM will never submit a transaction that was misrepresented on Snapshot.
 
-In the case that any signer during the verification process determines that a MR does not accurately represent the BIP, that signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
+In the case that any Signer during the verification process determines that a MR does not accurately represent the BIP, that Signer will submit a verified etherscan message indicating as such with context on the issue. At that point, the BCM will not submit the transaction unless it is determined that the Signer is "rogue" and is attempting to censor the BIP. In the case the other Signers determine that one or more Signers is rogue, they will submit a verified etherscan message indicating as such. At that point all present key holders shall submit a new verified etherscan message to cancel the original transaction.
 
 The BCM will notify the community via Discord and work with the proposer to resolve the issue in the MR. Once resolved, a new BIP will be proposed on Snapshot with its associated transaction.
 
@@ -216,18 +208,18 @@ It is important that Signers regularly rotate multisig wallets in order to conti
 ## Anonymous Multisig Signers
 Off-chain governance introduces significant risks related to security and censorship. The BCM is designed to mitigate as many of those risks as possible by distributing the multisig keys across reputable community members and Beanstalk core contributors, and collectively implementing and adhering to BCM best practices.
 
-The most significant risk associated with off-chain governance is the potential corruption of the multisig wallet from an outside party. In order to minimize the chances of this, the signers will be anonymous. The anonymous signers will be selected by Publius. Signers will be anonymous to each other as well, apart from Publius.
+The most significant risk associated with off-chain governance is the potential corruption of the multisig wallet from an outside party. In order to minimize the chances of this, the Signers will be anonymous. The anonymous Signers will be selected by Publius. Signers will be anonymous to each other as well, apart from Publius.
 
-A maximum of 4 signers will be members of Beanstalk Farms. Publius collectively will hold at most 1 key. The remaining keys will be held by reputable members of the Beanstalk community. 
+A maximum of 4 Signers will be members of Beanstalk Farms. Publius collectively will hold at most 1 key. The remaining keys will be held by reputable members of the Beanstalk community. 
 
 #### Malicious Key Holder Risk
-Under this structure, it’s important to acknowledge the risk of anonymous key holders conspiring to attack Beanstalk. Since Publius knows the identities of the anonymous signers, Publius would be the main attack vector—if this malicious actor were to compromise Publius before conspiring to attack Beanstalk, they could be reasonably sure that their identity would never be revealed. 
+Under this structure, it’s important to acknowledge the risk of anonymous key holders conspiring to attack Beanstalk. Since Publius knows the identities of the anonymous Signers, Publius would be the main attack vector—if this malicious actor were to compromise Publius before conspiring to attack Beanstalk, they could be reasonably sure that their identity would never be revealed. 
 
 In order to mitigate this attack vector, the BCM will institute the following process whenever the m-of-n multisig is changed:
-- Publius will publish a hash of the list of signers and their corresponding wallets on-chain.
-- Publius will share the list of signers and their wallets with their personal legal counsel, to be released in the event that Publius is compromised such that they cannot publish the list themselves. This makes Publius and their personal legal counsel the only parties with access to the list.
+- Publius will publish a hash of the list of Signers and their corresponding wallets on-chain.
+- Publius will share the list of Signers and their wallets with their personal legal counsel, to be released in the event that Publius is compromised such that they cannot publish the list themselves. This makes Publius and their personal legal counsel the only parties with access to the list.
 
-In the event that counsel publishes the list, anyone could verify that it’s the correct list by hashing it and comparing it with the hash on-chain. This creates accountability for the anonymous signers.
+In the event that counsel publishes the list, anyone could verify that it’s the correct list by hashing it and comparing it with the hash on-chain. This creates accountability for the anonymous Signers.
 
 ## BIP-20
 This document outlines the process for voting on and committing BIPs after the ownership has been transferred to the BCM. Beanstalk Farms shall propose transferring ownership of the Beanstalk contract to the BCM in BIP-21.
