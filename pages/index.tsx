@@ -64,8 +64,8 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshot }) => {
           */}
         <div className="space-y-6">
           {snapshot && (
-            <div>
-              <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center bg-slate-100 px-4 py-5 rounded-lg space-x-4">
+            <div className="pb-6">
+              <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center border-b-2 border-blue-100 px-4 py-5 space-x-4">
                 <img src="/assets/icon/snapshot.svg" className="h-5" />
                 <span className="flex-1">
                   <span className="font-bold">{snapshot.proposal.title}</span> is live for voting
