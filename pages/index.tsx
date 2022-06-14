@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { GetStaticPropsResult, NextPage } from 'next'
 import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
@@ -7,17 +7,23 @@ import PostButton from '../components/Buttons/PostButton';
 import Wrapper from '../components/Wrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
 import { COPY, IMAGES, SITE_URL } from '../lib/constants';
+import { loadSnapshot, Snapshot } from '../lib/snapshot';
 
 type BlogProps = {
-  allPostsData: PostData[]
+  allPostsData: PostData[];
+  snapshot?: Snapshot;
 }
 
-export async function getStaticProps() {
+export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> {
   const allPostsData = getSortedPostsData(3)
+  const snapshot = await loadSnapshot('beanstalkdao.eth', '0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4');
+  console.log('Snapshot', snapshot)
   return {
     props: {
-      allPostsData
-    }
+      allPostsData,
+      snapshot,
+    },
+    revalidate: 60
   }
 }
 
@@ -25,7 +31,7 @@ export async function getStaticProps() {
 const TITLE = `Beanstalk | ${COPY.BASIC_TAGLINE}`;
 const DESC  = COPY.BASIC_DESCRIPTION;
 
-const Home: NextPage<BlogProps> = ({ allPostsData }) => {
+const Home: NextPage<BlogProps> = ({ allPostsData, snapshot }) => {
   return (
     <>
       <NextSeo
@@ -57,6 +63,17 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           * Section: Introduction
           */}
         <div className="space-y-6">
+          {snapshot && (
+            <div>
+              <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center bg-slate-100 px-4 py-5 rounded-lg space-x-4">
+                <img src="/assets/icon/snapshot.svg" className="h-5" />
+                <span className="flex-1">
+                  <span className="font-bold">{snapshot.proposal.title}</span> is live for voting
+                </span>
+                <span className="justify-self-end">&rarr;</span>
+              </a>
+            </div>
+          )}
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit-based stablecoin protocol.
           </h1>
