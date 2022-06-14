@@ -7,9 +7,13 @@
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
-    "seo": "node scripts/seo"
+    "seo": "node scripts/seo",
+    "test": "jest"
   },
   "dependencies": {
+    "@snapshot-labs/snapshot.js": "^0.3.97",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.8",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.1",
     "next": "12.0.10",
@@ -25,11 +29,14 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@types/node": "17.0.17",
     "@types/react": "17.0.39",
     "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
+    "jest": "^28.1.1",
     "next-sitemap": "^2.5.10",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.22",

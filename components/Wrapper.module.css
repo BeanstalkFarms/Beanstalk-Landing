@@ -11,9 +11,9 @@
 
   /* Image positioning */
   width: 900px;
-  background-image: url("/background.jpg");
+  background-image: url("/background-br.jpg");
   background-repeat: no-repeat;
   background-size: auto 120%;
-  background-position-y: center;
+  background-position-y: bottom;
   background-position-x: right;
 }
