@@ -85,10 +85,10 @@ June 2022
 - Finalize OTC negotiations to recapitalize Beanstalk
 - Trail of Bits audit begins June 6
 - Barn Raise begins June 6
-- Both Halborn and Trail of Bits audits complete by end of month
+- Both Halborn and Trail of Bits audits complete by end of month or early July
 
 July 2022
-- Unpause Beanstalk towards the beginning of the month (exact date to be voted on by the Beanstalk DAO)
+- Unpause Beanstalk (exact date to be voted on by the Beanstalk DAO)
 
 
 ![Bean Logo](/assets/uploads/bean-logo-128.png)
