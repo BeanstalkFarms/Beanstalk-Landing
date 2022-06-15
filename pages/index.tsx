@@ -133,7 +133,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshot }) => {
             <Button
               target="_blank"
               rel="noreferrer"
-              href="https://snapshot.org/#/beanstalkfarms.eth"
+              href="https://snapshot.org/#/beanstalkdao.eth"
               icon="/assets/icon/snapshot.svg"
               desc="Vote on governance proposals">
               Snapshot
