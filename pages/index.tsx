@@ -11,16 +11,19 @@ import { loadSnapshot, Snapshot } from '../lib/snapshot';
 
 type BlogProps = {
   allPostsData: PostData[];
-  snapshot?: Snapshot;
+  snapshots?: Snapshot[];
 }
 
-export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> {
+export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshot = await loadSnapshot('beanstalkdao.eth', '0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4');
+  const snapshots = [
+    await loadSnapshot('beanstalkdao.eth', '0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4'),
+    await loadSnapshot('beanstalkfarms.eth', '0xae6e909e82ee6c0ffd0ae266dd9b6e2d07894af62c6ba8de76ef0002489eb2a8'),
+  ];
   return {
     props: {
       allPostsData,
-      snapshot,
+      snapshots,
     },
     revalidate: 60
   }
@@ -30,7 +33,7 @@ export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>
 const TITLE = `Beanstalk | ${COPY.BASIC_TAGLINE}`;
 const DESC  = COPY.BASIC_DESCRIPTION;
 
-const Home: NextPage<BlogProps> = ({ allPostsData, snapshot }) => {
+const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
   return (
     <>
       <NextSeo
@@ -62,17 +65,25 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshot }) => {
           * Section: Introduction
           */}
         <div className="space-y-6">
-          {snapshot && (
+          {snapshots && snapshots.length > 0 ? (
             <div className="pb-6">
-              <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center border-b-2 border-blue-100 px-4 py-5 space-x-4">
-                <img src="/assets/icon/snapshot.svg" className="h-5" />
-                <span className="flex-1">
-                  <span className="font-bold">{snapshot.proposal.title}</span> is live for voting
-                </span>
-                <span className="justify-self-end">&rarr;</span>
-              </a>
+              <div className="space-y-1 pb-1 border-b-2 border-blue-100">
+                {snapshots.map((snapshot) => (
+                  (snapshot.proposal.end < new Date().getTime()) && (
+                    <div key={snapshot.proposal.id}>
+                      <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center px-2 py-4 space-x-4">
+                        <img src="/assets/icon/snapshot.svg" className="h-5" />
+                        <span className="flex-1">
+                          <span className="font-bold">{snapshot.proposal.title}</span> is live for voting
+                        </span>
+                        <span className="justify-self-end">&rarr;</span>
+                      </a>
+                    </div>
+                  )
+                ))}
+              </div>
             </div>
-          )}
+          ) : null}
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
             A decentralized credit-based stablecoin protocol.
           </h1>
