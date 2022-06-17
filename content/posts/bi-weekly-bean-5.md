@@ -1,18 +1,16 @@
 ---
 title: "Bi-Weekly Bean #5"
 subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem.
-  This issue covers the 6/1/22– 6/17/22 period. "
+  This issue covers the 6/1/22– 6/16/22 period. "
 date: 2022-06-17T08:30:47.345Z
 author: Beanstalk Farms
 description: "A newsletter that recaps the happenings in the Beanstalk
-  ecosystem. This issue covers the 6/1/22– 6/17/22 period. "
+  ecosystem. This issue covers the 6/1/22– 6/16/22 period. "
 image: /assets/uploads/barn-and-beans.png
 ---
-
-
 > What is Beanstalk? It’s a decentralized credit based stablecoin protocol built on Ethereum. Learn more at bean.money.
 
-The Barn Raise is off to a great start, with over $9.9M (~13%) raised in its first 10 days.
+The Barn Raise is off to a great start, with over $9.9M (~13%) raised in its first 11 days.
 
 For more information on the Barn Raise check out [The Path Forward](https://bean.money/blog/path-forward). For information on how to participate in the Barn Raise check out [A Farmer's Guide to the Barn Raise](https://bean.money/blog/a-farmers-guide-to-the-barn-raise).
 
