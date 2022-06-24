@@ -15,7 +15,7 @@ Beanstalk Farms announces a community grant program aimed at rewarding community
 
 A budget of 30,000 Beans per month will be allocated to creators of new Beanstalk-related content that focuses on Beanstalk and its role in the broader DeFi ecosystem. 
 
- Below are a number of examples of previous content:
+Below are a number of examples of previous content:
 
 **Videos:**
 
