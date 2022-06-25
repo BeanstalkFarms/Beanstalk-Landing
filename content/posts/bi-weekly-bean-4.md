@@ -8,7 +8,7 @@ description: A newsletter that recaps the happenings in the Beanstalk ecosystem.
   This issue will cover the 5/16/22– 5/31/22 period.
 image: /assets/uploads/barn-and-beans.png
 ---
-> What is Beanstalk? Beanstalk is a decentralized credit-based stablecoin protocol built on Ethereum. Learn more at [bean.money](bean.money).
+> What is Beanstalk? Beanstalk is a decentralized credit based stablecoin protocol built on Ethereum. Learn more at [bean.money](bean.money).
 
 With the Barn Raise around the corner, it’s a good time to recap the structure and timing.
 

@@ -9,7 +9,7 @@ description: The Bi-Weekly Bean, a newsletter where we recap Beanstalk’s
 ---
 Welcome to the Bi-Weekly Bean, a series where we recap Beanstalk related news from the past two weeks. This issue covers 3/01/22–3/15/22.
 
-What is Beanstalk? Beanstalk is a decentralized credit-based stablecoin protocol built on Ethereum. Learn more at [bean.money](bean.money)
+What is Beanstalk? Beanstalk is a decentralized credit based stablecoin protocol built on Ethereum. Learn more at [bean.money](bean.money)
 
 ## **Protocol Summary**
 
