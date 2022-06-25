@@ -9,7 +9,7 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-_Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive over of the Barn Raise mechanics._
+_Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive overview of the Barn Raise mechanics._
 
 **The Barn Raise**
 -------------------------------

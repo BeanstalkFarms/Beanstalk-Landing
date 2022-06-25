@@ -16,11 +16,8 @@ const Footer = () => (
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Github
       </a>
-      <a href="https://www.reddit.com/r/BeanstalkProtocol/" target="_blank" rel="noreferrer" className="md:inline-block hidden">
-        Reddit
-      </a>
-      <a href="https://www.coingecko.com/en/coins/bean" target="_blank" rel="noreferrer" className="md:inline-block hidden">
-        CoinGecko
+      <a href="https://bean.money/learning-center" target="_blank" rel="noreferrer" className="md:inline-block hidden">
+        Learning Center
       </a>
     </div>
   </footer>

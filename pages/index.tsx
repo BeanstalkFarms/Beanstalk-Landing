@@ -107,13 +107,13 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
                   </Button>
                 </Link>
               </div>
-              <div>
+              {/* <div>
                 <Link href="/blog/path-forward-faq">
                   <Button className="h-full flex items-center">
                     FAQ
                   </Button>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
