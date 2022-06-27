@@ -18,7 +18,7 @@ Disclaimer: none of this is financial advice. I am simply highlighting popular B
 
 ### **What is Beanstalk?** 
 
-Beanstalk is the most successful decentralized credit-based stablecoin in history. With 3500+ peg crosses in the 7 months since its inception, Bean has started to prove itself as DeFi’s key to unlocking a scalable, decentralized stablecoin market.
+Beanstalk is the most successful decentralized credit based stablecoin in history. With 3500+ peg crosses in the 7 months since its inception, Bean has started to prove itself as DeFi’s key to unlocking a scalable, decentralized stablecoin market.
 
 For more information on how [Beanstalk](http://bean.money) works and the mechanisms behind it, check out this straightforward [introduction](https://mirror.xyz/astn.eth/w5336TYVkb-9eIlKxrCPKLoUNvYRgJmd6nB4Br5-Vs8).
 
@@ -106,7 +106,7 @@ To mod, very few of the Pods on the marketplace are currently undervalued. Howev
 
 mod is a voice of calm and reason in the Beanstalk community. His passion for the protocol and the Bean stablecoin shines through in everything he touches. 
 
-More than anything, mod is a builder working to bring the Beanstalk protocol to the forefront of DeFi. He’s given us his take on the best way to earn yield from the most successful credit-based stablecoin protocol in history. 
+More than anything, mod is a builder working to bring the Beanstalk protocol to the forefront of DeFi. He’s given us his take on the best way to earn yield from the most successful credit based stablecoin protocol in history. 
 
 I think we can all learn something from that. 
 

@@ -50,7 +50,7 @@ During the Barn Raise, Beanstalk will borrow approximately $77M from lenders in 
 
 Funds raised will be used to recapitalize stolen funds pro rata to the Silo. Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and the debt to Fertilizer holders is repaid. If Silo Members choose to Withdraw and Claim their assets before they are fully vested, they will forfeit the unvested portion of their assets. New Beans earned by Silo Members as interest are not subject to this vesting schedule.
 
-_Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive over of the Barn Raise mechanics._
+_Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive overview of the Barn Raise mechanics._
 
 ### Unpausing Beanstalk
 
@@ -105,4 +105,4 @@ Unlike every other decentralized credit based stablecoin in history, Beanstalk's
 > 
 > For additional information on The Path Forward, please [refer to the FAQ here](/blog/path-forward-faq).
 >
->Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive over of the Barn Raise mechanics.
+>Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive overview of the Barn Raise mechanics.
