@@ -21,9 +21,8 @@ The first automatic control system, the centrifugal governor, was invented by Ch
 
 Beanstalk uses two controllers to regularly cross the price of Bean over peg: 
 
-1) Mint the shortage of Beans in the liquidity pool when P > 1; and
-
-2) Regulate the interest rate (the Weather) for Sowing Beans in the Field (Beanstalk’s credit facility).
+1. Mint the shortage of Beans in the liquidity pool when P > 1; and
+2. Regulate the interest rate (the Weather) for Sowing Beans in the Field (Beanstalk’s credit facility).
 
 The minting controller is a simple proportional controller (similar to the governor used by Watt) which measures the error from peg—in this case, the shortage of Beans in the liquidity pool—and mints it. The larger the error, or shortage, the larger the number of Beans minted.
 
@@ -32,10 +31,9 @@ The minting controller is a simple proportional controller (similar to the gover
   <img 
     src="/assets/uploads/bean-3crv-pool-.png" 
     alt="Bean:3CRV"
-    height=400px
-    width=400px
   />
 </p>
+</figure>
 <p style="text-align: center;">Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean</p>
 
 ## The Field
@@ -73,6 +71,6 @@ Beanstalk initially sought to solve this problem by having the Soil available be
 
 Soil issuance has been optimized through a series of BIPs that have dramatically improved the efficiency of the Soil market. The maximum available Soil at any season now is equal to the excess of Beans in the liquidity pool and the minimum is a function of the Weather and debt paid back. However, limiting the amount of Soil minted each Season limits the protocol’s ability to measure demand for Soil, especially at times when it sells out Season over Season. When that happens, the protocol switches to a time-based formula that compares how long it took for Soil to sell out within a given Season.
 
-<p style="text-align: center;"> *      *      * </p>
+<p style="text-align: center;"> \*      \*      * </p>
 
 Beanstalk’s credit facility and its ability to properly price the Weather is foundational not only to peg maintenance but also a healthy debt level. A delicate balance between issuing the right amount of Soil at the right Weather. So how has it performed? The proof is in the pudding.
