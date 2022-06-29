@@ -27,8 +27,15 @@ Beanstalk uses two controllers to regularly cross the price of Bean over peg: 
 
 The minting controller is a simple proportional controller (similar to the governor used by Watt) which measures the error from peg—in this case, the shortage of Beans in the liquidity pool—and mints it. The larger the error, or shortage, the larger the number of Beans minted.
 
-![Bean:3CRV](/assets/uploads/bean-3crv-pool-.png)
-
+<figure>
+<p align="center">
+  <img 
+    src="/assets/uploads/bean-3crv-pool-.png" 
+    alt="Bean:3CRV"
+    height=400px
+    width=400px
+  />
+</p>
 <p style="text-align: center;">Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean</p>
 
 ## The Field
