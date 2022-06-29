@@ -15,7 +15,7 @@ The first automatic control system, the centrifugal governor, was invented by Ch
 
 ![A water clock, Watt’s governor and a helmsman](/assets/uploads/a-water-clock-watt’s-governor-and-a-helmsman.png "A water clock, Watt’s governor and a helmsman")
 
-A water clock, Watt’s governor and a helmsman
+ <p style="text-align: center;"> A water clock, Watt’s governor and a helmsman</p>
 
 ## But what do controllers have to do with Beanstalk? 
 
@@ -29,7 +29,7 @@ The minting controller is a simple proportional controller (similar to the gover
 
 ![Bean:3CRV](/assets/uploads/bean-3crv-pool-.png)
 
-Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean
+<p style="text-align: center;">Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean</p>
 
 ## The Field
 
@@ -66,6 +66,6 @@ Beanstalk initially sought to solve this problem by having the Soil available be
 
 Soil issuance has been optimized through a series of BIPs that have dramatically improved the efficiency of the Soil market. The maximum available Soil at any season now is equal to the excess of Beans in the liquidity pool and the minimum is a function of the Weather and debt paid back. However, limiting the amount of Soil minted each Season limits the protocol’s ability to measure demand for Soil, especially at times when it sells out Season over Season. When that happens, the protocol switches to a time-based formula that compares how long it took for Soil to sell out within a given Season.
 
-\*      \*      *
+<p style="text-align: center;"> *      *      * </p>
 
 Beanstalk’s credit facility and its ability to properly price the Weather is foundational not only to peg maintenance but also a healthy debt level. A delicate balance between issuing the right amount of Soil at the right Weather. So how has it performed? The proof is in the pudding.
