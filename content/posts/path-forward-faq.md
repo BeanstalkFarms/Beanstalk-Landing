@@ -34,16 +34,16 @@ For more about Beanstalk's utility, please refer to this community-authored [art
 
 Using a semi-fungible token (or any token for that matter) allows Beanstalk to offer the same terms to multiple investors. Pods in a Pod Line have an inherent priority.
 
-**Unpausing Beanstalk**
+**Replanting Beanstalk**
 -----------------------
 
 > What's going to happen to Beans, Stalk, Seeds, BDV, and Pods?
 
-Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and debt to Fertilizer holders is repaid.
+Pre-exploit Beans and LP are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and debt to Fertilizer holders is repaid. Pre-exploit Stalk and Seeds are become claimable for Silo Members as Fertilizer is sold.
 
 Example: If Beanstalk sells 100% of the Fertilizer and 50% of the debt to Fertilizer holders is repaid, Silo Members can Withdraw and claim up to 50% of their original asset and forfeit the difference.
 
-> What happens to the rest of my assets when I Withdraw and Claim early?
+> What happens to the rest of my assets when I Withdraw and claim early?
 
 Forfeited LP reduces the amount that needs to be raised by the Barn Raise, and forfeited Beans will be effectively distributed to the rest of the pre-exploit Bean holders that are still subject to the vesting schedule.
 
@@ -51,9 +51,9 @@ Forfeited LP reduces the amount that needs to be raised by the Barn Raise, and f
 
 No.
 
-> What pools will be launched when Beanstalk Unpauses?
+> What pools will be launched when Beanstalk is Replanted?
 
-Beanstalk will likely Unpause with one liquidity pool on Curve containing a stablecoin pair.
+Beanstalk will be Replanted with a single liquidity pool for Beans—BEAN:3CRV, a metapool on Curve with an A parameter of 1.
 
 > What if I had Circulating assets at the time of the exploit?
 
@@ -65,7 +65,7 @@ Withdrawn assets will be treated as Circulating assets (as if the Withdrawal tim
 
 > How will the Weather change after the Barn Raise?
 
-Beanstalk will Unpause with the pre-exploit Weather.
+Beanstalk will Replant with the pre-exploit Weather.
 
 
 **Governance**
@@ -92,7 +92,7 @@ Beanstalk Farms will double down on its efforts to attract and retain experience
 
 > Is multisig governance contrary to the decentralized ethos of Beanstalk?
 
-Everything is relative, and the multisig will still be custodied by a diverse set of distributed community members. However, multisig governance is still a sub-optimal and temporary solution. Once Beanstalk has been Unpaused, Beanstalk Farms will explore a more resilient decentralized governance solution. Any new governance solution will be thoroughly audited before being proposed on-chain.
+Everything is relative, and the multisig will still be custodied by a diverse set of distributed community members. However, multisig governance is still a sub-optimal and temporary solution. Once Beanstalk has been Replanted, Beanstalk Farms will explore a more resilient decentralized governance solution. Any new governance solution will be thoroughly audited before being proposed on-chain.
 
 > Will there be more audits?
 

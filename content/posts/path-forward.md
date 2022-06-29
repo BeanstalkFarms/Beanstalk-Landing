@@ -9,6 +9,8 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
+**Last updated June 28th, 2022**.
+
 Beanstalk is a decentralized and transparent solution to DeFi's endemic stablecoin supply shortage. It was designed from first principles to be a paradigm-shifting DeFi primitive that makes decentralized, cost-efficient stablecoins available to anyone with an internet connection.
 
 Beanstalk was initially launched in August 2021 with just 100 Beans and has never taken traditional funding. Over the last eight months, Beanstalk organically grew to $100M in market cap, attracting $144M in long term-incentivized liquidity.
@@ -28,7 +30,7 @@ Despite this hurdle, the Beanstalk community has emerged stronger than ever and 
 
 ## The Plan
 
-The Beanstalk community has discussed a number of possible paths forward for Beanstalk. Below, Beanstalk Farms outlines what it views as the optimal mechanism to safely Unpause the protocol, with the following four primary goals in mind:
+The Beanstalk community has discussed a number of possible paths forward for Beanstalk. Below, Beanstalk Farms outlines what it views as the optimal mechanism to safely relaunch the protocol, with the following four primary goals in mind:
 
 1.  Securing the enduring success of Beanstalk's economic model;
 2.  Attracting sufficient capital to restart Beanstalk;
@@ -42,21 +44,21 @@ The latest version of this plan has been approved by the Beanstalk DAO [here](ht
 #### Overview
 
 
-Beanstalk will host the Barn Raise — a fundraiser to restore approximately $77M in non-Bean liquidity stolen from the Silo – **starting Monday, June 6 at 4:00pm UTC**. Beanstalk will relaunch in early July and the Barn Raise will continue until the fundraiser is complete. 
+Beanstalk will host the Barn Raise — a fundraiser to restore approximately $77M in non-Bean liquidity stolen from the Silo – **starting Monday, June 6 at 4:00pm UTC**. Beanstalk will relaunch in July and the Barn Raise will continue until the fundraiser is complete. 
 
-During the Barn Raise, Beanstalk will borrow approximately $77M from lenders in exchange for an interest rate. The interest rate will start at 500% and decrease down to 20% a few weeks after Beanstalk relaunches. Participants will receive a token known as Fertilizer that receives one-third of new Bean mints until the interest rate is realized. 77M Fertilizer will sell for 1 USDC each. 
+During the Barn Raise, Beanstalk will borrow $77M from lenders in exchange for an interest rate. The interest rate will start at 500% and decrease down to 20% a few weeks after Beanstalk relaunches. Participants will receive a token known as Fertilizer that receives one-third of new Bean mints until the interest rate is paid back. 77M Fertilizer will sell for 1 USDC each. 
 
 #### Aligning Incentives
 
-Funds raised will be used to recapitalize stolen funds pro rata to the Silo. Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as Fertilizer is sold and the debt to Fertilizer holders is repaid. If Silo Members choose to Withdraw and Claim their assets before they are fully vested, they will forfeit the unvested portion of their assets. New Beans earned by Silo Members as interest are not subject to this vesting schedule.
+Funds raised will be used to recapitalize stolen funds pro rata to the Silo. Pre-exploit Beans, LP, Stalk and Seeds are subject to a vesting schedule such that the assets only vest as the Barn Raise proves to be successful (such that Barn Raise participants are not exit liquidity). If Silo Members claim their assets before they are fully vested, they will forfeit the unvested portion of their assets. New Beans earned by Silo Members as interest are not subject to this vesting schedule.
 
 _Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive overview of the Barn Raise mechanics._
 
-### Unpausing Beanstalk
+### Replanting Beanstalk
 
 #### Governance
 
-Shortly after the April 17 attack, Beanstalk was Paused and on-chain governance was removed. Once Unpaused, Beanstalk will be governed via a new community-run multisig wallet custodied by a group of nine Beanstalk community members and contributors. This will serve as a temporary security measure until a secure and fully-decentralized governance mechanism has been developed and sufficiently audited. BIPs will be voted on via Snapshot until then.
+Shortly after the April 17 attack, Beanstalk was Paused and on-chain governance was removed. Once Unpaused and Replanted, Beanstalk will be governed via a new community-run multisig wallet custodied by a group of nine Beanstalk community members and contributors. This will serve as a temporary security measure until a secure and fully-decentralized governance mechanism has been developed and sufficiently audited. BIPs will be voted on via Snapshot until then. You can read more about the multisig and its processes [here](https://docs.bean.money/governance/beanstalk-community-multisig/bcm-process).
 
 Beanstalk Farms continues to be excited about the potential of on-chain governance within DeFi. However, the team recognizes the current implementation [challenges](https://twitter.com/VitalikButerin/status/1516248195042615311) of safe on-chain governance and takes the position that an adequate mechanism should be reinstated only with great caution.
 
@@ -67,7 +69,7 @@ Security is paramount to Beanstalk's success and a core focus for Beanstalk Farm
 Beanstalk security measures:
 
 -   Beanstalk governance will move off-chain to a Gnosis multisig wallet custodied by Beanstalk Farms and Beanstalk community members;
--   Over the short term, the development team will focus its energy on safely Unpausing Beanstalk and ensuring the integrity of Beanstalk's core functionality. Once complete, Beanstalk Farms will explore a more resilient decentralized governance structure;
+-   Over the short term, the development team will focus its energy on safely Replanting Beanstalk and ensuring the integrity of Beanstalk's core functionality. Once complete, Beanstalk Farms will explore a more resilient decentralized governance structure;
 -   Starting May 9, Beanstalk will undergo an end-to-end audit with [Halborn](https://halborn.com/);
 -   Starting June 6, Beanstalk will undergo an end-to-end audit with [Trail of Bits](https://www.trailofbits.com/);
 -   Beanstalk Farms will launch an ongoing bug bounty program with [Immunefi](https://immunefi.com/) and other leading bug bounty platforms; and
@@ -75,7 +77,7 @@ Beanstalk security measures:
 
 #### A Rough Timeline
 
-The following timeline is intended to provide a rough timeline of steps in the critical path to Unpause Beanstalk. This timeline is subject to change.
+The following timeline is intended to provide a rough timeline of steps in the critical path to Replant Beanstalk. This timeline is subject to change.
 
 May 2022
 - Halborn audit begins May 9
@@ -85,9 +87,10 @@ June 2022
 - Finalize OTC negotiations to recapitalize Beanstalk
 - Trail of Bits audit begins June 6
 - Barn Raise begins June 6
-- Both Halborn and Trail of Bits audits complete by end of month or early July
 
 July 2022
+- Halborn and Trail of Bits audits complete
+- Audits reports published
 - Unpause Beanstalk (exact date to be voted on by the Beanstalk DAO)
 
 
@@ -101,7 +104,7 @@ Unlike every other decentralized credit based stablecoin in history, Beanstalk's
 
 > The Snapshot proposal of this plan was approved by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
 > 
-> An enormous thanks is due to everyone who has supported Beanstalk since its inception, and in particular over during the time since the attack. The outstanding community of thoughtful and cooperative Farmers are responsible for instilling light in the protocol during its darkest day and played a central role in the development of this proposal.
+> An enormous thanks is due to everyone who has supported Beanstalk since its inception, and in particular during the time since the attack. The outstanding community of thoughtful and cooperative Farmers are responsible for instilling light in the protocol during its darkest day and played a central role in the development of this proposal.
 > 
 > For additional information on The Path Forward, please [refer to the FAQ here](/blog/path-forward-faq).
 >
