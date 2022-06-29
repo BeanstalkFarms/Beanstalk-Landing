@@ -14,9 +14,19 @@ Control systems, systems that provide a desired response by controlling an outpu
 
 The first automatic control system, the centrifugal governor, was invented by Christiaan Huygens in the 17th century and was used to regulate the distance and pressure between millstones in windmills. James Watt adapted a governor to control his steam engine in 1788 and they continued to be widely used during the Steam Age in the 19th century. The governor controlled the speed of an engine by regulating the flow of fuel, so as to maintain a near-constant speed.
 
-![A water clock, Watt’s governor and a helmsman](/assets/uploads/a-water-clock-watt’s-governor-and-a-helmsman.png "A water clock, Watt’s governor and a helmsman")
+<figure>
+<p align="center">
+  <img 
+    src="/assets/uploads/a-water-clock-watt’s-governor-and-a-helmsman.png" 
+    alt="Water Clock, Watt's Governor, and a helmsman"
+    height=550px
+    width=750px
+  />
+</p>
+<figcaption align="center"><b>A water clock, Watt’s governor and a helmsman
+</b></figcaption>
+</figure>
 
- <p style="text-align: center;"> A water clock, Watt’s governor and a helmsman</p>
 
 ## But what do controllers have to do with Beanstalk? 
 
@@ -31,11 +41,14 @@ The minting controller is a simple proportional controller (similar to the gover
 <p align="center">
   <img 
     src="/assets/uploads/bean-3crv-pool.png" 
-    alt="Bean:3CRV"
+    alt="BEAN:3CRV"
+    height=350px
+    width=350px
   />
 </p>
+<figcaption align="center"><b>BEAN:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean
+</b></figcaption>
 </figure>
-<p style="text-align: center;">Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean</p>
 
 It’s at the Field however, where economics and control theory meet.
 
