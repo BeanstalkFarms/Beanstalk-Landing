@@ -36,6 +36,8 @@ The minting controller is a simple proportional controller (similar to the gover
 </figure>
 <p style="text-align: center;">Bean:3CRV pool - in this pool, the ratio of Beans to 3CRV determines the price of Bean</p>
 
+It’s at the Field however, where economics and control theory meet.
+
 ## The Field
 
 The Field’s objective is to remove excess Beans in the liquidity pool. It does this by issuing Soil. Anytime there’s Soil, Beanstalk is willing to borrow Beans in exchange for Pods (Beanstalk’s debt native asset). The question is, at what Weather? It might feel intuitive at first to link it to the price of Bean (or the amount that needs to be removed) through a proportional controller, i.e. the larger the deviation from peg, the higher the Weather, right? 
@@ -71,6 +73,6 @@ Beanstalk initially sought to solve this problem by having the Soil available be
 
 Soil issuance has been optimized through a series of BIPs that have dramatically improved the efficiency of the Soil market. The maximum available Soil at any season now is equal to the excess of Beans in the liquidity pool and the minimum is a function of the Weather and debt paid back. However, limiting the amount of Soil minted each Season limits the protocol’s ability to measure demand for Soil, especially at times when it sells out Season over Season. When that happens, the protocol switches to a time-based formula that compares how long it took for Soil to sell out within a given Season.
 
-<p style="text-align: center;"> \\\*      \\\*      * </p>
+<p style="text-align: center;"> \\\\*      \\\\*      * </p>
 
 Beanstalk’s credit facility and its ability to properly price the Weather is foundational not only to peg maintenance but also a healthy debt level. A delicate balance between issuing the right amount of Soil at the right Weather. So how has it performed? The proof is in the pudding.
