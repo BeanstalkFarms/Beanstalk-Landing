@@ -4,6 +4,7 @@ subtitle: "Part 2: Peg maintenance"
 date: 2022-06-29T01:36:20.743Z
 author: mod323
 description: "Peg maintenance: how Beanstalk uses control theory to maintain peg."
+image: /assets/uploads/beanstalk-helmsman.jpg
 ---
 ![Beanstalk helmsman](/assets/uploads/beanstalk-helmsman.jpg)
 
