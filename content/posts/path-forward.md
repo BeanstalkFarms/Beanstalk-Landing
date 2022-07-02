@@ -9,7 +9,7 @@ image: /assets/uploads/barn-raising.png
 layout: farm
 ---
 
-**Last updated June 28th, 2022**.
+**Last updated July 1st, 2022**.
 
 Beanstalk is a decentralized and transparent solution to DeFi's endemic stablecoin supply shortage. It was designed from first principles to be a paradigm-shifting DeFi primitive that makes decentralized, cost-efficient stablecoins available to anyone with an internet connection.
 
@@ -91,7 +91,7 @@ June 2022
 July 2022
 - Halborn and Trail of Bits audits complete
 - Audits reports published
-- Unpause Beanstalk (exact date to be voted on by the Beanstalk DAO)
+- Replant Beanstalk (exact date to be voted on by the Beanstalk DAO)
 
 
 ![Bean Logo](/assets/uploads/bean-logo-128.png)
@@ -100,7 +100,7 @@ July 2022
 
 Beanstalk has always been an experiment. Contributors recognize a need within DeFi for a capital-efficient, decentralized stablecoin and set out to build it together. Beanstalk's innovative credit facility and incentive mechanisms are responsible for the protocol's growth to $100M in market cap in just eight months.
 
-Unlike every other decentralized credit based stablecoin in history, Beanstalk's economic model has not failed. The Beanstalk Farms team is committed to carrying the torch for Beanstalk's mission in lockstep with the Beanstalk community. We believe that Unpausing Beanstalk after a successful fundraise is the best path to achieve that goal.
+Unlike every other decentralized credit based stablecoin in history, Beanstalk's economic model has not failed. The Beanstalk Farms team is committed to carrying the torch for Beanstalk's mission in lockstep with the Beanstalk community. We believe that Replanting Beanstalk after a successful fundraise is the best path to achieve that goal.
 
 > The Snapshot proposal of this plan was approved by Silo Members [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b).
 > 

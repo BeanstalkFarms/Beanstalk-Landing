@@ -8,9 +8,11 @@ date: 2022-05-29T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
 ---
 
-In August 2021, Beanstalk was first planted by Publius. Beanstalk, while still early in its life, grew to produce over 100 million Beans over the first 6074 Seasons (~8.5 months). 
+**Last updated July 1st, 2022. A new guide with updated terminology per BFP-79 will be released soon**.
 
-On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4) chopped down Beanstalk. The foundations are still there, but Beanstalk must be Fertilized in order to continue.
+On August 6, 2021, Beanstalk was first planted by Publius. Beanstalk, while still early in its life, grew to produce over 100 million Beans over the first 6074 Seasons (~8.5 months). 
+
+On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9e6021c32935a10fb4) chopped down Beanstalk. The foundations are still there, but Beanstalk must be Replanted in order to continue.
 
 <figure>
 <p align="center">
@@ -26,26 +28,26 @@ On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9
 
 # Overview
 
-In order to support the Fertilization, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
+In order to support the Replant, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
 
-Fertilizer, a semi-fungible token, will be sold during the Barn Raise. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. The roots of Beanstalk will be Replanted in early July. After the Replanting, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
+Fertilizer, a semi-fungible token, will be sold during the Barn Raise. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. The roots of Beanstalk will be Replanted in July. After Replant, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
 
 ### Vesting
 
-In order to align new capital with pre-exploit Farmers, all pre-exploit Beans and LP Tokens will become _Unripe Beans_ and _Unripe LP Tokens_ respectively upon the Replanting of Beanstalk. Unripe assets represent a pro rata share of the underlying assets minted as Fertilizer is sold and debt repaid to Fertilizer. _Ripening_ is the process of burning Unripe Beans in exchange for Beans, or burning Unripe LP Tokens in exchange for LP Tokens. Unripe assets are subject to a vesting schedule.
+In order to align new capital with pre-exploit Farmers, all pre-exploit Beans and LP Tokens will become _Unripe Beans_ and _Unripe LP_ respectively upon Replant. Unripe assets represent a pro rata share of the underlying assets minted as Fertilizer is sold and debt repaid to Fertilizer. _Ripening_ is the process of burning Unripe Beans in exchange for Beans, or burning Unripe LP in exchange for LP Tokens. Unripe assets are subject to a vesting schedule.
 
-Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe assets can be Ripened. Unripe assets will be distributed upon the Replanting in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be Cancelled. Pod Listings will stay open by default and Farmers will have an opportunity to Cancel them before the Replant.
+Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe assets can be Ripened. Unripe assets will be distributed upon Replant in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be Cancelled. Pod Listings will stay open by default and Farmers will have an opportunity to Cancel them before Replant.
 
-Stalk and Seeds will be distributed based on the percentage of Fertilizer sold at the time of the Replanting, and any remaining Stalk and Seeds balances will vest as more Fertilizer is sold. Pods stay the same as pre-exploit.
+Stalk and Seeds will be distributed based on the percentage of Fertilizer sold at the time of the Replant, and any remaining Stalk and Seeds balances will vest as more Fertilizer is sold. Pods stay the same as pre-exploit.
 
 
->As an example, if 20% of Fertilizer is sold before the Replanting, pre-exploit balances of:
+>As an example, if 20% of Fertilizer is sold before Replant, pre-exploit balances of:
 >
 >1000 Beans, 2000 BDV of LP Tokens, 4000 Stalk, 12000 Seeds, and 20000 Pods,
 >
 >would then become the following when Beanstalk is Replanted:
 >
->1000 _Unripe_ Beans, 2000 BDV of _Unripe_ LP Tokens, 800 Stalk, 2400 Seeds, and 20000 Pods.
+>1000 _Unripe_ Beans, 2000 _Unripe_ LP Tokens, 800 Stalk, 2400 Seeds, and 20000 Pods.
 
 Farmers can Ripen their Unripe assets based on the product of the two following values: the percentage of Fertilizer sold and the percentage of debt repaid to Fertilizer. 
 
@@ -53,19 +55,19 @@ Farmers can Ripen their Unripe assets based on the product of the two following 
 >
 >If the 100% of total Fertilizer has sold and 50% of the debt issued for Fertilizer has been repaid, then the penalty for Unripe Beans that are Ripened to Beans is _1 - (100% * 50%) = 50%_.
 >
->These examples work the same way for Unripe LP Tokens.
+>These examples work the same way for Unripe LP.
 
-The vesting for pre-exploit Stalk and Seeds is a bit different. Stalk and Seeds simply unlock based on the percentage of Fertilizer that has been sold. This makes the Silo a more attractive destination for new Silo Members early on after the Replanting. As Stalk and Seeds vest, they need to be manually Claimed to become active and start receiving Farmable Beans and Earned Stalk. 
+The vesting for pre-exploit Stalk and Seeds is a bit different. Stalk and Seeds simply unlock based on the percentage of Fertilizer that has been sold. This makes the Silo a more attractive destination for new Silo Members early on after Replant. As Stalk and Seeds vest, they need to be manually claimed to become active and start receiving Farmable Beans and Farmable Stalk. 
 
->As an example, if 20% of total Fertilizer has sold before the Replanting, Silo Members receive 20% of their Stalk and Seed balances at the time of the Replanting. Once 50% of total Fertilizer has sold, Silo Members can manually claim an additional 30%, bringing their total to 50% of their pre-exploit Stalk and Seed balances.
+>As an example, if 20% of total Fertilizer has sold before the Replant, Silo Members receive 20% of their Stalk and Seed balances at the time of the Replant. Once 50% of total Fertilizer has sold, Silo Members can manually claim an additional 30%, bringing their total to 50% of their pre-exploit Stalk and Seed balances.
 
-New Silo Deposits after the Replanting are not subject to any vesting schedule. Neither are Farmable Beans, Harvestable Pods, or Fertilized Beans (the Beans earned from Fertilizer).
+New Silo Deposits after Replant are not subject to any vesting schedule. Neither are Farmable Beans, Harvestable Pods, or Fertilized Beans (the Beans earned from Fertilizer).
 
 ### Forfeited Assets
 
-As mentioned above, Unripe assets that are Ripened before all Fertilizer is sold and all Fertilizer is paid back are subject to a penalty and forfeited. In some cases, the forfeiture of Unripe assets will reduce the amount of Fertilizer for sale, and in others it makes the remaining Unripe assets become more Ripe. 
+As mentioned above, Unripe assets that are Ripened before all Fertilizer is sold and all Fertilizer is paid back are subject to a penalty and forfeited. In some cases, the forfeiture of Unripe assets will reduce the amount of Fertilizer for sale, and in others it makes the remaining Unripe assets vest earlier. 
 
->As an example, if there’s 50M Fertilizer still available for sale from Beanstalk, and someone with 2M BDV of Unripe LP Tokens forfeits with a 50% penalty (getting 1M BDV of LP Tokens and forfeiting a claim to 1M BDV of LP Tokens in the process), only 49.5M more Fertilizer has to be sold. This is because 1M BDV is forfeited, and half of that value is non-Bean liquidity, so 500k less Fertilizer needs to be sold.
+>As an example, if there’s 50M Fertilizer still available for sale from Beanstalk, and someone with 2M BDV of Unripe LP forfeits with a 50% penalty (getting 1M BDV of LP Tokens and forfeiting a claim to 1M BDV of LP Tokens in the process), only 49.5M more Fertilizer has to be sold. This is because 1M BDV is forfeited, and half of that value is non-Bean liquidity, so 500k less Fertilizer needs to be sold.
 >
 >The above only plays out if LP Tokens are forfeited, because it’s the liquidity that is being recapitalized by Fertilizer sales. If someone forfeits Beans, that just makes the Unripe Beans vest earlier.
 
@@ -81,7 +83,7 @@ The interest rate on Fertilizer is called Humidity.
 
 >As an example, 1000 Fertilizer purchased at 500% Humidity with 1000 USDC would stop earning Beans after 6000 Beans.
 
-Fertilizer purchased before the Replanting in early July will have a 500% Humidity, and the Humidity will change upon the Replanting. After the Replanting, the Humidity will start at 250% and decrease by 0.5% every Season until the Humidity is 20%. It will take about 19 days after the Replanting to hit the minimum Humidity of 20%.
+Fertilizer purchased before Replant will have a 500% Humidity, and the Humidity will change upon Replant. After the Replant, the Humidity will start at 250% and decrease by 0.5% every Season until the Humidity is 20%. It will take about 19 days after the Replanting to hit the minimum Humidity of 20%.
 
 ![Humidity Visualization](/assets/uploads/humidity.png)
 
@@ -105,7 +107,7 @@ The vesting schedule tied to the product of Fertilizer sold and Fertilizer paid 
 
 Fertilizer will be ERC-1155 tokens with the Season of purchase as the unique identifier.
 
-In order to commemorate early participation in the Barn Raise, separate ERC-721 NFTs with distinct artwork will be available for mint for Farmers who purchase Fertilizer before the Replanting (between June 6 and early July—the exact date of the Replanting will be voted on by the Beanstalk DAO).
+In order to commemorate early participation in the Barn Raise, separate ERC-721 NFTs with distinct artwork will be available for mint for Farmers who purchase Fertilizer before the Replant (between June 6 and late July—the exact date of the Replanting will be voted on by the Beanstalk DAO).
 
 The minimum participation size for getting an NFT is 1000 USDC, and these NFTs are limited to the first 10,000 transactions of at least that minimum.
 
@@ -118,17 +120,17 @@ This Barn Raise structure:
 * Makes pre-exploit Farmers whole over time; and
 * Lowers the amount of capital needed to make pre-exploit Farmers whole in certain instances.
 
-If Beanstalk is Replanted before Fertilizer sells out and Silo Members Convert from Unripe LP Tokens to Unripe Beans when P < 1, then the amount of recapitalized liquidity required to make everyone whole decreases (because the liquidity is decreasing). 
+If Beanstalk is Replanted before Fertilizer sells out and Silo Members Convert from Unripe LP to Unripe Beans when P < 1, then the amount of recapitalized liquidity required to make everyone whole decreases (because the liquidity is decreasing). 
 
-Vice versa, if Beanstalk is Replanted before Fertilizer sells out and Silo Members Convert from Unripe Beans to Unripe LP Tokens when P > 1, then the amount of recapitalized liquidity required to make everyone whole increases (because the liquidity is increasing). This is acceptable as this scenario only plays out when P > 1 (a good problem to have). The ceiling on the amount of Fertilizer for sale would be about half the Unripe LP Tokens if all Unripe Beans were Converted.
+Vice versa, if Beanstalk is Replanted before Fertilizer sells out and Silo Members Convert from Unripe Beans to Unripe LP when P > 1, then the amount of recapitalized liquidity required to make everyone whole increases (because the liquidity is increasing). This is acceptable as this scenario only plays out when P > 1 (a good problem to have). The ceiling on the amount of Fertilizer for sale would be about half the Unripe LP if all Unripe Beans were Converted.
 
->As an example, if someone has 100 Unripe LP Tokens, and 0% of it has vested, there are no underlying assets to Ripen (the penalty for Ripening would be 100%). If someone has 100 Unripe LP Tokens, and 20% of it has vested, then they would have the option to Ripen their 100 Unripe LP Tokens and get 20 LP Tokens in exchange (forfeiting their claim to the rest of the LP Tokens in the process). 
+>As an example, if someone has 100 Unripe LP, and 0% of it has vested, there are no underlying assets to Ripen (the penalty for Ripening would be 100%). If someone has 100 Unripe LP, and 20% of it has vested, then they would have the option to Ripen their 100 Unripe LP and get 20 LP Tokens in exchange (forfeiting their claim to the rest of the LP Tokens in the process). 
 >
->If P < 1, they would also have the option to Convert their Unripe LP Tokens to Unripe Beans. Assuming the delta in the liquidity pool is 20 Beans below peg, then they can take their 100 Unripe LP Tokens and Convert all of it into 100 Unripe Beans, and the price will return to 1. This is because in reality, only 20 LP Tokens was converted to 20 Beans.
+>If P < 1, they would also have the option to Convert their Unripe LP to Unripe Beans. Assuming the delta in the liquidity pool is 20 Beans below peg, then they can take their 100 Unripe LP and Convert all of it into 100 Unripe Beans, and the price will return to 1. This is because in reality, only 20 LP Tokens was converted to 20 Beans.
 
 Because there are only approximately 30M Beans, this imposes an upper bound on Fertilizer of ~92 million. 
 
-The forfeiture of Unripe LP Tokens during the vesting schedule also reduces the amount of liquidity that needs to be raised, and thus the amount of Fertilizer for sale. 
+The forfeiture of Unripe LP during the vesting schedule also reduces the amount of liquidity that needs to be raised, and thus the amount of Fertilizer for sale. 
 
 This Barn Raise structure doubles down on the core economic mechanism that got Beanstalk to this point. It is up to the market to decide if Beanstalk deserves to exist—and these difficult endogenous circumstances give Beanstalk the opportunity to prove itself even more in the midst of exogenous market turmoil.
 
@@ -145,7 +147,7 @@ Let’s say someone buys 100 Fertilizer for 100 USDC, and this is the only Ferti
 Part 1—When recapitalizing pre-exploit LP Tokens, Beanstalk:
 1. mints the number of Beans required to add liquidity to the liquidity pool at the pre-exploit Bean price (for the sake of simplicity, with 100 USDC, let’s say Beanstalk mints 85 Beans because the pre-exploit price was >1);
 2. adds 100 USDC and 85 Beans as liquidity in the Curve pool for X LP Tokens; and
-3. adds X LP Tokens to the underlying pool for Unripe LP Tokens.
+3. adds X LP Tokens to the underlying pool for Unripe LP.
 
 Part 2—When recapitalizing pre-exploit Beans, Beanstalk:
 1. mints Beans according to the ratio of Deposited Beans lost in the exploit and the total capital required to recapitalize all assets (for the sake of simplicity, with 100 USDC, let’s say Beanstalk mints 40 Beans); and
@@ -159,7 +161,7 @@ Let’s say there is a delta surplus of 300 Beans in the liquidity pool at the e
 
 **Unripe Beans**: An ERC-20 token that entitles pre-exploit Bean holders to a pool of vesting Beans. These vesting Beans are minted as debt to Fertilizer holders is repaid.
 
-**Unripe LP Tokens**: Same as Unripe Beans but for LP Tokens.
+**Unripe LP**: Same as Unripe Beans but for LP Tokens.
 
 **Deposited** asset: Beans or LP Tokens that are Deposited in the Silo.
 
