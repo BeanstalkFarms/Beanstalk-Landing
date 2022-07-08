@@ -98,7 +98,17 @@ We were able to share functionality between smart contracts through delegate cal
 We were able to easily route around this by adding a function that performs a delegate call to to a library that is easily shared between facets:
 
 ```
-function 
+function updateSilo(address account) internal {
+    DiamondStorage storage ds = diamondStorage();
+    bytes4 functionSelector =
+      bytes4(keccak256(“updateSilo(address)”));
+    address facet = 
+      ds.selectorToFacetAndPosition[functionSelector].facetAddress;
+    bytes memory myFunctionCall = 
+      abi.encodeWithSelector(functionSelector, account);
+    (bool success,) = address(facet).delegatecall(myFunctionCall);
+    require(success, “Silo: updateSilo failed.”);
+} 
 ```
 
 ### Clean:
