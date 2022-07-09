@@ -34,7 +34,7 @@ A _Pod Order_ is a request to buy _Pods_ in exchange for Beans. Each _Pod Order_
 2.  The maximum price you are willing pay per _Pod_, denominated in Beans; and
 3.  The maximum place in the _Pod Line_ from which you are willing to buy _Pods_.
 
-> _Example: Farmer Joe wants to buy up to 100_ Pods _anywhere before 100,000 in the_ Pod Line _for 0.50 Beans /_ Pod_._
+> _Example: Farmer Joe wants to buy up to 100_ Pods _anywhere before 100,000 in the_ Pod Line _for 0.50 Beans / Pod_.
 
 To create a _Pod Order_, you must lock the Beans necessary to complete the purchase in the contract.
 
@@ -49,7 +49,7 @@ A _Pod Listing_ is an offer to sell _Pods_ in exchange for Beans. By default, _P
 3.  The minimum price you are willing to receive per _Pod_, denominated in Beans; and
 4.  The maximum number of _Pods_ that can become _Harvestable_ before the _Listing_ automatically _Expires_.
 
-> _Example: Farmer Joe wants to sell 100_ Pods _for 0.50 Beans /_ Pod _from the back of their plot at 50,000 in the_ Pod Line_. If the_ Pod Line _moves forward by 10,000 (such that the new place in the_ Pod Line _of Farmer Joe’s_ Pods _would be 40,000), the_ Pod Listing _will automatically_ Expire_._
+> _Example: Farmer Joe wants to sell 100_ Pods _for 0.50 Beans /_ Pod _from the back of their plot at 50,000 in the_ Pod Line_. If the_ Pod Line _moves forward by 10,000 (such that the new place in the_ Pod Line _of Farmer Joe’s_ Pods _would be 40,000), the_ Pod Listing _will automatically Expire_.
 
 Instead of waiting for a _Pod Listing_ to be _Filled_, _Pod_ owners can also sell _Pods_ directly into an outstanding _Pod Order_.
 

@@ -43,7 +43,7 @@ Properties are the non-numeric metadata attached to the BeaNFT. These include th
 
 The properties displayed on the BeaNFT itself are:
 
-_Background_, _Body_, _Eyeglasses_, _Eyes_, _Facial_ H_air_, _Halo_, _Hands_, _Hat_, _Mouth_, _Outfit_, _Outfit_ _Text_, _Scarves_, and _Tattoo_.
+_Background_, _Body_, _Eyeglasses_, _Eyes_, _Facial Hair_, _Halo_, _Hands_, _Hat_, _Mouth_, _Outfit_, _Outfit_ _Text_, _Scarves_, and _Tattoo_.
 
 The properties derived from the Sow transaction that generated the BeaNFT are:
 

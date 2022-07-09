@@ -22,9 +22,9 @@ The magnitude of the capital that rushed in, and immediately out of Beanstalk (~
 
 The first Beanstalk [roadmap](https://medium.com/@BeanstalkFarms/beanstalk-the-road-ahead-19a93615b486) was released in early October and oriented around the following goals:
 
-*   “Organize the community to work together to put Beanstalk in a position to succeed over the long term. An inspired, organized and driven community is essential to the long term success of Beanstalk.
+*   Organize the community to work together to put Beanstalk in a position to succeed over the long term. An inspired, organized and driven community is essential to the long term success of Beanstalk.
 *   Encourage discourse within the community on what is the best plan of action to make Beans the primary stablecoin protocol of DeFi. A lively community discourse centered around the right topics will drive high quality attention to Beanstalk.
-*   Outline our ideas for how the community’s time and resources should be allocated as of 10/6/21.”
+*   Outline our ideas for how the community’s time and resources should be allocated as of 10/6/21.
 
 The community that has grown around Beanstalk over the past month, their genuine interest in making Beans the ubiquitous stablecoin of DeFi, and insights into how to give Beanstalk the best opportunity to make that happen is cause for excitement. The quality of discourse in the Beanstalk Discord server has been inspiring.
 

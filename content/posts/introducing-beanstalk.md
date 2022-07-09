@@ -120,6 +120,3 @@ To learn more about Beanstalk you can visit our website: [bean.money](https://be
 You can ask questions and join the community discussion on [Telegram](https://t.me/joinchat/OdWoJSyPVsRhYzgx) and [Discord](https://discord.gg/y4cJNv5DTM)!
 
 Follow us on [Twitter](https://twitter.com/BeanstalkFarms)!
-
-[**Beanstalk | A Decentralized Credit Based Stablecoin Protocol**\
-_bean.money_bean.money](https://bean.money/ "https\://bean.money/")[](https://bean.money/)
