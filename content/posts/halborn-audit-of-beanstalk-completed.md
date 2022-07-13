@@ -4,7 +4,7 @@ subtitle: Halborn - a blockchain security firm - has completed a formal audit of
   Beanstalk’s smart contracts.
 date: 2022-07-13T21:04:24.373Z
 author: Beanstalk Farms
-description: Haborn - a blockchain security firm - has completed a formal audit
+description: Halborn - a blockchain security firm - has completed a formal audit
   of Beanstalk’s smart contracts.
 image: /assets/uploads/halborn-audit.png
 ---
