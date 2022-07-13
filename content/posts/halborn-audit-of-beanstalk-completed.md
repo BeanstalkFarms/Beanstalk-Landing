@@ -28,4 +28,4 @@ The full report can be found [here](https://github.com/HalbornSecurity/PublicRep
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, credit based stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the most accessible digital money system. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless money that unlocks the potential of decentralized finance for everyone. 
 
-**To learn more about Beanstalk, please visit our [website](http://app.bean.money/).**
+To learn more about Beanstalk, please visit our [website](http://app.bean.money/).
