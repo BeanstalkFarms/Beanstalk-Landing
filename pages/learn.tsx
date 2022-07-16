@@ -60,7 +60,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
           <div className="space-y-2">
             <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
               <div className="flex-1">
-                <a href="https://beanstalkfarmsdao.notion.site/Beanstalk-Learning-Center-92b8e9477e694a48aff37abac5b2865f" target="_blank" rel="noreferrer">
+                <a href="https://bean.money/learning-center" target="_blank" rel="noreferrer">
                   <Button
                     primary
                     desc={<span className="text-white text-2xl system md:block hidden">&rarr;</span>}
