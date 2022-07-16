@@ -11,7 +11,7 @@ image: /assets/uploads/introducing-farmers-almanac.png
 
 Today, Beanstalk Farms is pleased the announce the launch of the [Farmers' Almanac](http://docs.bean.money), a documentation hub containing educational resources about Beanstalk and its ecosystem, in addition to guides for interacting with the Beanstalk UI.
 
-In conjunction with the Beanstalk code base and [whitepaper](https://bean.money/docs/beanstalk.pdf) (v 2.0.0 coming soon), the Farmers' Almanac serves as a source of truth on Beanstalk mechanics and verbiage. Whereas the whitepaper is a highly granular document that contains comprehensive formulas behind Beanstalk's mechanics, the Farmers' Almanac is intended to be easy approachable to all (_i.e._, non-technical) Farmers. The Farmers' Almanac houses community resources that are out of scope of the whitepaper like the Beanstalk Community Multisig processes.
+In conjunction with the Beanstalk code base and [whitepaper](https://bean.money/docs/beanstalk.pdf) (Version 2.0.0 coming soon), the Farmers' Almanac serves as a source of truth on Beanstalk mechanics and verbiage. Whereas the whitepaper is a highly granular document that contains comprehensive formulas behind Beanstalk's mechanics, the Farmers' Almanac is intended to be easy approachable to all (_i.e._, non-technical) Farmers. The Farmers' Almanac houses community resources that are out of scope of the whitepaper like the Beanstalk Community Multisig processes.
 
 The Farmers' Almanac, like the whitepaper, is a living document that is updated as Beanstalk grows and evolves.
 
