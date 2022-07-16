@@ -1,5 +1,5 @@
 ---
-title: Water clocks and the Beanstalk helmsman
+title: Water Clocks and the Beanstalk Helmsman
 subtitle: "Part 2: Peg maintenance"
 date: 2022-06-29T01:36:20.743Z
 author: mod323

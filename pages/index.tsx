@@ -16,10 +16,10 @@ type BlogProps = {
 
 export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshots = //null;
-  [
-    await loadSnapshot('beanstalkfarms.eth', '0x3bf1e9ea8167019635787f44662096a1747b44f17c5e1571e33506d34453e889'),
-  ];
+  const snapshots = null;
+  // [
+  //   await loadSnapshot('beanstalkfarms.eth', '0x3bf1e9ea8167019635787f44662096a1747b44f17c5e1571e33506d34453e889'),
+  // ];
   return {
     props: {
       allPostsData,
@@ -136,6 +136,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             <Button
               target="_blank"
               rel="noreferrer"
+              href="https://docs.bean.money"
+              icon="/assets/icon/gitbook.png"
+              desc="Learn how Beanstalk works">
+              Farmers' Almanac
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
               href="https://discord.gg/beanstalk"
               icon="/assets/icon/discord.png"
               desc="Join the community and ask questions">
@@ -148,14 +156,6 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               icon="/assets/icon/snapshot.svg"
               desc="Vote on governance proposals">
               Snapshot
-            </Button>
-            <Button
-              target="_blank"
-              rel="noreferrer"
-              href="https://dune.xyz/tbiq/Beanstalk"
-              icon="/assets/icon/dune.png"
-              desc="View Beanstalk protocol analytics">
-              Dune Analytics
             </Button>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
