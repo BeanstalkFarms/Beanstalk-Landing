@@ -1,9 +1,9 @@
 ---
 title: Introducing the Farmers' Almanac
-subtitle: Official Beanstalk documentation compiled by Beanstalk Farms.
+subtitle: Beanstalk documentation compiled by Beanstalk Farms.
 date: 2022-07-18T21:04:24.373Z
 author: Beanstalk Farms
-description: Official Beanstalk documentation compiled by Beanstalk Farms.
+description: Beanstalk documentation compiled by Beanstalk Farms.
 image: /assets/uploads/introducing-farmers-almanac.png
 ---
 
