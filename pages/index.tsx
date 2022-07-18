@@ -139,7 +139,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               href="https://docs.bean.money"
               icon="/assets/icon/gitbook.png"
               desc="Learn about Beanstalk">
-              Farmers' Almanac
+              {`Farmers' Almanac`}
             </Button>
             <Button
               target="_blank"
