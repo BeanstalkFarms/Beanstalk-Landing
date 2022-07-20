@@ -8,6 +8,8 @@ date: 2022-06-06T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
 ---
 
+**[July 20th, 2022] Note: This blog post is not maintained. You can find an up-to-date guide on buying Fertilizer [here](https://docs.bean.money/guides/earn-interest-on-beans/buy-fertilizer).**
+
 Beanstalk is hosting the Barn Raise — a fundraiser to restore approximately $77M in non-Bean liquidity stolen from the Silo — starting on **Monday, June 6 at 4:00pm UTC**. You can find a comprehensive overview of the Barn Raise in [A Farmer’s Guide to the Barn Raise](https://bean.money/blog/a-farmers-guide-to-the-barn-raise).
 
 After Beanstalk is Replanted, Fertilizer will receive a pro rata share of one-third of new Bean mints based on the interest rate, or Humidity. In order to purchase Fertilizer—
