@@ -12,7 +12,7 @@ image: /assets/uploads/tobb.png
 
 Beanstalk Farms is pleased to announce that Trail of Bits has completed a formal audit of Beanstalk’s smart contracts ahead of Replant.
 
-\*     \*     \*     \*
+<p style="text-align: center;"> *      *      * </p>
 
 The Beanstalk DAO approved and committed [BIP-4](https://github.com/BeanstalkFarms/Beanstalk/blob/master/bips/bip-4.md) to hire Trail of Bits to perform a code audit on Beanstalk.
 
@@ -22,7 +22,7 @@ This is one of two audits performed on Beanstalk ahead of replant - the [other a
 
 The full report can be found [here](https://arweave.net/YQ10Jsu0IuedTTH2XAmbQXJ0USe3SPBcYZweXzZiCw8) and the fix review [here](https://arweave.net/JbPm1ylccQDLTc_n1wvaC5Np0YuChjt5nQ7OkLZI_gQ).
 
-\*     \*     \*     \*
+<p style="text-align: center;"> *      *      * </p>
 
 ## About Beanstalk
 
