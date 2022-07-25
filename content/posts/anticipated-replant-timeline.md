@@ -20,7 +20,7 @@ We believe that the best days on the Farm are yet to come!
 
 * _9:00am PT / 12:00pm ET in the [Discord](https://discord.gg/beanstalk)_: Final drafts of BIP-21, Beanstalk 2.0 and Beanstalk Whitepaper 2.0 are published for Farmers to review and comment on—visit the **#bip-21-replant-beanstalk** channel to discuss in Discord.
   * [BIP-21 Pull Request](https://github.com/BeanstalkFarms/Beanstalk/pull/72) with proposal final draft
-  * [Whitepaper](https://bafybeihljvbgdp4qycjs7xpqs3ludwhhjzpacjldsby5ia4knegt7hvqny.ipfs.nftstorage.link/) 
+  * [Whitepaper](https://bean.money/docs/beanstalk.pdf) 
 
 **Tuesday, July 26th**
 
@@ -34,7 +34,7 @@ We believe that the best days on the Farm are yet to come!
 
 * _Around 9:00am PT / 12:00pm ET_: BIP-21 is proposed on [Snapshot](https://snapshot.org/#/beanstalkdao.eth).
 
-**Upon passage of BIP-21**
+**Upon passage of BIP-21 (Friday, August 5th or upon reaching supermajority)**
 
 * Remainder of the Water Treatment is applied, per [BIP-20](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4).
 * Ownership of the Beanstalk contract is transferred from Publius to the Beanstalk Community Multisig (BCM).
