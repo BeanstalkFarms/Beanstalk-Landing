@@ -10,15 +10,15 @@ image: /assets/uploads/replant-timeline.png
 
 Today, Beanstalk Farms is excited to announce an anticipated Replant timeline, culminating in the Unpausing of Beanstalk on the protocol’s one-year anniversary—August 6, 2022. This timeline is subject to change, especially if any unexpected roadblocks are encountered such as a major protocol bug during ongoing testing.
 
-In these final days before the Replant, Beanstalk Farms, Bean Sprout and Publius would like to extend our gratitude to the Beanstalk community—not only for entrusting us with the opportunity to give Beanstalk a second chance at life over the last few months, but for being an active participant in that process.
+In these final days before the Replant, Beanstalk Farms, Bean Sprout and Publius would like to extend our gratitude to the Beanstalk community—not only for giving Beanstalk a second chance at life over the last few months, but for being an active participant in that process.
 
-We believe that the best days on the Farm are yet to come and that a successful Replant brings us one step closer.
+We believe that the best days on the Farm are yet to come!
 
 ## **Anticipated Replant Timeline**
 
 **Monday, July 25th**
 
-* Farmers review final drafts of BIP-21, Beanstalk 2.0 and Beanstalk Whitepaper 2.0—to read each document, visit the **#bip-21-replant-beanstalk** channel on [Discord](https://discord.gg/beanstalk).
+* _9:00am PT / 12:00pm ET in the [Discord](https://discord.gg/beanstalk)_: Final drafts of BIP-21, Beanstalk 2.0 and Beanstalk Whitepaper 2.0 are published for Farmers to review and comment on—to read each document, visit the **#bip-21-replant-beanstalk** channel on Discord.
 
 **Tuesday, July 26th**
 
@@ -30,12 +30,12 @@ We believe that the best days on the Farm are yet to come and that a successful 
 
 **Friday, July 29th**
 
-* BIP-21 is proposed on [Snapshot](https://snapshot.org/#/beanstalkdao.eth).
+* _Around 9:00am PT / 12:00pm ET_: BIP-21 is proposed on [Snapshot](https://snapshot.org/#/beanstalkdao.eth).
 
 **Upon passage of BIP-21**
 
 * Remainder of the Water Treatment is applied, per [BIP-20](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4).
-* Ownership of the Beanstalk contract is transferred from Publius to the [Beanstalk Community Multisig](https://docs.bean.money/governance/beanstalk/bcm-process) (BCM).
+* Ownership of the Beanstalk contract is transferred from Publius to the Beanstalk Community Multisig (BCM).
 * Beanstalk is Replanted, after which:
     * the Humidity (the interest rate on Fertilizer purchases) is reduced to 250%;
     * non-Deposited Unripe assets can be Picked and Deposited;
@@ -43,15 +43,11 @@ We believe that the best days on the Farm are yet to come and that a successful 
     * the Silo is reopened for Deposits; and
     * the Pod Market is reopened for buying and selling Plots.
 
-**_Saturday, August 6th_**
+**Saturday, August 6th**
 
-
-
-* Beanstalk is Unpaused by the BCM at around 9am PT / 12pm EST (16:00 UTC).
-* Shortly thereafter, the sunrise() function may be called by any Ethereum address.
-
+* _Around 9:00am PT / 12:00pm EST_: Beanstalk is Unpaused by the BCM.
+* Shortly thereafter, the `sunrise()` function may be called by any Ethereum address.
 
 ## **About Beanstalk**
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of an open, permissionless fiat stablecoin. The Beanstalk community of lenders, borrowers and savers secures a protocol-native stablecoin, Bean, with the goal of creating the world’s most accessible digital money system. By eliminating collateral requirements, Beanstalk can be the catalyst for a trustless money that unlocks the potential of decentralized finance for everyone. 
-
