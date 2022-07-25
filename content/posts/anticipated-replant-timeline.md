@@ -8,7 +8,7 @@ image: /assets/uploads/replant-timeline.png
 ---
 ![](/assets/uploads/replant-timeline.png)
 
-Today, Beanstalk Farms is excited to announce an anticipated Replant timeline, culminating in the Unpausing of Beanstalk on the protocol’s one-year anniversary—August 6, 2022.
+Today, Beanstalk Farms is excited to announce an anticipated Replant timeline, culminating in the Unpausing of Beanstalk on the protocol’s one-year anniversary—August 6, 2022. This timeline is subject to change, especially if any unexpected roadblocks are encountered such as a major protocol bug during ongoing testing.
 
 In these final days before the Replant, Beanstalk Farms, Bean Sprout and Publius would like to extend our gratitude to the Beanstalk community—not only for entrusting us with the opportunity to give Beanstalk a second chance at life over the last few months, but for being an active participant in that process.
 
