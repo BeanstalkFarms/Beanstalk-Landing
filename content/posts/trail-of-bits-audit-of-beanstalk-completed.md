@@ -20,7 +20,7 @@ Trail of Bits completed its audit on July 22, 2022, identifying 13 findings that
 
 This is one of two audits performed on Beanstalk ahead of replant - the [other audit](https://bean.money/blog/halborn-audit-of-beanstalk-completed) with Halborn was completed on July 13, 2022. 
 
-The full report can be found [here](https://arweave.net/YQ10Jsu0IuedTTH2XAmbQXJ0USe3SPBcYZweXzZiCw8) and the fix review [here](https://arweave.net/JbPm1ylccQDLTc_n1wvaC5Np0YuChjt5nQ7OkLZI_gQ).
+The full report can be found [here](https://4ra72bs63w2i5qo5nm4zlvg6zsci26qdqpcayosuo4n6zgkhlm.arweave.net/5EH9Bl7dtI7B3Ws5l-dTezISNegODxAw6VHcb7JlHW8) and the fix review [here](https://4shvdhor3phzl5ohx44y2doipfls6lxaisnjfavqsgnpj24a.arweave.net/5I9RndHbz5X1x785-jQ3IeVcv-LuB-EmpKCsJGa9OuA).
 
 <p style="text-align: center;"> *      *      * </p>
 
