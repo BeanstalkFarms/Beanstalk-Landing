@@ -12,7 +12,7 @@ image: /assets/uploads/halborn-audit.png
 
 Today, Beanstalk Farms is pleased to announce that Halborn has completed a formal audit of Beanstalk’s smart contracts ahead of Replant.
 
-<p style="text-align: center;"> \\*      \\*      * </p>
+<p style="text-align: center;"> *      *      * </p>
 
 On April 23, 2022 the Beanstalk DAO approved [BFP-66](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x54fad9c756daa38bb4bafadbee2cea6cb98f380fe2d6a62fdf723d0b15430d42): Hire Halborn to Perform Audit.
 
@@ -22,7 +22,7 @@ This is one of two scheduled audits - the other audit with Trail of Bits is expe
 
 The full report can be found [here](https://2adxrezjguhnrdzzvzwmcc52v4kdhtpw3vjk4x6gde4czm54f4.arweave.net/0Ad4kyk1DtiPOa5swQu6rxQzzfbdUq5_fxhk4LLO8L0).
 
-<p style="text-align: center;"> \\*      \\*      * </p>
+<p style="text-align: center;"> *      *      * </p>
 
 ## About Beanstalk
 
