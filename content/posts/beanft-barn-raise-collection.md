@@ -10,12 +10,12 @@ image: /assets/uploads/beanft-barn-raise.png
 
 Beanstalk Farms is excited to announce the BeaNFT Barn Raise Collection. The BeaNFT Barn Raise Collection is a series of up to 10,000 BeaNFTs that can only be rewarded by participating in the Barn Raise prior to Replant. The Replant will be executed by the [Beanstalk Community Multisig](https://docs.bean.money/governance/beanstalk/bcm-process) as soon as possible after [BIP-21](https://github.com/BeanstalkFarms/Beanstalk/pull/72) passes—you can read more about the anticipated Replant timeline [here](https://bean.money/blog/anticipated-replant-timeline).
 
-BeaNFTs were the first project built on top of Beanstalk and with the passage of [BFP-72](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b), they continue to grow and proliferate. The previous two BeaNFT collections are both on OpenSea ([Genesis](https://opensea.io/collection/beanft-genesis) and [Winter](https://opensea.io/collection/beanft-collection)).
+BeaNFTs were the first project built on top of Beanstalk and with the passage of [BFP-72](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xb87854d7f6f40f0877a1333028eab829b213fbcce03f16f9dd3832c8a98ab99b), they continue to grow and proliferate via the BeaNFT Barn Raise Collection. The previous two BeaNFT collections are both on OpenSea ([Genesis](https://opensea.io/collection/beanft-genesis) and [Winter](https://opensea.io/collection/beanft-collection)).
 
 * [BeaNFT Genesis Collection Announcement](https://bean.money/blog/announcing-beanft-genesis-collection)
 * [BeaNFT Winter Collection Announcement](https://bean.money/blog/beanft-winter-collection)
 
-Today, we are excited to share details about the Barn Raise BeaNFT Collection.
+Today, we are excited to share details about the BeaNFT Barn Raise Collection.
 
 **Qualifying for a Barn Raise BeaNFT**
 
