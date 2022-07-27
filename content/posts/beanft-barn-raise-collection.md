@@ -19,7 +19,7 @@ Today, we are excited to share details about the BeaNFT Barn Raise Collection.
 
 **Qualifying for a Barn Raise BeaNFT**
 
-The first 10,000 purchases of at least 1,000 Fertilizer in a single transactions **before** [Replant](https://bean.money/blog/anticipated-replant-timeline) qualify for a Barn Raise BeaNFT. As of writing, about ~360 transactions have qualified for a Barn Raise BeaNFT.
+The first 10,000 purchases of at least 1,000 Fertilizer in a single transaction **before** [Replant](https://bean.money/blog/anticipated-replant-timeline) qualify for a Barn Raise BeaNFT. As of writing, about ~360 transactions have qualified for a Barn Raise BeaNFT.
 
 **Issuance**
 
