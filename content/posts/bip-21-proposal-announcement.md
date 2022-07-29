@@ -8,14 +8,14 @@ image: /assets/uploads/bip-21-proposed.png
 ---
 ![](/assets/uploads/bip-21-proposed.png)
 
-Today, Beanstalk Farms is pleased to announce the formal proposal of BIP-21—the path to Replanting and Unpausing Beanstalk—on Snapshot. Stalkholders can now vote on BIP-21 [here](https://snapshot.org/#/beanstalkdao.eth/).
+Today, Beanstalk Farms is pleased to announce the formal proposal of BIP-21—the path to Replanting and Unpausing Beanstalk—on Snapshot. Stalkholders can now vote on BIP-21 [here](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71).
 
 After suffering a governance exploit on April 17, 2022, Beanstalk has been Paused and many contributors have worked tirelessly to prepare Beanstalk to Unpause in a safe manner in line with the will of the Beanstalk DAO. This has included:
 
 * Implementing the [Barn Raise](https://docs.bean.money/farm/barn) to recapitalize Beanstalk and its pre-exploit Silo Members;
 * Implementing a new temporary [governance structure](https://docs.bean.money/governance/beanstalk/bcm-process);
 * Completing two audits with [Halborn](https://bean.money/blog/halborn-audit-of-beanstalk-completed) and [Trail of Bits](https://bean.money/blog/trail-of-bits-audit-of-beanstalk-completed); and 
-* Implementing and proposing [BIP-21](https://snapshot.org/#/beanstalkdao.eth/), the path to Replant and Unpause Beanstalk. 
+* Implementing and proposing [BIP-21](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71), the path to Replant and Unpause Beanstalk. 
 
 Voting on BIP-21 has begun and will end on August 5, 2022 at 9:00am PT / 12:00 pm ET or when a two-thirds supermajority is reached. If BIP-21 passes, Beanstalk will be Unpaused on August 6th, 2022 around 16:00 UTC. 
 
