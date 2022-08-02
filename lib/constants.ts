@@ -2,8 +2,8 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bean.money'
 
 export const COPY = {
   // SITE_NAME: `Beanstalk`,
-  BASIC_TAGLINE: `A decentralized credit based stablecoin protocol`,
-  BASIC_DESCRIPTION: `Beanstalk is a decentralized stablecoin protocol built on Ethereum that uses credit instead of collateral to create $BEAN, a stable and scalable asset pegged to the US Dollar.`,
+  BASIC_TAGLINE: `A permissionless fiat stablecoin protocol`,
+  BASIC_DESCRIPTION: `Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum that uses credit instead of collateral to issue its native stablecoin.`,
 }
 
 export const IMAGES = {
