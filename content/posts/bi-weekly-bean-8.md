@@ -7,8 +7,6 @@ author: Beanstalk Farms
 description: "A newsletter that recaps the latest happenings in the Beanstalk
   ecosystem. This issue covers the 7/16/22– 8/01/22 period. "
 ---
-
-
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).
 
 Mark your calendars, we have a date! On **August 6, 2022 at around 16:00 UTC,** Beanstalk will be Unpaused per BIP-21, the proposal to Replant Beanstalk.
@@ -43,8 +41,8 @@ Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you ha
 
 # Beanstalk Farms **Updates**
 
-* [BIP-21 proposal](https://www.notion.so/Bi-Weekly-Bean-8-362b6dcf70aa45e29ffc9f28a824178f)
-* [The Farmers’ Almanac is live](https://www.notion.so/Bi-Weekly-Bean-8-362b6dcf70aa45e29ffc9f28a824178f)
-* [Beanstalk UI V2](https://www.notion.so/Bi-Weekly-Bean-8-362b6dcf70aa45e29ffc9f28a824178f) going live upon Replant
+* [BIP-21 proposal](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71)
+* [The Farmers’ Almanac is live](https://docs.bean.money/)
+* Beanstalk UI V2 going live upon Replant
 
 Comments, suggestions or feedback? Please reach out to mod@bean.farm
