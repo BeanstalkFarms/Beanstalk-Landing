@@ -85,7 +85,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             </div>
           ) : null}
           <h1 className="md:text-5xl text-3xl md:leading-[3.5rem]">
-            A decentralized credit based stablecoin protocol.
+            A permissionless fiat stablecoin protocol.
           </h1>
           <div className="space-y-2">
             <div>
