@@ -45,7 +45,7 @@ We believe that the best days on the Farm are yet to come!
     * the new Bean token becomes available for trading in the new BEAN:3CRV metapool;
     * the Silo is reopened for Deposits; and
     * the Pod Market is reopened for buying and selling Plots.
-* Liquidity from the BCM is added to the BEAN:3CRV pool.
+* USDC from the BCM is added as liquidity to the BEAN:3CRV pool.
 * Beanstalk UI V2 goes live.
 
 **Saturday, August 6th**
