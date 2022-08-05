@@ -102,7 +102,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               <div className="flex-1">
                 <Link href="/blog/anticipated-replant-timeline">
                   <Button className="align-flex-start" icon={<></>}>
-                    Beanstalk: Anticipated Replant Timeline
+                    Beanstalk: Unpause and One Year Anniversary
                   </Button>
                 </Link>
               </div>
