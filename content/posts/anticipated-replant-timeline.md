@@ -36,6 +36,7 @@ We believe that the best days on the Farm are yet to come!
 
 **Upon passage of BIP-21 (Friday, August 5th or upon reaching supermajority)**
 
+* Beanstalk UI becomes unavailable during Replant process.
 * Remainder of the Water Treatment is applied, per [BIP-20](https://snapshot.org/#/beanstalkdao.eth/proposal/0xe47741c4bfa4ac97ad23bbec0db8b9a5f2efc3e1737b309476d90611698193f4).
 * Ownership of the Beanstalk contract is transferred from Publius to the Beanstalk Community Multisig (BCM).
 * Beanstalk is Replanted, after which:
@@ -44,6 +45,8 @@ We believe that the best days on the Farm are yet to come!
     * the new Bean token becomes available for trading in the new BEAN:3CRV metapool;
     * the Silo is reopened for Deposits; and
     * the Pod Market is reopened for buying and selling Plots.
+* USDC from the BCM is added as liquidity to the BEAN:3CRV pool.
+* Beanstalk UI V2 goes live.
 
 **Saturday, August 6th**
 
