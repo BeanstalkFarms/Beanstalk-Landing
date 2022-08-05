@@ -8,7 +8,7 @@ date: 2022-05-29T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
 ---
 
-**[July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the Barn Raise mechanics [here](https://docs.bean.money/farm/barn).**
+**⚠️ [July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the Barn Raise mechanics [here](https://docs.bean.money/farm/barn).**
 
 On August 6, 2021, Beanstalk was first planted by Publius. Beanstalk, while still early in its life, grew to produce over 100 million Beans over the first 6074 Seasons (~8.5 months). 
 
@@ -30,13 +30,13 @@ On April 17, 2022, [Jack](https://etherscan.io/address/0x1c5dcdd006ea78a7e4783f9
 
 In order to support the Replant, Beanstalk will host the Barn Raise — a fundraiser to restore $77M in non-Bean liquidity stolen from the Silo — **starting Monday, June 6 at 4:00pm UTC**.
 
-Fertilizer, a semi-fungible token, will be sold during the Barn Raise. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. The roots of Beanstalk will be Replanted in July. After Replant, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
+Fertilizer, a semi-fungible token, will be sold during the Barn Raise. At the beginning of the Barn Raise, 77M Fertilizer will be for sale for 1 USDC each. The roots of Beanstalk will be Replanted in the next couple of months. After Replant, Fertilizer will receive a pro rata share of one-third of new Bean mints, while one-third is allocated to Silo Members and one-third is allocated to the Pod Line. Fertilizer sales will recapitalize non-Bean liquidity stolen in the attack.
 
 ### Vesting
 
 In order to align new capital with pre-exploit Farmers, all pre-exploit Beans and LP Tokens will become _Unripe Beans_ and _Unripe LP_ respectively upon Replant. Unripe assets represent a pro rata share of the underlying assets minted as Fertilizer is sold and debt repaid to Fertilizer. _Chopping_ is the process of burning Unripe Beans in exchange for Beans, or burning Unripe LP in exchange for LP Tokens. Unripe assets are subject to a vesting schedule.
 
-Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe assets can be Chopped. Unripe assets will be distributed upon Replant in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be Cancelled. Pod Listings will stay open by default and Farmers will have an opportunity to Cancel them before Replant.
+Unripe assets can be Deposited, Withdrawn, Claimable, or Circulating (see Glossary for definitions). Only Circulating Unripe assets can be Chopped. Unripe assets will be distributed upon Replant in the same state in their pre-exploit state, with the exception of Withdrawn assets that will be distributed as Claimable (as if the Withdrawal timer had elapsed). Farmers who had Beans deposited in Pod Orders pre-exploit will receive Claimable Unripe Beans and their Orders will be Cancelled. Pod Listings will stay open by default and Farmers will have an opportunity to Cancel them before Beanstalk is Unpaused.
 
 Stalk and Seeds will be distributed based on the percentage of Fertilizer sold at the time of the Replant, and any remaining Stalk and Seeds balances will vest as more Fertilizer is sold. Pods stay the same as pre-exploit.
 
@@ -57,11 +57,11 @@ Farmers can Chop their Unripe assets based on the product of the two following v
 >
 >These examples work the same way for Unripe LP.
 
-The vesting for pre-exploit Stalk and Seeds is a bit different. Stalk and Seeds simply unlock based on the percentage of Fertilizer that has been sold. This makes the Silo a more attractive destination for new Silo Members early on after Replant. As Stalk and Seeds vest, they need to be manually claimed to become active and start receiving Farmable Beans and Farmable Stalk. 
+The vesting for pre-exploit Stalk and Seeds is a bit different. Stalk and Seeds simply unlock based on the percentage of Fertilizer that has been sold. This makes the Silo a more attractive destination for new Silo Members early on after Replant. As Stalk and Seeds vest into Revitalized Stalk and Seeds, they need to be manually claimed (Enrooted) to become active and start receiving Earned Beans and Earned Stalk. 
 
->As an example, if 20% of total Fertilizer has sold before the Replant, Silo Members receive 20% of their Stalk and Seed balances at the time of the Replant. Once 50% of total Fertilizer has sold, Silo Members can manually claim an additional 30%, bringing their total to 50% of their pre-exploit Stalk and Seed balances.
+>As an example, if 20% of total Fertilizer has sold before the Replant, Silo Members receive 20% of their Stalk and Seed balances at the time of the Replant. Once 50% of total Fertilizer has sold, Silo Members can manually claim an additional 30% (known as Revitalized Stalk and Seeds), bringing their total to 50% of their pre-exploit Stalk and Seed balances.
 
-New Silo Deposits after Replant are not subject to any vesting schedule. Neither are Farmable Beans, Harvestable Pods, or Fertilized Beans (the Beans earned from Fertilizer).
+New Silo Deposits after Replant are not subject to any vesting schedule. Neither are Earned Beans, Harvestable Pods, or Rinsable Sprouts (the Beans earned from Fertilizer).
 
 ### Forfeited Assets
 
@@ -85,8 +85,6 @@ The interest rate on Fertilizer is called Humidity.
 
 Fertilizer purchased before Replant will have a 500% Humidity, and the Humidity will change upon Replant. After the Replant, the Humidity will start at 250% and decrease by 0.5% every Season until the Humidity is 20%. It will take about 19 days after the Replanting to hit the minimum Humidity of 20%.
 
-![Humidity Visualization](/assets/uploads/humidity.png)
-
 By rewarding early participation in the Barn Raise and having the reward drop off quickly, demand for Soil and the Silo increases as Fertilizer becomes less attractive. This will facilitate the incentive structures created by Beanstalk to quickly return to a relatively similar state to prior to the attack. 
 
 #### New Bean Mints
@@ -96,9 +94,6 @@ There are 3 states Fertilizer can be in:
 * If Fertilizer is owed Bean mints, it’s Active. Active Fertilizer receives one-third of new Bean mints any Season there is Active Fertilizer.
 * If Fertilizer is done earning Bean mints, it’s Used.
 
-![Fertilizer Visualization](/assets/uploads/fertilizer.png)
-
-
 It is expected that if Beanstalk is successful long-term, even 20% Humidity would eventually be attractive based on the number of Active Fertilizer. If there’s no Active Fertilizer and there’s still Fertilizer to be sold, someone can buy Fertilizer and earn the entire one-third of Bean mints allocated to Active Fertilizer.
 
 The vesting schedule tied to the product of Fertilizer sold and Fertilizer paid back minimizes the new supply from vesting assets even in the instance there are extended periods of minimal demand for Fertilizer. 
@@ -107,7 +102,7 @@ The vesting schedule tied to the product of Fertilizer sold and Fertilizer paid 
 
 Fertilizer will be ERC-1155 tokens with the Season of purchase as the unique identifier.
 
-In order to commemorate early participation in the Barn Raise, separate ERC-721 NFTs with distinct artwork will be available for mint for Farmers who purchase Fertilizer before the Replant (between June 6 and late July—the exact date of the Replanting will be voted on by the Beanstalk DAO).
+In order to commemorate early participation in the Barn Raise, separate ERC-721 NFTs with distinct artwork will be available for mint for Farmers who purchase Fertilizer before the Replant.
 
 The minimum participation size for getting an NFT is 1000 USDC, and these NFTs are limited to the first 10,000 transactions of at least that minimum.
 
