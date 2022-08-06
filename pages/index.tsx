@@ -100,7 +100,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             </div>
             <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
               <div className="flex-1">
-                <Link href="/blog/anticipated-replant-timeline">
+                <Link href="/blog/beanstalk-one-year-anniversary">
                   <Button className="align-flex-start" icon={<></>}>
                     Beanstalk: Unpause and One Year Anniversary
                   </Button>
