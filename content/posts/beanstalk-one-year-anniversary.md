@@ -10,8 +10,6 @@ image: /assets/uploads/unpause-anniversary.png
 
 Today, Beanstalk Farms is thrilled to announce that Beanstalk has been Unpaused on the one year anniversary of its initial deployment.
 
-**The `sunrise()` function can be called around 17:00 UTC / 10:00am PT / 1:00pm.**
-
 Beanstalk was initially deployed to Ethereum mainnet on August 6, 2021. In the ~8 months that followed, Beanstalk organically grew to $100M in market cap and attracted $144M in long-term incentivized liquidity until the governance exploit on April 17, 2022. Since then, Beanstalk Farms and Bean Sprout have worked with the Beanstalk community to prepare the protocol for a safe Replant and Unpause.
 
 Now, the Beanstalk experiment is out in the wild once again. It’s [impossible to predict how it will perform](https://bean.money/blog/thoughts-before-the-barn-raise), but Beanstalk Farms’ belief in the possibilities for a permissionless fiat stablecoin is unwavering. 
