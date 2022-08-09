@@ -8,6 +8,8 @@ image: ""
 ---
 ![](/assets/uploads/bean-lusd-curve-pool-announcement.png)
 
+# **⚠️**  THIS BLOG POST IS OUTDATED - THE BEAN TOKEN AND POOL THIS POST REFER TO ARE DEPRECATED
+
 Today, Beanstalk Farms deployed a new BEAN:LUSD Curve stableswap liquidity pool. Beanstalk Farms intends to propose a Beanstalk Improvement Proposal within the next week to whitelist BEAN:LUSD LP tokens for Deposit into the Silo, which will provide a novel and competitive yield opportunity for LUSD holders in advance of the upcoming stability reward halving.
 
 ## What is the Silo
@@ -40,4 +42,4 @@ Both protocols are designed to be accessible, decentralized and composable.  
 
 Beanstalk is a decentralized protocol that allows anyone to realize the value of $BEAN, a decentralized credit based stablecoin. By eliminating collateral requirements, Beanstalk is the catalyst for a trustless solution that unlocks the potential of decentralized finance for everyone. Learn more at [bean.money](http://bean.money/).
 
-BEAN and LUSD holders can add liquidity and trade here: <https://curve.fi/factory/103/deposit>
+BEAN and LUSD holders can add liquidity and trade here.[](https://curve.fi/factory/103/deposit)
