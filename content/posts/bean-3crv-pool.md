@@ -1,13 +1,15 @@
 ---
-title: 'Introducing the BEAN:3CRV Pool'
-subtitle: "A new stableswap liquidity pool seeded on Curve."
-author: Beanstalk Farms
+title: Introducing the BEAN:3CRV Pool
+subtitle: A new stableswap liquidity pool seeded on Curve.
 date: 2022-01-07T02:25:01.933Z
-description: "Beanstalk  announces the creation of a new BEAN:3CRV stableswap liquidity pool seeded on Curve."
+author: Beanstalk Farms
+description: Beanstalk  announces the creation of a new BEAN:3CRV stableswap
+  liquidity pool seeded on Curve.
 image: /assets/uploads/bean-3crv.png
 ---
-
 ![](https://cdn-images-1.medium.com/max/800/1*dpCnV4b6lY8uUe8lqRh6Kg.png)
+
+# **⚠️** THIS BLOG POST IS OUTDATED - THE BEAN TOKEN AND POOL THIS POST REFER TO ARE DEPRECATED
 
 Today, Beanstalk Farms is pleased to announce the creation of a new BEAN:3CRV stableswap liquidity pool seeded on Curve, a leading Automated Market Maker (AMM) and decentralized exchange. We are thrilled to launch this integration as part of Beanstalk’s mission to bolster Bean price stability, increase utility, and expand access to the protocol.
 
@@ -15,10 +17,10 @@ Now that the BEAN:3CRV liquidity pool is open, anyone can add or remove liquidit
 
 ## In this article we will cover:
 
-*   What is the BEAN:3CRV pool?
-*   How does the BEAN:3CRV pool benefit Beanstalk?
-*   How does the BEAN:3CRV pool benefit Beanstalk users?
-*   How to add and remove liquidity from the BEAN:3CRV pool
+* What is the BEAN:3CRV pool?
+* How does the BEAN:3CRV pool benefit Beanstalk?
+* How does the BEAN:3CRV pool benefit Beanstalk users?
+* How to add and remove liquidity from the BEAN:3CRV pool
 
 ## What is the BEAN:3CRV pool?
 
@@ -26,7 +28,7 @@ To understand what the BEAN:3CRV pool is, it’s important to understand what Cu
 
 ## Curve
 
-Curve is an AMM and decentralized exchange optimized for stable digital assets. Oftentimes, the assets exchanged on Curve are stablecoins pegged to the same non-blockchain native assets, like the US Dollar. Curve allows users to swap these stablecoins for one another (_e.g._, exchanging USDC for DAI).
+Curve is an AMM and decentralized exchange optimized for stable digital assets. Oftentimes, the assets exchanged on Curve are stablecoins pegged to the same non-blockchain native assets, like the US Dollar. Curve allows users to swap these stablecoins for one another (*e.g.*, exchanging USDC for DAI).
 
 Curve uses liquidity pools to enable the exchange of assets. These pools are a collection of aggregated tokens deposited into a smart contract by any number of liquidity providers (LPs). Curve LPs are compensated for locking their assets in the protocol by earning a percentage of all Curve swap fees, and some pools offer additional yield rewards in the form of Curve DAO Tokens (CRV).
 
@@ -60,7 +62,7 @@ The introduction of the BEAN:3CRV liquidity pool is expected to dilute the price
 
 ## Utility
 
-As discussed in the Curve overview above, Curve pays LPs a percentage of all trading fees. With the introduction of the BEAN:3CRV pool, Bean owners now have access to the a non-Beanstalk native source of revenue (i.e. outside of the _Field_ and _Silo_ and Uniswap pool).
+As discussed in the Curve overview above, Curve pays LPs a percentage of all trading fees. With the introduction of the BEAN:3CRV pool, Bean owners now have access to the a non-Beanstalk native source of revenue (i.e. outside of the *Field* and *Silo* and Uniswap pool).
 
 Beanstalk Farms plans to continue integrating Beanstalk with the broader Curve ecosystem, and is working on a proposal to include the BEAN:3CRV pool into gauge votes in process.
 
@@ -78,56 +80,56 @@ Bean owners benefit very directly from Beanstalk’s growth. The improved stabil
 
 ## Add liquidity to BEAN:3CRV Pool
 
-1\. Go to the [BEAN:3CRV Pool](https://curve.fi/factory/81).
+1. Go to the [BEAN:3CRV Pool](https://curve.fi/factory/81).
 
-2\. Select “Deposit” in the top navigation bar of the Curve website.
+2. Select “Deposit” in the top navigation bar of the Curve website.
 
 ![](https://cdn-images-1.medium.com/max/800/1*SlwVQtEBYGzls50QPeKL_w.png)
 
-3\. Select “Connect wallet” and Choose MetaMask from the popup.
+3. Select “Connect wallet” and Choose MetaMask from the popup.
 
 ![](https://cdn-images-1.medium.com/max/800/1*rfB9zIf6ezu93DBkZVDeUw.png)
 
-4\. Enter: BEAN, DAI, USDC or USDT.
+4. Enter: BEAN, DAI, USDC or USDT.
 
 ![](https://cdn-images-1.medium.com/max/800/1*0i_WSocD1Punlco4U-Z84Q.png)
 
-5\. Set the gas priority fee and select “Deposit”.
+5. Set the gas priority fee and select “Deposit”.
 
 ![](https://cdn-images-1.medium.com/max/800/1*TCgD3GYtboN2o_f6Iiq8Lg.png)
 
-6\. Approve the amount of your deposited tokens.
+6. Approve the amount of your deposited tokens.
 
-7\. Confirm the deposit of your tokens.
+7. Confirm the deposit of your tokens.
 
-8\. Review the transaction and add the BEAN:3CRV LP Token to your wallet address.
+8. Review the transaction and add the BEAN:3CRV LP Token to your wallet address.
 
 ## Remove Liquidity from BEAN:3CRV Pool
 
-1\. Go to the [BEAN:3CRV Pool](https://curve.fi/factory/81).
+1. Go to the [BEAN:3CRV Pool](https://curve.fi/factory/81).
 
-2\. Select “Withdraw” in the top navigation bar of the Curve website.
+2. Select “Withdraw” in the top navigation bar of the Curve website.
 
 ![](https://cdn-images-1.medium.com/max/800/1*4fIviq8zOx57LLkzl_Offw.png)
 
-3\. Select “Connect wallet” and Choose MetaMask from the popup (if not already connected).
+3. Select “Connect wallet” and Choose MetaMask from the popup (if not already connected).
 
-4\. In the “Share of Liquidity (%)” box enter the desired % of liquidity you want to remove from the BEAN:3CRV Pool or the precise amount in the “Currencies” section.
+4. In the “Share of Liquidity (%)” box enter the desired % of liquidity you want to remove from the BEAN:3CRV Pool or the precise amount in the “Currencies” section.
 
 ![](https://cdn-images-1.medium.com/max/800/1*RxCSx5w8HPHJitB0F_G9AA.png)
 
-5\. In the “Withdraw % in” section select an option from:
+5. In the “Withdraw % in” section select an option from:
 
-*   Bean + DAI + USDC + USDT
-*   Bean
-*   DAI
-*   USDC
-*   USDT
+* Bean + DAI + USDC + USDT
+* Bean
+* DAI
+* USDC
+* USDT
 
 ![](https://cdn-images-1.medium.com/max/800/1*eeGuQgWtbUcAKEshOqmquw.png)
 
-6\. Set the gas priority fee and select “Withdraw”.
+6. Set the gas priority fee and select “Withdraw”.
 
 ![](https://cdn-images-1.medium.com/max/800/1*XPI3GdkS3YTfAFNLsKIOUw.png)
 
-7\. Confirm the withdrawal transaction.
+7. Confirm the withdrawal transaction.
