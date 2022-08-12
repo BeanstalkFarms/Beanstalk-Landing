@@ -27,6 +27,7 @@ The first automatic control system, the centrifugal governor, was invented by Ch
 </b></figcaption>
 </figure>
 
+The mathematical basis of control theory was first studied by James Clerk Maxwell in his 1868 paper On Governers, but it wasn’t until 1922 when a formal control law for what we know today as a three-term control was developed by Nicolas Minorsky, while designing automatic ship steering for the US Navy. Minorksy noted that the helmsman steered the ship based not only on the current course error but also on past error, as well as the rate of change. You might have heard of this as a PID (Proportional, Integral, Derivative) controller; it's how cruise control works in modern cars. 
 
 ## But what do controllers have to do with Beanstalk? 
 
