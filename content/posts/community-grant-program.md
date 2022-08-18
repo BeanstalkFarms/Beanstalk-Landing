@@ -2,7 +2,7 @@
 title: Community Grant Program
 subtitle: The community grant program aims to reward community members for
   creating quality content about the Beanstalk ecosystem.
-date: 2022-08-18T18:01:21.179Z
+date: 2022-08-18T07:01:21.179Z
 author: Beanstalk Farms
 description: Beanstalk Farms announces a community grant program aimed at
   rewarding community members for creating quality content about the Beanstalk
