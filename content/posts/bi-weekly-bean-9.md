@@ -27,17 +27,17 @@ Feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any q
 
 # **Protocol Summary**
 
-![Untitled](/assets/uploads/bean-price.png)
+![](/assets/uploads/bean-price.png)
 
 Beanstalk Unpaused with the price of Bean at $1.07 and a [ramped up deltaB minting schedule](https://www.notion.so/Bi-Weekly-Bean-9-89afb840257e4a109d65f16b7e750b30) of 1% per Season for the first 100 Seasons. The ramp up period, along with demand for Beans, led the price of Bean to peak at $1.16 and then settle down back to $1.00. Beanstalk Unpaused with \~$28M in liquidity. Shortly after Unpause, Beanstalk attracted \~$10M of liquidity for a total of \~$38M, followed by an exit of \~$7.7M as of 8/16.
 
-![Untitled](/assets/uploads/pods.png)
+![](/assets/uploads/pods.png)
 
 Beanstalk managed the sell-off through its credit facility, the Field, and [Conversions](https://twitter.com/BeanstalkFarms/status/1559720270641782789?s=20&t=hDCvHnnL88eapIFUgAezwA) within the Silo. The Field continued to attract strong demand for Soil, issuing ~80M Pods at a high Pod Rate, further underscoring Beanstalk’s strong credit.
 
-![Untitled](/assets/uploads/pod-rate.png)
+![](/assets/uploads/pod-rate.png)
 
-![Untitled](/assets/uploads/temperature.png)
+![](/assets/uploads/temperature.png)
 
 The strong demand for Soil is reflected in the Temperature which has continued on a downward trend since Unpause.
 
