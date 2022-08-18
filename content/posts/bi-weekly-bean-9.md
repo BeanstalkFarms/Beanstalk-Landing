@@ -16,7 +16,7 @@ It’s on, Farmers! Beanstalk is Unpaused!
 
 Beanstalk Unpaused on August 6, marking the one year anniversary of its initial deployment. If you couldn’t make the event, [here](https://anchor.fm/beanstalk-farms/episodes/Beanstalk-Unpause-Twitter-Space---8622-e1m6923/a-a8bn5e3) is a link to the Unpause Twitter Spaces.
 
-[BIP-22](https://snapshot.org/#/beanstalkdao.eth/proposal/0x770efe960a45d7f91b21b6b13106412b666ad5f90c2a27e398867972aa16f893) and [BIP-23](https://www.notion.so/Bi-Weekly-Bean-9-89afb840257e4a109d65f16b7e750b30), the Q3 budget proposals for Beanstalk Farms and Bean Sprout, respectively, have both passed. Beanstalk Farms plans to use their budget to retain, grow and support a group of core contributors. Bean Sprout plans to use their budget to seed, grow and support various Beanstalk-related integrations, projects and initiatives.
+[BIP-22](https://snapshot.org/#/beanstalkdao.eth/proposal/0x770efe960a45d7f91b21b6b13106412b666ad5f90c2a27e398867972aa16f893) and [BIP-23](https://snapshot.org/#/beanstalkdao.eth/proposal/0x3b2a7808f01960ff993b7aec4df9ef6a3434d0ef0843828ea6c6bce4e768e6a9), the Q3 budget proposals for Beanstalk Farms and Bean Sprout, respectively, have both passed. Beanstalk Farms plans to use their budget to retain, grow and support a group of core contributors. Bean Sprout plans to use their budget to seed, grow and support various Beanstalk-related integrations, projects and initiatives.
 
 Two new episodes of the The Bean Pod are live:
 
@@ -29,7 +29,7 @@ Feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any q
 
 ![](/assets/uploads/bean-price.png)
 
-Beanstalk Unpaused with the price of Bean at $1.07 and a [ramped up deltaB minting schedule](https://www.notion.so/Bi-Weekly-Bean-9-89afb840257e4a109d65f16b7e750b30) of 1% per Season for the first 100 Seasons. The ramp up period, along with demand for Beans, led the price of Bean to peak at $1.16 and then settle down back to $1.00. Beanstalk Unpaused with \~$28M in liquidity. Shortly after Unpause, Beanstalk attracted \~$10M of liquidity for a total of \~$38M, followed by an exit of \~$7.7M as of 8/16.
+Beanstalk Unpaused with the price of Bean at $1.07 and a [ramped up deltaB minting schedule](https://github.com/BeanstalkFarms/Beanstalk/pull/72) of 1% per Season for the first 100 Seasons. The ramp up period, along with demand for Beans, led the price of Bean to peak at $1.16 and then settle down back to $1.00. Beanstalk Unpaused with \~$28M in liquidity. Shortly after Unpause, Beanstalk attracted \~$10M of liquidity for a total of \~$38M, followed by an exit of \~$7.7M as of 8/16.
 
 ![](/assets/uploads/pods.png)
 
