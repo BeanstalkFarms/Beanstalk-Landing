@@ -2,7 +2,7 @@
 title: Community Grant Program
 subtitle: The community grant program aims to reward community members for
   creating quality content about the Beanstalk ecosystem.
-date: 2022-06-24T19:54:19.518Z
+date: 2022-08-18T18:01:21.179Z
 author: Beanstalk Farms
 description: Beanstalk Farms announces a community grant program aimed at
   rewarding community members for creating quality content about the Beanstalk
@@ -52,11 +52,11 @@ Below are a number of examples of previous content:
 
 **When does the grant start?**
 
-The grant will start in July 2022 and will continue monthly until Beanstalk Farms announces otherwise. 
+The grant is live and will continue monthly until Beanstalk Farms announces otherwise. 
 
  **What kind of contributions are suitable?**
 
-Any content that adds value to Beanstalk by spreading awareness and education. Beanstalk Farms will ultimately decide whether each piece of submitted content is suitable for the grant. 
+Any content that adds value to Beanstalk by spreading awareness and education. A committee will decide whether each piece of submitted content is suitable for the grant. 
 
 Please refer to the examples of acceptable content above.
 
@@ -78,4 +78,4 @@ From the Beanstalk Farms budget.
 
 **Who will be the jury?**
 
-A committee of five members from Beanstalk Farms.
+A committee of 3 members, 2 from Beanstalk Farms and 1 from the community.
