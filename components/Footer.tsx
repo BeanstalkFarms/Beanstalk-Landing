@@ -17,8 +17,8 @@ const Footer = () => (
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Github
       </a>
-      <a href="https://bean.money/learning-center" target="_blank" rel="noreferrer" className="md:inline-block hidden">
-        Learning Center
+      <a href="https://docs.bean.money/disclosures" target="_blank" rel="noreferrer" className="md:inline-block hidden">
+        Disclosures
       </a>
     </div>
   </footer>
