@@ -16,11 +16,11 @@ type BlogProps = {
 
 export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshots = //null;
-  [
-    await loadSnapshot('beanstalkdao.eth', '0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794'),
-    await loadSnapshot('beanstalkfarms.eth', '0xc0dc3b257b543e9e105aa11c873d568f5ede6607289f5e656f1c4c0d30b4948f'),
-  ];
+  const snapshots = null;
+  // [
+  //   await loadSnapshot('beanstalkdao.eth', '0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794'),
+  //   await loadSnapshot('beanstalkfarms.eth', '0xc0dc3b257b543e9e105aa11c873d568f5ede6607289f5e656f1c4c0d30b4948f'),
+  // ];
   return {
     props: {
       allPostsData,
