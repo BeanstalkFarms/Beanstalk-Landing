@@ -13,8 +13,6 @@ What is Beanstalk? Beanstalk is a decentralized credit based stablecoin protocol
 
 ## **Protocol Summary**
 
-![Bean price](/assets/uploads/bean-price.png)
-
 The price of BEAN has remained tightly pegged over the last two weeks, with a maximum single-Season TWAP deviation of -$0.026. In the past week, price has remained mostly above peg, resulting in 1,268,099 newly-minted Beans since the beginning of March.
 
 ![Bean Pod Rate](/assets/uploads/beanstalk-pod-rate.png)
