@@ -16,11 +16,11 @@ type BlogProps = {
 
 export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshots = //null;
-  [
-    await loadSnapshot('beanstalkdao.eth', '0x567cd46fe73c130f4ac2e95ba787ff0ce39dd74cea9e51c781702c52afe964fc'),
-    await loadSnapshot('beanstalkdao.eth', '0x7024a7a4afc08e59f89e18b29f4995ac3dfadea92324d6c88f710a587eba2e19'),
-  ];
+  const snapshots = null;
+  // [
+  //   await loadSnapshot('beanstalkdao.eth', '0x567cd46fe73c130f4ac2e95ba787ff0ce39dd74cea9e51c781702c52afe964fc'),
+  //   await loadSnapshot('beanstalkdao.eth', '0x7024a7a4afc08e59f89e18b29f4995ac3dfadea92324d6c88f710a587eba2e19'),
+  // ];
   return {
     props: {
       allPostsData,
@@ -99,14 +99,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
                 </Button>
               </a>
             </div>
-            <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
+            {/* <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
               <div className="flex-1">
                 <Link href="/blog/beanstalk-one-year-anniversary">
                   <Button className="align-flex-start" icon={<></>}>
                     Beanstalk: Unpause and One Year Anniversary
                   </Button>
                 </Link>
-              </div>
+              </div> */}
               {/* <div>
                 <Link href="/blog/path-forward-faq">
                   <Button className="h-full flex items-center">
@@ -114,7 +114,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
                   </Button>
                 </Link>
               </div> */}
-            </div>
+            {/* </div> */}
           </div>
         </div>
         {/**
@@ -140,7 +140,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               href="https://docs.bean.money"
               icon="/assets/icon/gitbook.png"
               desc="Learn about Beanstalk">
-              {`Farmers' Almanac`}
+              {`Docs`}
             </Button>
             <Button
               target="_blank"
