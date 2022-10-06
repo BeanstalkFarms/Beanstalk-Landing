@@ -131,7 +131,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               rel="noreferrer"
               href="https://bean.money/docs/beanstalk.pdf"
               icon="/assets/icon/beanstalk.svg"
-              desc="v2.0.1">
+              desc="v2.1.0">
               Whitepaper
             </Button>
             <Button
