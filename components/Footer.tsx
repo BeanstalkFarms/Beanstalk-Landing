@@ -11,8 +11,8 @@ const Footer = () => (
       <a href="https://twitter.com/beanstalkfarms" target="_blank" rel="noreferrer">
         Twitter
       </a>
-      <a href="https://dune.xyz/tbiq/Beanstalk" target="_blank" rel="noreferrer">
-        Dune
+      <a href="https://www.coingecko.com/en/coins/bean" target="_blank" rel="noreferrer">
+        CoinGecko
       </a>
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Github
