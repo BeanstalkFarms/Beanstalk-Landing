@@ -123,7 +123,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <h2 className="text-3xl font-normal">Learn</h2>
-            <a href={`/learn`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
+            <a href={`https://bean.money/learning-center`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
           </div>
           <div className="space-y-4">
             <Button
@@ -150,14 +150,6 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               desc="Join the community and ask questions">
               Discord
             </Button>
-            <Button
-              target="_blank"
-              rel="noreferrer"
-              href="https://snapshot.org/#/beanstalkdao.eth"
-              icon="/assets/icon/snapshot.svg"
-              desc="Vote on governance proposals">
-              Snapshot
-            </Button>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
@@ -180,6 +172,41 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
                 image={image}
               />
             ))}
+          </div>
+        </div>
+        {/**
+          * Section: Links
+          */}
+        <div className="space-y-4">
+          <div className="flex justify-between items-center">
+            <h2 className="text-3xl font-normal">Links</h2>
+            <a href={`https://docs.bean.money/community-resources/links`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
+          </div>
+          <div className="space-y-4">
+            <Button
+              target="_blank"
+              rel="noreferrer"
+              href="https://snapshot.org/#/beanstalkdao.eth"
+              icon="/assets/icon/snapshot.svg"
+              desc="Vote on governance proposals">
+              Snapshot
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
+              href="https://immunefi.com/bounty/beanstalk"
+              icon="/assets/icon/immunefi.png"
+              desc="Submit bug reports">
+              Bug Bounty
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/BeanstalkFarms/Beanstalk"
+              icon="/assets/icon/github.png"
+              desc="View the open source contracts">
+              GitHub
+            </Button>
           </div>
         </div>
         {/**

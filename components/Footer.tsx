@@ -15,7 +15,7 @@ const Footer = () => (
         Bug Bounty
       </a>
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
-        Github
+        GitHub
       </a>
       <a href="https://docs.bean.money/disclosures" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Disclosures
