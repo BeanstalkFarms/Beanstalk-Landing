@@ -1,7 +1,7 @@
 ---
 title: Immunefi Bug Bounty Program
 subtitle: Announcing the Immunefi Bug Bounty Program per BIP-26
-date: 2022-10-10T07:01:21.179Z
+date: 2022-10-11T07:01:21.179Z
 author: Beanstalk Farms
 description: Announcing the Immunefi Bug Bounty Program per BIP-26
 image: /assets/uploads/bug-bounty-live.png
