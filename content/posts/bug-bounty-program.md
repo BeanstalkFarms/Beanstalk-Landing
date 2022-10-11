@@ -8,15 +8,13 @@ image: /assets/uploads/bug-bounty-live.png
 ---
 ![Bug Bounty Program Live](/assets/uploads/bug-bounty-live.png)
 
-Beanstalk Farms is excited to announce that the bug bounty program with Immunefi approved in BIP-26 is now live, with rewards up to 1.1M Beans!
+Beanstalk Farms is excited to announce that the bug bounty program with Immunefi approved in BIP-26 is now live, with rewards up to 1.1M Beans per bug report!
 
 You can find the bug bounty program and submit bug reports [here](https://immunefi.com/bounty/beanstalk).
 
 In BIP-26, the Beanstalk DAO created a bug bounty program through Immunefi to incentivize whitehat hackers to find bugs in Beanstalk.
 
-In order to be considered for the maximum potential reward, bug reports must come with (1) a Proof of Concept (PoC), and (2) code implementing the fix.
-
-Bug reports that do not come with a PoC and code implementing
+In order to be considered for the maximum potential reward, bug reports must come with (1) a Proof of Concept (PoC), and (2) code implementing the fix. Bug reports that do not come with a PoC and code implementing
 a fix may qualify for a maximum of up to 30% of the potential reward outlined below, as determined by the Beanstalk Immunefi Committee (BIC). You can read more about the BIC here:
 
 - [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)
