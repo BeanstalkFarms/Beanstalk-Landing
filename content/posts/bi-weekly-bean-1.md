@@ -1,7 +1,7 @@
 ---
 title: "The Bi-Weekly Bean #1"
 subtitle: The Bi-Weekly Bean, a series where we recap Beanstalk related news
-  from the past two weeks
+  from the past two weeks.
 date: 2022-03-23T16:54:30.861Z
 author: Beanstalk Farms
 description: The Bi-Weekly Bean, a newsletter where we recap Beanstalk’s
