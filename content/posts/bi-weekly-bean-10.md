@@ -1,12 +1,9 @@
 ---
 title: "Bi-Weekly Bean #10"
-subtitle: "Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest
-  happenings in the Beanstalk ecosystem. This issue covers the 8/17/22–8/31/22
-  period."
+subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 8/17/22–8/31/22 period."
 date: 2022-09-01T06:26:56.474Z
 author: Beanstalk Farms
-description: "Welcome to the Bi-Weekly Bean, the newsletter that recaps the
-  latest happenings in the Beanstalk ecosystem. This issue covers the 8/17/22–8/31/22 period. "
+description: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 8/17/22–8/31/22 period. "
 image: /assets/uploads/barn-and-beans.png
 --- 
 

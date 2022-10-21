@@ -1,13 +1,9 @@
 ---
 title: "Bi-Weekly Bean #12"
-subtitle: "Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest
-  happenings in the Beanstalk ecosystem. This issue covers the 9/18/22– 10/03/22
-  period. "
+subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 9/18/22–10/03/22 period. "
 date: 2022-10-04T04:21:38.681Z
 author: Beanstalk Farms
-description: "Welcome to the Bi-Weekly Bean, the newsletter that recaps the
-  latest happenings in the Beanstalk ecosystem. This issue covers the 9/18/22–
-  10/03/22 period. "
+description: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 9/18/22–10/03/22 period."
 image: /assets/uploads/barn-and-beans.png
 ---
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).

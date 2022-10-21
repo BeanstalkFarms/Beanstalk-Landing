@@ -1,11 +1,11 @@
 ---
 title: "Bi-Weekly Bean #3"
 subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem.
-  This issue will cover the 4/16/22– 5/15/22 period. "
+  This issue covers the 4/16/22– 5/15/22 period."
 date: 2022-05-16T09:56:05.243Z
 author: Beanstalk Farms
 description: Welcome to the Bi-Weekly Bean, a newsletter that recaps the
-  happenings in the Beanstalk ecosystem. This issue will cover the 4/16/22–
+  happenings in the Beanstalk ecosystem. This issue covers the 4/16/22–
   5/15/22 period.  >
 image: /assets/uploads/barn-and-beans.png
 ---
