@@ -1,12 +1,12 @@
 ---
 title: "Community Grant Program, Q3 2022"
 subtitle: "A summary of the Beanstalk Community Grant Program’s activity in Q3."
-date: 2022-10-27T04:20:05.402Z
+date: 2022-10-28T04:20:05.402Z
 author: Beanstalk Farms
 description: "A summary of the Beanstalk Community Grant Program’s activity in Q3."
-image: /assets/uploads/cgp.png
+image: /assets/uploads/cgpq3.png
 ---
-![Beanstalk Farms Community Grant Program](/assets/uploads/cgp.png)
+![Beanstalk Farms Community Grant Program](/assets/uploads/cgpq3.png)
 
 Beanstalk’s Community Grant Program [launched](https://bean.money/blog/community-grant-program) in August 2022 and has quickly become a facilitator for content creation in the Beanstalk ecosystem.
 
