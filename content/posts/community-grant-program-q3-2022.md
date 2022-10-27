@@ -1,7 +1,7 @@
 ---
 title: "Community Grant Program, Q3 2022"
 subtitle: "A summary of the Beanstalk Community Grant Program’s activity in Q3."
-date: 2022-10-28T04:20:05.402Z
+date: 2022-10-27T10:00:00.000Z
 author: Beanstalk Farms
 description: "A summary of the Beanstalk Community Grant Program’s activity in Q3."
 image: /assets/uploads/cgpq3.png
