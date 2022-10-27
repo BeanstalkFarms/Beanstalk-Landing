@@ -55,11 +55,12 @@ const Blog: NextPage<BlogProps> = ({ allPostsData }) => (
           Blog
         </h1>
         <div className="flex flex-col space-y-4">
-          {allPostsData.map(({ id, title, subtitle }) => (
+          {allPostsData.map(({ id, title, subtitle, date }) => (
             <PostButton
               key={id}
               href={`/blog/${id}/`}
               title={title}
+              date={date}
               subtitle={subtitle}
             />
           ))}
