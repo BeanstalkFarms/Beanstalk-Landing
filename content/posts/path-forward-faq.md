@@ -7,6 +7,7 @@ description: >-
 date: 2022-05-25T06:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
+tag: Exploit
 ---
 
 _Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-barn-raise) for a comprehensive overview of the Barn Raise mechanics._

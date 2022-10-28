@@ -7,6 +7,7 @@ description: >-
 date: 2022-05-25T05:00:00.000Z
 image: /assets/uploads/barn-raising.png
 layout: farm
+tag: Exploit
 ---
 
 **Last updated July 1st, 2022**.

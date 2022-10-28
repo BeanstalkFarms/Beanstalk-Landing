@@ -6,6 +6,7 @@ description: >-
   A comprehensive overview of the Barn Raise mechanics.
 date: 2022-05-29T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
+tag: Guide
 ---
 
 **⚠️ [July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the Barn Raise mechanics [here](https://docs.bean.money/farm/barn).**

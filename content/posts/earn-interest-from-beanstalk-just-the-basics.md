@@ -5,6 +5,7 @@ author: "Beanstalk Farms"
 date: 2021-09-28T07:00:00.000Z
 image: /assets/uploads/barn-and-beans.png
 description: A simplified explanation of earning interest directly from Beanstalk.
+tag: Guide
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*_5zrUpiOezMgtYX1k4rqRw.png)

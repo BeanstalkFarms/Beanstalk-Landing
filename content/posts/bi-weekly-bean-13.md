@@ -4,6 +4,7 @@ subtitle: "A newsletter that recaps the happenings in the Beanstalk ecosystem. T
 date: 2022-10-17T04:20:05.402Z
 author: Beanstalk Farms
 description: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 10/04/22–10/16/22 period."
+tag: Bi-Weekly Bean
 ---
 
 

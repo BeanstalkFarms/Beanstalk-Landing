@@ -5,6 +5,7 @@ date: 2022-09-18T00:04:56.670Z
 author: Beanstalk Farms
 description: "A newsletter that recaps the happenings in the Beanstalk ecosystem. This issue covers the 9/01/22–9/17/22 period."
 image: /assets/uploads/barn-and-beans.png
+tag: Bi-Weekly Bean
 ---
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).
 

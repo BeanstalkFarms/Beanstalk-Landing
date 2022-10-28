@@ -9,6 +9,7 @@ description: Today, Beanstalk Farms is pleased to announce that BIP-16, which
   Deposit into the Silo, has been passed by an on-chain vote of the Beanstalk
   DAO.
 image: /assets/uploads/1920x1080_4.png
+tag: Proposals
 ---
 <!--StartFragment-->
 

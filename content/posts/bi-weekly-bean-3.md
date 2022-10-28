@@ -8,6 +8,7 @@ description: Welcome to the Bi-Weekly Bean, a newsletter that recaps the
   happenings in the Beanstalk ecosystem. This issue covers the 4/16/22–
   5/15/22 period.  >
 image: /assets/uploads/barn-and-beans.png
+tag: Bi-Weekly Bean
 ---
 Welcome to the Bi-Weekly Bean, a newsletter that recaps the happenings in the Beanstalk ecosystem. This issue will cover the 4/16/22– 5/15/22 period.
 

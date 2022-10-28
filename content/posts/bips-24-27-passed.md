@@ -5,6 +5,7 @@ date: 2022-10-06T22:56:47.042Z
 author: Beanstalk Farms
 description: The Beanstalk DAO approves BIPs 24-27.
 image: /assets/uploads/bips-24-27-passed.png
+tag: Proposals
 ---
 ![](/assets/uploads/bips-24-27-passed.png)
 

@@ -8,6 +8,7 @@ description: Beanstalk Farms announces a community grant program aimed at
   rewarding community members for creating quality content about the Beanstalk
   ecosystem.
 image: /assets/uploads/cgp.png
+tag: Community
 ---
 ![Beanstalk Farms Community Grant Program](/assets/uploads/cgp.png)
 

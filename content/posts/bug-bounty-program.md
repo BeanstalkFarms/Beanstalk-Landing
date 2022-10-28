@@ -5,6 +5,7 @@ date: 2022-10-11T07:01:21.179Z
 author: Beanstalk Farms
 description: Announcing the Immunefi Bug Bounty Program per BIP-26.
 image: /assets/uploads/bug-bounty-live.png
+tag: Security
 ---
 ![Bug Bounty Program Live](/assets/uploads/bug-bounty-live.png)
 

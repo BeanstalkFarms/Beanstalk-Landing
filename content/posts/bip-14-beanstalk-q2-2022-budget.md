@@ -6,6 +6,7 @@ author: Beanstalk Farms
 description: Today, Beanstalk Farms is pleased to announce that BIP-14, the
   Beanstalk Farms Q2 2022 Budget, has been passed by an on-chain vote of the
   Beanstalk DAO.
+tag: Proposals
 ---
 <!--StartFragment-->
 

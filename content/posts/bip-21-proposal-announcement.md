@@ -5,6 +5,7 @@ date: 2022-07-29T22:56:47.042Z
 author: Beanstalk Farms
 description: Beanstalk Farms has proposed BIP-21 on Snapshot.
 image: /assets/uploads/bip-21-proposed.png
+tag: Proposals
 ---
 ![](/assets/uploads/bip-21-proposed.png)
 

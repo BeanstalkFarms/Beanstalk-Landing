@@ -6,6 +6,7 @@ author: ereal
 description: "Part 1: Protocol-native utility - the incentives that align Bean
   holders regardless of market conditions."
 image: /assets/uploads/frances-gunn-qcbaz7vrehq-unsplash.png
+tag: Learn
 ---
 Beanstalk Farms is deeply saddened for everyone affected by the events following UST’s depegging and the ensuing collapse of Terra. 
 

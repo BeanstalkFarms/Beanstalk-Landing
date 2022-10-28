@@ -6,6 +6,7 @@ date: 2022-02-05T19:01:01.593Z
 author: Beanstalk Farms
 description: A trustless and decentralized marketplace for Pods, the
   Beanstalk-native debt asset.
+tag: Proposals
 ---
 
 Today, Beanstalk Farms is pleased to announce the passage and commitment of BIP-11, which creates the _Farmers Market_, a trustless and decentralized marketplace for _Pods_, the Beanstalk-native debt asset.

@@ -6,6 +6,7 @@ description: >-
   A quick guide on participating in the Barn Raise.
 date: 2022-06-06T06:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
+tag: Guide
 ---
 
 **[July 20th, 2022] Note: This blog post is not maintained. You can find an up-to-date guide on buying Fertilizer [here](https://docs.bean.money/guides/earn-interest-on-beans/buy-fertilizer).**

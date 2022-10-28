@@ -7,6 +7,7 @@ author: Beanstalk Farms
 description: Trail of Bits - a cybersecurity research and consulting firm - has
   completed a formal audit of Beanstalk’s smart contracts.
 image: /assets/uploads/tobb.png
+tag: Security
 ---
 ![](/assets/uploads/tobb.png)
 

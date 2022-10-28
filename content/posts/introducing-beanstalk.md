@@ -5,6 +5,7 @@ date: 2021-09-17T17:52:54.077Z
 author: Beanstalk Farms
 description: A Decentralized Credit Based Stablecoin Protocol
 image: /assets/uploads/barn-and-beans.png
+tag: Learn
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*W0LppdZfX7V1D1DrMTB9ZQ.png)
 

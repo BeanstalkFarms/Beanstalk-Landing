@@ -7,6 +7,7 @@ description: "Welcome to the Bi-Weekly Bean, the newsletter that recaps the
   latest happenings in the Beanstalk ecosystem. This issue covers the 8/01/22–
   8/16/22 period. "
 image: /assets/uploads/barn-and-beans.png
+tag: Bi-Weekly Bean
 ---
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).
 

@@ -123,7 +123,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <h2 className="text-3xl font-normal">Learn</h2>
-            <a href={`https://bean.money/learning-center`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
+            <a href={`https://docs.bean.money/community-resources/beanstalk-learning-center`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
           </div>
           <div className="space-y-4">
             <Button

@@ -7,6 +7,7 @@ author: Beanstalk Farms
 description: Omniscia - a decentralized smart contract auditing firm - has
   completed a formal audit of Beanstalk’s core smart contracts through BIP-7.
 image: /assets/uploads/1920x1080.png
+tag: Security
 ---
 ![](/assets/uploads/1920x1080.png)
 
