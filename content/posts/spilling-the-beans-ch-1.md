@@ -9,6 +9,7 @@ description: Spilling the Beans is a series where Beanstalk community members
   discuss how they first got Bean-pilled, and their preferred Bean yield
   strategies.
 image: ""
+tag: Community
 ---
 ![Mod 323](/assets/uploads/spillingthebeans_1_mod.png "Mod 323")
 

@@ -8,6 +8,7 @@ description: Beanstalk is a decentralized credit based stablecoin protocol that
   is built on Ethereum.
 image: /assets/uploads/roadmap.png
 thumbnailAlt: Beanstalk Roadmap Banner
+tag: Roadmap
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*1CzkFtHdGSpZciuHESh9_g.png)

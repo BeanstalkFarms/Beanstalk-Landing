@@ -5,6 +5,7 @@ date: 2022-07-18T21:04:24.373Z
 author: Beanstalk Farms
 description: Beanstalk documentation compiled by Beanstalk Farms.
 image: /assets/uploads/introducing-farmers-almanac.png
+tag: Learn
 ---
 
 ![](/assets/uploads/introducing-farmers-almanac.png)

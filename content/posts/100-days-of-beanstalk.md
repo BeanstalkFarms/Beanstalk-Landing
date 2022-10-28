@@ -6,6 +6,7 @@ description: >-
   Where Beanstalk is now, where Beanstalk is going, and how Beanstalk will get
   there.
 date: 2021-11-14T22:00:34.318Z
+tag: Roadmap
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*Kozf3POi7bNfIOJYe7pXJA.png)

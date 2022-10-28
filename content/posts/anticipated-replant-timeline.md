@@ -5,6 +5,7 @@ date: 2022-07-24T22:56:47.042Z
 author: Beanstalk Farms
 description: Beanstalk Farms shares a final draft of BIP-21 and announces an anticipated timeline for Replant.
 image: /assets/uploads/replant-timeline.png
+tag: Replant
 ---
 ![](/assets/uploads/replant-timeline.png)
 

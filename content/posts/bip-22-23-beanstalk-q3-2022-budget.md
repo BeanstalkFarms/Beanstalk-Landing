@@ -5,6 +5,7 @@ date: 2022-08-17T22:56:47.042Z
 author: Beanstalk Farms
 description: The Beanstalk DAO approves the Q3 budgets for Beanstalk Farms and Bean Sprout.
 image: /assets/uploads/bip-22-23-passed.png
+tag: Proposals
 ---
 ![](/assets/uploads/bip-22-23-passed.png)
 

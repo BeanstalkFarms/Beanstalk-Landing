@@ -7,6 +7,7 @@ description: >-
   planned for a simple single-proxy upgradable implementation…
 date: 2021-09-24T00:45:58.620Z
 image: /assets/uploads/eip-2535.png
+tag: From Publius
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/1*m7yIcU21uVq6-dLp5ha9Nw.png)

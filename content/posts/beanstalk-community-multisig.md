@@ -6,6 +6,7 @@ description: >-
   An overview of the process and structure of the Beanstalk Community Multisig.
 date: 2022-06-10T10:00:00.000Z
 image: /assets/uploads/grayscale-barn.png
+tag: Proposals
 ---
 
 **[July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the BCM and its processes [here](https://docs.bean.money/governance/beanstalk/bcm-process).**

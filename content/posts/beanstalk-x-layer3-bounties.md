@@ -7,6 +7,7 @@ description: Announcing a series of Layer3 Bounties as part of its ongoing
   marketing and community outreach efforts to continue growing Beanstalk’s user
   base.
 image: /assets/uploads/layer3.png
+tag: Community
 ---
 
 

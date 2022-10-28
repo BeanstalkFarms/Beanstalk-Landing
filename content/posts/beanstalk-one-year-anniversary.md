@@ -5,6 +5,7 @@ date: 2022-08-06T22:56:47.042Z
 author: Beanstalk Farms
 description: Celebrating the post-exploit Unpause of Beanstalk on its first birthday.
 image: /assets/uploads/unpause-anniversary.png
+tag: Replant
 ---
 ![](/assets/uploads/unpause-anniversary.png)
 

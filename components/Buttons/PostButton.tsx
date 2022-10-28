@@ -6,6 +6,7 @@ const PostButton : FC<{
   subtitle: string;
   href: string;
   date?: string;
+  tag?: string;
   image?: string;
 }> = ({
   title,
@@ -13,6 +14,7 @@ const PostButton : FC<{
   href,
   date,
   image,
+  tag,
   ...props
 }) => (
   <Link href={href}>
@@ -24,8 +26,13 @@ const PostButton : FC<{
       sm:space-y-1
       bg-white
     `}>
-      <div className="sm:flex sm:flex-row block items-center sm:space-x-3 sm:space-y-0 space-y-2">
+      <div className="sm:flex sm:flex-row block items-center justify-between sm:space-x-3 sm:space-y-0 space-y-2">
         <div className="text-xl">{title}</div>
+        {tag && <div className="">
+          <div className="text-gray-400 text-sm">
+            {tag}
+          </div>
+        </div>}
       </div>
       <div className="font-400 text-gray-600 text-[17px]">
         {subtitle}
@@ -35,6 +42,7 @@ const PostButton : FC<{
           {date}
         </div>
       </div>}
+      
     </a>
   </Link>
 );

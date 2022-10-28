@@ -5,6 +5,7 @@ author: Beanstalk Farms
 description: "An overview of the Beanstalk community’s latest NFT collection."
 date: 2022-07-27T12:58:13.587Z
 image: /assets/uploads/beanft-barn-raise.png
+tag: BeaNFTs
 ---
 ![](/assets/uploads/beanft-barn-raise.png)
 
