@@ -6,7 +6,7 @@ author: Beanstalk Farms
 description: Beanstalk  announces the creation of a new BEAN:3CRV stableswap
   liquidity pool seeded on Curve.
 image: /assets/uploads/bean-3crv.png
-tag: Liquidity Pools
+tag: Pools
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*dpCnV4b6lY8uUe8lqRh6Kg.png)
 

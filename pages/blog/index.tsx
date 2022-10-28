@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import Wrapper from "../../components/Wrapper";
 import { getSortedPostsData } from '../../lib/posts'
 import { PostData } from '../../lib/posts'
@@ -26,11 +27,15 @@ const DESC  = `Posts from Beanstalk Farms and members of the community.`;
 
 const Blog: NextPage<BlogProps> = ({ allPostsData }) => {
   const [filter, setFilter] = useState(null);
+  // const [filter2, setFilter2] = useSearchParams();
   const tags = allPostsData.map(post => post.tag);
   const uniqueTags = Array.from(new Set(tags)).sort();
 
+  // const urlparam = filter2.get('tag');
+
   const updateFilter = (e: any) => {
     setFilter(e.target.value === "All" ? null : e.target.value);
+    // setFilter2({tag: e.target.value === "All" ? null : e.target.value});
   }
 
   return (
