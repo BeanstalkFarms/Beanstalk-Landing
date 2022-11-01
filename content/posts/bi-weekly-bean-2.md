@@ -1,5 +1,5 @@
 ---
-title: "The Bi-Weekly Bean #2"
+title: "Bi-Weekly Bean #2"
 subtitle: "The Bi-Weekly Bean, a series where we recap Beanstalk related news
   from the past two weeks."
 date: 2022-04-04T21:13:27.216Z
