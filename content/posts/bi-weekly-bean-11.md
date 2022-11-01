@@ -9,7 +9,7 @@ tag: Bi-Weekly Bean
 ---
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).
 
-The BeaNFT Barn Raise Collection is now live! You can check them out on OpenSea [here](https://opensea.io/collection/beanft-barnraise-collection).
+The BeaNFT Barn Raise Collection is now live! You can check them out on OpenSea [here](https://opensea.io/collection/beanft-barn-raise).
 
 BeaNFTs were minted by Beanstalk Farms for Farmers this time. You can find them in the [wallets](https://opensea.io/account) that you used to buy more than 1000 Fertilizer with pre-Replant.
 
