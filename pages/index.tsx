@@ -186,8 +186,8 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               target="_blank"
               rel="noreferrer"
               href="https://analytics.bean.money/"
-              icon="/assets/icon/bean.png"
-              desc="View advanced analytics">
+              icon="/assets/icon/chart.png"
+              desc="View advanced protocol analytics">
               Analytics
             </Button>
             <Button
