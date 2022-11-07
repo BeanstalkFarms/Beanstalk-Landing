@@ -185,6 +185,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             <Button
               target="_blank"
               rel="noreferrer"
+              href="https://analytics.bean.money/"
+              icon="/assets/icon/bean.png"
+              desc="View advanced analytics">
+              Analytics
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
               href="https://snapshot.org/#/beanstalkdao.eth"
               icon="/assets/icon/snapshot.svg"
               desc="Vote on governance proposals">
