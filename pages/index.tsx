@@ -16,10 +16,10 @@ type BlogProps = {
 
 export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshots = //null;
-  [
-    await loadSnapshot('beanstalkdao.eth', '0x53c358af0fae50f888795c5f2272d50f8759b7702bf7dc2255a03f9fb22ccf45'),
-  ];
+  const snapshots = null;
+  // [
+  //   await loadSnapshot('beanstalkdao.eth', '0x53c358af0fae50f888795c5f2272d50f8759b7702bf7dc2255a03f9fb22ccf45'),
+  // ];
   return {
     props: {
       allPostsData,
@@ -130,7 +130,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               rel="noreferrer"
               href="https://bean.money/docs/beanstalk.pdf"
               icon="/assets/icon/beanstalk.svg"
-              desc="v2.1.1">
+              desc="v2.2.0">
               Whitepaper
             </Button>
             <Button
