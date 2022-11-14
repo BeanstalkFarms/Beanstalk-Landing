@@ -13,15 +13,15 @@ Beanstalk Farms is pleased to announce that [BIP-29: Pod Market Price Functions]
 
 ## Pod Market Price Functions
 
-BIP-29 proposed the following to implement the following changes:
+BIP-29 proposed the following changes:
 
-* Implementing V2 Pod Orders and Listings such that the Price per Pod is priced as a function of place in the Pod Line (via piecewise cubic polynomials);
-* Allowing Farmers to delegate use of their Farm balances to other contracts and add EIP-2612 permit support to Farm balances; and
+* Implementing V2 Pod Orders and Listings such that the price per Pod is priced as a function of place in the Pod Line (via piecewise cubic polynomials);
+* Allowing Farmers to delegate use of their Farm balances to other contracts and adding EIP-2612 permit support to Farm balances; and
 * Adding EIP-2612 permit support for Silo Deposits.
 
-The Pod Market used to limit Farmers to creating Pod Orders and Listings with a single Fill price per Pod independent of place in Line. Pod Orders and Listings with a single Fill price failed to maximize overall marketplace liquidity by requiring the placing or updating of multiple Orders/Listings in order to create a non-flat pricing curve, which would be highly expensive for users.
+The Pod Market used to limit Farmers to creating Pod Orders and Listings with a single Fill price per Pod independent of place in Line. Pod Orders and Listings with a single Fill price failed to maximize overall marketplace liquidity by requiring the placing or updating of multiple Orders/Listings in order to create a non-flat pricing curve. This would be highly expensive for Farmers who tried to do this.
 
-Now that Pod Orders and Listings can be dynamically priced, market efficiency and depth should improve. Pod Market V2 functionality isn't yet live on the Beanstalk UI and will be rolled out over the course of the next several weeks and months.
+Now that Pod Orders and Listings can be dynamically priced, market efficiency and depth should improve. Pod Market V2 functionality isn't yet live on the [Beanstalk UI](https://app.bean.money/) but will be rolled out over the course of the next several weeks and months.
 
 With EIP-2612 permit support for Silo Deposits and Farm balances, the number of transactions required to interact with Beanstalk decreases. This will enable projects like [Root](https://roottoken.org/) to allow users to interact with their protocols and Beanstalk in a single transaction.
 
