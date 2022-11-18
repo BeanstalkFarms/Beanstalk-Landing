@@ -10,12 +10,10 @@ description: "A newsletter that recaps the latest developments in the Beanstalk
   11/16/22. "
 image: /assets/uploads/barn-and-beans.png
 ---
-
-
 > What is Beanstalk? Beanstalk is a permissionless fiat stablecoin protocol built on Ethereum. Learn more at [bean.money](https://bean.money/).
 
 * [BIP-29](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-29-pod-market-price-functions.md) - Pod Market Price Functions -\*\* passed by a vote of the Beanstalk DAO. BIP-29 improves the composability of Farm balances and implements V2 Pod Orders and Listings, which prices Pods as a function of their place in the Pod Line.
-* [Root](https://roottoken.org/),\*\* a permissionless fungible wrapper that enables collective farming for Beanstalk Silo Deposits launched!
+* [Root](https://roottoken.org/), a permissionless fungible wrapper that enables collective farming for Beanstalk Silo Deposits launched!
 * Just in time for 2022 FIFA World Cup, **[Paradox](https://betparadox.com/)** also launched, providing liquid peer-to-peer betting markets utilizing the Root token.
 * Check out **Beanthoven**'s [narration](https://www.youtube.com/watch?v=L4eTcW4PCt0) of Degen Devil's visit to the Farm.
 * The BCM updated Beanstalk to fix three bugs reported by a whitehat on Immunefi. You can read about EBIPs 4-6 [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bip/ebip).
