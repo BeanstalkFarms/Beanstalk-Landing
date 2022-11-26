@@ -19,6 +19,9 @@
 /docs/How-To.html https://docs.bean.money/guides/directory
 /docs/Intro-to-Beanstalk.html https://docs.bean.money
 /docs https://docs.bean.money
+/docs/beanstalk.pdf https://bean.money/beanstalk.pdf
+/docs/bean3crv-curve-gauge-proposal.pdf https://arweave.net/InK-EEF5QhBrsn0MRK1lxSSviplwnm_ysTrJpKgigJ8
+/bean3crv-curve-gauge-proposal https://arweave.net/InK-EEF5QhBrsn0MRK1lxSSviplwnm_ysTrJpKgigJ8
 
 # notion
 
@@ -32,6 +35,7 @@
 
 # docs (update after Seraph BIP)
 
+# /proposals
 /bcm-process https://arweave.net/upe2rEGeEDQ3F7rF9jVAP8FgAkbgniBgz2puvE6CKxs
 # /arweave-guides
 # /bsc-process
@@ -91,14 +95,13 @@
 # /bfbp-a-13 https://arweave.net/VMFNItc7_DkFTEZrAiZ3ZtArYOvD1A9DL8ZJOckQ27Y
 # /bfbp-a-14 https://arweave.net/afeiYf4V6vIIQjZPgTKRCPcBtMcNlxtxq7fLvzCBPxE
 # /bfbp-c-1 https://arweave.net/GmlK5RaHU3cD4914pAhgVmJej5S1evHEISh-tOYDsRs
-
-/bfbp-c-2 https://arweave.net/YaHu0VJ1jqFSVqm7GvfvvssMNIjkG9epF_v8yj2Z28c
-/bfbp-c-3 https://arweave.net/oU2GBoA053dJqsuqWxwHFxBkQUeNXBti08HTpN1rLIg
-/bfcp-a-1 https://arweave.net/3KkaXIvrIjgVUbGA2C72gzieN1Vg10pguneKIuOxMw4
-/bfcp-a-2 https://arweave.net/fZDBmoXR25P_lXPcdLRf4AN0p0J37E00oLHhGG6pjcc
-/bfcp-a-3 https://arweave.net/mRxDGrSdnrmM6cnlfSMMwMV5X2yUQdit1r56BSYhtks
-/bfcp-a-4 https://arweave.net/AWO0CEOgqm-SaMdJnLoVPuQ8W3Z_c0NS818uQ70E1_g
-/bfcp-c-1 https://arweave.net/nxAIOEOxENBqAO3jEDKSzS6jDRUGcgCups3p7Ljc5uc
+# /bfbp-c-2 https://arweave.net/YaHu0VJ1jqFSVqm7GvfvvssMNIjkG9epF_v8yj2Z28c
+# /bfbp-c-3 https://arweave.net/oU2GBoA053dJqsuqWxwHFxBkQUeNXBti08HTpN1rLIg
+# /bfcp-a-1 https://arweave.net/3KkaXIvrIjgVUbGA2C72gzieN1Vg10pguneKIuOxMw4
+# /bfcp-a-2 https://arweave.net/fZDBmoXR25P_lXPcdLRf4AN0p0J37E00oLHhGG6pjcc
+# /bfcp-a-3 https://arweave.net/mRxDGrSdnrmM6cnlfSMMwMV5X2yUQdit1r56BSYhtks
+# /bfcp-a-4 https://arweave.net/AWO0CEOgqm-SaMdJnLoVPuQ8W3Z_c0NS818uQ70E1_g
+# /bfcp-c-1 https://arweave.net/nxAIOEOxENBqAO3jEDKSzS6jDRUGcgCups3p7Ljc5uc
 
 # /bfp-1 https://arweave.net/IfPGKNf-uECIPngd-87P2qLCowwl_WepcmeKPIBSVpU
 # /bfp-2 https://arweave.net/l73rZIjgABcEnH18EenQ6LzYSlyV5Z0MrEZfyp_DQik

@@ -9,6 +9,7 @@ description: "A newsletter that recaps the latest happenings in the Beanstalk
   ecosystem. This issue covers the 10/17/22– 11/1/22 period from Season 7781 to
   8170. "
 image: /assets/uploads/barn-and-beans.png
+tag: Bi-Weekly Bean
 ---
 Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest happenings in the Beanstalk ecosystem. This issue covers the 10/17/22– 11/1/22 period from Season 7781 to 8170.
 
