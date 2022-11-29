@@ -149,7 +149,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
               desc="Join the community and ask questions">
               Discord
             </Button>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yn9cn_IZy7o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/eH1j8hu1BbQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
         {/**
