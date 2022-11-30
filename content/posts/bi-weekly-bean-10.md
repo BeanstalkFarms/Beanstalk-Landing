@@ -16,7 +16,7 @@ Beanstalk is an experiment. The Beanstalk DAO endeavors to be as transparent as 
 
 As the Beanstalk community knows, an educated set of Farmers puts the protocol in the best position to succeed. The DAO ratifying these disclosures is another step in that direction.
 
-The Disclosures can be found on **[Arweave](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg)** or in the **[Farmers' Almanac](https://docs.bean.money/disclosures)**. You can read more about BOPs (Beanstalk Operations Proposals) **[here](https://docs.bean.money/governance/proposals#bop)**.
+The Disclosures can be found on **[Arweave](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg)** or in the **[Farmers' Almanac](https://docs.bean.money/almanac/disclosures)**. You can read more about BOPs (Beanstalk Operations Proposals) **[here](https://docs.bean.money/almanac/governance/proposals#bop)**.
 
 [BFRPP-1](https://app.bean.money/#/governance/0xc0dc3b257b543e9e105aa11c873d568f5ede6607289f5e656f1c4c0d30b4948f), a proposal to retroactively pay Beanstalk Farms contributors in Unripe Beans for their contributions between the exploit and Unpause, and [BSP-7](https://app.bean.money/#/governance/0x7b2d54f3691fa65fc784e3398425d518eab93d233f3ad0abd3d87b572cf5ab2f), a proposal to fund the Bean portion of the six-month Halborn retainer by Bean Sprout, have passed. 
 

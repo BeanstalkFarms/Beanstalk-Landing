@@ -9,7 +9,7 @@ image: /assets/uploads/grayscale-barn.png
 tag: Proposals
 ---
 
-**[July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the BCM and its processes [here](https://docs.bean.money/governance/beanstalk/bcm-process).**
+**[July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the BCM and its processes [here](https://docs.bean.money/almanac/governance/beanstalk/bcm-process).**
 
 The Beanstalk Community Multisig, or BCM, is not intended to have decision making power. Its role is to 1) enact on-chain the decisions Stalk holders make via off-chain voting and 2) review and verify proposals to ensure the suggested changes are truthfully represented.
 

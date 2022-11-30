@@ -142,4 +142,4 @@ Beanstalk is a decentralized protocol that allows anyone to realize the value of
 
 The Beanstalk Community Grant Program aims to reward community members for creating high quality content about the Beanstalk ecosystem. A budget of 30,000 Beans per month is allocated to creators of new Beanstalk-related content that focuses on Beanstalk and its role in the broader DeFi ecosystem. 
 
-More information on the program can be found [here](https://docs.bean.money/community-resources/community-grant-program). 
+More information on the program can be found [here](https://docs.bean.money/almanac/community/community-grant-program). 

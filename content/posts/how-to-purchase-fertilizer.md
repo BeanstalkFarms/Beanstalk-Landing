@@ -9,7 +9,7 @@ image: /assets/uploads/grayscale-barn.png
 tag: Guide
 ---
 
-**[July 20th, 2022] Note: This blog post is not maintained. You can find an up-to-date guide on buying Fertilizer [here](https://docs.bean.money/guides/earn-interest-on-beans/buy-fertilizer).**
+**[July 20th, 2022] Note: This blog post is not maintained. You can find an up-to-date guide on buying Fertilizer [here](https://docs.bean.money/almanac/guides/earn-interest-on-beans/buy-fertilizer).**
 
 Beanstalk is hosting the Barn Raise — a fundraiser to restore approximately $77M in non-Bean liquidity stolen from the Silo — starting on **Monday, June 6 at 4:00pm UTC**. You can find a comprehensive overview of the Barn Raise in [A Farmer’s Guide to the Barn Raise](https://bean.money/blog/a-farmers-guide-to-the-barn-raise).
 

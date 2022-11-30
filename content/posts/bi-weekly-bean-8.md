@@ -43,7 +43,7 @@ Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you ha
 # Beanstalk Farms **Updates**
 
 * [BIP-21 proposal](https://snapshot.org/#/beanstalkdao.eth/proposal/0xbe30bc43d7185ef77cd6af0e5c85da7d7c06caad4c0de3a73493ed48eae32d71)
-* [The Farmers’ Almanac is live](https://docs.bean.money/)
+* [The Farmers’ Almanac is live](https://docs.bean.money/almanac/)
 * Beanstalk UI V2 going live upon Replant
 
 Comments, suggestions or feedback? Please reach out to mod@bean.farm
