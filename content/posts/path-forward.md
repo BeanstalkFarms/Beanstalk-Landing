@@ -16,7 +16,7 @@ Beanstalk is a decentralized and transparent solution to DeFi's endemic stableco
 
 Beanstalk was initially launched in August 2021 with just 100 Beans and has never taken traditional funding. Over the last eight months, Beanstalk organically grew to $100M in market cap, attracting $144M in long term-incentivized liquidity.
 
-Until the on-chain governance attack on April 17, Beanstalk's [model](https://bean.money/docs/beanstalk.pdf) was working exactly as designed. During the two weeks prior to the attack, the protocol:
+Until the on-chain governance attack on April 17, Beanstalk's [model](https://bean.money/beanstalk.pdf) was working exactly as designed. During the two weeks prior to the attack, the protocol:
 
 -   Paid ~$25M back to creditors, reaching a total of ~$50M paid back since Beanstalk's inception;
 -   Distributed ~$25M in interest to Depositors in the Silo;
@@ -59,7 +59,7 @@ _Check out [A Farmer's Guide to the Barn Raise](/blog/a-farmers-guide-to-the-bar
 
 #### Governance
 
-Shortly after the April 17 attack, Beanstalk was Paused and on-chain governance was removed. Once Unpaused and Replanted, Beanstalk will be governed via a new community-run multisig wallet custodied by a group of nine Beanstalk community members and contributors. This will serve as a temporary security measure until a secure and fully-decentralized governance mechanism has been developed and sufficiently audited. BIPs will be voted on via Snapshot until then. You can read more about the multisig and its processes [here](https://docs.bean.money/governance/beanstalk-community-multisig/bcm-process).
+Shortly after the April 17 attack, Beanstalk was Paused and on-chain governance was removed. Once Unpaused and Replanted, Beanstalk will be governed via a new community-run multisig wallet custodied by a group of nine Beanstalk community members and contributors. This will serve as a temporary security measure until a secure and fully-decentralized governance mechanism has been developed and sufficiently audited. BIPs will be voted on via Snapshot until then. You can read more about the multisig and its processes [here](https://docs.bean.money/almanac/governance/beanstalk-community-multisig/bcm-process).
 
 Beanstalk Farms continues to be excited about the potential of on-chain governance within DeFi. However, the team recognizes the current implementation [challenges](https://twitter.com/VitalikButerin/status/1516248195042615311) of safe on-chain governance and takes the position that an adequate mechanism should be reinstated only with great caution.
 

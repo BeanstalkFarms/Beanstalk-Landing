@@ -122,13 +122,13 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <h2 className="text-3xl font-normal">Learn</h2>
-            <a href={`https://docs.bean.money/community-resources/beanstalk-learning-center`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
+            <a href={`https://docs.bean.money/almanac/community/beanstalk-learning-center`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
           </div>
           <div className="space-y-4">
             <Button
               target="_blank"
               rel="noreferrer"
-              href="https://bean.money/docs/beanstalk.pdf"
+              href="https://bean.money/beanstalk.pdf"
               icon="/assets/icon/beanstalk.svg"
               desc="v2.2.0">
               Whitepaper
@@ -136,7 +136,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             <Button
               target="_blank"
               rel="noreferrer"
-              href="https://docs.bean.money"
+              href="https://docs.bean.money/almanac"
               icon="/assets/icon/gitbook.png"
               desc="Learn about Beanstalk">
               {`Docs`}
@@ -179,7 +179,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <h2 className="text-3xl font-normal">Links</h2>
-            <a href={`https://docs.bean.money/community-resources/links`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
+            <a href={`https://docs.bean.money/almanac/community/links`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
           </div>
           <div className="space-y-4">
             <Button

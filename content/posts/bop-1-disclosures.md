@@ -15,7 +15,7 @@ Beanstalk is an experiment. The Beanstalk DAO endeavors to be as transparent as 
 
 As the Beanstalk community knows, an educated set of Farmers puts the protocol in the best position to succeed. The DAO ratifying these disclosures is another step in that direction.
 
-The Disclosures can be found on [Arweave](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg) or in the [Farmers' Almanac](https://docs.bean.money/disclosures). You can read more about BOPs (Beanstalk Operations Proposals) [here](https://docs.bean.money/governance/proposals#bop).
+The Disclosures can be found on [Arweave](https://arweave.net/g1fij0syFvuxNR83I2VKOe1auNxtjEUwevkihxoRUXg) or in the [Farmers' Almanac](https://docs.bean.money/almanac/disclosures). You can read more about BOPs (Beanstalk Operations Proposals) [here](https://docs.bean.money/almanac/governance/proposals#bop).
 
 ## About Beanstalk
 

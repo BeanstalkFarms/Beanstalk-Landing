@@ -56,7 +56,7 @@ Instead of waiting for a _Pod Listing_ to be _Filled_, _Pod_ owners can also sel
 
 For a more in-depth guide on using the _Farmers Market_, please refer to the _Farmers Market_ section of the [How-To Guide](https://bean.money/docs/how-to).
 
-For more detailed information on the _Farmers Market_, please refer to the _Farmers Market_ section of the Appendix in the latest Beanstalk [whitepaper](https://bean.money/docs/beanstalk.pdf).
+For more detailed information on the _Farmers Market_, please refer to the _Farmers Market_ section of the Appendix in the latest Beanstalk [whitepaper](https://bean.money/beanstalk.pdf).
 
 ## More information
 

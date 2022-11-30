@@ -18,11 +18,11 @@ In BIP-26, the Beanstalk DAO created a bug bounty program through Immunefi to in
 In order to be considered for the maximum potential reward, bug reports must come with (1) a Proof of Concept (PoC), and (2) code implementing the fix. Bug reports that do not come with a PoC and code implementing
 a fix may qualify for a maximum of up to 30% of the potential reward outlined below, as determined by the Beanstalk Immunefi Committee (BIC). You can read more about the BIC here:
 
-- [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)
-- [BIC Dashboard](https://docs.bean.money/governance/beanstalk/bic-dashboard)
+- [BIC Process](https://docs.bean.money/almanac/governance/beanstalk/bic-process)
+- [BIC Dashboard](https://docs.bean.money/almanac/governance/beanstalk/bic-dashboard)
 
 All vulnerabilities noted in [any Halborn audit reports or the Trail of Bits audit report](https://github.com/BeanstalkFarms/Beanstalk-Audits) (or otherwise known by
-the BIC or [BCM](https://docs.bean.money/governance/beanstalk/bcm-dashboard)) are not eligible for a reward.
+the BIC or [BCM](https://docs.bean.money/almanac/governance/beanstalk/bcm-dashboard)) are not eligible for a reward.
 
 Security is paramount to the success of Beanstalk. Immunefi is crypto’s leading bug bounty platform that many other well-known DeFi protocols use to facilitate their bug bounty programs. This bounty program is competitive with the largest programs currently on Immunefi, making it likely to attract whitehat hackers.
 

@@ -9,7 +9,7 @@ image: /assets/uploads/grayscale-barn.png
 tag: Guide
 ---
 
-**⚠️ [July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the Barn Raise mechanics [here](https://docs.bean.money/farm/barn).**
+**⚠️ [July 20th, 2022] Note: This blog post is not maintained. You can find up-to-date documentation on the Barn Raise mechanics [here](https://docs.bean.money/almanac/farm/barn).**
 
 On August 6, 2021, Beanstalk was first planted by Publius. Beanstalk, while still early in its life, grew to produce over 100 million Beans over the first 6074 Seasons (~8.5 months). 
 
