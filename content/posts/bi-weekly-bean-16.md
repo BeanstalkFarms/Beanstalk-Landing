@@ -1,5 +1,8 @@
 ---
 title: "Bi-Weekly Bean #16"
+subtitle: A newsletter that recaps the latest developments in the Beanstalk
+  ecosystem. This issue covers Seasons 8558 through 8867 which spanned 11/17/22
+  – 11/30/22.
 date: 2022-12-02T15:09:34.374Z
 author: Beanstalk Farms
 description: A newsletter that recaps the latest developments in the Beanstalk
