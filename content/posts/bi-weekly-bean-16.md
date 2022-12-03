@@ -8,8 +8,11 @@ author: Beanstalk Farms
 description: A newsletter that recaps the latest developments in the Beanstalk
   ecosystem. This issue covers Seasons 8558 through 8867 which spanned 11/17/22
   – 11/30/22.
-image: /assets/uploads/barn-and-beans.png
+image: /assets/uploads/bwb.png
+tag: Bi-Weekly Bean
 ---
+![](/assets/uploads/bwb.png)
+
 Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest developments in the Beanstalk ecosystem.
 
 This issue covers Seasons 8558 through 8867 which spanned 11/17/22 – 11/30/22.
