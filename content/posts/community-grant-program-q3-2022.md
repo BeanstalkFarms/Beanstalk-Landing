@@ -97,7 +97,7 @@ If you are interested in participating in the Community Grant Program or have qu
    </td>
    <td>1250
    </td>
-   <td>Bean Bull Song (to be released soon!)
+   <td><a href="https://www.youtube.com/watch?v=PlNiYA2dzf4">Bean Bull Song</a>
    </td>
   </tr>
   <tr>
