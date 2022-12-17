@@ -1,7 +1,7 @@
 ---
 title: "Bi-Weekly Bean #17"
 subtitle: This issue covers Seasons 8867 through 9208 which spanned 11/30/22 – 12/15/22.
-date: 2022-12-17T14:54:56.618Z
+date: 2022-12-17T17:40:37.466Z
 author: Beanstalk Farms
 description: This issue covers Seasons 8867 through 9208 which spanned 11/30/22 – 12/15/22.
 ---
