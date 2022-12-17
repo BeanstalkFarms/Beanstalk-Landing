@@ -4,6 +4,7 @@ subtitle: This issue covers Seasons 8867 through 9208 which spanned 11/30/22 –
 date: 2022-12-17T17:40:37.466Z
 author: Beanstalk Farms
 description: This issue covers Seasons 8867 through 9208 which spanned 11/30/22 – 12/15/22.
+tag: Bi-Weekly Bean
 ---
 Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest developments in the Beanstalk ecosystem.
 
