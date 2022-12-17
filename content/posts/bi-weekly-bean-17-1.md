@@ -56,7 +56,7 @@ The Temperature increase by 611 points to 5304%.
 **Documentation Releases and Updates**
 
 * V1 of the **[Agronomics Handbook](https://docs.bean.money/developers)**, Beanstalk’s technical documentation, went live
-* A new set of Notion pages called the **[Community Resource Hub](https://www.notion.so/Beanstalk-Community-Resource-Hub-d2246af0639c440b9153316b52856b7d)** containing information like meeting notes, community grants, Immunefit bug reports, etc. went live
+* A new set of Notion pages called the **[Community Resource Hub](https://www.notion.so/Beanstalk-Community-Resource-Hub-d2246af0639c440b9153316b52856b7d)** containing information like meeting notes, community grants, Immunefi bug reports, etc. went live
 
 **Other Beanstalk Ecosystem Updates**
 
