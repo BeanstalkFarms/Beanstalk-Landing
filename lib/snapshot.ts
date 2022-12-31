@@ -40,25 +40,22 @@ export const loadSnapshot = async (spaceId: string, proposalId: string) => {
               params
             }
           }
-          votes(where: { proposal: "${proposalId}" }, first: 10000) {
-            voter
-          }
         }
       `
     }
   });
-  const { proposal, votes } = result.data.data;
-  const [scores] = await snapshot.utils.getScores(
-    spaceId,
-    proposal.strategies,
-    '1',
-    votes.map((vote: any) => vote.voter),
-    proposal.snapshot,
-  );
+  const { proposal } = result.data.data;
+  // const [scores] = await snapshot.utils.getScores(
+  //   spaceId,
+  //   proposal.strategies,
+  //   '1',
+  //   // votes.map((vote: any) => vote.voter),
+  //   proposal.snapshot,
+  // );
   return {
     proposal,
-    votes,
-    scores,
-    sum: (Object.values(scores) as number[]).reduce((agg: number, curr: number) => agg + curr, 0),
+    // votes,
+    // scores,
+    // sum: (Object.values(scores) as number[]).reduce((agg: number, curr: number) => agg + curr, 0),
   };
 }
