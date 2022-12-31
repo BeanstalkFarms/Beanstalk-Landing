@@ -20,7 +20,7 @@ export async function getStaticProps() : Promise<any> {
   [
     await loadSnapshot('beanstalkdao.eth', '0x184c458cf3f69f4cb62bf92e9f31f873aa852aea3f9d60116e9c6dd9afa4d8ff'),
     await loadSnapshot('beanstalkdao.eth', '0xa23167457ea2be6939f1a296cc14357366d9de995eb0d261bcbcdebf13bad0e8'),
-    await loadSnapshot('beanstalkfarms.eth', '0x3affc54f035315866a7eb09f22290bfdebe2ae7d3fb2d2f62cb205482ef13561'),
+    await loadSnapshot('beanstalkfarms.eth', '0xafac63673dd6eab0e372e55fe66dc5425f026fbcc0f45b025cb0fa74d759181e'),
   ];
   return {
     props: {
