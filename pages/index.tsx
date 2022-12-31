@@ -14,7 +14,7 @@ type BlogProps = {
   snapshots?: Snapshot[] | null;
 }
 
-export async function getStaticProps() : Promise<GetStaticPropsResult<BlogProps>> { 
+export async function getStaticProps() : Promise<any> { 
   const allPostsData = getSortedPostsData(3)
   const snapshots = //null;
   [
