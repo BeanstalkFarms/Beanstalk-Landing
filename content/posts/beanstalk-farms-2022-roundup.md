@@ -3,7 +3,7 @@ title: "Beanstalk Farms' 2022 Roundup"
 subtitle: "A recap of what happened on the Farm in 2022."
 author: "Beanstalk Farms"
 description: "A recap of what happened on the Farm in 2022."
-date: 2022-12-31T12:45:58.620Z
+date: 2023-01-01T12:45:58.620Z
 image: /assets/uploads/roundup.png
 tag: Community
 ---
