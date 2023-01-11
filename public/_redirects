@@ -1,19 +1,5 @@
 # legacy links
 
-/farm/silo https://app.bean.money/#/silo
-/farm/charts https://app.bean.money/#/
-/farm/field https://app.bean.money/#/field
-/farm/trade https://app.bean.money/#/swap
-/market https://app.bean.money/#/market
-/governance https://app.bean.money/#/governance
-/balances https://app.bean.money/#/balances
-/analytics https://app.bean.money/#/analytics
-/peg https://app.bean.money/#/
-/beanfts https://app.bean.money/#/nft
-/about https://bean.money/
-/fundraiser https://docs.bean.money/almanac/protocol/fundraiser
-/Bips/* https://app.bean.money/#/governance
-/Funds/* https://app.bean.money/
 /docs/APY.html https://docs.bean.money/almanac/guides/silo/understand-vapy
 /docs/How-To-Mobile.html https://docs.bean.money/almanac/guides/directory
 /docs/How-To.html https://docs.bean.money/almanac/guides/directory
@@ -23,19 +9,14 @@
 /docs/bean3crv-curve-gauge-proposal.pdf https://arweave.net/InK-EEF5QhBrsn0MRK1lxSSviplwnm_ysTrJpKgigJ8
 /bean3crv-curve-gauge-proposal https://arweave.net/InK-EEF5QhBrsn0MRK1lxSSviplwnm_ysTrJpKgigJ8
 
-# socials
-
-/discord https://discord.gg/beanstalk
-
 # links in whitepaper
 
 /barn https://arweave.net/aJhZtqBYjIhe-YLzqjkBCavumrhT95YxxV3pw4-aJgM
+/bpp-0 https://arweave.net/rXZL_4Dqb27UsXJDbVRIrWc7Wvh0oRQEhl3d4CTktUc
 
-# notion
+# docs
 
 /notion https://beanstalk-farms.notion.site/Beanstalk-Notion-d2246af0639c440b9153316b52856b7d
-/community-resources https://beanstalk-farms.notion.site/Beanstalk-Notion-d2246af0639c440b9153316b52856b7d
-
 /learning-center https://beanstalk-farms.notion.site/Learning-Center-12fa0b6073124447afd0a8bdabdf795e
 /community-grants https://beanstalk-farms.notion.site/Community-Grants-ba5075873a3745969a0462db280e35a2
 /bug-reports https://beanstalk-farms.notion.site/Bug-Reports-f653305e4ed74734bb5dfe173aa8d98f
@@ -43,43 +24,29 @@
 /operations-board https://beanstalk-farms.notion.site/Operations-Board-a824e04cbaaa4b0095958bff15c7e296
 /bounties https://beanstalk-farms.notion.site/Bounties-2803944d305d4d12bbb161a1c986a7ad
 /bcm-verification https://beanstalk-farms.notion.site/BCM-Verification-a3ccfd0732d745638cca711afd709ac3
-
-# docs
-
 /proposals https://arweave.net/VAA0eP2V1hcpOBzTp4hIsn-6ioXrABBB7uiB4ftCQhA
 /bcm-process https://arweave.net/nWv_zHKZ37iOHSs1vOI544mH0KuCZSJqpTtZSgwCfbM
-/arweave-guides https://arweave.net/IVz36DjAQZX7S6luEz6nLO-tAu8Y1AKLds1sYz_Oats
 /bsc-process https://arweave.net/JNdOXqaAm9jiGKWR3uy6Hsp-45vDKYgcOB8h1OOaL-U
 /bic-process https://arweave.net/1Q5InCy9IIzjJ9XYHgIBbSc2xHYhaEO1op9AFzT71Ts
-/immunefi https://arweave.net/iVCs28wRq-wmYlRCjBbsEkyuDlmefNLBqrxR_mY4gCI
 /disclosures https://arweave.net/Hp2LJYHm2jCjQCScSMHNMMROE1X0A19rlXU8N1E-5kM
 
-# beanstalk audits
+# audits
 
 /04-02-22-omniscia-report https://arweave.net/AL_OBIbUm_G5Ljpq6EeI1o6KuitsEGbnX_6ZWQ9NKqw
 /07-13-22-halborn-report https://arweave.net/0Ad4kyk1DtiPOa5swQu6rxQzzfbdUq5_fxhk4LLO8L0
 /07-22-22-tob-report https://arweave.net/5EH9Bl7dtI7B3Ws5l-dTezISNegODxAw6VHcb7JlHW8
 /07-22-22-tob-fix-review https://arweave.net/5I9RndHbz5X1x785-jQ3IeVcv-LuB-EmpKCsJGa9OuA
 /09-23-22-bip-24-halborn-report https://arweave.net/9CX_DCDceBugfmpHhxlL85gkCn-4Yu0eQQQsZ9ckY8w
-/11-04-22-bip-29-halborn-report https://arweave.net/4GwrRBM7K-0SvyryHVH1oQDpkcbwnAm3up45bYf_RYA
-/12-01-22-bip-30-halborn-report https://arweave.net/qAHdIuhoRN5fffERUyptDNf9XQXJqApgyzvgTZRiH24
-/12-13-22-halborn-report https://arweave.net/n7wlCVcfsAMOojrnqiF0K4_5ruV0cRow_zSYaF8nPTs
-
-# ecosystem audits
-
 /10-19-22-beanstalk-ui-halborn-report https://arweave.net/o3PO8IqR0EFtkjmgATMXbMkMaZL3AcWYnHYq7XT8U3Q
+/11-04-22-bip-29-halborn-report https://arweave.net/4GwrRBM7K-0SvyryHVH1oQDpkcbwnAm3up45bYf_RYA
 /11-15-22-paradox-halborn-report https://arweave.net/9Zs861kV78YEaWZw2I7NmLMtFQWP6FvRw6-BYydi1M8
 /11-15-22-pipeline-halborn-report https://arweave.net/u72-wBjR4hDqf8kpVdI6A_xeZSjTSj4cZdJqWAz22NQ
 /11-16-22-root-token-halborn-report https://arweave.net/4LvA-cABiJrEXA2Lwkmv_QspTyBLEjE7beheq6eeaCY
+/12-01-22-bip-30-halborn-report https://arweave.net/qAHdIuhoRN5fffERUyptDNf9XQXJqApgyzvgTZRiH24
+/12-13-22-halborn-report https://arweave.net/n7wlCVcfsAMOojrnqiF0K4_5ruV0cRow_zSYaF8nPTs
 
-# proposals
+# discussion channels
 
-/bfp-66 https://arweave.net/KjAXTPzs-SDk1ufqeutkvBFOafjXmSI7CmFx7eyzcus
-/bfp-67 https://arweave.net/5vy3i9fCdBvYYARkECLqTlo1NbxGuJ4wFshmmQCZdL4
-/bfp-68 https://arweave.net/xAmw-HK7hSFvANNEaC8CDIjLZIG0Z-O7LRBLB9ot80E
-/bfp-69 https://arweave.net/pyzTde_cpDJGLOGn2YR8J8MmmW-tJ89UZ_c802plm9M
-/bfp-70 https://arweave.net/CdQ8bmQxmxOywMZ353C93LJgsQ451op9GL9vmL714Bw
-/bfp-71 https://arweave.net/btYqMcPmzHJsjmp0l41u5skqQ6bDx9awm-y3_EMjRdY
 /bfp-72 https://arweave.net/3gfgu4ZDQq1E5m8usPe2s7aF9B8dJFYg_r1MwOyr99M
 /bfp-73 https://arweave.net/kD2LfdR4q9ColocqOJTtjkKZCrB3EcTI19DUoNgxhl4
 /bfp-74 https://arweave.net/Hh6eUh2PY0dLQHOr-TAwkp13IBeifThNaXXXWOywHyI
@@ -91,14 +58,6 @@
 /bfp-80 https://arweave.net/waSAVeykqOSaFEL_jvQ7PYJaaN7LGllJyf1R_edCJVc
 /bfp-81 https://arweave.net/xw65ZkEw_9PwmNbrHsGsxEdMcbv7r9dG5CusZqdz0So
 
-/ebip-0 https://arweave.net/PV_7zu19NJg1aWzo4IHu8R0t-ptMV6JL2CMaMK7Q3zg
-/ebip-1 https://arweave.net/w6AuMbl8nA30Oh7d8sfRIML4pVRj6jq23XlDvUlHQoI
-/ebip-2 https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk
-/ebip-3 https://arweave.net/OftwDeHeyC61Xe7nVjBpQITh7T3m08-hXF9sQ9TjMfs
-/ebip-4 https://arweave.net/Eb3qBsLrBdMBGtyaR3lEhK1_r_tS0HvvCgRFmKroPM8
-/ebip-5 https://arweave.net/rqnIr_xLdEm4Q0ZiMqWh26lwvNmXUnMv9zu2Is4qOmM
-/ebip-6 https://arweave.net/o0cB9SKHQq1y_KqIRZ8oK-xLjtSiTXuiT5dGmkwxygI
-/ebip-7 https://arweave.net/XulSo-1AWwFlmbs2Ck1kjsCXZIZbrnqpErHh8aXbIfw
 /bip-0 https://arweave.net/cBvmRC2xNv9pWvT_e-0xkhTIpZc6PPtNqPNzO3c2H5I
 /bip-1 https://arweave.net/1AmOuiXLc6Dk1a00JYeosUh2Myvkkqx5Qkxbf0kl12g
 /bip-2 https://arweave.net/CoqappwrTQJ3Q9y6Zi0QHKFlCxZBfm6RMxXeHvgvkag
@@ -132,20 +91,28 @@
 /bip-30 https://arweave.net/XZuc8TUxvsvl66I1ULw4MBKuku4rJXOwb_Bs7hqMNbQ
 /bip-31 https://arweave.net/k9vYhlrwASbbrBaCS4y-gJEFx8JCh8l7NaHkY5f12ng
 /bip-32 https://arweave.net/fTaSy9gqrawleXRUwJp8TZp9W1t2i8l8CwRZ3oUJSeU
-/bir-1 https://arweave.net/jQy5ugOSevENDHMFQX3RxnerdUVxJBh28hnnuDY1ww0
-/bir-2 https://arweave.net/zayRM8ATyNJR_1n5xRRQ2gkaOdADRbeOX3q7CyfYPHg
-/bir-4 https://arweave.net/OyqpqjsTub1j4jaGipqMffPGxVywnmR3g45e9jkMZTM
-/bir-3 https://arweave.net/ObqSYNnh5OIopDNHlJmwByFgT-qYjQV60oeYli5Q-fU
 
 /bop-1 https://arweave.net/inXIU-B3Q7ET2P6HAlgsPId9g_HPdZSpgWg7DalhiAY
 /bop-2 https://arweave.net/aOAzXi2IzO5Ts1OrXYVrAjXbBavbKg07k7k56gIXtl4
-
-/bpp-0 https://arweave.net/rXZL_4Dqb27UsXJDbVRIrWc7Wvh0oRQEhl3d4CTktUc
 
 /bsp-8 https://arweave.net/MW3BKUXCRYZkoJxxkNQ0gg7rdkR3x1V_assSk1SNbRI
 /bsp-9 https://arweave.net/7b70dlvfFArEbHul7nk3v9xXDefSqaSnxIzFkvL9cYY
 
 /bfrpp-1 https://arweave.net/ioKErMP1hM9nFFpL2SgxrWYP5ER7KbIMMc71d28d00U
+
+/ebip-0 https://arweave.net/PV_7zu19NJg1aWzo4IHu8R0t-ptMV6JL2CMaMK7Q3zg
+/ebip-1 https://arweave.net/w6AuMbl8nA30Oh7d8sfRIML4pVRj6jq23XlDvUlHQoI
+/ebip-2 https://arweave.net/3GyVJLO0YqhwJHWZeiykWYu4G6SsfcV0alP-1DfMygk
+/ebip-3 https://arweave.net/OftwDeHeyC61Xe7nVjBpQITh7T3m08-hXF9sQ9TjMfs
+/ebip-4 https://arweave.net/Eb3qBsLrBdMBGtyaR3lEhK1_r_tS0HvvCgRFmKroPM8
+/ebip-5 https://arweave.net/rqnIr_xLdEm4Q0ZiMqWh26lwvNmXUnMv9zu2Is4qOmM
+/ebip-6 https://arweave.net/o0cB9SKHQq1y_KqIRZ8oK-xLjtSiTXuiT5dGmkwxygI
+/ebip-7 https://arweave.net/XulSo-1AWwFlmbs2Ck1kjsCXZIZbrnqpErHh8aXbIfw
+
+# /bir-1 https://arweave.net/jQy5ugOSevENDHMFQX3RxnerdUVxJBh28hnnuDY1ww0
+# /bir-2 https://arweave.net/zayRM8ATyNJR_1n5xRRQ2gkaOdADRbeOX3q7CyfYPHg
+# /bir-3 https://arweave.net/ObqSYNnh5OIopDNHlJmwByFgT-qYjQV60oeYli5Q-fU
+# /bir-4 https://arweave.net/OyqpqjsTub1j4jaGipqMffPGxVywnmR3g45e9jkMZTM
 
 # /bfp-1 https://arweave.net/IfPGKNf-uECIPngd-87P2qLCowwl_WepcmeKPIBSVpU
 # /bfp-2 https://arweave.net/l73rZIjgABcEnH18EenQ6LzYSlyV5Z0MrEZfyp_DQik
@@ -212,6 +179,12 @@
 # /bfp-63 https://arweave.net/tBxLcNVMOB8k1tBlQrznqEsw71F54WDlk3Rz0UFyjfw
 # /bfp-64 https://arweave.net/Yad7kbjIC9-_y_G0UTFT6cmITPhCBKXXpNhT_79zNB4
 # /bfp-65 https://arweave.net/zwserwxalzvwXUT7VKXqPllTKDHjvCtLRCqFLHFW84g
+# /bfp-66 https://arweave.net/KjAXTPzs-SDk1ufqeutkvBFOafjXmSI7CmFx7eyzcus
+# /bfp-67 https://arweave.net/5vy3i9fCdBvYYARkECLqTlo1NbxGuJ4wFshmmQCZdL4
+# /bfp-68 https://arweave.net/xAmw-HK7hSFvANNEaC8CDIjLZIG0Z-O7LRBLB9ot80E
+# /bfp-69 https://arweave.net/pyzTde_cpDJGLOGn2YR8J8MmmW-tJ89UZ_c802plm9M
+# /bfp-70 https://arweave.net/CdQ8bmQxmxOywMZ353C93LJgsQ451op9GL9vmL714Bw
+# /bfp-71 https://arweave.net/btYqMcPmzHJsjmp0l41u5skqQ6bDx9awm-y3_EMjRdY
 
 # /bsp-1 https://arweave.net/h7IDEsUV-VeqKho5cwDqLv-zFho4Sp8UsMKoIr-Trc8
 # /bsp-2 https://arweave.net/hHui9c3l9NbJ6fuomuAjDZ1Zaj2BdCu5JIULZLBtqWA

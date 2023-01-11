@@ -3,11 +3,3 @@
 
 [context.branch-deploy.environment]
   NEXT_PUBLIC_SITE_URL = "https://dev.bean.money"
-
-[[redirects]]
-  from = "/bop-2"
-  to = "https://arweave.net/aOAzXi2IzO5Ts1OrXYVrAjXbBavbKg07k7k56gIXtl4"
-
-[[redirects]]
-  from = "/bfrpp-1"
-  to = "https://arweave.net/ioKErMP1hM9nFFpL2SgxrWYP5ER7KbIMMc71d28d00U"
