@@ -34,7 +34,7 @@ The Pod Rate (outstanding Pods per Bean) decreased 0.7 percentage points to 2288
 
 ![](/assets/uploads/prate19.png)
 
-The Temperature increase by 524 points to 6349%.
+The Temperature increased by 524 points to 6349%.
 
 ![](/assets/uploads/temp19.png)
 
