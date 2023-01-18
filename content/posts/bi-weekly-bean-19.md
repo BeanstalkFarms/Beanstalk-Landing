@@ -40,10 +40,10 @@ The Temperature increased by 524 points to 6349%.
 
 # Notes and Recordings
 
-* [Beanstalk DAO Meeting #53 — January 5, 2023](https://www.notion.so/99784f6afe3e4f008894331af89977eb)
+* [Beanstalk DAO Meeting #53 — January 5, 2023](https://beanstalk-farms.notion.site/DAO-Weekly-Meeting-53-99784f6afe3e4f008894331af89977eb)
 
   * Beanstalk repo updates, UI updates, Wells, etc.
-* [Beanstalk DAO Meeting #54 — January 12, 2023](https://www.notion.so/cbf70cecaf6b4d698ca371b99f5948a0)
+* [Beanstalk DAO Meeting #54 — January 12, 2023](https://beanstalk-farms.notion.site/DAO-Weekly-Meeting-54-cbf70cecaf6b4d698ca371b99f5948a0)
 
   * BF updates, Wells code in team review stage and in-depth discussions of BIP-31 & 32 following their failure to pass.
 
