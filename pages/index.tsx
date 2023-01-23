@@ -195,6 +195,14 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
             <Button
               target="_blank"
               rel="noreferrer"
+              href="https://community.bean.money"
+              icon="/assets/icon/notion.png"
+              desc="View community resources">
+              Notion
+            </Button>
+            <Button
+              target="_blank"
+              rel="noreferrer"
               href="https://immunefi.com/bounty/beanstalk"
               icon="/assets/icon/immunefi.png"
               desc="Submit bug reports">
