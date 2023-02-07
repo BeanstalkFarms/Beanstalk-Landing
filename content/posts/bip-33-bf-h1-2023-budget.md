@@ -4,10 +4,10 @@ subtitle: "The Beanstalk DAO approves BIP-33."
 author: Beanstalk Farms
 description: "The Beanstalk DAO approves BIP-33."
 date: 2023-02-08T22:00:34.318Z
-image: /assets/uploads/bip-33-passed.png UPDATE UPDATE UPDATE UPDATE UPDATE
+image: /assets/uploads/bip-33-passed.png
 tag: Proposals
 ---
-![](/assets/uploads/bip-33-passed.png) UPDATE UPDATE UPDATE UPDATE UPDATE
+![](/assets/uploads/bip-33-passed.png)
 
 Beanstalk Farms is excited to announce that [BIP-33](https://snapshot.org/#/beanstalkdao.eth/proposal/0x46af2f9d85ad2b9d298ff75737fb35d4f4a617e500647cb73e2bbabd82e6d725), the Beanstalk Farms H1 2023 Budget has passed by a vote of the DAO. 
 
