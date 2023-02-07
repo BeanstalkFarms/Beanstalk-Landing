@@ -7,23 +7,20 @@ import PostButton from '../components/Buttons/PostButton';
 import Wrapper from '../components/Wrapper';
 import {getSortedPostsData, PostData} from "../lib/posts";
 import { COPY, IMAGES, SITE_URL } from '../lib/constants';
-import { loadSnapshot, Snapshot } from '../lib/snapshot';
+import {loadActiveProposals, Proposal} from '../lib/snapshot';
 
 type BlogProps = {
   allPostsData: PostData[];
-  snapshots?: Snapshot[] | null;
+  activeProposals?: { proposals: Proposal[] } | null;
 }
 
 export async function getStaticProps() : Promise<any> { 
   const allPostsData = getSortedPostsData(3)
-  const snapshots = //null;
-  [
-      await loadSnapshot('beanstalkdao.eth', '0x46af2f9d85ad2b9d298ff75737fb35d4f4a617e500647cb73e2bbabd82e6d725')
-  ];
+  const activeProposals = await loadActiveProposals();
   return {
     props: {
       allPostsData,
-      snapshots,
+      activeProposals: activeProposals || null
     },
     revalidate: 60
   }
@@ -33,7 +30,8 @@ export async function getStaticProps() : Promise<any> {
 const TITLE = `Beanstalk | ${COPY.BASIC_TAGLINE}`;
 const DESC  = COPY.BASIC_DESCRIPTION;
 
-const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
+const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
+
   return (
     <>
       <NextSeo
@@ -65,16 +63,16 @@ const Home: NextPage<BlogProps> = ({ allPostsData, snapshots }) => {
           * Section: Introduction
           */}
         <div className="space-y-6">
-          {snapshots && snapshots.length > 0 ? (
+          {activeProposals && activeProposals.proposals.length > 0 ? (
             <div className="pb-6">
               <div className="space-y-1 pb-1 border-b-2 border-blue-100">
-                {snapshots.map((snapshot) => (
-                  (snapshot.proposal.end < new Date().getTime()) && (
-                    <div key={snapshot.proposal.id}>
-                      <a href={`https://snapshot.org/#/${snapshot.proposal.space.id}/proposal/${snapshot.proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center px-2 py-4 space-x-4">
+                {activeProposals.proposals.map((proposal) => (
+                  (proposal.end < new Date().getTime()) && (
+                    <div key={proposal.id}>
+                      <a href={`https://app.bean.money/#/governance/${proposal.id}`} target="_blank" rel="noreferrer" className="flex flex-row items-center px-2 py-4 space-x-4">
                         <img src="/assets/icon/snapshot.svg" className="h-5" />
                         <span className="flex-1">
-                          <span className="font-bold">{snapshot.proposal.title}</span> is live for voting
+                          <span className="font-bold">{proposal.title}</span> is live for voting
                         </span>
                         <span className="justify-self-end">&rarr;</span>
                       </a>
