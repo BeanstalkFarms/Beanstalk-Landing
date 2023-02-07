@@ -14,8 +14,20 @@ export type Snapshot = {
     strategies: any;
   };
   votes: string[];
-  scores: { [voter: string] : number };
+  scores: { [voter: string]: number };
   sum: number;
+}
+
+export type Proposal = {
+  id: string;
+  space: { id: string; };
+  title: string;
+  state: string;
+  start: number;
+  end: number;
+  quorum: number;
+  snapshot: number;
+  strategies: any;
 }
 
 export const loadSnapshot = async (spaceId: string, proposalId: string) => {
@@ -44,7 +56,7 @@ export const loadSnapshot = async (spaceId: string, proposalId: string) => {
       `
     }
   });
-  const { proposal } = result.data.data;
+  const {proposal} = result.data.data;
   // const [scores] = await snapshot.utils.getScores(
   //   spaceId,
   //   proposal.strategies,
@@ -58,4 +70,47 @@ export const loadSnapshot = async (spaceId: string, proposalId: string) => {
     // scores,
     // sum: (Object.values(scores) as number[]).reduce((agg: number, curr: number) => agg + curr, 0),
   };
+}
+
+export const loadActiveProposals = async () => {
+  const addresses = `["beanstalkdao.eth", "beanstalkfarms.eth"]`;
+
+  try {
+    const result = await axios.get(`https://hub.snapshot.org/graphql`, {
+      data: {
+        query: `
+        query {
+          proposals(
+            where: {space_in: ${addresses}, state: "active"}
+            orderBy: "created"
+            orderDirection: desc
+          ) {
+            id
+            title
+            type
+            start
+            end
+            link
+            scores
+            scores_total
+            scores_updated
+            state
+            snapshot
+            space {
+              id
+              name
+            }
+          }
+        }
+      `
+      }
+    });
+    const {proposals} = result.data.data;
+
+    return {proposals};
+
+  } catch (e) {
+    console.error('Error loading active proposals.')
+    console.error(e);
+  }
 }
