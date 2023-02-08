@@ -1,5 +1,5 @@
 ---
-title: Announcing BIP-33 Beanstalk Farms H1 2023 Budget
+title: 'Announcing BIP-33: Beanstalk Farms H1 2023 Budget'
 subtitle: "The Beanstalk DAO approves BIP-33."
 author: Beanstalk Farms
 description: "The Beanstalk DAO approves BIP-33."
