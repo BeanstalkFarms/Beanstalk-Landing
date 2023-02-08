@@ -7,6 +7,7 @@ author: Beanstalk Farms
 description: Welcome to the Bi-Weekly Bean, the newsletter that recaps the
   latest developments in the Beanstalk ecosystem.
 image: /assets/uploads/background.png
+tag: Bi-Weekly Bean
 ---
 Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest developments in the Beanstalk ecosystem.
 

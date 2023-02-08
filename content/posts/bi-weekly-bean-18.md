@@ -5,6 +5,7 @@ date: 2023-01-01T02:45:42.331Z
 author: Beanstalk Farms
 description: This issue covers Seasons 9209 through 9599 which spanned 12/16/22 – 12/31/22.
 image: ""
+tag: Bi-Weekly Bean
 ---
 Welcome to the Bi-Weekly Bean, the newsletter that recaps the latest developments in the Beanstalk ecosystem.
 
