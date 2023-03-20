@@ -8,4 +8,5 @@ export const COPY = {
 
 export const IMAGES = {
   BASIC_META: SITE_URL + "/assets/meta/basic.png",
+  META_SPRING: SITE_URL + "/assets/meta/meta-spring.png"
 }

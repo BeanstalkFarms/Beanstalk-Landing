@@ -44,7 +44,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
           type: "article",
           images: [
             {
-              url: IMAGES.BASIC_META,
+              url: IMAGES.META_SPRING,
               width: 1200,
               height: 628,
               type: 'image/jpeg',
