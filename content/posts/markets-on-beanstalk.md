@@ -1,7 +1,7 @@
 ---
 title: Markets on Beanstalk Call Notes
 subtitle: Notes on how to prioritize the rollout of Beanstalk-native markets.
-date: 2023-03-27T19:54:42.000Z
+date: 2023-03-28T19:54:42.000Z
 author: Beanstalk Farms
 description: Notes on how to prioritize the rollout of Beanstalk-native markets.
 image: /assets/uploads/markets-on-beanstalk.png
