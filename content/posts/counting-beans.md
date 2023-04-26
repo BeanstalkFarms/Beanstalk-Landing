@@ -5,6 +5,7 @@ date: 2023-04-24T19:31:24.319Z
 author: Beanstalk Farms
 description: An overview of the Metrics describing Beanstalk in Q1 2023
 image: /assets/uploads/counting-beans.jpeg
+tag: Learn
 ---
 This is a new type of article for Beanstalk, exploring all the key metrics that describe the health and growth trajectory of the protocol. Think of it almost like a quarterly report, although sometimes editions may come out more frequently. In this first installment, we’ll be analyzing the metrics from Q1 ‘23 with all data sourced from Beanstalk’s [Analytics Page](https://app.bean.money/#/analytics). 
 

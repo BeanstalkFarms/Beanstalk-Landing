@@ -4,6 +4,7 @@ date: 2023-04-10T21:16:04.293Z
 author: Beanstalk Farms
 description: An explanation of how Beanstalk's peg mechanism and DAO work
 image: /assets/uploads/bnomix.jpeg
+tag: Learn
 ---
 Last week we talked about Beanstalk’s strengths and weaknesses within the [stablecoin trilemma](https://bean.money/blog/how-beanstalk-tackles-the-stablecoin-trilemma). Price stability is the most difficult aspect of stablecoin design when it comes to algorithmic models, so this week we’re going into much further detail about the mechanisms involved in peg maintenance, as well as other economic forces in the Beanstalk ecosystem. 
 
