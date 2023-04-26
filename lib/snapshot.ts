@@ -73,7 +73,7 @@ export const loadSnapshot = async (spaceId: string, proposalId: string) => {
 }
 
 export const loadActiveProposals = async () => {
-  const addresses = `["beanstalkdao.eth", "beanstalkfarms.eth"]`;
+  const addresses = `["beanstalkdao.eth", "beanstalkfarms.eth", "wearebeansprout.eth"]`;
 
   try {
     const result = await axios.get(`https://hub.snapshot.org/graphql`, {

@@ -32,7 +32,7 @@ The Morning Auction should reduce unnecessary Pod issuance, which should improve
 
 **Sunrise Incentive Adjustment**
 
-Beanstalk updates its monetary policy every Season, which occurs upon a successful call of the `sunrise` function. It costs gas to call the `sunrise` function and Beanstalk often overpays to incentivize users to call it. The Sunrise Incentive Adjustment upgrade makes it such that how much Beanstalk pays for incentivization of the `sunrise` function takes into account Ethereum network conditions (i.e., current gas costs) and Beanstalk economic conditions (i.e., the Bean price).
+Beanstalk updates its monetary policy every Season, which occurs upon a successful call of the `sunrise` function. It costs gas to call the `sunrise` function and Beanstalk often overpays in Beans to incentivize users to call it. The Sunrise Incentive Adjustment upgrade makes it such that how much Beanstalk pays for incentivization of the `sunrise` function takes into account Ethereum network conditions (i.e., current gas costs) and Beanstalk economic conditions (i.e., the Bean price).
 
 Reducing unnecessary Bean issuance in the `sunrise` incentive reward should reduce sell pressure on Beans.
 
@@ -62,7 +62,7 @@ Currently, there is no straightforward way to change the Seeds per BDV rewards f
 
 Currently, Unripe Bean Deposits receive 2 Seeds per BDV and Unripe BEAN:3CRV LP Deposits receive 4 Seeds per BDV. Most Bean liquidity is underlying Unripe LP, but converting to Unripe Beans results in a loss of Seeds. This seems to be one of the primary reasons for why a significant amount of Unripe LP remains in the Silo despite the opportunity to convert to Unripe Beans to arbitrage the Bean price.
 
-Changing the Seed rewards for both Unripe assets to the same value would remove a significant cost to converting from Unripe LP to Unripe Beans. This is likely to result in more conversions, which would have a significant effect on peg maintenance.
+Changing the Seed rewards for both Unripe assets to the same value would remove a significant cost to converting from Unripe LP to Unripe Beans. This may result in more conversions, which would have a significant effect on peg maintenance.
 
 A DAO vote is likely in order to determine what the exact Seeds per BDV values for Unripe Beans and Unripe BEAN:3CRV LP should be set to in Silo V3.
 
