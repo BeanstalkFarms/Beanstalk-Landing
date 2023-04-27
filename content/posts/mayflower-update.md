@@ -74,12 +74,12 @@ A DAO vote is likely in order to determine what the exact Seeds per BDV values f
 
 There are a number of problems with current implementations of AMMs on Ethereum. In a post-Merge environment, existing on-chain AMMs are not multi-block MEV resistant. Given that Beanstalk needs to price Beans against other assets (on-chain) and that the goal of Beanstalk is to be as censorship and manipulation resistant as possible, multi-block MEV is an attack vector that should be addressed. 
 
-Most AMMs in DeFi are generally not composable and have little flexibility between the oracles and pricing functions. Similarly, tradings fees are inflexible and cannot be customized.
+Additionally, most AMMs in DeFi are generally not designed to be composable and have little flexibility in allowing developers customize their liquidity pool implementation. Trading fees, pricing functions, and price oracles are embedded and cannot be customized independently.
 
 Basin aims to solve these problems:
-- Pumps, the oracles of the Basin DEX, provide the first multi-block MEV resistant oracle solution on the Ethereum network.
-- Developers can pick and choose Well pricing functions and Pump implementations in a composable fashion when deploying a Well.
-- The composability of Basin also allows for the deployment of Wells with zero trading fees. Providing liquidity to Wells with zero trading fees can be incentivized by whitelisting the Well LP token in the Silo.
+- Pumps, the oracles of the Basin DEX are composable and customizable by design. The first implementation developed by Beanstalk Farms provides the first multi-block MEV resistant oracle implementation on the Ethereum network.
+- Developers can utilize the work of other ecosystem contributors and the Beanstalk DAO who develop, audit and deploy custom pricing functions, Pump implementations, and even new pool factory contracts.   
+- The composability of Basin also allows for the deployment of Wells with zero trading fees. Providing liquidity to Wells which do not collect trading fees can be incentivized via protocol-native incentives, such as whitelisting the Well LP token in the Silo.
 
 See Publius' [Worthless Tech](https://publius.money/blog/2023-01-06-worthless-tech) and [Beanstalk Development Update](https://publius.money/blog/2023-01-06-beanstalk-development-update) writeups for a deep-dive.
 
