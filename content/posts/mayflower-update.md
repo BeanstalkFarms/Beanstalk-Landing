@@ -40,13 +40,13 @@ Reducing unnecessary Bean issuance in the `sunrise` incentive reward should redu
 
 The Silo V3 upgrade introduces multiple composability and UX improvements to the Silo, one of the core components of Beanstalk.
 
-**Removal of the Withdraw Timer**
+**Removal of the Withdrawal Timer**
 
-When Beanstalk was launched in August 2021, Farmers had to wait 24 Seasons before being able to claim Withdrawn assets from the Silo. This lockup period likely served Beanstalk well during its infancy stage. Now that Beanstalk is more established, and more participants understand the incentives of the Stalk System, it has become clear that the Withdraw timer is an economic inefficiency that creates a supply overhang when there are Withdrawn assets. 
+When Beanstalk was launched in August 2021, Farmers had to wait 24 Seasons before being able to claim Withdrawn assets from the Silo. This lockup period likely served Beanstalk well during its infancy stage. Now that Beanstalk is more established, and more participants understand the incentives of the Stalk System, it has become clear that the Withdrawal timer is an economic inefficiency that creates a supply overhang when there are Withdrawn assets. 
 
-Since Replant, the Withdraw timer has lasted until the remainder of the current Season. Now that the Withdraw timer is being removed, Bean seigniorage will be distributed based on a time-weighted average, rather than based Stalk at the end of the Season. Distributing seigniorage this way eliminates the profit of a potential attack where a user deposits assets in the Silo, calls `sunrise`, earns Bean seigniorage and withdraws the assets all in a single transaction while retaining Bean exposure for zero blocks.
+Since Replant, the Withdrawal timer has lasted until the remainder of the current Season. Now that the Withdrawal timer is being removed, Bean seigniorage will be distributed based on a time-weighted average, rather than based Stalk at the end of the Season. Distributing seigniorage this way eliminates the profit of a potential attack where a user deposits assets in the Silo, calls `sunrise`, earns Bean seigniorage and withdraws the assets all in a single transaction while retaining Bean exposure for zero blocks.
 
-Examples of developments that become possible after the removal of the Withdraw timer include the [redemption of Roots](https://roottoken.org/redeem) for Circulating Beans in a single transaction, the ability to [order Pods](https://app.bean.money/#/market/buy) on the Market with Deposits, etc.
+Examples of developments that become possible after the removal of the Withdrawal timer include the [redemption of Roots](https://roottoken.org/redeem) for Circulating Beans in a single transaction, the ability to [order Pods](https://app.bean.money/#/market/buy) on the Market with Deposits, etc.
 
 **Tokenization of Deposits as ERC-1155s**
 
