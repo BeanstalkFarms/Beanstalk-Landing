@@ -9,7 +9,7 @@ tag: Roadmap
 ---
 ![](/assets/uploads/mayflower-update.png)
 
-On Season 6704, as the early dawn light broke across the rolling fields, the Farmers of Beanstalk gathered on the Mayflower, their trusty vessel, ready to set sail towards a new horizon. They had weathered many storms and worked hard to tend to their recovered crops, but they knew that in order to grow and thrive, they needed to adapt and evolve.
+On Season 6074, as the early dawn light broke across the rolling fields, the Farmers of Beanstalk gathered on the Mayflower, their trusty vessel, ready to set sail towards a new horizon. They had weathered many storms and worked hard to tend to their recovered crops, but they knew that in order to grow and thrive, they needed to adapt and evolve.
 
 Today, Beanstalk Farms is excited to announce the Mayflower Update and an anticipated launch timeline. Note: *[BIP-34 Sunrise Improvements and BIP-35: Stalk Delegation and Process Amendments](https://app.bean.money/#/governance)* were proposed today!
 

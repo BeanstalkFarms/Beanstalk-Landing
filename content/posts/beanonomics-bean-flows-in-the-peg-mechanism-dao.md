@@ -1,7 +1,7 @@
 ---
 title: "Beanonomics: $BEAN Flows in the Peg Mechanism & DAO"
 date: 2023-04-10T21:16:04.293Z
-author: Beanstalk Farms
+author: Bean Farmers
 description: An explanation of how Beanstalk's peg mechanism and DAO work
 image: /assets/uploads/bnomix.jpeg
 tag: Learn

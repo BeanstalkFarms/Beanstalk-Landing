@@ -2,7 +2,7 @@
 title: Counting Beans
 subtitle: Q1 2023 Metrics and Analysis
 date: 2023-04-24T19:31:24.319Z
-author: Beanstalk Farms
+author: Bean Farmers
 description: An overview of the Metrics describing Beanstalk in Q1 2023
 image: /assets/uploads/counting-beans.jpeg
 tag: Learn
