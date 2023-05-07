@@ -134,11 +134,11 @@ const Post: NextPage<PostProps> = (props) => {
           {subscribe === false ? null : (
             <>
               <hr />
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <h2 className="text-2xl mb-6 font-normal">Subscribe</h2>
                 <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
                 <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
-              </div>
+              </div> */}
             </>
           )}
         </div>

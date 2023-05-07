@@ -103,11 +103,11 @@ const Home: NextPage<BlogProps> = ({ allPostsData }) => {
             </ContributorButton>
           </div>
         </div>
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <h2 className="text-3xl mb-6 font-normal">Subscribe</h2>
           <p>{`Subscribe to The Bi-Weekly Bean and we'll send major Beanstalk updates straight to your inbox.`}</p>
           <iframe src="https://beanstalkfarms.substack.com/embed" width="100%" frameBorder="0" scrolling="no"></iframe>
-        </div>
+        </div> */}
       </Wrapper>
     </>
   )
