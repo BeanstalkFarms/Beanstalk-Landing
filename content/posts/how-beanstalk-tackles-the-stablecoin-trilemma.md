@@ -5,6 +5,7 @@ date: 2023-04-03T17:44:47.029Z
 author: Bean Farmers
 description: Analyzing Beanstalk's place within the stablecoin trilemma framework
 image: /assets/uploads/trilemmabean.jpeg
+tag: Learn
 ---
 *This is the first post by the [Bean Farmers](https://twitter.com/Bean_Farmers) initative - a collection of humble Bean Farmers, commissioned by Beanstalk Farms, in order to spread the story, motivation and mechanisms behind Beanstalk. This is the first part of an educational series highlighting key features and differentiators of Beanstalk from other stablecoins.*
 
