@@ -14,9 +14,6 @@ const Footer = () => (
       <a href="https://immunefi.com/bounty/beanstalk" target="_blank" rel="noreferrer">
         Bug Bounty
       </a>
-      <a href="https://community.bean.money/jobs" target="_blank" rel="noreferrer">
-        Jobs
-      </a>
       <a href="https://github.com/beanstalkfarms" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         GitHub
       </a>
