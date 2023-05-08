@@ -4,7 +4,7 @@ subtitle: Thoughts on a flexible system for Silo reward allocation.
 date: 2023-05-08T21:00:00.000Z
 author: Beanstalk Farms
 description: Thoughts on a flexible system for Silo reward allocation.
-image: /assets/uploads/gauge-system.jpeg
+image: /assets/uploads/gauge-system.png
 tag: Roadmap
 ---
 ![](/assets/uploads/gauge-system.png)
