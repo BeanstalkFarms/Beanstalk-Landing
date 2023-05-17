@@ -8,7 +8,7 @@ image: /assets/uploads/mayflowerupdate3.png
 ---
 The future is bright, and the sun is shining down on Beanstalk. Now is a pivotal time for the protocol, the DAO, and the Beanstalk community. 
 
-The next couple months will see major upgrades and innovations come to fruition. The Mayflower Update is setting sail; all aboard for the next chapter in this bold monetary experiment. 
+The next couple of months will see major upgrades and innovations come to fruition. The Mayflower Update is setting sail; all aboard for the next chapter in this bold monetary experiment. 
 
 **[What does the Mayflower Update consist of?](https://bean.money/blog/mayflower-update)** The three main elements are: changes to the Sunrise system, various adjustments and improvements to DAO functions packaged together as Silo V3, and the launch of the Basin DEX. Here are the timelines for these elements, details on their sub-components, and color around the motivation and intended outcomes of each.
 
@@ -16,7 +16,7 @@ The next couple months will see major upgrades and innovations come to fruition.
 
 ![Sunrise Improvements consist of 2 changes; The addition of a Dutch auction for the Temperature of a given Season, and dynamic rewards for calling the Sunrise function](/assets/uploads/sunriseadj.png)
 
-Sunrise Improvements are the first components of Mayflower that have been implemented, with DAO voters passing [BIP-34](https://app.bean.money/#/governance/0xb43ce40fff8c91924a9567638eb60bf3fe60ba2c9b6d2d62b0e38a63f07bb423) on May 3rd and changes taking effect immediately. BIP-34 reduces unnecessary Pod issuance, improving the overall efficiency of the Field. Right-sizing Pod issuance will make peg maintenance more efficient and increase the creditworthiness of Beanstalk.
+Sunrise Improvements were the first components of Mayflower implemented, with DAO voters passing [BIP-34](https://app.bean.money/#/governance/0xb43ce40fff8c91924a9567638eb60bf3fe60ba2c9b6d2d62b0e38a63f07bb423) on May 3rd and changes taking effect immediately. BIP-34 reduces unnecessary Pod issuance, improving the overall efficiency of the Field. Right-sizing Pod issuance will make peg maintenance more efficient and increase the creditworthiness of Beanstalk.
 
 First is the introduction of a Dutch auction conducted over the first 25 blocks (the Morning) of a Season, where the Temperature scales from 1% to 100% of the maximum Temperature. Upon every Sunrise, Beanstalk calculates a Temperature for the Season based on the excess or shortage of $BEAN in the BEAN3CRV pool ([Delta B](https://docs.bean.money/almanac/protocol/glossary#deltab)). Since the Temperature determines the number of Pods creditors receive per Bean lent to the protocol, making it dynamic within a Season will reduce instances of over-incentivizing creditors when demand for Soil is high. This makes the peg mechanism more efficient, making Beanstalk more creditworthy. 
 
@@ -45,7 +45,7 @@ Enabling the DAO to vote on adjustments for Seed rewards given to different depo
 
 ## Deposit Experience and Composability Improvements 
 
-The other two changes included in BIP-36 focus on user experience and composability for Silo Deposits. Currently, there is a lockup period between withdrawing assets and being able to claim them to a wallet. This will be changed to a single transaction, saving users money on gas. This change also makes deposits usable for creating orders on the Pod market since BEANs can be withdrawn and exchanged immediately when the order is filled. The implications here are that depositing becomes more attractive with lower costs and immediate accessibility to withdrawals, and the Pod Market becomes more liquid since depositors can create orders while their assets are still in the Silo. 
+The other two changes in BIP-36 focus on user experience and composability for Silo Deposits. Currently, there is a lockup period between withdrawing assets and being able to claim them to a wallet. This will be changed to a single transaction, saving users money on gas. This change also makes deposits usable for creating orders on the Pod market since BEANs can be withdrawn and exchanged immediately when the order is filled. The implications here are that depositing becomes more attractive with lower costs and immediate accessibility to withdrawals, and the Pod Market becomes more liquid since depositors can create orders while their assets are still in the Silo. 
 
 For Silo Deposits, ERC-1155 tokenization will unlock composability across the wider DeFi ecosystem, allowing them to be bought and sold permissionlessly on marketplaces such as OpenSea. Since this flexible standard allows fungible and non-fungible tokens to be transferred simultaneously, depositors can list the tokenized deposit representing their deposited position on third-party marketplaces. When purchased, the underlying deposited BEAN will be transferred to the buyer. Since BEANs deposited in the Silo accrue interest through seigniorage, they have positive carry. This attribute is interesting to consider for DeFi purposes, as a stablecoin with positive carry would likely entail more favorable borrowing terms when used as collateral. Overall, tokenization is a big step forward in advancing the utility of BEAN, instantly opening up marketplaces for deposit trading and paving the way for integration into DeFi protocols.
 
@@ -55,7 +55,7 @@ For Silo Deposits, ERC-1155 tokenization will unlock composability across the wi
 
 Think of Basin as a superpowered DEX for BEAN trading pairs, and potentially other protocols’ native tokens. It’s designed to be multi-block MEV resistant, which current DeFi exchanges have yet to address, and provides a new level of customization to LPs. Here’s the breakdown, starting with an explanation of the multi-block MEV challenge. 
 
-Multi-block MEV has been a vulnerability for [DEXs on Ethereum since the Merge](https://blog.uniswap.org/uniswap-v3-oracles). With Beanstalk using DEX pools (like Curve) as price oracles for $BEAN, the potential for bad actors (block proposers) to manipulate price over multiple blocks is an issue for the peg maintenance algorithm. A validator can know if they will control the next block, opening up the possibility of raising the TWAP oracle price via flash loan. While it requires a large amount of capital to conduct a profitable manipulation, this edge case can be dealt with through customizable oracles.
+Multi-block MEV has been a vulnerability for [DEXs on Ethereum since the Merge](https://blog.uniswap.org/uniswap-v3-oracles). With Beanstalk using DEX pools (like Curve) as price oracles for $BEAN, the potential for bad actors (block proposers) to manipulate price over multiple blocks is an issue for the peg maintenance algorithm. A validator can know if they will control the next block, opening up the possibility of raising the TWAP oracle price via flash loan. While it requires a lot of capital to conduct a profitable manipulation, this edge case can be dealt with through customizable oracles.
 
 ![Basin DEX Architecture](/assets/uploads/basinarchitecture3-1-.png)
 
