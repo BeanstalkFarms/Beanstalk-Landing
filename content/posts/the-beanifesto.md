@@ -2,7 +2,7 @@
 title: The Beanifesto
 subtitle: Upcoming Protocol Developments and How They Improve Beanstalk
 date: 2023-05-17T11:00:50.378Z
-author: Beanstalk Farms
+author: Bean Farmers
 description: "The Beanifesto: Upcoming Protocol Developments and How They Improve Beanstalk"
 image: /assets/uploads/mayflowerupdate3.png
 ---
