@@ -93,6 +93,8 @@ Launching Basin in a way that Beanstalk directly benefits from requires a BIP th
 
 # Anticipated Mayflower Timeline
 
+*Last updated May 24, 2023.*
+
 **Late April**
 
 - [BIP-34: Sunrise Improvements](https://app.bean.money/#/governance) Voting Period begins
@@ -105,28 +107,30 @@ Launching Basin in a way that Beanstalk directly benefits from requires a BIP th
 - BIP-34 and BIP-35 Voting Periods end
 - Basin Integration audit starts
 
-**Mid May**
-
-- Silo V3 audit ends
-- Fix review for Halborn and Cyfrin audits of Basin end
-
 **Late May**
 
-- BIP-36: Silo V3 Voting Period begins
-- Code4rena audit of Basin begins and ends
+- Fix review for Halborn and Cyfrin audits of Basin end
 
 **Early June**
 
-- BIP-36 Voting Period ends
-    - Unripe Seeds parity is launched
-- Basin Integration audit ends
+- Silo V3 audit ends
+- Code4rena audit of Basin begins and ends
 
 **Mid June**
+
+- BIP-36: Silo V3 Voting Period begins
+
+**Late June**
+
+- Basin Integration audit ends
+- BIP-36 Voting Period ends
+    - Unripe Seeds parity is launched
+
+**Early July**
 
 - The Basin DEX and a BEAN:ETH Well is deployed
 - BIP-37: Basin Integration Voting Period begins
 
-**Late June**
-
+**Mid July**
 - BIP-37 Voting Period ends
     - BEAN:ETH Well becomes whitelisted in the Silo
