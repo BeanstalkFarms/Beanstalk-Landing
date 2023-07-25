@@ -105,7 +105,20 @@ export const loadActiveProposals = async () => {
       `
       }
     });
-    const {proposals} = result.data.data;
+
+    let {proposals} = result.data.data;
+    const filteredProposals: Proposal[] = [];
+    
+    if (proposals && proposals.length > 0) {
+      proposals.forEach((p: Proposal) => {
+        ((p.title.startsWith("BIP") || p.title.startsWith("BOP")) && p.space.id === "beanstalkdao.eth" || 
+        (p.title.startsWith("Temp-Check") || p.title.startsWith("BFCP")) && p.space.id === "beanstalkfarms.eth" || 
+        p.title.startsWith("BSP") && p.space.id === "wearebeansprout.eth")
+        && filteredProposals.push(p)
+      })
+    };
+
+    proposals = filteredProposals;
 
     return {proposals};
 
