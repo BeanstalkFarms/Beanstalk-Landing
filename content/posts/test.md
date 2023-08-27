@@ -1,21 +1,21 @@
 ---
 title: The Basin BeaNFT Collection
 subtitle: An overview of the Beanstalk community's latest NFT collection.
-date: 2023-05-17T11:00:50.378Z
+date: 2023-08-28T13:52:17Z
 author: blc
 description: An overview of the Beanstalk community's latest NFT collection.
-image: /assets/uploads/beanft-barn-raise.png
+image: /assets/uploads/basin-beanfts.png
 tag: BeaNFTs
 ---
-![](/assets/uploads/beanft-barn-raise.png)
+![](/assets/uploads/basin-beanfts.png)
 
 Last month [the BeaNFT DAO voted to introduce the Basin BeaNFT Collection](https://snapshot.org/#/beanft.eth/proposal/0x9633898c24f0b05188d81082216384e6025c87e7c73b4cdacaa061c552662ed8) that would coincide with the launch of Basin and the integration of the BEAN:ETH Well in the Silo. The [Basin Integration BIP](https://snapshot.org/#/beanstalkdao.eth/proposal/0x98fbf0e9a3fe3054679fefb544fd57cd4df1f85b03edeecd1a06ccefdd4d1def) has now been proposed and is scheduled to end on August 30, 2023.
 
 The previous BeaNFT collections can be found on OpenSea, with their respective announcements:
 
-- [**Genesis Collection on OpenSea**](https://opensea.io/collection/beanft-genesis) | **[BeaNFT Genesis Collection Announcement](https://bean.money/blog/announcing-beanft-genesis-collection)**
-- [**Winter Collection on OpenSea**](https://opensea.io/collection/beanft-winter) | **[BeaNFT Winter Collection Announcement](https://bean.money/blog/beanft-winter-collection)**
-- [**Barn Raise Collection on OpenSea**](https://opensea.io/collection/beanft-barn-raise) | [**BeaNFT Barn Raise Collection Announcement**](https://bean.money/blog/beanft-barn-raise-collection)
+- [Genesis Collection on OpenSea](https://opensea.io/collection/beanft-genesis) | [BeaNFT Genesis Collection Announcement](https://bean.money/blog/announcing-beanft-genesis-collection)
+- [Winter Collection on OpenSea](https://opensea.io/collection/beanft-winter) | [BeaNFT Winter Collection Announcement](https://bean.money/blog/beanft-winter-collection)
+- [Barn Raise Collection on OpenSea](https://opensea.io/collection/beanft-barn-raise) | [BeaNFT Barn Raise Collection Announcement](https://bean.money/blog/beanft-barn-raise-collection)
 
 ## Basin BeaNFT Collection Theme and Attributes
 
