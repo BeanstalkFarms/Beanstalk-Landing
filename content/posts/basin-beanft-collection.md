@@ -41,10 +41,10 @@ BeaNFT qualification will be triggered 600 Seasons after the qualifying Deposit 
 
 Basin BeaNFTs will be viewable on the BeaNFT pages of the [Beanstalk UI](https://app.bean.money/#/nft) after the 1,200th Season following the whitelisting of the BEAN:ETH Well. Easter egg upgrades will be shown on the BeaNFTs after the 1,800th Season following the BEAN:ETH whitelisting.
 
-## Other Details
+## In Summary
 
 - **Decentralized:** Similar to previous collections, the collection of on-chain data for the Basin BeaNFTs will happen in a decentralized fashion. After the the qualification period is complete, on-chain data will be used to calculate rarity boosts to distribute Basin BeaNFTs. Ownership of the contract will be custodied by the BeaNFT DAO Multisig as outlined in BOP-3.
 - **Fair Distribution:** 10,000 Basin BeaNFT attribute combinations will be pre-generated and ranked based on their rarity.
-- **Minting:** Basin BeaNFTs will be minted directly to qualifying Farmers' wallets. An announcement will be made nce Farmers can view their new BeaNFTs on the Beanstalk UI.
-- **Easter Egg:** If you are daring enough to keep your qualifying LP Deposit in the BEAN:ETH Well for 600 Seasons beyond the Wells BeaNFT qualification period, be prepared for a cool upgrade to your latest PFP!
+- **Minting:** Basin BeaNFTs will be minted directly to qualifying Farmers' wallets. An announcement will be made once Farmers can view their new BeaNFTs on the Beanstalk UI.
+- **Easter Egg:** If you are daring enough to keep your qualifying BEAN:ETH LP Deposit in the Silo for 600 Seasons beyond the qualification period, be prepared for a cool upgrade to your latest PFP!
 - **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area on Discord.
