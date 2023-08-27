@@ -39,7 +39,7 @@ BeaNFT qualification will be triggered 600 Seasons after the qualifying Deposit 
 
 ## Issuance
 
-Basin BeaNFTs will be available to mint on the BeaNFT pages of the [Beanstalk UI](https://app.bean.money/#/nft) after the 1,200th Season following the whitelisting of the BEAN:ETH Well. Easter egg upgrades will be shown on the BeaNFTs after the 1,800th Season following the BEAN:ETH whitelisting.
+Basin BeaNFTs will be viewable on the BeaNFT pages of the [Beanstalk UI](https://app.bean.money/#/nft) after the 1,200th Season following the whitelisting of the BEAN:ETH Well. Easter egg upgrades will be shown on the BeaNFTs after the 1,800th Season following the BEAN:ETH whitelisting.
 
 ## Other Details
 
