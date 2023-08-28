@@ -45,7 +45,7 @@ Basin BeaNFTs will be viewable on the BeaNFT pages of the [Beanstalk UI](https:
 
 - **Decentralized:** Similar to previous collections, the collection of on-chain data for the Basin BeaNFTs will take place in a decentralized fashion. After the the qualification period is complete, on-chain data will be used to calculate rarity boosts to distribute Basin BeaNFTs. Ownership of the contract will be custodied by the BeaNFT DAO Multisig as outlined in [BOP-3](https://snapshot.org/#/beanstalkdao.eth/proposal/0xf2a75c3148e4c979b4a1370f8babc549e4bb5625ebdd3b81e8f2a8907c3893ca).
 - **Fair Distribution:** 10,000 Basin BeaNFT attribute combinations will be pre-generated and ranked based on their rarity.
-- **Qualification:** Deposits in the BEAN:ETH Silo of 1,000 BDV or higher during the first 600 Seasons after BIP-37 is committed that are kept in the Silo for at least 600 Seasons are eligible to receive a Basin BeaNFT.
+- **Qualification:** Deposits in the BEAN:ETH Silo of 1,000 BDV or higher during the first 600 Seasons post-whitelisting that are kept in the Silo for at least 600 Seasons are eligible to receive a Basin BeaNFT.
 - **Minting:** Basin BeaNFTs will be minted directly to qualifying Farmers' wallets. An announcement will be made once Farmers can view their new BeaNFTs on the Beanstalk UI.
 - **Easter Egg:** If you are daring enough to keep your qualifying BEAN:ETH LP Deposit in the Silo for an additional 600 Seasons beyond the qualification period, be prepared for a cool upgrade to your latest PFP!
 - **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area in the [Beanstalk Discord](https://discord.gg/beanstalk).
