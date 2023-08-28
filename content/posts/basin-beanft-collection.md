@@ -9,7 +9,7 @@ tag: BeaNFTs
 ---
 ![](/assets/uploads/basin-beanfts.png)
 
-Last month [the BeaNFT DAO voted to introduce the Basin BeaNFT Collection](https://snapshot.org/#/beanft.eth/proposal/0x9633898c24f0b05188d81082216384e6025c87e7c73b4cdacaa061c552662ed8) that would coincide with the launch of Basin and the integration of the BEAN:ETH Well in the Silo. The [Basin Integration BIP](https://snapshot.org/#/beanstalkdao.eth/proposal/0x98fbf0e9a3fe3054679fefb544fd57cd4df1f85b03edeecd1a06ccefdd4d1def) has now been proposed and is scheduled to end on August 30, 2023.
+Last month [the BeaNFT DAO voted to introduce the Basin BeaNFT Collection](https://snapshot.org/#/beanft.eth/proposal/0x9633898c24f0b05188d81082216384e6025c87e7c73b4cdacaa061c552662ed8) that would coincide with the launch of Basin and the integration of the BEAN:ETH Well in the Silo. The [Basin Integration BIP](https://snapshot.org/#/beanstalkdao.eth/proposal/0x98fbf0e9a3fe3054679fefb544fd57cd4df1f85b03edeecd1a06ccefdd4d1def) has been proposed and is scheduled to end on August 30, 2023.
 
 The previous BeaNFT collections can be found on OpenSea, with their respective announcements:
 
@@ -35,7 +35,7 @@ In addition to Farmers receiving rarity boosts based on the BDV and duration of 
 
 Deposit size, duration and other rarity boosts will factor into the scoring of the eligible Deposit. Deposits will be scored and ranked, with BeaNFTs assigned to each Deposit in descending order from most rare to least rare.
 
-BeaNFT qualification will be triggered 600 Seasons after the qualifying Deposit is made. If a Farmer is daring enough to hodl their Deposit for 1,200 Seasons, their BeaNFT may get upgraded with a lil' easter egg.
+BeaNFT eligibility will be triggered 600 Seasons after the qualifying Deposit is made. If a Farmer is daring enough to hodl their Deposit for 1,200 Seasons in total, their BeaNFT may get upgraded with a lil' easter egg.
 
 ## Issuance
 
@@ -43,8 +43,9 @@ Basin BeaNFTs will be viewable on the BeaNFT pages of the [Beanstalk UI](https:
 
 ## In Summary
 
-- **Decentralized:** Similar to previous collections, the collection of on-chain data for the Basin BeaNFTs will happen in a decentralized fashion. After the the qualification period is complete, on-chain data will be used to calculate rarity boosts to distribute Basin BeaNFTs. Ownership of the contract will be custodied by the BeaNFT DAO Multisig as outlined in BOP-3.
+- **Decentralized:** Similar to previous collections, the collection of on-chain data for the Basin BeaNFTs will take place in a decentralized fashion. After the the qualification period is complete, on-chain data will be used to calculate rarity boosts to distribute Basin BeaNFTs. Ownership of the contract will be custodied by the BeaNFT DAO Multisig as outlined in [BOP-3](https://snapshot.org/#/beanstalkdao.eth/proposal/0xf2a75c3148e4c979b4a1370f8babc549e4bb5625ebdd3b81e8f2a8907c3893ca).
 - **Fair Distribution:** 10,000 Basin BeaNFT attribute combinations will be pre-generated and ranked based on their rarity.
+- **Qualification:** Deposits in the BEAN:ETH Silo of 1,000 BDV or higher during the first 600 Seasons after BIP-37 is committed that are kept in the Silo for at least 600 Seasons are eligible to receive a Basin BeaNFT.
 - **Minting:** Basin BeaNFTs will be minted directly to qualifying Farmers' wallets. An announcement will be made once Farmers can view their new BeaNFTs on the Beanstalk UI.
-- **Easter Egg:** If you are daring enough to keep your qualifying BEAN:ETH LP Deposit in the Silo for 600 Seasons beyond the qualification period, be prepared for a cool upgrade to your latest PFP!
-- **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area on Discord.
+- **Easter Egg:** If you are daring enough to keep your qualifying BEAN:ETH LP Deposit in the Silo for an additional 600 Seasons beyond the qualification period, be prepared for a cool upgrade to your latest PFP!
+- **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area in the [Beanstalk Discord](https://discord.gg/beanstalk).
