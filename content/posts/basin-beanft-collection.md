@@ -1,7 +1,7 @@
 ---
 title: The Basin BeaNFT Collection
 subtitle: An overview of the Beanstalk community's latest NFT collection.
-date: 2023-08-28T13:52:17Z
+date: 2023-08-29T13:52:17Z
 author: blc
 description: An overview of the Beanstalk community's latest NFT collection.
 image: /assets/uploads/basin-beanfts.png
