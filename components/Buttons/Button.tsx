@@ -29,7 +29,7 @@ const Button : FC<{
       ? `bg-[#3EB94E] text-white`
       : `bg-white hover:border-[#C1DEF2] border border-[#C1DEF2]`}
   `}>
-    {typeof icon === 'string' && <img src={icon} className="sm:h-10 sm:w-10 w-8 h-8 p-1 rounded-full" style={props.iconStyle} />}
+    {typeof icon === 'string' && <img src={icon} className="sm:h-10 sm:w-10 w-8 h-8 p-1" style={props.iconStyle} />}
     <span className="">{children}</span>
     {desc && <div className="flex-1 sm:text-right text-[17px] text-gray-600">{desc}</div>}
   </a>

@@ -191,10 +191,10 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
             <Button
               target="_blank"
               rel="noreferrer"
-              href="https://community.bean.money"
-              icon="/assets/icon/notion.png"
-              desc="View community resources">
-              Notion
+              href="https://basin.exchange"
+              icon="/assets/icon/basin.svg"
+              desc="Trade on the new composable EVM-native DEX protocol">
+              Basin
             </Button>
             <Button
               target="_blank"
