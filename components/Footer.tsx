@@ -20,6 +20,12 @@ const Footer = () => (
       <a href="https://docs.bean.money/almanac/disclosures" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         Disclosures
       </a>
+      <a href="https://basin.exchange" target="_blank" rel="noreferrer" className="md:inline-block hidden">
+        Basin
+      </a>
+      <a href="https://evmpipeline.org" target="_blank" rel="noreferrer" className="md:inline-block hidden">
+        Pipeline
+      </a>
     </div>
   </footer>
 );
