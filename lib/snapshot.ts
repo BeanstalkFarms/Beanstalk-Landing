@@ -107,6 +107,7 @@ export const loadActiveProposals = async () => {
     });
 
     let {proposals} = result.data.data;
+    console.log('HERE: ', proposals);
     const filteredProposals: Proposal[] = [];
     
     if (proposals && proposals.length > 0) {
