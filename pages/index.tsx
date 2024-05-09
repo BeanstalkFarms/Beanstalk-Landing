@@ -153,7 +153,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
         {/**
           * Section: Blog
           */}
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-3xl font-normal">Blog</h2>
             <a href={`/blog`}><p className="text font-normal mr-4 text-blue-600">See all &rarr;</p></a>
@@ -170,7 +170,7 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
               />
             ))}
           </div>
-        </div>
+        </div> */}
         {/**
           * Section: Links
           */}
