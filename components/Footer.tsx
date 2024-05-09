@@ -1,9 +1,11 @@
 const Footer = () => (
   <footer className="my-12">
     <div className="flex flex-row flex-wrap justify-center space-x-8 text-gray-500">
-      
       <a href="https://docs.bean.money/almanac" target="_blank" rel="noreferrer">
         Docs
+      </a>
+      <a href="/blog" target="_blank" rel="noreferrer">
+        Blog
       </a>
       <a href="https://discord.gg/beanstalk" target="_blank" rel="noreferrer">
         Discord
