@@ -23,7 +23,7 @@ This issue covers Seasons 8558 through 8867 which spanned 11/17/22 – 11/30/22.
 * A **[ROOT:BEAN Uniswap V3 pool](https://info.uniswap.org/#/pools/0x11dd6f9e1a7bb35a61fada4aec645f603050783e)** is now live, enabling users to swap in and out of Roots with minimal slippage and no Withdrawal timer.
 * Check out 2 new **[Bean Pod episodes](https://open.spotify.com/show/5VZRhgtCQqw9xGIXXHqi8m)** about teaching & learning DeFi, featuring [@mrinconcruz](https://twitter.com/mrinconcruz) from The Buttonwood Foundation and [@Ceazor](https://twitter.com/Ceazor7)**.**
 
-Feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
+Feel free to drop by Discord if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
 
 # **Protocol Summary - Seasons 8558-8867**
 

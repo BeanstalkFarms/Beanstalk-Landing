@@ -15,7 +15,7 @@ In Q3 2022, 10,650 Beans were awarded to community members for their Beanstalk-r
 
 The Community Grant Program is funded by a monthly allocation of 30,000 Beans from the Beanstalk Farms budget (see [BIP-22](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-22-bf-budget-q3-2022.md#initial-allocations) and [BIP-25](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/bip-25-bf-budget-q4-2022.md#initial-allocations)). Portions of the allocation are available to anyone who produces quality original content that adds value to the Beanstalk ecosystem, subject to the judgment of the Community Grant Committee of 2 Beanstalk Farms contributors and 1 community member.
 
-If you are interested in participating in the Community Grant Program or have questions about eligible content, check out the **#community-grant-program** channel in the [Beanstalk Discord](https://discord.gg/beanstalk) and reach out to **@mod323** on Discord (mod323#9967), [Twitter](https://twitter.com/itsmod323) or email (mod@bean.farm).
+If you are interested in participating in the Community Grant Program or have questions about eligible content, check out the **#community-grant-program** channel in the Beanstalk Discord and reach out to **@mod323** on Discord (mod323#9967), [Twitter](https://twitter.com/itsmod323) or email (mod@bean.farm).
 
 ## Q3 2022 Grants
 

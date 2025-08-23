@@ -21,7 +21,7 @@ This issue covers Seasons 9599 through 9961 which spanned 1/1/23 – 1/15/23.
 * **[BIP-32](https://app.bean.money/#/governance/0xa23167457ea2be6939f1a296cc14357366d9de995eb0d261bcbcdebf13bad0e8)**, an implementation of Seraph - a blockchain security notary service offered by Halborn - did not pass.
 * **[BFCP-C-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xafac63673dd6eab0e372e55fe66dc5425f026fbcc0f45b025cb0fa74d759181e)**, the BFC’s Q4 2022 Term Extension, passed, extending the terms of guy, Silo Chad and sweetredbeans.
 
-Feel free to drop by Beanstalk’s **[Discord](https://discord.gg/beanstalk)** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
+Feel free to drop by Beanstalk’s **Discord** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
 
 # **Protocol Summary - Seasons 9599-9961**
 

@@ -21,7 +21,7 @@ This issue covers Seasons 9209 through 9599 which spanned 12/16/22 – 12/31/22.
 * **[BFCP-C-2](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xafac63673dd6eab0e372e55fe66dc5425f026fbcc0f45b025cb0fa74d759181e)**, the BFC’s Q4 2022 Term Extension, has been proposed on Snapshot. Vote [here](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xafac63673dd6eab0e372e55fe66dc5425f026fbcc0f45b025cb0fa74d759181e).
 * Halborn completed its **[full re-audit](https://discord.com/channels/880413392916054098/1025448845594861718/1054577158619664445)** of Beanstalk.
 
-Feel free to drop by Beanstalk’s **[Discord](https://discord.gg/beanstalk)** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
+Feel free to drop by Beanstalk’s **Discord** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
 
 # **Protocol Summary - Seasons 9209-9599**
 

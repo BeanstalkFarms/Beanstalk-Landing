@@ -19,7 +19,7 @@ tag: Bi-Weekly Bean
 * Check out **Beanthoven**'s [narration](https://www.youtube.com/watch?v=L4eTcW4PCt0) of Degen Devil's visit to the Farm.
 * The BCM updated Beanstalk to fix three bugs reported by a whitehat on Immunefi. You can read about EBIPs 4-6 [here](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/tree/master/bip/ebip).
 
-Feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
+Feel free to drop by Discord if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
 
 # **Protocol Summary - Seasons 8171-8557**
 

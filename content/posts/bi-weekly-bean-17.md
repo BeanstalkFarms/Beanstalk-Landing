@@ -18,7 +18,7 @@ This issue covers Seasons 8867 through 9208 which spanned 11/30/22 – 12/15/22.
 * **[BIP-30](https://bean.money/blog/bip-30-generalized-pipeline)** passed, introducing the Generalized Pipeline as well as ERC-20 and ERC-721 permit support. **[Here](https://bean.money/blog/bip-30-generalized-pipeline)** is an overview of what BIP-30 means for Beanstalk.
 * **[BOP-2](https://snapshot.org/#/beanstalkdao.eth/proposal/0xab93c3857af998c0bf70049fc82cf191407a52d9a710ce7ad1a6ddb7a7b3601c)**, which seeks to increase the bounty for Beanstalk’s April 2022 exploit, was proposed on Snapshot. Voting is live now.
 
-Feel free to drop by Beanstalk’s **[Discord](https://discord.gg/beanstalk)** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
+Feel free to drop by Beanstalk’s **Discord** if you have any questions—the Beanstalk community is full of curious Farmers who enjoy answering questions and discussing interesting ideas.
 
 # **Protocol Summary - Seasons 8867-9208**
 

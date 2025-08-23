@@ -25,7 +25,7 @@ The Beanstalk Community Grant Program has now been live for one quarter. In this
 
 A beta release of the new Beanstalk analytics website is [live](https://analytics.bean.money/) and the October Beanstalk Farms and Bean Sprout budget reports are [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations/blob/main/beanstalk-farms/10-2022-report.md) and [here](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations/blob/main/bean-sprout/10-2022-report.md).
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # **Protocol Summary**
 

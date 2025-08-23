@@ -23,7 +23,7 @@ A new episode of the The Bean Pod is live:
 
 Moreover, Publius was interviewed on [Mission DeFi](https://www.youtube.com/watch?v=hotl8RA-IxY) by [Brad Nickel](https://twitter.com/b05crypto).
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # **Protocol Summary**
 

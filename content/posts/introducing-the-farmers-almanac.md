@@ -16,7 +16,7 @@ In conjunction with the Beanstalk code base and [whitepaper](https://bean.money/
 
 The Farmers' Almanac, like the whitepaper, is a living document that is updated as Beanstalk grows and evolves.
 
-Please leave your feedback in the **#docs-feedback** channel in [Discord](https://discord.gg/beanstalk) and stay tuned for updates in the **#docs-updates** channel. Farmers can also open pull requests directly on the [public GitHub repository](https://github.com/BeanstalkFarms/Farmers-Almanac).
+Please leave your feedback in the **#docs-feedback** channel in Discord and stay tuned for updates in the **#docs-updates** channel. Farmers can also open pull requests directly on the [public GitHub repository](https://github.com/BeanstalkFarms/Farmers-Almanac).
 
 ## About Beanstalk
 

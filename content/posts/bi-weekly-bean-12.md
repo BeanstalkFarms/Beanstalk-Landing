@@ -31,7 +31,7 @@ Other updates:
 * A new episode of the The Bean Pod is live: [Episode 20](https://anchor.fm/thebeanpodpodcast/episodes/Scaling-Ethereum-with-Scroll-e1oabcu): Scaling Ethereum with Scroll
 * Moreover, [Publius](https://twitter.com/isthispublius?s=21&t=C_762QjbI0q7dbaQyXMmdA) was interviewed on [The Block Runner](https://www.youtube.com/watch?v=8GTXUJV6mLs&t=1s), [The New York Times](https://www.nytimes.com/2022/09/28/technology/crypto-hacks-defi.html) and [Blockworks](https://blockworks.co/playing-the-were-not-terra-stablecoin-game/).
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # **Protocol Summary**
 

@@ -36,7 +36,7 @@ Make sure to also check out [the latest episode on Beanstalk’s podcast, The Be
 
 Also checkout the latest songs from the farm at this curated [Field Ballads and Silo Songs](https://www.youtube.com/playlist?list=PLyqLJA5Mbo9Y9ZA7m2qip8tdNY37HBAlo) playlist.
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions - the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions - the community is always available to help and answer questions.
 
 # **Protocol Timeline**
 

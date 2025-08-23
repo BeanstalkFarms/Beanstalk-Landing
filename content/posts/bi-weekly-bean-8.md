@@ -32,7 +32,7 @@ Three episodes of the The Bean Pod are live:
 * [Episode 15](https://anchor.fm/thebeanpodpodcast/episodes/Price-oracles--Tellor-with-Nick-Fett-e1ll9pu): Price oracles with Tellor CTO Nick Fett; and
 * [Episode 16](https://anchor.fm/thebeanpodpodcast/episodes/Halborn--cybersecurity-with-Steven-Walbroehl-e1loqrk): Cybersecurity with Halborn CTO Steven Walbroehl
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # Replant **Timeline**
 

@@ -22,7 +22,7 @@ Two new episodes of the The Bean Pod are live:
 * [Episode 16](https://anchor.fm/thebeanpodpodcast/episodes/Halborn--cybersecurity-with-Steven-Walbroehl-e1loqrk/a-a8ab89a): Halborn & cybersecurity with Steven Walbroehl
 * [Episode 17](https://anchor.fm/thebeanpodpodcast/episodes/xToken-Terminal-e1mhgop): xToken Terminal
 
-Feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # **Protocol Summary**
 

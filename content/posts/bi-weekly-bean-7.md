@@ -26,7 +26,7 @@ Two episodes of the The Bean Pod are live:
 
 Make sure to also check out Beanthoven’s latest song, [Fertilizer](https://www.youtube.com/watch?v=3M_Hd8vfAmQ).
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # Replant **Timeline**
 
