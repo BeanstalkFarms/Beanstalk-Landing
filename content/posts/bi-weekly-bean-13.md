@@ -26,7 +26,7 @@ Two new episodes of the The Bean Pod are live:
 * [Pod Marketplace v2](https://anchor.fm/thebeanpodpodcast/episodes/Pod-Marketplace-v2-with-Malteasy-e1p0mtq/a-a8llfpf) with Malteasy
 * [Beanstalk Farms + Governance](https://anchor.fm/thebeanpodpodcast/episodes/Astn-e1pbrtt) with austin
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # **Protocol Summary**
 

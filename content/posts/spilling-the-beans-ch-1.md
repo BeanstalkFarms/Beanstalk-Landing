@@ -55,7 +55,7 @@ More than anything, he was excited by the protocol’s groundbreaking economics 
 
 It’s clear that mod is passionate about Beanstalk. It was evident throughout my conversation with him, but it’s also obvious in his continuous dedication to spreading the word about Bean. 
 
-Whether by educating newcomers one-by-one on the [Beanstalk discord](https://discord.com/invite/beanstalk), helping promote [Bean tweets](https://twitter.com/BeanstalkFarms), or finding opportunities for other crypto projects to leverage Beanstalk’s innovative levers as Beanstalk Farm’s Partnerships Lead—mod is an incredibly valuable member of the Beanstalk community. 
+Whether by educating newcomers one-by-one on the Beanstalk discord, helping promote [Bean tweets](https://twitter.com/BeanstalkFarms), or finding opportunities for other crypto projects to leverage Beanstalk's innovative levers as Beanstalk Farm's Partnerships Lead—mod is an incredibly valuable member of the Beanstalk community. 
 
 I was curious to know how he splits up his portfolio to earn Bean yield. It’s one thing to work on the protocol and believe in it, but it’s another to optimize your trading strategy around it.
 

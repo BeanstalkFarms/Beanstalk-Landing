@@ -29,7 +29,7 @@ Here are links to some of the appearances by [Publius](https://twitter.com/isthi
 
 Make sure to also check out [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk) by ereal to learn about how Beanstalk attempts to mitigate bank runs.
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions - the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions - the community is always available to help and answer questions.
 
 # **Protocol Timeline**
 

@@ -7,9 +7,6 @@ const Footer = () => (
       <a href="/blog" target="_blank" rel="noreferrer">
         Blog
       </a>
-      <a href="https://discord.gg/beanstalk" target="_blank" rel="noreferrer">
-        Discord
-      </a>
       <a href="https://twitter.com/beanstalkmoney" target="_blank" rel="noreferrer">
         Twitter
       </a>

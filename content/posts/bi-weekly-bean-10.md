@@ -26,7 +26,7 @@ A new episode of the The Bean Pod is live:
 
 Moreover, Publius was interviewed on [MarketCapping](https://www.youtube.com/watch?v=5LHsIES6THs) by DCF GOD and Small Cap Scientist. 
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions—the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions—the community is always available to help and answer questions.
 
 # Protocol Summary
 

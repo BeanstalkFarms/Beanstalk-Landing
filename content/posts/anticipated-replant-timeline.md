@@ -19,7 +19,7 @@ We believe that the best days on the Farm are yet to come!
 
 **Monday, July 25th**
 
-* _9:00am PT / 12:00pm ET in the [Discord](https://discord.gg/beanstalk)_: Final drafts of BIP-21, Beanstalk 2.0 and Beanstalk Whitepaper 2.0 are published for Farmers to review and comment on—visit the **#bip-21-replant-beanstalk** channel to discuss in Discord.
+* _9:00am PT / 12:00pm ET in Discord_: Final drafts of BIP-21, Beanstalk 2.0 and Beanstalk Whitepaper 2.0 are published for Farmers to review and comment on—visit the **#bip-21-replant-beanstalk** channel to discuss in Discord.
   * [BIP-21 Pull Request](https://github.com/BeanstalkFarms/Beanstalk/pull/72) with proposal final draft
   * [Whitepaper](https://bean.money/beanstalk.pdf) 
 

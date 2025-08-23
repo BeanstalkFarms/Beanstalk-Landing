@@ -29,7 +29,7 @@ The Trail of Bits audit started on June 6 and have asked to extend the audit unt
 
 Also, the latest episode of The Bean Pod is live. [Listen](https://anchor.fm/thebeanpodpodcast/episodes/Soil-e1juaqu/a-a83unhr) in as Rex and Publius talk about Soil, Beanstalk's willingness to issue debt, and its importance to the protocol's peg maintenance and debt level.
 
-Lastly, feel free to drop by [Discord](https://discord.gg/beanstalk) if you have any questions - the community is always available to help and answer questions.
+Lastly, feel free to drop by Discord if you have any questions - the community is always available to help and answer questions.
 
 # **Protocol Timeline**
 

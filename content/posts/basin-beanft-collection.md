@@ -48,4 +48,4 @@ Basin BeaNFTs will be viewable on the BeaNFT pages of the [Beanstalk UI](https:
 - **Qualification:** Deposits in the BEAN:ETH Silo of 1,000 BDV or higher during the first 600 Seasons post-whitelisting that are kept in the Silo for at least 600 Seasons are eligible to receive a Basin BeaNFT.
 - **Minting:** Basin BeaNFTs will be minted directly to qualifying Farmers' wallets. An announcement will be made once Farmers can view their new BeaNFTs on the Beanstalk UI.
 - **Easter Egg:** If you are daring enough to keep your qualifying BEAN:ETH LP Deposit in the Silo for an additional 600 Seasons beyond the qualification period, be prepared for a cool upgrade to your latest PFP!
-- **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area in the [Beanstalk Discord](https://discord.gg/beanstalk).
+- **BeaNFT DAO Membership:** Ownership of a BeaNFT grants access to a range of benefits including participation in governance of the BeaNFT DAO and an exclusive members area in the Beanstalk Discord.
